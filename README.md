@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Diovana Tavares dos reis
+* Diovana Tavares dos Reis
 * Gianluca de Oliveira Martins Antonio
 * Nome completo do aluno 3
 * Nome completo do aluno 4
