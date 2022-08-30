@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Diovana Tavares dos Reis
 * Gianluca de Oliveira Martins Antonio
-* Nome completo do aluno 3
+* Amanda Furtado de Souza
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 * Nome completo do aluno 6
