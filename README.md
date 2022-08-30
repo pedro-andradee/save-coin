@@ -7,7 +7,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Aplicação Web destinada a educação financeira de jovens atráves de material didático, contando com ferramentas de controle de gastos e alcançe de metas.
 
 ## Integrantes
 
