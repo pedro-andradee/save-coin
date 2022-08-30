@@ -11,12 +11,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
+* Amanda Furtado de Souza
 * Diovana Tavares dos Reis
 * Gianluca de Oliveira Martins Antonio
-* Amanda Furtado de Souza
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Giovanny de Sales Brito 
+* Pedro Henrique Costa Andrade
+* Romario Cordeiro Medeiros
 
 ## Orientador
 
