@@ -7,6 +7,11 @@
 </div>
 
 <p align="center">
+  <img width="200" src="src/imgs/LogoSite.webp" alt="Logo Site">  
+  <br>
+</p>
+
+<p align="center">
    Aplicação buscando melhorar a educação financeira dos jovens.
     <br>
     <a href="docs/Etapa1DocContexto.md" rel="docs"><strong>Clique para saber mais sobre o nosso projeto</strong></a>
