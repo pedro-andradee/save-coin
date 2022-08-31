@@ -1,7 +1,7 @@
 <div align="center">
     <h1>Nome do nosso SITE</h1>
     <br>
-    <p>DISCIPLINA: Projeto - Aplicações Web - 1º semestre</p>
+    <p>Projeto - Aplicações Web - 1º semestre</p>
     <p>Sistemas de Informação</p>
     <p>Pontifícia Universidade Católica de Minas Gerais</p>
 </div>
@@ -10,6 +10,7 @@
    Aplicação buscando melhorar a educação financeira dos jovens.
     <br>
     <a href="docs/Etapa1DocContexto.md" rel="docs"><strong>Clique para saber mais sobre o nosso projeto</strong></a>
+    <br>
     <br>
     <a href="docs/Etapa1Especificacao.md">Especificação</a>
     <br>
@@ -23,10 +24,7 @@
 
 <div align="justify">
 
-Colocar aqui o que estamos desenvolvendo no projeto
-
-#<sup>[[1]]</sup> para pesquisar e colocar a fonte de alguma noticia em nosso texto
-#[1]: colocar aqui o link 
+    <p>Colocar aqui o que estamos desenvolvendo no projeto (fazer uma introdução sobre o assunto embasado em noticias/artigos)</p>
 
 </div>
 
@@ -34,8 +32,8 @@ Colocar aqui o que estamos desenvolvendo no projeto
 
 ## Integrantes
 
-* Amanda Furtado de Souza
 <a href="https://github.com/DiovanaT" title="Diovana Tavares" rel="nofollow"><img src="dio.jpg" alt="logo" data-canonical-src="https://github.com/Diovana" width="100vw"/></a>
+* Amanda Furtado de Souza
 * Gianluca de Oliveira Martins Antonio
 * Giovanny de Sales Brito 
 * Pedro Henrique Costa Andrade
