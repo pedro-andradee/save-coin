@@ -24,7 +24,7 @@
 
 <div align="justify">
 
-    <p>Colocar aqui o que estamos desenvolvendo no projeto (fazer uma introdução sobre o assunto embasado em noticias/artigos)</p>
+<p>Colocar aqui o que estamos desenvolvendo no projeto (fazer uma introdução sobre o assunto embasado em noticias/artigos)</p>
 
 </div>
 
@@ -33,6 +33,7 @@
 ## Integrantes
 
 <a href="https://github.com/DiovanaT" title="Diovana Tavares" rel="nofollow"><img src="dio.jpg" alt="logo" data-canonical-src="https://github.com/Diovana" width="100vw"/></a>
+
 * Amanda Furtado de Souza
 * Gianluca de Oliveira Martins Antonio
 * Giovanny de Sales Brito 
