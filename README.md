@@ -33,19 +33,19 @@
 
 </div>
 
-<div align="center">
-
 ## Integrantes
 
-<a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/dio.jpg" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a>
+<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/dio.jpg" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
 
-* Amanda Furtado de Souza
-* Gianluca de Oliveira Martins Antonio
-* Giovanny de Sales Brito 
-* Pedro Henrique Costa Andrade
-* Romario Cordeiro Medeiros
+<td align="center"><a> Amanda Furtado de Souza </a></td>
+<td align="center"><a> Gianluca de Oliveira Martins Antonio </a></td>
+<td align="center"><a> Giovanny de Sales Brito  </a></td>
+<td align="center"><a> Pedro Henrique Costa Andrade </a></td>
+<td align="center"><a> Romario Cordeiro Medeiros </a></td>
 
 ## Orientador
+
+<div align="center">
 
 <a href="https://github.com/KleberSouza" title="Kleber Souza" rel="nofollow"><img src="docs/img/kleber.jpeg" alt="logo" data-canonical-src="https://github.com/KleberSouza" width="100vw"/></a>
 
