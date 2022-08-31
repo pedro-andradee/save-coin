@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <img width="200" src="src/imgs/LogoSite.webp" alt="Logo Site">  
+  <img width="200" src="src/img/LogoSite.webp" alt="Logo Site">  
   <br>
 </p>
 
