@@ -37,7 +37,7 @@
 
 ## Integrantes
 
-<a href="https://github.com/DiovanaT" title="Diovana Tavares" rel="nofollow"><img style="border-radius: 50%;" src="docs/img/dio.jpg" alt="logo" data-canonical-src="https://github.com/Diovana" width="100vw"/></a>
+<a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/dio.jpg" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a>
 
 * Amanda Furtado de Souza
 * Gianluca de Oliveira Martins Antonio
