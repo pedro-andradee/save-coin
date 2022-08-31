@@ -35,6 +35,8 @@
 
 ## Integrantes
 
+<div align="center">
+
 <td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/dio.jpg" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
 
 * Amanda Furtado de Souza </a></td>
@@ -46,6 +48,8 @@
 ## Orientador
 
 <td align="center"><a href="https://github.com/KleberSouza"><img style="border-radius: 50%;" src="docs/img/kleber.jpeg" width="100px;" alt=""/><br /><sub><b>Kleber Souzas</b></sub></a><br /><a href="https://github.com/KleberSouza" title="Kleber Souza">🚀</a></td>
+
+</div> 
 
 # Planejamento
 
