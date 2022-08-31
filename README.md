@@ -1,18 +1,41 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8319177&assignment_repo_type=AssignmentRepo)
-# Educação Financeira
+<div align="center">
+    <h1>Nome do nosso SITE</h1>
+    <br>
+    <p>DISCIPLINA: Projeto - Aplicações Web - 1º semestre</p>
+    <p>Sistemas de Informação</p>
+    <p>Pontifícia Universidade Católica de Minas Gerais</p>
+</div>
 
-`CURSO: Sistemas de Informação`
+<p align="center">
+   Aplicação buscando melhorar a educação financeira dos jovens.
+    <br>
+    <a href="docs/Etapa1DocContexto.md" rel="docs"><strong>Clique para saber mais sobre o nosso projeto</strong></a>
+    <br>
+    <a href="docs/Etapa1Especificacao.md">Especificação</a>
+    <br>
+    <a href="docs/Etapa2Interface.md">Interface</a>
+    <br>
+    <a href="docs/Etapa4Testes">Testes</a>
+    <br>
+    <a href="presentation/README.md">Apresentação</a>
+</p>
 
-`DISCIPLINA: Projeto - Aplicações Web`
 
-`SEMESTRE: 1º`
+<div align="justify">
 
-Aplicação Web destinada a educação financeira de jovens atráves de material didático, contando com ferramentas de controle de gastos e alcance de metas.
+Colocar aqui o que estamos desenvolvendo no projeto
+
+#<sup>[[1]]</sup> para pesquisar e colocar a fonte de alguma noticia em nosso texto
+#[1]: colocar aqui o link 
+
+</div>
+
+<div align="center">
 
 ## Integrantes
 
 * Amanda Furtado de Souza
-* Diovana Tavares dos Reis
+<a href="https://github.com/DiovanaT" title="Diovana Tavares" rel="nofollow"><img src="dio.jpg" alt="logo" data-canonical-src="https://github.com/Diovana" width="100vw"/></a>
 * Gianluca de Oliveira Martins Antonio
 * Giovanny de Sales Brito 
 * Pedro Henrique Costa Andrade
@@ -20,16 +43,18 @@ Aplicação Web destinada a educação financeira de jovens atráves de material
 
 ## Orientador
 
-* Kleber Jacques Ferreira De Souza
+<a href="https://github.com/KleberSouza" title="Kleber Souza" rel="nofollow"><img src="docs/img/kleber.jpeg" alt="logo" data-canonical-src="https://github.com/KleberSouza" width="100vw"/></a>
+
+</div> 
 
 # Planejamento
 
 | Etapa         | Atividades |
 |  :----:   | ----------- |
-| ETAPA 1         |[Documentação de Contexto](docs/context.md) <br> [Especificação do Projeto](docs/especification.md) |
-| ETAPA 2         |[Projeto de Interface](docs/interface.md) <br> [Template Padrão](docs/template.md) |
-| ETAPA 3         |[Programação de Funcionalidades - HTML e CSS](docs/development.md) |
-| ETAPA 4        |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
+| ETAPA 1         |[Documentação de Contexto](docs/Etapa1DocContexto.md) <br> [Especificação do Projeto](docs/Etapa1Especificacao.md) |
+| ETAPA 2         |[Projeto de Interface](docs/Etapa2Interface.md) <br> [Template Padrão](docs/Etapa2Template.md) |
+| ETAPA 3         |[Programação de Funcionalidades - HTML e CSS](docs/Etapa3e4Desenvolvimento.md) |
+| ETAPA 4        |[Programação de Funcionalidades - Javascript](docs/Etapa3e4Desenvolvimento.md) <br> [Testes de Software ](docs/Etapa4Testes.md) |
 | ETAPA 5         | [Apresentação](presentation/README.md) |
 
 # Código
