@@ -52,7 +52,7 @@
 
 <td align="center"><a href="https://github.com/pedro-andradee"><img style="border-radius: 50%;" src="docs/img/Pedro Andrade.jpg" width="100px;" alt=""/><br /><sub><b>Pedro Andrade</b></sub></a><br /><a href="https://github.com/pedro-andradee" title="Pedro Andrade">🚀</a></td>
 
-* Romario Cordeiro Medeiros
+<td align="center"><a href="https://github.com/romamedeiros"><img style="border-radius: 100%;" src="docs/img/Roma Medeiros.jpg" width="100px;" alt=""/><br /><sub><b>Romário Medeiros</b></sub></a><br /><a href="https://github.com/romamedeiros" title="Romário Medeiros">🚀</a></td>
 
 </tr>
 </table>
