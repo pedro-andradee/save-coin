@@ -55,9 +55,14 @@
 <td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/Giovanny de Sales Brito.jpeg" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito">🚀</a></td>
 
 </div>
+
 <div align="center">
 
-* Pedro Henrique Costa Andrade
+<td align="center"><a href="https://github.com/pedro-andradee"><img style="border-radius: 50%;" src="docs/img/Pedro Andrade.jpeg" width="100px;" alt=""/><br /><sub><b>Pedro Andrade</b></sub></a><br /><a href="https://github.com/pedro-andradee" title="Pedro Andrade">🚀</a></td>
+
+</div>
+<div align="center">
+
 * Romario Cordeiro Medeiros
 
 ## Orientador
