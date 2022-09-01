@@ -35,45 +35,32 @@
 
 ## Integrantes
 
-<table>
-
-<tr>
-
 <div align="center">
+<table>
+<tr>
 
 <td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/amanda.jpeg" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🚀</a></td>
 
-</div>
-<div align="center">
-
 <td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/dio.jpg" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
-
-</div>
-<div align="center">
 
 <td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/Gianluca Antonio.jpeg" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">🚀</a></td>
 
-</div>
-<div align="center">
+</tr>
+<tr>
 
 <td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/Giovanny de Sales Brito.jpeg" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito">🚀</a></td>
 
-</div>
-
-<div align="center">
-
 <td align="center"><a href="https://github.com/pedro-andradee"><img style="border-radius: 50%;" src="docs/img/Pedro Andrade.jpg" width="100px;" alt=""/><br /><sub><b>Pedro Andrade</b></sub></a><br /><a href="https://github.com/pedro-andradee" title="Pedro Andrade">🚀</a></td>
-
-</div>
-<div align="center">
 
 * Romario Cordeiro Medeiros
 
 </tr>
-
 </table>
+</div>
  
 ## Orientador
+
+<div align="center">
 
 <td align="center"><a href="https://github.com/KleberSouza"><img style="border-radius: 50%;" src="docs/img/kleber.jpeg" width="100px;" alt=""/><br /><sub><b>Kleber Souzas</b></sub></a><br /><a href="https://github.com/KleberSouza" title="Kleber Souza">🚀</a></td>
 
