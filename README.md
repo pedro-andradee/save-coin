@@ -37,13 +37,13 @@
 
 <div align="center">
 
-<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/amanda.jpeg" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🚀</a></td>
+<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/amanda.jpeg" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado"><br>🚀</a></td>
 
-<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/dio.jpg" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
+<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/dio.jpg" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares"><br>🚀</a></td>
 
-<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/Gianluca Antonio.jpeg" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">🚀</a></td>
+<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/Gianluca Antonio.jpeg" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio"><br>🚀</a></td>
 
-<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/Giovanny de Sales Brito.jpeg" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito">🚀</a></td>
+<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/Giovanny de Sales Brito.jpeg" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito"><br>🚀</a></td>
 
 * Pedro Henrique Costa Andrade
 * Romario Cordeiro Medeiros
