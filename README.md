@@ -39,8 +39,11 @@
 
 <td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/dio.jpg" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
 
-* Amanda Furtado de Souza </a></td>
-* Gianluca de Oliveira Martins Antonio
+<div align="center">
+
+<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/111930048/187865724-0fda8e32-533b-495d-8218-c113b0fb075a.jpeg" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">🚀</a></td>
+
+* Amanda Furtado de Souza
 * Giovanny de Sales Brito 
 * Pedro Henrique Costa Andrade
 * Romario Cordeiro Medeiros
