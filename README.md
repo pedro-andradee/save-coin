@@ -35,6 +35,8 @@
 
 ## Integrantes
 
+<tr>
+
 <div align="center">
 
 <td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/amanda.jpeg" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🚀</a></td>
@@ -64,6 +66,8 @@
 <div align="center">
 
 * Romario Cordeiro Medeiros
+
+</>
 
 ## Orientador
 
