@@ -2,7 +2,7 @@
     <h1>Save Coin 💰</h1>
     <br>
     <p align="center">
-  <img style="border-radius: 50%;" src="docs/img/Logo Save Coin.png" width="400px;" alt=""/> 
+  <img style="border-radius: 50%;" src="src/img/Logo Save Coin.png" width="400px;" alt=""/> 
   <br>
     <p>Pontifícia Universidade Católica de Minas Gerais</p>
     <p>Projeto - Aplicações Web - 1º semestre</p>
@@ -37,18 +37,14 @@
 
 <div align="center">
 
-<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/dio.jpg" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
+<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/amanda.jpg" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🚀</a></td>
 
-<div align="center">
+<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/dio.jpg" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
 
 <td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/Gianluca Antonio.jpeg" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">🚀</a></td>
 
-<div align="center">
+<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/Giovanny de Sales Brito.jpeg" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito">🚀</a></td>
 
-<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/Giovanny de Sales Brito.jpeg" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href=""https://github.com/GiovannyBrito" title="Giovanny Brito">🚀</a></td>
-
-
-* Amanda Furtado de Souza
 * Pedro Henrique Costa Andrade
 * Romario Cordeiro Medeiros
 
