@@ -5,8 +5,8 @@
   <img style="border-radius: 50%;" src="src/img/Logo Save Coin.png" width="400px;" alt=""/> 
   <br>
     <p>Pontifícia Universidade Católica de Minas Gerais</p>
-    <p>Projeto - Aplicações Web - 1º semestre</p>
     <p>Sistemas de Informação</p>
+    <p>Projeto - Aplicações Web - 1º semestre</p>
 </div>
 
 </p>
@@ -62,7 +62,7 @@
 
 <div align="center">
 
-<td align="center"><a href="https://github.com/KleberSouza"><img style="border-radius: 50%;" src="docs/img/kleber.jpeg" width="100px;" alt=""/><br /><sub><b>Kleber Souzas</b></sub></a><br /><a href="https://github.com/KleberSouza" title="Kleber Souza">🚀</a></td>
+<td align="center"><a href="https://github.com/KleberSouza"><img style="border-radius: 50%;" src="docs/img/kleber.jpeg" width="100px;" alt=""/><br /><sub><b>Kleber Souzas</b></sub></a><br /><a href="https://github.com/KleberSouza" title="Kleber Souza">🕶️</a></td>
 
 </div> 
 
