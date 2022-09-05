@@ -62,7 +62,7 @@
 
 <div align="center">
 
-<td align="center"><a href="https://github.com/KleberSouza"><img style="border-radius: 50%;" src="docs/img/kleber E.jpeg" width="100px;" alt=""/><br /><sub><b>Kleber Souzas</b></sub></a><br /><a href="https://github.com/KleberSouza" title="Kleber Souza">🕶️</a></td>
+<td align="center"><a href="https://github.com/KleberSouza"><img style="border-radius: 50%;" src="docs/img/kleber E.jpeg" width="100px;" alt=""/><br /><sub><b>Kleber Souza</b></sub></a><br /><a href="https://github.com/KleberSouza" title="Kleber Souza">🕶️</a></td>
 
 </div> 
 
