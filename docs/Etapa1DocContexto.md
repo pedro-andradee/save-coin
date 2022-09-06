@@ -30,10 +30,10 @@ A estrutura temática, apresentada de forma didática, visa instruir os jovens q
 O projeto apresentado possui como objetivo secundário a disponibilização de ferramentas de gestão financeira a fim de auxiliar o usuário a aplicar seus conhecimentos adquiridos com o material didático disponível em nossa plataforma, resultando em um controle financeiro mais eficiente e dinâmico para o usuário. 
 
 Para tanto, disponibilizamos as seguintes ferramentas de gestão financeira: 
-> - Calculadora de gastos – recurso disponível para a inserção de ganhos e despesas diárias; 
-> - Gráfico de gastos – ferramenta visual indicativa da relação ganho x gastos, com base nos dados indicados na calculadora, representando valores destacados em categorias; 
-> - Agenda – recurso disponível para o acompanhamento dos marcos e compromissos financeiros; 
-> - Indicativo de metas – sistema de controle de metas de poupança, apresentando a porcentagem atingida em relação ao objetivo final. 
+> - **Calculadora de gastos** – recurso disponível para a inserção de ganhos e despesas diárias; 
+> - **Gráfico de gastos** – ferramenta visual indicativa da relação ganho x gastos, com base nos dados indicados na calculadora, representando valores destacados em categorias; 
+> - **Agenda** – recurso disponível para o acompanhamento dos marcos e compromissos financeiros; 
+> - **Indicativo de metas** – sistema de controle de metas de poupança, apresentando a porcentagem atingida em relação ao objetivo final. 
 
 ## 4. Justificativa
 
