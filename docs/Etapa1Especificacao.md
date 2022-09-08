@@ -46,8 +46,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-001| Permitir que o usuário insira um lembrete de compromissos/marco financeiros | ALTA |  |
+|RF-002| Permitir que o usuário edite um lembrete de compromissos/marco financeiros | ALTA | |
+|RF-003| Permitir que o usuário exclua um lembrete de compromissos/marco financeiros | ALTA |  |
+|RF-004| Permitir que o usuário visualize um lembrete de compromissos/marco financeiros dentro de uma agenda | ALTA |  |
+|RF-005| A aplicação devera emitir um feedback visual quando o usuário entrar na plataforma x dias antes da data do seu lembrete | ALTA |  |
+|RF-006| A aplicação contará com um QUIZ sobre o conteúdo exibido, ao final da página, o usuário poderá responder ou não | ALTA |  |
+|RF-007| Permitir que o usuário insira um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
+|RF-008| Permitir que o usuário exclua um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
+|RF-009| Permitir que o usuário edite um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
+|RF-010| Permitir que o usuário visualize um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
+|RF-011| Permitir que o usuário insira um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
+|RF-012| Permitir que o usuário exclua um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
+|RF-013| Permitir que o usuário edite um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
+|RF-014| Permitir que o usuário visualize um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
+|RF-015| A aplicação devera fazer uma conta da receita menos (-) os gastos, mostrando o valor que está 'sobrando' | ALTA |  |
+|RF-016| A aplicação devera mostrar os dados de gastos e receitas ao longo dos 12 meses de um ano por meio de graficos | ALTA |  |
+
 
 
 ### Requisitos não Funcionais
