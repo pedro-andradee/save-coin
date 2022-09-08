@@ -60,8 +60,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-012| Permitir que o usuário exclua um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
 |RF-013| Permitir que o usuário edite um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
 |RF-014| Permitir que o usuário visualize um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
-|RF-015| A aplicação devera fazer uma conta da receita menos (-) os gastos, mostrando o valor que está 'sobrando' | ALTA |  |
-|RF-016| A aplicação devera mostrar os dados de gastos e receitas ao longo dos 12 meses de um ano por meio de graficos | ALTA |  |
+|RF-015| A aplicação devera fazer uma conta da receita menos (-) os gastos, mostrando o valor que está 'sobrando', quando existir gastos e receita juntos | ALTA |  |
+|RF-016| A aplicação devera mostrar os dados de gastos e/ou receitas ao longo dos 12 meses de um ano por meio de graficos | ALTA |  |
 
 
 
