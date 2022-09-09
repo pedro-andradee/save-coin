@@ -24,10 +24,10 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|PERSONA | COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|--------------------|------------------------------------|----------------------------------------|
+| GABRIEL | Usuário da Save Coin | saber quanto gasto por mês | que eu consiga gerir melhor meus gastos e reservas |
+| BIANCA | Usuário da Save Coin | saber se eu consegui entender bem os estudos que a Save Coin disponibiliza sobre finanças | eu conseguir ter mais segurança ao gerir meu dinheiro |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -62,6 +62,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-014| Permitir que o usuário visualize um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
 |RF-015| A aplicação devera fazer uma conta da receita menos (-) os gastos, mostrando o valor que está 'sobrando', quando existir gastos e receita juntos | ALTA |  |
 |RF-016| A aplicação devera mostrar os dados de gastos e/ou receitas ao longo dos 12 meses de um ano por meio de graficos | ALTA |  |
+|RF-017| --------------- | ALTA |  |
+|RF-018| --------------- | ALTA |  |
+|RF-019| --------------- | ALTA |  |
+|RF-020| --------------- | ALTA |  |
+|RF-021| --------------- | ALTA |  |
+|RF-022| --------------- | ALTA |  |
+|RF-023| --------------- | ALTA |  |
+
 
 
 
