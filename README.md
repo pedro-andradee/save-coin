@@ -43,7 +43,7 @@
 
 <td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/Dio borda.png" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
 
-<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/Gian borda.png" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">🚀</a></td>
+<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/Gian borda.png" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">☀️</a></td>
 
 </tr>
 <tr>
