@@ -28,6 +28,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|--------------------|------------------------------------|----------------------------------------|
 | GABRIEL | Usuário da Save Coin | saber quanto gasto por mês | que eu consiga gerir melhor meus gastos e reservas |
 | BIANCA | Usuário da Save Coin | saber se eu consegui entender bem os estudos que a Save Coin disponibiliza sobre finanças | eu conseguir ter mais segurança ao gerir meu dinheiro |
+| PEDRO | Usuário da Save Coin | Conseguir ter acesso a artigos e estudos relacionados ao assunto de forma resumida e eficiente | Eu consiga aprender sobre o assunto e conseguir repassa-lo de forma rápida e prática. |
+| GABRIELLY | Usuária da Save Coin | Conseguir acompanhar e editar se preciso a meta que eu estipulei com o auxilio do site | Eu consiga administrar meu dinheiro e me sentir mais motivada a conquistar minha meta |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
