@@ -68,9 +68,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-018| Permitir que o usuario vizualize e acompanhe seu perfil | ALTA |  |
 |RF-019| Permitir que o usário edite seu perfil | ALTA |  |
 |RF-020| Permitir que o usuário exclua seu perfi | ALTA |  |
-|RF-021| --------------- | ALTA |  |
-|RF-022| --------------- | ALTA |  |
-|RF-023| --------------- | ALTA |  |
+|RF-021| Permitir que o usuário insira uma meta financeira a ser atingida | ALTA |  |
+|RF-022| Permitir que o usuário visualize uma meta financeira a ser atingida | ALTA |  |
+|RF-023| Permitir que o usuário edite uma meta financeira a ser atingida | ALTA |  |
+|RF-024| Permitir que o usuário exclua uma meta financeira a ser atingida | ALTA |  |
 
 
 
