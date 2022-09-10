@@ -39,7 +39,7 @@
 <table>
 <tr>
 
-<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/Amanda borda.png" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🚀</a></td>
+<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/Amanda borda.png" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🌎</a></td>
 
 <td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/Dio borda.png" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
 
