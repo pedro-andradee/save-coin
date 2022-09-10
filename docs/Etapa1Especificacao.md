@@ -26,10 +26,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |PERSONA | COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|--------------------|------------------------------------|----------------------------------------|
-| GABRIEL | Usuário da Save Coin | saber quanto gasto por mês | que eu consiga gerir melhor meus gastos e reservas |
-| BIANCA | Usuário da Save Coin | saber se eu consegui entender bem os estudos que a Save Coin disponibiliza sobre finanças | eu conseguir ter mais segurança ao gerir meu dinheiro |
-| PEDRO | Usuário da Save Coin | Conseguir ter acesso a artigos e estudos relacionados ao assunto de forma resumida e eficiente | Eu consiga aprender sobre o assunto e conseguir repassa-lo de forma rápida e prática. |
-| GABRIELLY | Usuária da Save Coin | Conseguir acompanhar e editar se preciso a meta que eu estipulei com o auxilio do site | Eu consiga administrar meu dinheiro e me sentir mais motivada a conquistar minha meta |
+| GABRIEL | Usuário do Save Coin | Saber quanto gasto por mês | Que eu consiga gerir melhor meus gastos e reservas |
+| BIANCA | Usuário do Save Coin | Saber se eu consegui entender bem os estudos que a Save Coin disponibiliza sobre finanças | Eu conseguir ter mais segurança ao gerir meu dinheiro |
+| PEDRO | Usuário do Save Coin | Conseguir ter acesso a artigos e estudos relacionados ao assunto de forma resumida e eficiente | Eu consiga aprender sobre o assunto e conseguir repassa-lo de forma rápida e prática. |
+| GABRIELLY | Usuária do Save Coin | Conseguir acompanhar e editar se preciso a meta que eu estipulei com o auxilio do site | Eu consiga administrar meu dinheiro e me sentir mais motivada a conquistar minha meta |
+| ROBERTO | Usuário do Save Coin | Lembrar das contas a pagar e estudar como gerir melhor seu dinheiro | Gostaria que minha saúde financeira e da minha empresa melhore e eu não seja negativado novamente |
+| LUDI | Usuária do Save Coin | Entender melhor o que ganho e gasto e entender melhor sobre investimentos | Eu saiba gerir a herança da minha vó, assim, podendo ter um bom futuro. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -80,9 +82,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| O sistema não apresentará ao usuário logado quaisquer dados de cunho privativo de outros usuários | ALTA | 
+|RNF-001| O sistema não apresentará ao usuário logado quaisquer dados de cunho privativo de outros usuários | ALTA |
+|RNF-002| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-003| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-004| O sistema deverá seguir normas éticas e morais de leis como: Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018 e Lei Reguladora dos Direitos Autorais Lei nº 9.610/1998 | BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -106,7 +109,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| Deverá ter interação com Json Server        |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
