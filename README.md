@@ -68,13 +68,15 @@
 
 # Planejamento
 
-| Etapa         | Atividades |
-|  :----:   | ----------- |
-| ETAPA 1         |[Documentação de Contexto](docs/Etapa1DocContexto.md) <br> [Especificação do Projeto](docs/Etapa1Especificacao.md) |
-| ETAPA 2         |[Projeto de Interface](docs/Etapa2Interface.md) <br> [Template Padrão](docs/Etapa2Template.md) |
-| ETAPA 3         |[Programação de Funcionalidades - HTML e CSS](docs/Etapa3e4Desenvolvimento.md) |
-| ETAPA 4        |[Programação de Funcionalidades - Javascript](docs/Etapa3e4Desenvolvimento.md) <br> [Testes de Software ](docs/Etapa4Testes.md) |
-| ETAPA 5         | [Apresentação](presentation/README.md) |
+
+1. [Documentação de Contexto](docs/Etapa1DocContexto.md) 
+2. [Especificação do Projeto](docs/Etapa1Especificacao.md) 
+3. [Projeto de Interface](docs/Etapa2Interface.md)
+4. [Template Padrão](docs/Etapa2Template.md) 
+5. [Programação de Funcionalidades - HTML e CSS](docs/Etapa3e4Desenvolvimento.md) 
+6. [Programação de Funcionalidades - Javascript](docs/Etapa3e4Desenvolvimento.md) 
+7. [Testes de Software ](docs/Etapa4Testes.md) 
+8. [Apresentação](presentation/README.md) 
 
 # Código
 
