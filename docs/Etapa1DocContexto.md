@@ -1,18 +1,20 @@
 ## 1. Introdução
 
-Com o cenário atual, em um mundo capitalista e interligado por meio das redes de comunicação, o dinheiro se faz cada vez mais necessário e facilitador da vida, sendo assim, cada vez mais, a gestão do dinheiro e bens torna-se presente em nossas vidas. 
+Dado o cenário atual de um mundo capitalista e interligado por meio das redes de comunicação, o dinheiro se faz cada vez mais necessário e facilitador da vida, sendo que, cada vez mais, a gestão do dinheiro e dos bens torna-se presente na vida da população como um todo. 
 
-Dessa forma, a educação financeira surge como resposta para orientar a tomada de decisões, informando sobre os serviços financeiros ofertados, sobre necessidades e desejos de consumo, de necessidades de poupança, financiamento e juros, investimentos e rendimentos.  
+Dessa forma, a educação financeira surge como resposta para orientar a tomada de decisões, informando sobre os serviços financeiros ofertados, sobre necessidades e desejos de consumo, de necessidades de poupança, financiamento e juros, investimentos e rendimentos. Esta ciência compreende o conhecimento das boas práticas de gestão de gastos e alocação de recursos, por meio de decisões estratégicas, de forma a orientar o indivíduo a aproveitar as oportunidades de produtos e serviços ofertados de forma consciente, bem como em suas decisões sobre investimentos, e na prevenção de situações problemáticas.   
 
-Esta ciência compreende o conhecimento das boas práticas de gestão de gastos e alocação de recursos, por meio de decisões estratégicas, de forma a orientar o indivíduo a aproveitar as oportunidades de produtos e serviços ofertados de forma consciente, bem como em suas decisões sobre investimentos, e na prevenção de situações problemáticas. 
+Sendo uma prática necessária na vida das pessoas, uma boa gestão dos bens leva o indivíduo a ter um melhor estilo e qualidade de vida. Esse comportamento pode ser inserido na vida das pessoas desde cedo, sendo que quanto antes tal prática se mostrar presente no dia a dia da população, maiores as vantagens obtidas.
 
-Sendo uma prática necessária na vida das pessoas, uma boa gestão dos bens leva o indivíduo a ter um melhor estilo e qualidade de vida. Esse comportamento pode ser inserido na vida das pessoas desde cedo, quanto antes essa prática estiver presente no dia a dia melhor. 
+Nesse sentido, o Grupo Save Coin, buscando o desenvolvimento e educação financeira da população brasileira, através de pesquisas de campo e em leitura, identificou um crescimento considerável no número de inadimplentes da faixa etária mais jovem, entre 18 e 25 anos, tendo uma alta de 10,75% do ano de 2021 para o de 2022.  
+
+Por meio do fornecimento de informações didáticas sobre controle e gestão financeira, bem como de ferramentas que auxiliam nesse processo, o Grupo Save Coin busca a redução da inadimplência entre os jovens e, a longo prazo, uma maior prosperidade econômica para o país. 
 
 ## 2. Problema
 
 A situação de endividamento dos jovens no Brasil é crescente, entre os fatores principais podemos considerar a inexperiência no trato com o dinheiro, os impulsos consumistas e a facilidade em obter crédito, o que resulta, na maioria das vezes, no crescimento do número de inadimplentes. 
 
-Nos dias de hoje, o jovem se depara com diversas possibilidades de compra, podendo ser presencial ou através de e-commerce. Além disso, há várias estratégias para que faça com que ele consuma cada vez mais, seja disponibilizar várias formas de pagamento, seja com marketing atrelando novos produtos e status social, seja sistemas de entrega, entre outras. (MINELLA et. al, 2017).  
+Nos dias de hoje, o jovem se depara com diversas possibilidades de compra, podendo ser presencial ou através de e-commerce. Além disso, há várias estratégias que fazem com que ele consuma cada vez mais, seja a disponibilização de várias formas de pagamento, seja por meio de marketing, atrelando novos produtos a status social, seja através das facilidades dos sistemas de entrega, entre outras. (MINELLA et. al, 2017).  
 
 Apesar do gosto dos jovens para o consumo, é válido salientar que o crescimento da quantidade de endividados tem ocorrido, também, por causa da crise econômica que o país tem enfrentado. Segundo o IBGE (2022), a inflação acumulada entre julho de 2021 e julho de 2022 é de 10,07%, o que é considerado um valor preocupante. Diante disso, muitas pessoas estão perdendo seu poder de compra e, consequentemente, se endividando cada vez mais para poder manter sua subsistência e seu padrão de vida. Nesse sentido, a pesquisa realizada pela Confederação Nacional de Dirigentes Lojistas (CNDL) e pelo Serviço de Proteção ao Crédito (SPC Brasil) aponta que 22,5% dos devedores possuem entre 18 e 29 anos (2022, SPC Brasil).  
 
@@ -21,9 +23,9 @@ Nesse sentido, o nosso projeto tem como objetivo fornecer um caminho mais curto 
 ## 3. Objetivos
 ## 3.1 Objetivo principal
 
-O projeto proposto é estruturado sobre o objetivo principal de proporcionar acesso à educação financeira, por meio de informações didáticas e acessíveis, de forma simples e objetiva, hospedado em uma Aplicação Web, baseada em uma interface intuitiva e de fácil acesso, colaborando para a absorção do conhecimento das noções básicas de educação financeira, possibilitando o aprendizado desta importante área de conhecimento e sua aplicação no cotidiano. 
+O projeto proposto é estruturado sobre o objetivo principal de proporcionar acesso à educação financeira, por meio de informações didáticas e acessíveis, em conformidade com a Lei de Direitos Autorais [1], de forma simples e objetiva, hospedado em uma Aplicação Web, baseada em uma interface intuitiva e de fácil acesso, colaborando para a absorção do conhecimento das noções básicas de educação financeira, possibilitando o aprendizado desta importante área de conhecimento e sua aplicação no cotidiano. 
 
-A estrutura temática, apresentada de forma didática, visa instruir os jovens quanto aos principais pilares da educação financeira, auxiliando-os no desenvolvimento dos conceitos e técnicas fundamentais para gestão eficiente de sua renda. Por meio das informações fornecidas na plataforma, o usuário terá acesso aos fundamentos da educação financeira, entendendo o conceito e diferenciação entre despesas fixas e variáveis, além de ser capaz de traçar suas metas financeiras a longo e curto prazo.
+A estrutura temática, apresentada de forma didática, visa instruir os jovens quanto aos principais pilares da educação financeira, auxiliando-os no desenvolvimento dos conceitos e técnicas fundamentais para gestão eficiente de sua renda. Por meio das informações fornecidas na plataforma, o usuário terá acesso aos fundamentos da educação financeira, entendendo o conceito e diferenciação entre despesas fixas e variáveis, além de ser capaz de traçar suas metas financeiras a longo e curto prazo. Além disso, entre os objetivos principais do projeto destaca-se a proteção aos dados do usuário, em respeito à Lei Geral de Proteção de Dados Pessoais [2], por meio da aplicação de mecanismos de sigilo que resguardam seu acesso, não permitindo o acesso a perfis e dados que não os seus próprios. 
 
 ## 3.2 Objetivo secundário
 
@@ -33,7 +35,10 @@ Para tanto, disponibilizamos as seguintes ferramentas de gestão financeira:
 > - **Calculadora de gastos** – recurso disponível para a inserção de ganhos e despesas diárias; 
 > - **Gráfico de gastos** – ferramenta visual indicativa da relação ganho x gastos, com base nos dados indicados na calculadora, representando valores destacados em categorias; 
 > - **Agenda** – recurso disponível para o acompanhamento dos marcos e compromissos financeiros; 
-> - **Indicativo de metas** – sistema de controle de metas de poupança, apresentando a porcentagem atingida em relação ao objetivo final. 
+> - **Indicativo de metas** – sistema de controle de metas de poupança, apresentando a porcentagem atingida em relação ao objetivo final;
+> - **Recurso de acessibilidade** – possibilidade de o usuário fazer uso de texto em voz, interpretação em libras, visualização em alto contraste da plataforma;
+> - **Avaliação de conhecimento** – questionários apresentados após cada seção de conteúdo, com o objetivo de reforçar os conhecimentos adquiridos;
+> - **Questionário social** – formulário informativo sobre o perfil do usuário, para melhor controle de público.
 
 ## 4. Justificativa
 
@@ -49,9 +54,9 @@ A motivação para a criação desse projeto é desenvolver uma solução Web vi
 
 ## 5. Público-Alvo
 
-O Grupo Save Coin, buscando o desenvolvimento e educação financeira da população brasileira, através de pesquisas de campo e em leitura, identificou um crescimento considerável no número de inadimplentes da faixa etária mais jovem (18 a 25 anos), tendo uma alta de 10,75% dos anos de 2021 para o de 2022.  
+O público alvo do presente projeto são crianças e adolescentes, do sexo feminino e masculino, com idade entre 12 a 18 anos, independente de classe social e que possuam ou não renda. 
 
-Considerando que atualmente temos a taxa de aproximadamente 78% das famílias brasileiras endividadas, nós do Grupo Save Coin, acreditamos que ensinando educação financeira a crianças e adolescentes, de 12 a 18 anos, do sexo feminino e masculino, independente de classe e que não necessariamente tenha algum tipo de renda; pode impactar no futuro, assim, diminuindo a taxa de inadimplentes e até mesmo prover maior prosperidade do país. 
+Considerando que atualmente temos a taxa de aproximadamente 78% das famílias brasileiras endividadas, nós do Grupo Save Coin, acreditamos que ensinando educação financeira a crianças e adolescentes, de 12 a 18 anos, pode impactar no futuro por meio da diminuição da taxa de inadimplentes e até mesmo prover maior prosperidade do país.  
 
 ## Referências Bibliográficas
 
