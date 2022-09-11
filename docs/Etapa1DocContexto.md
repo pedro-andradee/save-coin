@@ -60,8 +60,8 @@ Considerando que atualmente temos a taxa de aproximadamente 78% das famílias br
 
 ## Referências Bibliográficas
 
-IBGE – INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. IPCA 2021 – 2022. Rio de Janeiro: IBGE, 2022. 
+IBGE – Instituto Brasileiro de Geografia e Estatística. **IPCA 2021 – 2022**. Rio de Janeiro: IBGE, 2022. 
 
-MINELLA, João Marcos et al. A influência do materialismo, educação financeira e valor atribuído ao dinheiro na propensão ao endividamento de jovens. Gestão & Planejamento-G&P, v. 18, 2017. 
+MINELLA, João Marcos et al. **A influência do materialismo, educação financeira e valor atribuído ao dinheiro na propensão ao endividamento de jovens**. Gestão & Planejamento-G&P, v. 18, 2017. 
 
-OLIVEIRA, Anaelize dos Anjos. Educação financeira nos anos iniciais do ensino fundamental: como tem ocorrido na sala de aula?. 2017. Dissertação (Mestrado Educação Matemática e Tecnológica) - Universidade Federal de Pernambuco, Recife, 2017.
+OLIVEIRA, Anaelize dos Anjos. **Educação financeira nos anos iniciais do ensino fundamental: como tem ocorrido na sala de aula?**. 2017. Dissertação (Mestrado Educação Matemática e Tecnológica) - Universidade Federal de Pernambuco, Recife, 2017.
