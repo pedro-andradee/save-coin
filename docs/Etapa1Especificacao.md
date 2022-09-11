@@ -32,6 +32,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | GABRIELLY | Usuária do Save Coin | Conseguir acompanhar e editar se preciso a meta que eu estipulei com o auxilio do site | Eu consiga administrar meu dinheiro e me sentir mais motivada a conquistar minha meta |
 | ROBERTO | Usuário do Save Coin | Lembrar das contas a pagar e estudar como gerir melhor seu dinheiro | Gostaria que minha saúde financeira e da minha empresa melhore e eu não seja negativado novamente |
 | LUDI | Usuária do Save Coin | Entender melhor o que ganho e gasto e entender melhor sobre investimentos | Eu saiba gerir a herança da minha vó, assim, podendo ter um bom futuro. |
+| FELIPE | Usuário do Save Coin | Entender sobre o funcionamento do método 50/30/20 | Eu possa administrar os gastos englobados na manutenção de uma casa. |
+| LUNA | Usuária do Save Coin | Acompanhar meu progresso em relação à meta final de economia | Eu consiga visualizar o quanto consegui poupar e estimar em quanto tempo terei o suficiente para comprar o ingresso do show. |
 
 
 ## Requisitos
