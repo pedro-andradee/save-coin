@@ -4,7 +4,7 @@ Dado o cenário atual de um mundo capitalista e interligado por meio das redes d
 
 Dessa forma, a educação financeira surge como resposta para orientar a tomada de decisões, informando sobre os serviços financeiros ofertados, sobre necessidades e desejos de consumo, de necessidades de poupança, financiamento e juros, investimentos e rendimentos. Esta ciência compreende o conhecimento das boas práticas de gestão de gastos e alocação de recursos, por meio de decisões estratégicas, de forma a orientar o indivíduo a aproveitar as oportunidades de produtos e serviços ofertados de forma consciente, bem como em suas decisões sobre investimentos, e na prevenção de situações problemáticas.   
 
-Sendo uma prática necessária na vida das pessoas, uma boa gestão dos bens leva o indivíduo a ter um melhor estilo e qualidade de vida. Esse comportamento pode ser inserido na vida das pessoas desde cedo, sendo que quanto antes tal prática se mostrar presente no dia a dia da população, maiores as vantagens obtidas.
+Sendo uma prática necessária na vida das pessoas, uma boa gestão dos bens leva o indivíduo a ter um melhor estilo e qualidade de vida. Esse comportamento pode ser inserido na vida das pessoas desde cedo, sendo que quanto antes tal prática se mostrar presente no dia a dia da população, maiores as vantagens obtidas para o indivíduo e para sociedade ao qual está inserido.
 
 Nesse sentido, o Grupo Save Coin, buscando o desenvolvimento e educação financeira da população brasileira, através de pesquisas de campo e em leitura, identificou um crescimento considerável no número de inadimplentes da faixa etária mais jovem, entre 18 e 25 anos, tendo uma alta de 10,75% do ano de 2021 para o de 2022.  
 
@@ -38,7 +38,7 @@ Para tanto, disponibilizamos as seguintes ferramentas de gestão financeira:
 > - **Indicativo de metas** – sistema de controle de metas de poupança, apresentando a porcentagem atingida em relação ao objetivo final;
 > - **Recurso de acessibilidade** – possibilidade de o usuário fazer uso de texto em voz, interpretação em libras, visualização em alto contraste da plataforma;
 > - **Avaliação de conhecimento** – questionários apresentados após cada seção de conteúdo, com o objetivo de reforçar os conhecimentos adquiridos;
-> - **Questionário social** – formulário informativo sobre o perfil do usuário, para melhor controle de público.
+> - **Questionário social** – formulário informativo sobre o perfil do usuário, para subsidiar melhorias nos conteúdos e ferramentas fornecidas.
 
 ## 4. Justificativa
 
@@ -57,6 +57,37 @@ A motivação para a criação desse projeto é desenvolver uma solução Web vi
 O público alvo do presente projeto são crianças e adolescentes, do sexo feminino e masculino, com idade entre 12 a 18 anos, independente de classe social e que possuam ou não renda. 
 
 Considerando que atualmente temos a taxa de aproximadamente 78% das famílias brasileiras endividadas, nós do Grupo Save Coin, acreditamos que ensinando educação financeira a crianças e adolescentes, de 12 a 18 anos, pode impactar no futuro por meio da diminuição da taxa de inadimplentes e até mesmo prover maior prosperidade do país.  
+
+## Estado da Arte
+
+Tema: Educação e gestão financeira. 
+1. Pergunta: As pessoas sabem gerir suas finanças? 
+2. Resposta: O Brasil apresenta altos índices de inadimplentes. 
+
+Problema de Pesquisa: Desconhecimento das boas práticas de gestão financeira. 
+1. Pergunta: Como construir uma cultura de gastos consciente?  
+2. Resposta: Por meio do ensino da educação financeira para os jovens. 
+
+Objetivo: Ensinar educação financeira para jovens. 
+
+Metodologia de pesquisa: Coleta e análise de dados. 
+1. Abordagem: Quali-quantitativas; 
+2. Natureza: Aplicada; 
+3. Objetivo: Exploratório. 
+
+Método: Dedutivo. 
+
+Procedimentos técnicos da pesquisa: Repositórios de trabalhos acadêmicos e portais institucionais de informações financeiras. 
+
+Critérios de inclusão: 
+1. Estudos relacionados à gestão financeira dos jovens e situação econômica desta classe; 
+2. Realizado nos últimos 5 anos; 
+3. Disponíveis na íntegra e gratuitos; 
+4. Portais institucionais ou de notória credibilidade. 
+
+Critérios de exclusão: 
+1. Publicações que não se alinham ao contexto do estudo; 
+2. Matérias que apresentem cunho pessoal. 
 
 ## Referências Bibliográficas
 
