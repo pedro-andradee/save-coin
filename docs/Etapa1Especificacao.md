@@ -39,6 +39,8 @@ Com base na análise das personas supracitadas foram identificadas as seguintes 
 | MARIA | Usuária do Save Coin | Utilizar a ferramenta agenda para inserção de marcos e compromissos financeiros | Ser notificada dos eventos financeiros e acompanhar todas a datas a fim de gerir dentro dos prazos suas finanças |
 | MARIA | Usuária do Save Coin | Acessar o conteúdo de forma otimizada para deficientes visuais | Conseguir absorver todo o conteúdo disponível e se valer todas as ferramentas de gestão financeira oferecidas pela plataforma |
 | MARIA | Usuária do Save Coin | Acessar o conteúdo a partir de um dispositivo móvel | Consegui utilizar a plataforma em qualquer local ou momento do dia|
+| TOBIAS | Usuário do Save Coin | Acompanhar os meus registros de gastos mensalmente | Eu consiga poupar uma parte do meu salário e consiga juntar dinheiro para viajar |
+| CARMEN | Usuária do Save Coin | Uma ferramenta de acessibilidade que leia a tela do conteúdo didático sobre educação financeira | Eu possa aprender o conteúdo sobre educação financeira disponibilizado |
 
 
 ## Requisitos
