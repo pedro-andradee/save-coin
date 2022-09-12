@@ -95,7 +95,7 @@ BRASIL. **Lei nº 9.610, de 19 de fevereiro de 1998**. Altera, atualiza e consol
 
 BRASIL. **Lei nº 13.709, de 14 de agosto de 2018**. Lei Geral de Proteção de Dados Pessoais (LGPD). Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14020.htm. Acesso em: 07 set. 2021.
 
-CORSINI, Iuri; ARAÚJO, Thayana. **Número de inadimplentes no Brasil atinge recorde da série histórica, aponta Serasa**: São 66,6 milhões de nomes negativados em todo o país, um aumento de 4 milhões de inadimplentes em relação ao mesmo período do ano passado. In: CNN Brasil. 11 jul. 2022. Disponível em: cnnbrasil.com.br/business/numero-de-inadimplentes-no-brasil-atinge-recorde-da-serie-historica-aponta-serasa/. Acesso em: 31 ago. 2022. 
+CORSINI, Iuri; ARAÚJO, Thayana. **Número de inadimplentes no Brasil atinge recorde da série histórica, aponta Serasa**: São 66,6 milhões de nomes negativados em todo o país, um aumento de 4 milhões de inadimplentes em relação ao mesmo período do ano passado. In: CNN Brasil. 11 jul. 2022. Disponível em: https://cnnbrasil.com.br/business/numero-de-inadimplentes-no-brasil-atinge-recorde-da-serie-historica-aponta-serasa/. Acesso em: 31 ago. 2022. 
 
 ENEF. **Conceito de Educação Financeira no Brasil**. In: Estratégia Nacional de Educação Financeira. Disponível em: https://www.vidaedinheiro.gov.br/educacao-financeira-no-brasil/. Acesso em: 1 set. 2022. 
 
