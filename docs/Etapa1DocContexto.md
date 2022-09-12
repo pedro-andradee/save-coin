@@ -6,7 +6,7 @@ Dessa forma, a educação financeira surge como resposta para orientar a tomada 
 
 Sendo uma prática necessária na vida das pessoas, uma boa gestão dos bens leva o indivíduo a ter um melhor estilo e qualidade de vida. Esse comportamento pode ser inserido na vida das pessoas desde cedo, sendo que quanto antes tal prática se mostrar presente no dia a dia da população, maiores as vantagens obtidas para o indivíduo e para sociedade ao qual está inserido.
 
-Nesse sentido, o Grupo Save Coin, buscando o desenvolvimento e educação financeira da população brasileira, através de pesquisas de campo e em leitura, identificou um crescimento considerável no número de inadimplentes da faixa etária mais jovem, entre 18 e 25 anos, tendo uma alta de 10,75% do ano de 2021 para o de 2022.  
+Nesse sentido, o Grupo Save Coin, buscando o desenvolvimento e educação financeira da população brasileira, através de pesquisas de campo e em leitura, identificou um crescimento considerável no número de inadimplentes da faixa etária mais jovem, entre 18 e 25 anos, tendo uma alta de 10,75% do ano de 2021 para o de 2022 (CORSINI e ARAÚJO, 2022).  
 
 Por meio do fornecimento de informações didáticas sobre controle e gestão financeira, bem como de ferramentas que auxiliam nesse processo, o Grupo Save Coin busca a redução da inadimplência entre os jovens e, a longo prazo, uma maior prosperidade econômica para o país. 
 
@@ -16,7 +16,7 @@ A situação de endividamento dos jovens no Brasil é crescente, entre os fatore
 
 Nos dias de hoje, o jovem se depara com diversas possibilidades de compra, podendo ser presencial ou através de e-commerce. Além disso, há várias estratégias que fazem com que ele consuma cada vez mais, seja a disponibilização de várias formas de pagamento, seja por meio de marketing, atrelando novos produtos a status social, seja através das facilidades dos sistemas de entrega, entre outras. (MINELLA et. al, 2017).  
 
-Apesar do gosto dos jovens para o consumo, é válido salientar que o crescimento da quantidade de endividados tem ocorrido, também, por causa da crise econômica que o país tem enfrentado. Segundo o IBGE (2022), a inflação acumulada entre julho de 2021 e julho de 2022 é de 10,07%, o que é considerado um valor preocupante. Diante disso, muitas pessoas estão perdendo seu poder de compra e, consequentemente, se endividando cada vez mais para poder manter sua subsistência e seu padrão de vida. Nesse sentido, a pesquisa realizada pela Confederação Nacional de Dirigentes Lojistas (CNDL) e pelo Serviço de Proteção ao Crédito (SPC Brasil) aponta que 22,5% dos devedores possuem entre 18 e 29 anos (2022, SPC Brasil).  
+Apesar do gosto dos jovens para o consumo, é válido salientar que o crescimento da quantidade de endividados tem ocorrido, também, por causa da crise econômica que o país tem enfrentado. Segundo o IBGE (2022), a inflação acumulada entre julho de 2021 e julho de 2022 é de 10,07%, o que é considerado um valor preocupante. Diante disso, muitas pessoas estão perdendo seu poder de compra e, consequentemente, se endividando cada vez mais para poder manter sua subsistência e seu padrão de vida. Nesse sentido, a pesquisa realizada pela Confederação Nacional de Dirigentes Lojistas (CNDL) e pelo Serviço de Proteção ao Crédito (SPC Brasil) aponta que 22,5% dos devedores possuem entre 18 e 29 anos (SPC Brasil, 2022).  
 
 Nesse sentido, o nosso projeto tem como objetivo fornecer um caminho mais curto e acessível, uma plataforma com conteúdo informativo e didático, para que os jovens sejam conscientizados da importância de se ter educação financeira desde cedo e estejam devidamente preparados, de modo que consigam construir um futuro mais estável para si mesmos. 
 
@@ -56,9 +56,33 @@ A motivação para a criação desse projeto é desenvolver uma solução Web vi
 
 O público alvo do presente projeto são crianças e adolescentes, do sexo feminino e masculino, com idade entre 12 a 18 anos, independente de classe social e que possuam ou não renda. 
 
-Considerando que atualmente temos a taxa de aproximadamente 78% das famílias brasileiras endividadas, nós do Grupo Save Coin, acreditamos que ensinando educação financeira a crianças e adolescentes, de 12 a 18 anos, pode impactar no futuro por meio da diminuição da taxa de inadimplentes e até mesmo prover maior prosperidade do país.  
+Considerando que atualmente temos a taxa de aproximadamente 78% das famílias brasileiras endividadas (NITAHARA, 2022), nós do Grupo Save Coin, acreditamos que ensinando educação financeira a crianças e adolescentes, de 12 a 18 anos, pode impactar no futuro por meio da diminuição da taxa de inadimplentes e até mesmo prover maior prosperidade do país.   
 
-## Estado da Arte
+## Referências Bibliográficas
+
+BRASIL. **Lei nº 9.610, de 19 de fevereiro de 1998**. Altera, atualiza e consolida a legislação sobre direitos autorais e dá outras providências. Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/leis/l9610.htm. Acesso em: 07 set. 2021.
+
+BRASIL. **Lei nº 13.709, de 14 de agosto de 2018**. Lei Geral de Proteção de Dados Pessoais (LGPD). Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14020.htm. Acesso em: 07 set. 2021.
+
+CORSINI, Iuri; ARAÚJO, Thayana. **Número de inadimplentes no Brasil atinge recorde da série histórica, aponta Serasa**: São 66,6 milhões de nomes negativados em todo o país, um aumento de 4 milhões de inadimplentes em relação ao mesmo período do ano passado. In: CNN Brasil. 11 jul. 2022. Disponível em: https://cnnbrasil.com.br/business/numero-de-inadimplentes-no-brasil-atinge-recorde-da-serie-historica-aponta-serasa/. Acesso em: 31 ago. 2022. 
+
+ENEF. **Conceito de Educação Financeira no Brasil**. In: Estratégia Nacional de Educação Financeira. Disponível em: https://www.vidaedinheiro.gov.br/educacao-financeira-no-brasil/. Acesso em: 1 set. 2022. 
+
+IBGE – INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. **IPCA 2021 – 2022**. Disponível: https://www.ibge.gov.br/explica/inflacao.php. Rio de Janeiro: IBGE, 2022. Acesso em: 31 ago. 2022.
+
+MINELLA, João Marcos et al. **A influência do materialismo, educação financeira e valor atribuído ao dinheiro na propensão ao endividamento de jovens**. Gestão & Planejamento-G&P, v. 18, 2017. 
+
+NITAHARA, Akemi. **Percentual de famílias com dívidas a vencer atinge recorde de 78%**: Alta nas duas faixas de renda ocorre depois de dois meses de queda. In: Agência Brasil. 8 ago. 2022. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2022-08/percentual-de-familias-com-dividas-vencer-atinge-recorde-de-78. Acesso em: 31 ago. 2022. 
+
+OLIVEIRA, Anaelize dos Anjos. **O Educação financeira nos anos iniciais do ensino fundamental**: como tem ocorrido na sala de aula?. 2017. Dissertação (Mestrado Educação Matemática e Tecnológica) - Universidade Federal de Pernambuco, Recife, 2017.
+
+PODER 360. **62 milhões de brasileiros estão inadimplentes, diz pesquisa**: Número de consumidores com contas atrasadas cresceu 6,5% em relação a junho de 2021, segundo o SPC. In: Poder 360. 22 jul. 2022. Disponível em: https://www.poder360.com.br/brasil/62-milhoes-de-brasileiros-estao-inadimplentes-diz-pesquisa/. Acesso em: 31 ago. 2022.
+
+REIS, Tiago. **Educação financeira: 5 dicas fáceis para melhorar suas finanças**. SUNO. Disponível em: https://www.suno.com.br/guias/educacao-financeira/. Acesso em: 1 set. 2022. 
+
+SPC Brasil. **Inadimplência Nacional de Pessoas Físicas**. Disponível em: https://static.poder360.com.br/2022/07/Ana%CC%81lise-Inadimple%CC%82ncia-BRASIL-PF_jun2022.pdf. Acesso em: 1 set. 2022. 
+
+### Anexo | Estado da Arte
 
 **Tema:** Educação e gestão financeira. 
 1. Pergunta: As pessoas sabem gerir suas finanças? 
@@ -87,28 +111,4 @@ Considerando que atualmente temos a taxa de aproximadamente 78% das famílias br
 
 **Critérios de exclusão:**
 1. Publicações que não se alinham ao contexto do estudo; 
-2. Matérias que apresentem cunho pessoal. 
-
-## Referências Bibliográficas
-
-BRASIL. **Lei nº 9.610, de 19 de fevereiro de 1998**. Altera, atualiza e consolida a legislação sobre direitos autorais e dá outras providências. Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/leis/l9610.htm. Acesso em: 07 set. 2021.
-
-BRASIL. **Lei nº 13.709, de 14 de agosto de 2018**. Lei Geral de Proteção de Dados Pessoais (LGPD). Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14020.htm. Acesso em: 07 set. 2021.
-
-CORSINI, Iuri; ARAÚJO, Thayana. **Número de inadimplentes no Brasil atinge recorde da série histórica, aponta Serasa**: São 66,6 milhões de nomes negativados em todo o país, um aumento de 4 milhões de inadimplentes em relação ao mesmo período do ano passado. In: CNN Brasil. 11 jul. 2022. Disponível em: https://cnnbrasil.com.br/business/numero-de-inadimplentes-no-brasil-atinge-recorde-da-serie-historica-aponta-serasa/. Acesso em: 31 ago. 2022. 
-
-ENEF. **Conceito de Educação Financeira no Brasil**. In: Estratégia Nacional de Educação Financeira. Disponível em: https://www.vidaedinheiro.gov.br/educacao-financeira-no-brasil/. Acesso em: 1 set. 2022. 
-
-IBGE – INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. **IPCA 2021 – 2022**. Disponível: https://www.ibge.gov.br/explica/inflacao.php. Rio de Janeiro: IBGE, 2022. Acesso em: 31 ago. 2022.
-
-MINELLA, João Marcos et al. **A influência do materialismo, educação financeira e valor atribuído ao dinheiro na propensão ao endividamento de jovens**. Gestão & Planejamento-G&P, v. 18, 2017. 
-
-NITAHARA, Akemi. **Percentual de famílias com dívidas a vencer atinge recorde de 78%**: Alta nas duas faixas de renda ocorre depois de dois meses de queda. In: Agência Brasil. 8 ago. 2022. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2022-08/percentual-de-familias-com-dividas-vencer-atinge-recorde-de-78. Acesso em: 31 ago. 2022. 
-
-OLIVEIRA, Anaelize dos Anjos. **O Educação financeira nos anos iniciais do ensino fundamental**: como tem ocorrido na sala de aula?. 2017. Dissertação (Mestrado Educação Matemática e Tecnológica) - Universidade Federal de Pernambuco, Recife, 2017.
-
-PODER 360. **62 milhões de brasileiros estão inadimplentes, diz pesquisa**: Número de consumidores com contas atrasadas cresceu 6,5% em relação a junho de 2021, segundo o SPC. In: Poder 360. 22 jul. 2022. Disponível em: https://www.poder360.com.br/brasil/62-milhoes-de-brasileiros-estao-inadimplentes-diz-pesquisa/. Acesso em: 31 ago. 2022.
-
-REIS, Tiago. **Educação financeira: 5 dicas fáceis para melhorar suas finanças**. SUNO. Disponível em: https://www.suno.com.br/guias/educacao-financeira/. Acesso em: 1 set. 2022. 
-
-SPC Brasil. **Inadimplência Nacional de Pessoas Físicas**. Disponível em: https://static.poder360.com.br/2022/07/Ana%CC%81lise-Inadimple%CC%82ncia-BRASIL-PF_jun2022.pdf. Acesso em: 1 set. 2022. 
+2. Matérias que apresentem cunho pessoal.
