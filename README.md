@@ -2,7 +2,7 @@
     <h1>Save Coin 💰</h1>
     <br>
     <p align="center">
-  <img style="border-radius: 50%;" src="src/img/Logo Save Coin.png" width="400px;" alt=""/> 
+  <img style="border-radius: 50%;" src="src/img/Logo Save Coin.png" width="300px;" alt=""/> 
   <br>
     <p>Pontifícia Universidade Católica de Minas Gerais</p>
     <p>Sistemas de Informação</p>
@@ -29,7 +29,9 @@
 
 <div align="justify">
 
-<p>Colocar aqui o que estamos desenvolvendo no projeto (fazer uma introdução sobre o assunto embasado em noticias/artigos)</p>
+<p>O Grupo Save Coin, buscando o desenvolvimento e educação financeira da população brasileira, através de pesquisas de campo e em leitura, identificou um crescimento considerável no número de inadimplentes da faixa etária mais jovem, entre 18 e 25 anos, tendo uma alta de 10,75% do ano de 2021 para o de 2022. Dessa forma, acreditamos que por meio da educação, através da disponibilização de informações didáticas sobre controle e gestão financeira, bem como de ferramentas que auxiliam neste processo, o Grupo Save Coin busca a redução da inadimplência entre os jovens e, a longo prazo, uma maior prosperidade econômica para o país. 
+
+Nosso projeto proposto é estruturado sobre o objetivo principal de proporcionar acesso à educação financeira, por meio de informações didáticas e acessíveis, em conformidade com a Lei de Direitos Autorais de forma simples e objetiva, hospedado em uma Aplicação Web, baseada em uma interface intuitiva e de fácil acesso, colaborando para a absorção do conhecimento das noções básicas de educação financeira, possibilitando o aprendizado desta importante área de conhecimento e sua aplicação no cotidiano com o auxílio de diversas ferramentas de gestão financeira. </p>
 
 </div>
 
