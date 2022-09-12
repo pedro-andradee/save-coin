@@ -105,7 +105,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Deverá ter interação com Json Server        |
-|03| A plataforma disponibilizará somente conteúdos relacionados a educação financeira|
+|03|A Plataforma Save Coin disponibilizará somente conteúdos relacionados a educação financeira|
 |04|A Plataforma Save Coin creditará todas as fontes e autores utilizados no material educacional disponível|
 |05|A Plataforma Save Coin deverá dispor de conteúdo educacional com base em fontes confiáveis, conhecidas por notória credibilidade e imparcialidade|
 |06|A Plataforma Save Coin deverá ser desenvolvida somente com a colaboração dos seis membros da equipe|
