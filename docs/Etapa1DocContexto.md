@@ -91,8 +91,24 @@ Considerando que atualmente temos a taxa de aproximadamente 78% das famílias br
 
 ## Referências Bibliográficas
 
-IBGE – Instituto Brasileiro de Geografia e Estatística. **IPCA 2021 – 2022**. Rio de Janeiro: IBGE, 2022. 
+BRASIL. **Lei nº 9.610, de 19 de fevereiro de 1998**. Altera, atualiza e consolida a legislação sobre direitos autorais e dá outras providências. Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/leis/l9610.htm. Acesso em: 07 set. 2021.
+
+BRASIL. **Lei nº 13.709, de 14 de agosto de 2018**. Lei Geral de Proteção de Dados Pessoais (LGPD). Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14020.htm. Acesso em: 07 set. 2021.
+
+CORSINI, Iuri; ARAÚJO, Thayana. **Número de inadimplentes no Brasil atinge recorde da série histórica, aponta Serasa**: São 66,6 milhões de nomes negativados em todo o país, um aumento de 4 milhões de inadimplentes em relação ao mesmo período do ano passado. In: CNN Brasil. 11 jul. 2022. Disponível em: cnnbrasil.com.br/business/numero-de-inadimplentes-no-brasil-atinge-recorde-da-serie-historica-aponta-serasa/. Acesso em: 31 ago. 2022. 
+
+ENEF. **Conceito de Educação Financeira no Brasil**. In: Estratégia Nacional de Educação Financeira. Disponível em: https://www.vidaedinheiro.gov.br/educacao-financeira-no-brasil/. Acesso em: 1 set. 2022. 
+
+IBGE – INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. **IPCA 2021 – 2022**. Disponível: https://www.ibge.gov.br/explica/inflacao.php. Rio de Janeiro: IBGE, 2022. Acesso em: 31 ago. 2022.
 
 MINELLA, João Marcos et al. **A influência do materialismo, educação financeira e valor atribuído ao dinheiro na propensão ao endividamento de jovens**. Gestão & Planejamento-G&P, v. 18, 2017. 
 
-OLIVEIRA, Anaelize dos Anjos. **Educação financeira nos anos iniciais do ensino fundamental: como tem ocorrido na sala de aula?**. 2017. Dissertação (Mestrado Educação Matemática e Tecnológica) - Universidade Federal de Pernambuco, Recife, 2017.
+NITAHARA, Akemi. **Percentual de famílias com dívidas a vencer atinge recorde de 78%**: Alta nas duas faixas de renda ocorre depois de dois meses de queda. In: Agência Brasil. 8 ago. 2022. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2022-08/percentual-de-familias-com-dividas-vencer-atinge-recorde-de-78. Acesso em: 31 ago. 2022. 
+
+OLIVEIRA, Anaelize dos Anjos. **O Educação financeira nos anos iniciais do ensino fundamental**: como tem ocorrido na sala de aula?. 2017. Dissertação (Mestrado Educação Matemática e Tecnológica) - Universidade Federal de Pernambuco, Recife, 2017.
+
+PODER 360. **62 milhões de brasileiros estão inadimplentes, diz pesquisa**: Número de consumidores com contas atrasadas cresceu 6,5% em relação a junho de 2021, segundo o SPC. In: Poder 360. 22 jul. 2022. Disponível em: https://www.poder360.com.br/brasil/62-milhoes-de-brasileiros-estao-inadimplentes-diz-pesquisa/. Acesso em: 31 ago. 2022.
+
+REIS, Tiago. **Educação financeira: 5 dicas fáceis para melhorar suas finanças**. SUNO. Disponível em: https://www.suno.com.br/guias/educacao-financeira/. Acesso em: 1 set. 2022. 
+
+SPC Brasil. **Inadimplência Nacional de Pessoas Físicas**. Disponível em: https://static.poder360.com.br/2022/07/Ana%CC%81lise-Inadimple%CC%82ncia-BRASIL-PF_jun2022.pdf. Acesso em: 1 set. 2022. 
