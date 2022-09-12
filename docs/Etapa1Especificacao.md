@@ -34,8 +34,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | LUDI | Usuária do Save Coin | Entender melhor o que ganho e gasto e entender melhor sobre investimentos | Eu saiba gerir a herança da minha vó, assim, podendo ter um bom futuro. |
 | FELIPE | Usuário do Save Coin | Entender sobre o funcionamento do método 50/30/20 | Eu possa administrar os gastos englobados na manutenção de uma casa. |
 | LUNA | Usuária do Save Coin | Acompanhar meu progresso em relação à meta final de economia | Eu consiga visualizar o quanto consegui poupar e estimar em quanto tempo terei o suficiente para comprar o ingresso do show. |
-| TOBIAS | Usuário do Save Coin | Acompanhar os meus registros de gastos mensalmente | Eu consiga poupar uma parte do meu salário e consiga juntar dinheiro para viajar |
-| CARMEN | Usuária do Save Coin | Uma ferramenta de acessibilidade que leia a tela do conteúdo didático sobre educação financeira | Eu possa aprender o conteúdo sobre educação financeira disponibilizado |
 
 
 ## Requisitos
@@ -81,7 +79,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema não apresentará ao usuário logado quaisquer dados de cunho privativo de outros usuários | ALTA |
 |RNF-002| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-003| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-004| O sistema deverá seguir normas éticas e morais das leis: Lei Gera l de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018 e Lei Reguladora dos Direitos Autorais Lei nº 9.610/1998 | BAIXA | 
+|RNF-004| O sistema deverá seguir normas éticas e morais das leis: Lei Gera l de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018 e Lei Reguladora dos Direitos Autorais Lei nº 9.610/1998 | ALTA | 
 
 
 ## Restrições
