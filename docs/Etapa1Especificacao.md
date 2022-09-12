@@ -34,6 +34,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | LUDI | Usuária do Save Coin | Entender melhor o que ganho e gasto e entender melhor sobre investimentos | Eu saiba gerir a herança da minha vó, assim, podendo ter um bom futuro. |
 | FELIPE | Usuário do Save Coin | Entender sobre o funcionamento do método 50/30/20 | Eu possa administrar os gastos englobados na manutenção de uma casa. |
 | LUNA | Usuária do Save Coin | Acompanhar meu progresso em relação à meta final de economia | Eu consiga visualizar o quanto consegui poupar e estimar em quanto tempo terei o suficiente para comprar o ingresso do show. |
+| TOBIAS | Usuário do Save Coin | Acompanhar os meus registros de gastos mensalmente | Eu consiga poupar uma parte do meu salário e consiga juntar dinheiro para viajar |
+| CARMEN | Usuária do Save Coin | Uma ferramenta de acessibilidade que leia a tela do conteúdo didático sobre educação financeira | Eu possa aprender o conteúdo sobre educação financeira disponibilizado |
 
 
 ## Requisitos
