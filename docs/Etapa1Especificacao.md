@@ -8,6 +8,8 @@ Pré-leitura: [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV
  
 <img src="/docs/img/PERSONAS/PERSONA LUNA - AMANDA.png" width="480px">    <img src="/docs/img/PERSONAS/PERSONA FELIPE - AMANDA.png" width="480px"></a>
 
+<img src="/docs/img/PERSONAS/PERSONA TOBIAS - PEDRO.png" width="480px">    <img src="/docs/img/PERSONAS/PERSONA CARMEN - PEDRO.png" width="480px"></a>
+
 
 ## Histórias de Usuários
 
