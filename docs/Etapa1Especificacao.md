@@ -38,7 +38,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|       ID      | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir que o usuário insira um lembrete de compromissos/marco financeiros | ALTA | GIANLUCA |
 |RF-002| Permitir que o usuário edite um lembrete de compromissos/marco financeiros | BAIXA | GIANLUCA |
@@ -70,8 +70,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  | Prioridade |
-|-------|-------------------------|----|
+|      ID     | Descrição do Requisito  | Prioridade |
+|:-------:|-------------------------|----|
 |RNF-001| O sistema não apresentará ao usuário logado quaisquer dados de cunho privativo de outros usuários | ALTA |
 |RNF-002| A Plataforma Save Coin deverá estar disponível em 99% do tempo para acesso aos usuários (Confiabilidade) | ALTA |
 |RNF-003| A Plataforma Save Coin deverá dispor de ferramentas de acessibilidade a fim de garantir o acesso aos usuários com necessidades especiais (Usabilidade) | ALTA |
