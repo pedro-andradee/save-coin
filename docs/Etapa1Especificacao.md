@@ -72,6 +72,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-022| Permitir que o usuário visualize uma meta financeira a ser atingida | ALTA |  |
 |RF-023| Permitir que o usuário edite uma meta financeira a ser atingida | BAIXA |  |
 |RF-024| Permitir que o usuário exclua uma meta financeira a ser atingida | MÉDIA |  |
+|RF-025| Solicitar o preenchimento de dados para a elaboração de perfis de usuários | MÉDIA |  |
 
 
 
@@ -87,11 +88,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005| O sistema deve apresentar interface responsiva para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-006| A Plataforma Save Coin deverá suportar um alto número de acessos simultâneos | MÉDIA |
 |RNF-007| A Plataforma Save Coin deverá ser compatível com os principais browsers | MÉDIA |
-|RNF-008| A Plataforma Save Coin deverá ser desenvolvida com base em um design responsivo a fim de garantir uma boa visibilidade em qualquer dispositivo (Portabilidade) | MÉDIA |
-|RNF-009| A Plataforma Save Coin deverá ser disponível em conexões de internet com baixa velocidade | MÉDIA |
-|RNF-010| A Plataforma Save Coin solicitará o preenchimento de dados para a elaboração de perfis de usuários | MÉDIA |
-|RNF-011| O sistema deverá seguir normas éticas e morais das leis: Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018 e Lei Reguladora dos Direitos Autorais Lei nº 9.610/1998, sendo respeitadas integralmente | BAIXA | 
-|RNF-012| Deve processar requisições do usuário em no máximo 3s | BAIXA | 
+|RNF-008| A Plataforma Save Coin deverá ser disponível em conexões de internet com baixa velocidade | MÉDIA |
+|RNF-009| O sistema deverá seguir normas éticas e morais das leis: Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018 e Lei Reguladora dos Direitos Autorais Lei nº 9.610/1998, sendo respeitadas integralmente | BAIXA | 
+|RNF-010| Deve processar requisições do usuário em no máximo 3s | BAIXA | 
 
 
 
@@ -105,7 +104,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre|
 |02| Deverá ter interação com Json Server|
 |03| A Plataforma Save Coin disponibilizará somente conteúdos relacionados a educação financeira|
-|04| A Plataforma Save Coin creditará todas as fontes e autores utilizados no material educacional disponível|
-|05| A Plataforma Save Coin deverá dispor de conteúdo educacional com base em fontes confiáveis, conhecidas por notória credibilidade e imparcialidade|
-|06| A Plataforma Save Coin deverá ser desenvolvida somente com a colaboração dos seis membros da equipe|
-|07| A Plataforma Save Coin não exibirá propagandas ou anúncios|
+|04| A Plataforma Save Coin deverá dispor de conteúdo educacional com base em fontes confiáveis, conhecidas por notória credibilidade e imparcialidade|
+|05| A Plataforma Save Coin deverá ser desenvolvida somente com a colaboração dos seis membros da equipe|
+|06| A Plataforma Save Coin não exibirá propagandas ou anúncios|
