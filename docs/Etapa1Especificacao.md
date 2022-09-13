@@ -4,7 +4,7 @@ Pré-leitura: [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV
 
 ## Personas
  
-<a href="https://tinyurl.com/mry4pb5k"><img src="https://tinyurl.com/mry4pb5k" width="480px">   <a href="https://tinyurl.com/mr3ncss2"> <img src="https://tinyurl.com/mr3ncss2" width="480px"></a>
+<a href="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t2-projeto-g3-educacao-financeira/main/docs/img/PERSONAS/PERSONA%20GABRIELLY%20-%20GIOVANNY.png?token=GHSAT0AAAAAABYWW6DYVW7DFGRTKIG6Q6BKYZAM3HA"><img src="/docs/img/PERSONAS/PERSONA GABRIELLY - GIOVANNY.png" width="480px">   <a href="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t2-projeto-g3-educacao-financeira/main/docs/img/PERSONAS/PERSONA%20PEDRO%20-%20GIOVANNY.png?token=GHSAT0AAAAAABYWW6DYAY7T52NSZCJF5YCGYZAM3WA"> <img src="/docs/img/PERSONAS/PERSONA PEDRO - GIOVANNY.png" width="480px"></a>
 
 
 ## Histórias de Usuários
