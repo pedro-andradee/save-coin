@@ -21,13 +21,13 @@ Apesar do gosto dos jovens para o consumo, é válido salientar que o cresciment
 Nesse sentido, o nosso projeto tem como objetivo fornecer um caminho mais curto e acessível, uma plataforma com conteúdo informativo e didático, para que os jovens sejam conscientizados da importância de se ter educação financeira desde cedo e estejam devidamente preparados, de modo que consigam construir um futuro mais estável para si mesmos. 
 
 ## 3. Objetivos
-## 3.1 Objetivo geral
+### 3.1 Objetivo geral
 
 O projeto proposto é estruturado sobre o objetivo geral de proporcionar acesso à educação financeira, por meio de informações didáticas e acessíveis, em conformidade com a Lei de Direitos Autorais (Lei 9.610/98), de forma simples e objetiva, hospedado em uma Aplicação Web, baseada em uma interface intuitiva e de fácil acesso, colaborando para a absorção do conhecimento das noções básicas de educação financeira, possibilitando o aprendizado desta importante área de conhecimento e sua aplicação no cotidiano. 
 
 A estrutura temática, apresentada de forma didática, visa instruir os jovens quanto aos principais pilares da educação financeira, auxiliando-os no desenvolvimento dos conceitos e técnicas fundamentais para gestão eficiente de sua renda. Por meio das informações fornecidas na plataforma, o usuário terá acesso aos fundamentos da educação financeira, entendendo o conceito e diferenciação entre despesas fixas e variáveis, além de ser capaz de traçar suas metas financeiras a longo e curto prazo. Além disso, entre os objetivos principais do projeto destaca-se a proteção aos dados do usuário, em respeito à Lei Geral de Proteção de Dados Pessoais (Lei 13.709/18), por meio da aplicação de mecanismos de sigilo que resguardam seu acesso, não permitindo o acesso a perfis e dados que não os seus próprios. 
 
-## 3.2 Objetivos específicos
+### 3.2 Objetivos específicos
 
 O projeto apresentado possui como objetivo específico a disponibilização de ferramentas de gestão financeira a fim de auxiliar o usuário a aplicar seus conhecimentos adquiridos com o material didático disponível em nossa plataforma, resultando em um controle financeiro mais eficiente e dinâmico para o usuário. 
 
