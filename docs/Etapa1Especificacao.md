@@ -9,22 +9,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 <a href="https://tinyurl.com/mry4pb5k"><img src="https://tinyurl.com/mry4pb5k" width="480px">   <a href="https://tinyurl.com/mr3ncss2"> <img src="https://tinyurl.com/mr3ncss2" width="480px"></a>
 
 
-
-
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas supracitadas foram identificadas as seguintes histórias de usuários:
@@ -88,16 +72,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  | Prioridade |
 |-------|-------------------------|----|
-|RNF-001 | O sistema não apresentará ao usuário logado quaisquer dados de cunho privativo de outros usuários | ALTA |
-|RNF-002 | A Plataforma Save Coin deverá estar disponível em 99% do tempo para acesso aos usuários (Confiabilidade) | ALTA |
-|RNF-003 | A Plataforma Save Coin deverá dispor de ferramentas de acessibilidade a fim de garantir o acesso aos usuários com necessidades especiais (Usabilidade) | ALTA |
+|RNF-001| O sistema não apresentará ao usuário logado quaisquer dados de cunho privativo de outros usuários | ALTA |
+|RNF-002| A Plataforma Save Coin deverá estar disponível em 99% do tempo para acesso aos usuários (Confiabilidade) | ALTA |
+|RNF-003| A Plataforma Save Coin deverá dispor de ferramentas de acessibilidade a fim de garantir o acesso aos usuários com necessidades especiais (Usabilidade) | ALTA |
 |RNF-004| A Plataforma Save Coin deverá desenvolvida em HTML, CSS e JavaScript | ALTA |
 |RNF-005| O sistema deve apresentar interface responsiva para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-006| A Plataforma Save Coin deverá suportar um alto número de acessos simultâneos | MÉDIA |
 |RNF-007| A Plataforma Save Coin deverá ser compatível com os principais browsers | MÉDIA |
 |RNF-008| A Plataforma Save Coin deverá ser desenvolvida com base em um design responsivo a fim de garantir uma boa visibilidade em qualquer dispositivo (Portabilidade) | MÉDIA |
 |RNF-009| A Plataforma Save Coin deverá ser disponível em conexões de internet com baixa velocidade | MÉDIA |
-|RNF-010 | A Plataforma Save Coin solicitará o preenchimento de dados para a elaboração de perfis de usuários | MÉDIA |
+|RNF-010| A Plataforma Save Coin solicitará o preenchimento de dados para a elaboração de perfis de usuários | MÉDIA |
 |RNF-011| O sistema deverá seguir normas éticas e morais das leis: Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018 e Lei Reguladora dos Direitos Autorais Lei nº 9.610/1998, sendo respeitadas integralmente | BAIXA | 
 |RNF-012| Deve processar requisições do usuário em no máximo 3s | BAIXA | 
 
@@ -112,8 +96,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre|
 |02| Deverá ter interação com Json Server|
-|03|A Plataforma Save Coin disponibilizará somente conteúdos relacionados a educação financeira|
-|04|A Plataforma Save Coin creditará todas as fontes e autores utilizados no material educacional disponível|
-|05|A Plataforma Save Coin deverá dispor de conteúdo educacional com base em fontes confiáveis, conhecidas por notória credibilidade e imparcialidade|
-|06|A Plataforma Save Coin deverá ser desenvolvida somente com a colaboração dos seis membros da equipe|
-|07|A Plataforma Save Coin não exibirá propagandas ou anúncios|
+|03| A Plataforma Save Coin disponibilizará somente conteúdos relacionados a educação financeira|
+|04| A Plataforma Save Coin creditará todas as fontes e autores utilizados no material educacional disponível|
+|05| A Plataforma Save Coin deverá dispor de conteúdo educacional com base em fontes confiáveis, conhecidas por notória credibilidade e imparcialidade|
+|06| A Plataforma Save Coin deverá ser desenvolvida somente com a colaboração dos seis membros da equipe|
+|07| A Plataforma Save Coin não exibirá propagandas ou anúncios|
