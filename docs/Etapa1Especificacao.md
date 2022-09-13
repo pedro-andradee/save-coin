@@ -12,6 +12,8 @@ Pré-leitura: [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV
 
 <img src="/docs/img/PERSONAS/PERSONA LUDI - GIAN.png" width="480px">    <img src="/docs/img/PERSONAS/PERSONA ROBERTO - GIAN.png" width="480px"></a>
 
+<img src="/docs/img/PERSONAS/PERSONA MARIA - ROMA.png" width="480px"></a>    <img src="/docs/img/PERSONAS/PERSONA JOAO - ROMA.png" width="480px">
+
 ## Histórias de Usuários
 
 Com base na análise das personas supracitadas foram identificadas as seguintes histórias de usuários:
