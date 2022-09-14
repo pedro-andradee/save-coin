@@ -48,31 +48,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |       ID      | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário insira um lembrete de compromissos/marco financeiros | ALTA | GIANLUCA |
-|RF-002| Permitir que o usuário edite um lembrete de compromissos/marco financeiros | BAIXA | GIANLUCA |
-|RF-003| Permitir que o usuário exclua um lembrete de compromissos/marco financeiros | MÉDIA | GIANLUCA |
-|RF-004| Permitir que o usuário visualize um lembrete de compromissos/marco financeiros dentro de uma agenda | ALTA | GIANLUCA |
-|RF-005| A aplicação devera emitir um feedback visual quando o usuário entrar na plataforma x dias antes da data do seu lembrete | ALTA | GIANLUCA |
-|RF-006| A aplicação contará com um QUIZ sobre o conteúdo exibido, ao final da página, o usuário poderá responder ou não | MÉDIA |  |
-|RF-007| Permitir que o usuário insira um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
-|RF-008| Permitir que o usuário exclua um valor significando a sua receita mensal na calculadora de gastos | MÉDIA |  |
-|RF-009| Permitir que o usuário edite um valor significando a sua receita mensal na calculadora de gastos | BAIXA |  |
-|RF-010| Permitir que o usuário visualize um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
-|RF-011| Permitir que o usuário insira um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
-|RF-012| Permitir que o usuário exclua um valor significando o seu gasto mensal na calculadora de gastos | MÉDIA |  |
-|RF-013| Permitir que o usuário edite um valor significando o seu gasto mensal na calculadora de gastos | BAIXA |  |
-|RF-014| Permitir que o usuário visualize um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
-|RF-015| A aplicação devera realizar o cálculo da receita menos (-) os gastos, mostrando o saldo final (positivo ou negativo), quando existir gastos e receita juntos | ALTA |  |
-|RF-016| A aplicação devera mostrar os dados de gastos e receitas ao longo dos 12 meses de um ano por meio de graficos | ALTA |  |
-|RF-017| Permitir que o usuario insira seu perfil na aplicação | ALTA |  |
-|RF-018| Permitir que o usuario vizualize e acompanhe seu perfil | ALTA |  |
-|RF-019| Permitir que o usário edite seu perfil | BAIXA |  |
-|RF-020| Permitir que o usuário exclua seu perfi | MÉDIA |  |
-|RF-021| Permitir que o usuário insira uma meta financeira a ser atingida | ALTA |  |
-|RF-022| Permitir que o usuário visualize uma meta financeira a ser atingida | ALTA |  |
-|RF-023| Permitir que o usuário edite uma meta financeira a ser atingida | BAIXA |  |
-|RF-024| Permitir que o usuário exclua uma meta financeira a ser atingida | MÉDIA |  |
-|RF-025| Solicitar o preenchimento de dados para a elaboração de perfis de usuários | MÉDIA |  |
+|RF-001| Permitir que o usuário faça a gestão de um lembrete de compromissos/marco financeiros | ALTA | GIANLUCA |
+|RF-002| A aplicação devera emitir um feedback visual quando o usuário entrar na plataforma x dias antes da data do seu lembrete | MÉDIA | GIANLUCA |
+|RF-003| A aplicação contará com um QUIZ sobre o conteúdo exibido, ao final da página, o usuário poderá responder ou não | MÉDIA |  |
+|RF-004| Permitir que o usuário faça a gestão de um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
+|RF-005| Permitir que o usuário faça a gestão de um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
+|RF-006| A aplicação devera realizar o cálculo da receita menos (-) os gastos, mostrando o saldo final (positivo ou negativo), quando existir gastos e receita juntos | ALTA |  |
+|RF-007| A aplicação devera mostrar os dados de gastos e receitas ao longo dos 12 meses de um ano por meio de graficos | ALTA |  |
+|RF-008| Permitir que o usuário faça a gestão de uma meta financeira a ser atingida | ALTA |  |
+|RF-009| Permitir que o usuario faça a gestão do seu perfil na aplicação | BAIXA |  |
+|RF-010| Solicitar o preenchimento de dados para a elaboração de perfis de usuários | MÉDIA |  |
+
 
 
 
