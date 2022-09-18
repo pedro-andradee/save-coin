@@ -59,7 +59,7 @@ Os requisitos funcionais representam o que o software faz, em termos de tarefas 
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais são os requisitos relacionados ao uso da aplicação em termos de desempenho, usabilidade, confiabilidade, segurança e tecnologias envolvidas.
-|      ID     | Descrição do Requisito  | Prioridade |
+|       ID      | Descrição do Requisito  | Prioridade |
 |:-------:|-------------------------|----|
 |RNF-001| A Plataforma Save Coin não permitirá ao usuário logado o acesso ou visualização de quaisquer dados de outros usuários (Ético) | ALTA |
 |RNF-002| A Plataforma Save Coin deverá desenvolvida em HTML, CSS e JavaScript (Implementação) | ALTA |
