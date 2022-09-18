@@ -49,8 +49,8 @@ Os requisitos funcionais representam o que o software faz, em termos de tarefas 
 |RF-001| A aplicação deverá realizar o cálculo da receita menos (-) os gastos, exibindo o saldo final (positivo ou negativo) | ALTA |  |
 |RF-002| A aplicação deverá exibir os dados de gastos e receitas ao longo dos 12 meses de um ano por meio de gráficos | ALTA |  |
 |RF-003| A aplicação permitirá que o usuário faça a gestão de um lembrete de compromissos/marco financeiros | ALTA | GIANLUCA |
-|RF-004| A aplicação permitirá que o usuário faça a gestão de um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
-|RF-005| A aplicação permitirá que o usuário faça a gestão de um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
+|RF-004| A aplicação permitirá que o usuário faça a gestão de um valor significando a sua receita mensal na calculadora de gastos | ALTA | PEDRO |
+|RF-005| A aplicação permitirá que o usuário faça a gestão de um valor significando o seu gasto mensal na calculadora de gastos | ALTA | GIOVANNY |
 |RF-006| A aplicação permitirá que o usuário faça a gestão de uma meta financeira a ser atingida | ALTA | ROMÁRIO |
 |RF-007| A aplicação contará com um "Quiz" sobre o conteúdo didático disponibilizado, ao final da página, e o usuário poderá responder ou não | MÉDIA | ROMÁRIO |
 |RF-008| A aplicação deverá exibir um feedback visual quando o usuário acessar a plataforma "X" dias antes da data do seu lembrete | MÉDIA | GIANLUCA |
