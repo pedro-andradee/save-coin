@@ -46,15 +46,15 @@ Os requisitos funcionais representam o que o software faz, em termos de tarefas 
 
 |       ID      | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| A aplicação deverá exibir um feedback visual quando o usuário acessar a plataforma "X" dias antes da data do seu lembrete | MÉDIA | GIANLUCA |
+|RF-001| A aplicação deverá realizar o cálculo da receita menos (-) os gastos, exibindo o saldo final (positivo ou negativo) | ALTA |  |
 |RF-002| A aplicação deverá exibir os dados de gastos e receitas ao longo dos 12 meses de um ano por meio de gráficos | ALTA |  |
-|RF-003| A aplicação contará com um "Quiz" sobre o conteúdo didático disponibilizado, ao final da página, e o usuário poderá responder ou não | MÉDIA | ROMÁRIO |
-|RF-004| A aplicação solicitará o cadastramento de dados para a elaboração de perfis sócio/culturais dos usuários | MÉDIA |  |
-|RF-005| A aplicação deverá realizar o cálculo da receita menos (-) os gastos, exibindo o saldo final (positivo ou negativo) | ALTA |  |
-|RF-006| A aplicação permitirá que o usuário faça a gestão de um lembrete de compromissos/marco financeiros | ALTA | GIANLUCA |
-|RF-007| A aplicação permitirá que o usuário faça a gestão de uma meta financeira a ser atingida | ALTA | ROMÁRIO |
-|RF-008| A aplicação permitirá que o usuário faça a gestão de um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
-|RF-009| A aplicação permitirá que o usuário faça a gestão de um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
+|RF-003| A aplicação permitirá que o usuário faça a gestão de um lembrete de compromissos/marco financeiros | ALTA | GIANLUCA |
+|RF-004| A aplicação permitirá que o usuário faça a gestão de um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
+|RF-005| A aplicação permitirá que o usuário faça a gestão de um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
+|RF-006| A aplicação permitirá que o usuário faça a gestão de uma meta financeira a ser atingida | ALTA | ROMÁRIO |
+|RF-007| A aplicação contará com um "Quiz" sobre o conteúdo didático disponibilizado, ao final da página, e o usuário poderá responder ou não | MÉDIA | ROMÁRIO |
+|RF-008| A aplicação deverá exibir um feedback visual quando o usuário acessar a plataforma "X" dias antes da data do seu lembrete | MÉDIA | GIANLUCA |
+|RF-009| A aplicação solicitará o cadastramento de dados para a elaboração de perfis sócio/culturais dos usuários | MÉDIA |  |
 |RF-010| A aplicação permitirá que o usuario faça a gestão do seu perfil na aplicação | BAIXA |  |
 
 ### Requisitos não Funcionais
