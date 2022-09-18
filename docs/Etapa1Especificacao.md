@@ -62,13 +62,15 @@ Os requisitos não-funcionais são os requisitos relacionados ao uso da aplicaç
 |      ID     | Descrição do Requisito  | Prioridade |
 |:-------:|-------------------------|----|
 |RNF-001| A Plataforma Save Coin não permitirá ao usuário logado o acesso ou visualização de quaisquer dados de outros usuários (Ético) | ALTA |
-|RNF-002| A Plataforma Save Coin deverá estar disponível em 90% do tempo para acesso aos usuários (Confiabilidade) | MÉDIA |
+|RNF-002| A Plataforma Save Coin deverá desenvolvida em HTML, CSS e JavaScript (Implementação) | ALTA |
 |RNF-003| A Plataforma Save Coin deverá dispor de ferramentas de acessibilidade a fim de garantir o acesso aos usuários com necessidades especiais (Usabilidade) | ALTA |
-|RNF-004| A Plataforma Save Coin deverá desenvolvida em HTML, CSS e JavaScript (Implementação) | ALTA |
+|RNF-004| A Plataforma Save Coin deverá estar disponível em 90% do tempo para acesso aos usuários (Confiabilidade) | MÉDIA |
 |RNF-005| A Platarorma Save Coin deverá apresentar interface responsiva para rodar em um dispositivos móvel (Portabilidade)| MÉDIA | 
 |RNF-006| A Plataforma Save Coin deverá ser compatível com os principais browsers (Portabilidade)| MÉDIA |
 |RNF-007| A Plataforma Save Coin deverá seguir normas éticas e morais das leis: Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018 e Lei Reguladora dos Direitos Autorais Lei nº 9.610/1998, sendo respeitadas integralmente (Legal) | MÉDIA | 
 |RNF-008| A Plataforma Save Coin deverá processar requisições do usuário em no máximo 5s (Eficiência) | MÉDIA | 
+
+
 
 ## Restrições
 As restrições de um projeto são fatores limitantes que podem interromper ou comprometer determinada tarefa. Assim, o projeto estará restrito pelos itens apresentados na tabela a seguir.
