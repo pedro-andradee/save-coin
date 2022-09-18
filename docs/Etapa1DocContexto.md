@@ -82,16 +82,37 @@ REIS, Tiago. **Educação financeira: 5 dicas fáceis para melhorar suas finanç
 
 SPC Brasil. **Inadimplência Nacional de Pessoas Físicas**. Disponível em: https://static.poder360.com.br/2022/07/Ana%CC%81lise-Inadimple%CC%82ncia-BRASIL-PF_jun2022.pdf. Acesso em: 1 set. 2022. 
 
-### Anexo | Estado da Arte
+## Anexo I | Estado da Arte
+
+https://www.fecap.br/
+
+https://www.ev.org.br/
+
+https://www.sebrae.com.br/
+
+https://edu.b3.com.br/
+
+http://portal.mec.gov.br/
+
+https://www.mobills.com.br/
+
+https://www.contasonline.com.br/
+
+https://organizze.com.br/
+
+https://www.yupee.com.br/
+
+## Anexo II | Metodologia de Pesquisa
 
 **Tema:** Educação e gestão financeira. 
+
 1. Pergunta: As pessoas sabem gerir suas finanças? 
 2. Resposta: O Brasil apresenta altos índices de inadimplentes. 
 
 **Problema de Pesquisa:** Desconhecimento das boas práticas de gestão financeira. 
 1. Pergunta: Como construir uma cultura de gastos consciente?  
-2. Resposta: Por meio do ensino da educação financeira para os jovens. 
-
+2. Resposta: Por meio do ensino da educação financeira para os jovens.
+ 
 **Objetivo:** Ensinar educação financeira para jovens. 
 
 **Metodologia de pesquisa:** Coleta e análise de dados. 
@@ -112,4 +133,3 @@ SPC Brasil. **Inadimplência Nacional de Pessoas Físicas**. Disponível em: htt
 **Critérios de exclusão:**
 1. Publicações que não se alinham ao contexto do estudo; 
 2. Matérias que apresentem cunho pessoal.
-
