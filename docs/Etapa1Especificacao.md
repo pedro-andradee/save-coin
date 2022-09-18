@@ -14,7 +14,7 @@ Pré-leitura: [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV
 
 <img src="/docs/img/PERSONAS/PERSONA MARIA - ROMA.png" width="480px"></a>    <img src="/docs/img/PERSONAS/PERSONA JOAO - ROMA.png" width="480px">
 
-<img src="/docs/img/PERSONAS/PERSONA BIANCA - DIOVANA.png" width="480px"></a>    <img src="/docs/img/PERSONAS/PERSONA GABRIEL - DIOVANA.png" width="480px">
+<img src="/docs/img/PERSONAS/PERSONA GABRIEL - DIOVANA.png" width="480px"></a>    <img src="/docs/img/PERSONAS/PERSONA BIANCA - DIOVANA.png" width="480px">
 
 
 ## Histórias de Usuários
@@ -49,16 +49,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |       ID      | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir que o usuário faça a gestão de um lembrete de compromissos/marco financeiros | ALTA | GIANLUCA |
-|RF-002| A aplicação devera emitir um feedback visual quando o usuário entrar na plataforma x dias antes da data do seu lembrete | MÉDIA | GIANLUCA |
-|RF-003| A aplicação contará com um QUIZ sobre o conteúdo exibido, ao final da página, o usuário poderá responder ou não | MÉDIA |  |
+|RF-002| A aplicação devera mostrar os dados de gastos e receitas ao longo dos 12 meses de um ano por meio de graficos | ALTA |  |
+|RF-003| Permitir que o usuário faça a gestão de uma meta financeira a ser atingida | ALTA |  |
 |RF-004| Permitir que o usuário faça a gestão de um valor significando a sua receita mensal na calculadora de gastos | ALTA |  |
 |RF-005| Permitir que o usuário faça a gestão de um valor significando o seu gasto mensal na calculadora de gastos | ALTA |  |
 |RF-006| A aplicação devera realizar o cálculo da receita menos (-) os gastos, mostrando o saldo final (positivo ou negativo), quando existir gastos e receita juntos | ALTA |  |
-|RF-007| A aplicação devera mostrar os dados de gastos e receitas ao longo dos 12 meses de um ano por meio de graficos | ALTA |  |
-|RF-008| Permitir que o usuário faça a gestão de uma meta financeira a ser atingida | ALTA |  |
-|RF-009| Permitir que o usuario faça a gestão do seu perfil na aplicação | BAIXA |  |
-|RF-010| Solicitar o preenchimento de dados para a elaboração de perfis de usuários | MÉDIA |  |
-
+|RF-007| A aplicação devera emitir um feedback visual quando o usuário entrar na plataforma x dias antes da data do seu lembrete | MÉDIA | GIANLUCA |
+|RF-008| A aplicação contará com um QUIZ sobre o conteúdo exibido, ao final da página, o usuário poderá responder ou não | MÉDIA |  | 
+|RF-009| Solicitar o preenchimento de dados para a elaboração de perfis de usuários | MÉDIA |  |
+|RF-010| Permitir que o usuario faça a gestão do seu perfil na aplicação | BAIXA |  |
 
 
 
