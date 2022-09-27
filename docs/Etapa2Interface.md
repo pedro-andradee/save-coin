@@ -14,6 +14,12 @@ User Flow é uma técnica que te permite mapear todo fluxo de telas do seu site 
 ### 01. Home Page
 <img src="/docs/img/WIREFRAMES/01. Home Page - Amanda.png" width="480px">
 
+### 02. Cadastro do Usuário
+<img src="/docs/img/WIREFRAMES/02. Cadastro Usuário - Giovanny.png" width="480px">
+
+### 03. Login
+<img src="/docs/img/WIREFRAMES/03. Login - Giovanny.png" width="480px">
+
 ### 04. Material Didático
 <img src="/docs/img/WIREFRAMES/04. Material Didático - Romário.png" width="480px">
 
