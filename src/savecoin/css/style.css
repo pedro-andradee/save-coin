@@ -1,7 +1,29 @@
 body {
     background-color: #FFFDE6;
 }
+.navText {
+    color: black;
+}
+#StyleIcon {
+    color: yellow;
+}
 
-p {
-    color: red;
+.firstIcons > li > a:hover {
+    background-color: #EAD80E;
+}
+
+.backgroudLastIcons {
+    background-color: yellow;
+}
+
+#lastIconsStyle{
+    color:black;
+}
+
+.links > ul > li > a {
+    text-decoration: none;
+}
+
+.copyright {
+    background-color: rgba(0, 0, 0, 0.2);
 }

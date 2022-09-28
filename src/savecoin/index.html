@@ -1,5 +1,7 @@
+
 <!doctype html>
 <html>
+
   <head>
 
     <meta charset="utf-8">
@@ -11,7 +13,7 @@
       content="Diovana, -, -, -, - e -"
     />
 
-    <title>SaveCoin</title>
+    <title>Save Coin</title>
 
     <!-- Bootstrap CSS -->
     <link 
@@ -21,13 +23,12 @@
         crossorigin="anonymous"
     />
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
-    <!-- FontAwesome CSS -->
-    <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        rel="stylesheet"
-    />
-  
+    <!-- Bootstrap ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto&display=swap"
@@ -37,29 +38,78 @@
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet" />
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
-    <!-- FontAwesome JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
-
   </head>
 
   <body>
+    
     <header class="">
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+            <!-- Adicionar o icone do save coin aqui -->
+            <a class="navbar-brand" href="#">SaveCoin</a>
+            <!--  -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
-              </div>
+            
+            <div class="collapse navbar-collapse">
+                
+                <ul class="navbar-nav firstIcons">
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link navText" href="#">Página Inicial <i class="bi bi-house" id="StyleIcon"></i></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link navText" href="#">Agenda <i class="bi bi-calendar-event" id="StyleIcon"></i></i></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link navText" href="#">Agenda <i class="bi bi-calendar-event" id="StyleIcon"></i></i></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link navText" href="#">Agenda <i class="bi bi-calendar-event" id="StyleIcon"></i></i></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link navText" href="#">Agenda <i class="bi bi-calendar-event" id="StyleIcon"></i></i></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link navText" href="#">Agenda <i class="bi bi-calendar-event" id="StyleIcon"></i></i></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link navText" href="#">Agenda <i class="bi bi-calendar-event" id="StyleIcon"></i></i></a>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav lastIcons">
+
+                    <div class="bg-light text-center text-white navItem">
+                        
+                        <li class="nav-item">
+                            <a class="btn btn-outline-dark btn-floating m-1 backgroudLastIcons" href="#!" role="button">
+                                <i class="bi bi-bell" id="lastIconsStyle"></i>
+                            </a>
+                        </li>
+
+                    </div>
+
+                    <div class="bg-light text-center text-white navItem">
+                        
+                        <li class="nav-item">
+                            <a class="btn btn-outline-dark btn-floating m-1 backgroudLastIcons" href="#!" role="button">
+                                <i class="bi bi-bell" id="lastIconsStyle"></i>
+                            </a>
+                        </li>
+
+                    </div>
+
+                </ul>
+             
             </div>
           </nav>
     </header>
@@ -79,98 +129,67 @@
     <footer class="bg-dark text-center text-white">
         
         <div class="container p-4">
+          <p>Acompanhe nossas redes sociais:</p>
           <!-- Section: Social media -->
           <section class="mb-4">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-      
-            <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-google"></i
-            ></a>
-      
             <!-- Instagram -->
             <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-instagram"></i
-            ></a>
-      
-            <!-- Linkedin -->
+              ><i class="bi bi-instagram"></i></a>
+            
+            <!-- Twitter -->
             <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
+                ><i class="bi bi-twitter"></i></a>
+                
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="bi bi-facebook"></i></a>
+            
+            <!-- Youtube -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="bi bi-youtube"></i></a>
       
             <!-- Github -->
             <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-github"></i
-            ></a>
+              ><i class="bi bi-github"></i></a>
           </section>
           <!-- Section: Social media -->
       
           <!-- Section: Form -->
           <section class="">
             <form action="">
-              <!--Grid row-->
               <div class="row d-flex justify-content-center">
-                <!--Grid column-->
-                <div class="col-auto">
-                  <p class="pt-2">
-                    <strong>Sign up for our newsletter</strong>
-                  </p>
-                </div>
-                <!--Grid column-->
-      
-                <!--Grid column-->
                 <div class="col-md-5 col-12">
                   <!-- Email input -->
                   <div class="form-outline form-white mb-4">
-                    <input type="email" id="form5Example21" class="form-control" />
-                    <label class="form-label" for="form5Example21">Email address</label>
+                    <input type="email" id="form5Example21" class="form-control" placeholder="Insira seu e-mail" />
                   </div>
                 </div>
-                <!--Grid column-->
-      
-                <!--Grid column-->
                 <div class="col-auto">
-                  <!-- Submit button -->
                   <button type="submit" class="btn btn-outline-light mb-4">
-                    Subscribe
+                    Cadastre-se
                   </button>
                 </div>
-                <!--Grid column-->
               </div>
-              <!--Grid row-->
             </form>
           </section>
           <!-- Section: Form -->
       
           <!-- Section: Text -->
           <section class="mb-4">
+            <!-- Adicionar o icone da Save Coin Aqui-->
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-              repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-              eum harum corrupti dicta, aliquam sequi voluptate quas.
+              Grupo Save Coin
             </p>
           </section>
           <!-- Section: Text -->
       
           <!-- Section: Links -->
           <section class="">
-            <!--Grid row-->
             <div class="row">
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-      
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 links">
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-white">Link 1</a>
+                    <a href="#!" class="text-white">Página inicial</a>
                   </li>
                   <li>
                     <a href="#!" class="text-white">Link 2</a>
@@ -182,58 +201,15 @@
                     <a href="#!" class="text-white">Link 4</a>
                   </li>
                 </ul>
+
               </div>
               <!--Grid column-->
       
               <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-      
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 links">
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-white">Link 1</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 2</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 3</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 4</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-      
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!" class="text-white">Link 1</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 2</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 3</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 4</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-      
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!" class="text-white">Link 1</a>
+                    <a href="#!" class="text-white">Registro financeiro</a>
                   </li>
                   <li>
                     <a href="#!" class="text-white">Link 2</a>
@@ -248,16 +224,14 @@
               </div>
               <!--Grid column-->
             </div>
-            <!--Grid row-->
           </section>
-          <!-- Section: Links -->
+
         </div>
         <!-- Grid container -->
       
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <div class="text-center p-3 copyright">
+            Copyright © 2022 Grupo Save Coin - Todos os direitos reservados 
         </div>
         <!-- Copyright -->
       </footer>  
