@@ -41,20 +41,20 @@ Nosso projeto proposto é estruturado sobre o objetivo principal de proporcionar
 <table>
 <tr>
 
-<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/Amanda borda.png" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🌎</a></td>
+<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Amanda borda.png" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🌎</a></td>
 
-<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/Dio borda.png" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
+<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Dio borda.png" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
 
-<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/Gian borda.png" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">☀️</a></td>
+<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Gian borda.png" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">☀️</a></td>
 
 </tr>
 <tr>
 
-<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/Giovanny Borda.png" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito"><img src="docs/img/cube.png" width="20px" ></a></td>
+<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Giovanny Borda.png" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito"><img src="docs/img/cube.png" width="20px" ></a></td>
 
-<td align="center"><a href="https://github.com/pedro-andradee"><img style="border-radius: 50%;" src="docs/img/Pedro borda.png" width="100px;" alt=""/><br /><sub><b>Pedro Andrade</b></sub></a><br /><a href="https://github.com/pedro-andradee" title="Pedro Andrade">🚀</a></td>
+<td align="center"><a href="https://github.com/pedro-andradee"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Pedro borda.png" width="100px;" alt=""/><br /><sub><b>Pedro Andrade</b></sub></a><br /><a href="https://github.com/pedro-andradee" title="Pedro Andrade">🚀</a></td>
 
-<td align="center"><a href="https://github.com/romamedeiros"><img style="border-radius: 50%;" src="docs/img/Roma borda.png" width="100px;" alt=""/><br /><sub><b>Romário Medeiros</b></sub></a><br /><a href="https://github.com/romamedeiros" title="Romário Medeiros">🎸</a></td>
+<td align="center"><a href="https://github.com/romamedeiros"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Roma borda.png" width="100px;" alt=""/><br /><sub><b>Romário Medeiros</b></sub></a><br /><a href="https://github.com/romamedeiros" title="Romário Medeiros">🎸</a></td>
 
 </tr>
 </table>
@@ -64,7 +64,7 @@ Nosso projeto proposto é estruturado sobre o objetivo principal de proporcionar
 
 <div align="center">
 
-<td align="center"><a href="https://github.com/KleberSouza"><img style="border-radius: 50%;" src="docs/img/kleber borda.png" width="100px;" alt=""/><br /><sub><b>Kleber Souza</b></sub></a><br /><a href="https://github.com/KleberSouza" title="Kleber Souza">🕶️</a></td>
+<td align="center"><a href="https://github.com/KleberSouza"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/kleber borda.png" width="100px;" alt=""/><br /><sub><b>Kleber Souza</b></sub></a><br /><a href="https://github.com/KleberSouza" title="Kleber Souza">🕶️</a></td>
 
 </div> 
 
