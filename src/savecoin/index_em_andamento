@@ -116,17 +116,13 @@
           </nav>
     </header>
 
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-
+    <div class="bg-image">
+  <img
+    src="https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63644.jpg?w=1800&t=st=1664819924~exp=1664820524~hmac=8ce2e8ed3d003f49109a67a6c7280c4b4a350efc10e3a704b3aa46080f72f848"
+    class="img-fluid"
+    alt="Sample"
+  />
+  
     <!-- RODAPÉ -->
     <footer class="bg-dark text-center text-white">
         <div class="container p-4">
