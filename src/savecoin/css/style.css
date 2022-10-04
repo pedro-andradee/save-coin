@@ -9,6 +9,14 @@ body {
     color: yellow;
 }
 
+.navBarItems {
+    justify-content: space-between;
+}
+
+.firstIcons > li {
+    margin-left: 100px;
+}
+
 .firstIcons > li > a:hover {
     background-color: #EAD80E;
 }
