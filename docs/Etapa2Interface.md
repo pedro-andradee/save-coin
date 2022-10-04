@@ -21,7 +21,7 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 
 ### 01. Home Page
 <p align="center">
-<img src="/docs/img/WIREFRAMES/01. Home Page.png" width="480px">
+<img src="/docs/img/WIREFRAMES/01. Home Page.png" width="480px" height="480px">
 </p>
 
 ### 02. Tela de Login
