@@ -7,22 +7,30 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 User Flow é uma técnica que te permite mapear todo fluxo de telas do seu site ou aplicativo de forma rápida. Essa técnica funciona bem para alinhar os caminhos e ações que o usuário pode fazer junto com os membros do time.
 
 ### 01. User Flow | Save Coin
+<p align="center">
 <img src="/docs/img/USERFLOW/User Flow - Save Coin.jpg" width="480px">
+</p>
 
 ## Wireframes
 Os Wireframes são representações da diagramação e das estruturas macro do site, ou seja, apresentamos como pensamos a divisão da interface em seções.
 
 ### 00. Template Padrão
+<p align="center">
 <img src="/docs/img/WIREFRAMES/00. Template Padrão.png" width="480px">
+</p>
 
 ### 01. Home Page
+<p align="center">
 <img src="/docs/img/WIREFRAMES/01. Home Page.png" width="480px">
+</p>
 
 ### 02. Tela de Login
 
 
 ### 03. Home Page do Usuário
+<p align="center">
 <img src="/docs/img/WIREFRAMES/03. Home Page do Usuário.png" width="480px">
+</p>
 
 ### 04. Agenda
 
@@ -37,13 +45,19 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 
 
 ### 08. Material Didático
+<p align="center">
 <img src="/docs/img/WIREFRAMES/08. Material Didático.png" width="480px">
+</p>
 
 ### 09. Matéria
+<p align="center">
 <img src="/docs/img/WIREFRAMES/09. Matéria.png" width="480px">
+</p>
 
 ### 10. Quiz
+<p align="center">
 <img src="/docs/img/WIREFRAMES/10. Quiz.png" width="480px">
+</p>
 
 ### 11. Registro Financeiro
 
@@ -61,4 +75,6 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 
 
 ### 16. Questionário 
+<p align="center">
 <img src="/docs/img/WIREFRAMES/16. Questionário.png" width="480px">
+</p>
