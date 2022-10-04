@@ -21,11 +21,13 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 
 ### 01. Home Page
 <p align="center">
-<img src="/docs/img/WIREFRAMES/01. Home Page.png" width="480px" height="480px">
+<img src="/docs/img/WIREFRAMES/01. Home Page.png" width="480px">
 </p>
 
 ### 02. Tela de Login
+<p align="center">
 
+</p>
 
 ### 03. Home Page do Usuário
 <p align="center">
@@ -33,16 +35,24 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 </p>
 
 ### 04. Agenda
+<p align="center">
 
+</p>
 
 ### 05. Edição da Agenda
+<p align="center">
 
+</p>
 
 ### 06. Pou-up de Lembrete da Agenda
+<p align="center">
 
+</p>
 
 ### 07. Lembrete da Agenda
+<p align="center">
 
+</p>
 
 ### 08. Material Didático
 <p align="center">
@@ -60,19 +70,29 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 </p>
 
 ### 11. Registro Financeiro
+<p align="center">
 
+</p>
 
 ### 12. Edição do Registro Financeiro
+<p align="center">
 
+</p>
 
 ### 13. Meta Financeira
+<p align="center">
 
+</p>
 
 ### 14. Edição Meta Financeira
+<p align="center">
 
+</p>
 
 ### 15. Edição do Perfil de Usuário
+<p align="center">
 
+</p>
 
 ### 16. Questionário 
 <p align="center">
