@@ -26,7 +26,7 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 
 ### 02. Tela de Login
 <p align="center">
-
+<img src="/docs/img/WIREFRAMES/02. Tela de Login.png" width="480px">
 </p>
 
 ### 03. Home Page do Usuário
@@ -91,7 +91,7 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 
 ### 15. Edição do Perfil de Usuário
 <p align="center">
-
+<img src="/docs/img/WIREFRAMES/15. Edição Perfil.png" width="480px">
 </p>
 
 ### 16. Questionário 
