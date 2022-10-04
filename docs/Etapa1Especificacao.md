@@ -2,7 +2,7 @@
 
 Pré-leitura: [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t2-projeto-g3-educacao-financeira/blob/main/docs/Etapa1DocContexto.md)
 
-## Personas
+## 1. Personas
 <p align="justify">
 Persona é a representação fictícia do cliente ideal de um negócio. É baseada em dados reais sobre comportamento e características demográficas dos clientes, assim como histórias pessoais, motivações, objetivos, desafios e preocupações.
 </p>
@@ -19,7 +19,7 @@ Persona é a representação fictícia do cliente ideal de um negócio. É basea
 
 <img src="/docs/img/PERSONAS/PERSONA GABRIEL - DIOVANA.png" width="480px"></a>    <img src="/docs/img/PERSONAS/PERSONA BIANCA - DIOVANA.png" width="480px">
 
-## Histórias de Usuários
+## 2. Histórias de Usuários
 <p align="justify">
 A história do usuário é uma explicação informal e geral sobre um recurso de software escrita a partir da perspectiva do usuário final ou cliente. Dessa forma, com base na análise das personas supracitadas foram identificadas as seguintes histórias de usuários:
 </p>
@@ -42,12 +42,12 @@ A história do usuário é uma explicação informal e geral sobre um recurso de
 | TOBIAS | Usuário do Save Coin | Acompanhar os meus registros de gastos mensalmente | Eu consiga poupar uma parte do meu salário e consiga juntar dinheiro para viajar |
 | CARMEN | Usuária do Save Coin | Uma ferramenta de acessibilidade que leia a tela do conteúdo didático sobre educação financeira | Eu possa aprender o conteúdo sobre educação financeira disponibilizado |
 
-## Requisitos
+## 3. Requisitos
 <p align="justify">
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 </p>
  
-### Requisitos Funcionais
+### 3.1 Requisitos Funcionais
 <p align="justify">
 Os requisitos funcionais representam o que o software faz, em termos de tarefas e serviços.
 </p>
@@ -67,7 +67,7 @@ Os requisitos funcionais representam o que o software faz, em termos de tarefas 
 |RF-011|A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO|ALTO|ROMÁRIO|
 |RF-012|A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ|ALTO|ROMÁRIO|
 
-### Requisitos não Funcionais
+### 3.2 Requisitos não Funcionais
 <p align="justify">
 Os requisitos não-funcionais são os requisitos relacionados ao uso da aplicação em termos de desempenho, usabilidade, confiabilidade, segurança e tecnologias envolvidas.
 </p>
@@ -82,7 +82,7 @@ Os requisitos não-funcionais são os requisitos relacionados ao uso da aplicaç
 |RNF-006| A Plataforma Save Coin deverá seguir normas éticas e morais das leis: Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018 e Lei Reguladora dos Direitos Autorais Lei nº 9.610/1998, sendo respeitadas integralmente (Legal) | MÉDIA | 
 |RNF-007| A Plataforma Save Coin deverá processar requisições do usuário em no máximo 5s (Eficiência) | MÉDIA | 
 
-## Restrições
+## 4. Restrições
 <p align="justify">
 As restrições de um projeto são fatores limitantes que podem interromper ou comprometer determinada tarefa. Assim, o projeto estará restrito pelos itens apresentados na tabela a seguir.
 </p>
