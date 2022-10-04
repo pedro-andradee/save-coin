@@ -10,33 +10,55 @@ User Flow é uma técnica que te permite mapear todo fluxo de telas do seu site 
 <img src="/docs/img/USERFLOW/User Flow - Save Coin.jpg" width="480px">
 
 ## Wireframes
+Os Wireframes são representações da diagramação e das estruturas macro do site, ou seja, apresentamos como pensamos a divisão da interface em seções.
+
+### 00. Template Padrão
+<img src="/docs/img/WIREFRAMES/00. Template Padrão.png" width="480px">
 
 ### 01. Home Page
-<img src="/docs/img/WIREFRAMES/01. Home Page - Amanda.png" width="480px">
 
-### 02. Cadastro do Usuário
-<img src="/docs/img/WIREFRAMES/02. Cadastro Usuário - Giovanny.png" width="480px">
 
-### 03. Login
-<img src="/docs/img/WIREFRAMES/03. Login - Giovanny.png" width="480px">
+### 02. Tela de Login
 
-### 04. Material Didático
-<img src="/docs/img/WIREFRAMES/04. Material Didático - Romário.png" width="480px">
 
-### 05. Quiz
-<img src="/docs/img/WIREFRAMES/05. Quiz - Romário.png" width="480px"> 
+### 03. Home Page do Usuário
 
-### 06. Agenda
-<img src="/docs/img/WIREFRAMES/06. Agenda - Gianluca.png" width="480px"> 
 
-### 07. Feedback
-<img src="/docs/img/WIREFRAMES/07. Notificação Agenda - Gianluca.png" width="480px"> 
+### 04. Agenda
 
-### 08. Registro Financeiro
-<img src="/docs/img/WIREFRAMES/08. Calculadora de Gastos - Amanda, Diovana, Giovanny.png" width="480px"> 
 
-### 09. CRUD Registro Financeiro
-<img src="/docs/img/WIREFRAMES/09. CRUD Calculadora de Gastos - Amanda, Diovana, Giovanny.png" width="480px"> 
+### 05. Edição da Agenda
 
-### 10. CRUD Metas Financeiras
-<img src="/docs/img/WIREFRAMES/10. Meta Financeira - Pedro.png" width="480px"> 
+
+### 06. Pou-up de Lembrete da Agenda
+
+
+### 07. Lembrete da Agenda
+
+
+### 08. Material Didático
+<img src="/docs/img/WIREFRAMES/08. Material Didático.png" width="480px">
+
+### 09. Matéria
+<img src="/docs/img/WIREFRAMES/09. Matéria.png" width="480px">
+
+### 10. Quiz
+<img src="/docs/img/WIREFRAMES/10. Quiz.png" width="480px">
+
+### 11. Registro Financeiro
+
+
+### 12. Edição do Registro Financeiro
+
+
+### 13. Meta Financeira
+
+
+### 14. Edição Meta Financeira
+
+
+### 15. Edição do Perfil de Usuário
+
+
+### 16. Questionário 
+<img src="/docs/img/WIREFRAMES/16. Questionário.png" width="480px">
