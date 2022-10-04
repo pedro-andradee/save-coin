@@ -3,7 +3,9 @@
 Pré-leitura: [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t2-projeto-g3-educacao-financeira/blob/main/docs/Etapa1DocContexto.md)
 
 ## Personas
+<p align="justify">
 Persona é a representação fictícia do cliente ideal de um negócio. É baseada em dados reais sobre comportamento e características demográficas dos clientes, assim como histórias pessoais, motivações, objetivos, desafios e preocupações.
+</p>
  
 <img src="/docs/img/PERSONAS/PERSONA GABRIELLY - GIOVANNY.png" width="480px">    <img src="/docs/img/PERSONAS/PERSONA PEDRO - GIOVANNY.png" width="480px"></a>
  
@@ -18,7 +20,9 @@ Persona é a representação fictícia do cliente ideal de um negócio. É basea
 <img src="/docs/img/PERSONAS/PERSONA GABRIEL - DIOVANA.png" width="480px"></a>    <img src="/docs/img/PERSONAS/PERSONA BIANCA - DIOVANA.png" width="480px">
 
 ## Histórias de Usuários
+<p align="justify">
 A história do usuário é uma explicação informal e geral sobre um recurso de software escrita a partir da perspectiva do usuário final ou cliente. Dessa forma, com base na análise das personas supracitadas foram identificadas as seguintes histórias de usuários:
+</p>
 
 |PERSONA | COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|--------------------|------------------------------------|----------------------------------------|
@@ -39,45 +43,53 @@ A história do usuário é uma explicação informal e geral sobre um recurso de
 | CARMEN | Usuária do Save Coin | Uma ferramenta de acessibilidade que leia a tela do conteúdo didático sobre educação financeira | Eu possa aprender o conteúdo sobre educação financeira disponibilizado |
 
 ## Requisitos
+<p align="justify">
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
+</p>
+ 
 ### Requisitos Funcionais
+<p align="justify">
 Os requisitos funcionais representam o que o software faz, em termos de tarefas e serviços.
-
+</p>
+ 
 |       ID      | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| A aplicação deverá realizar o cálculo da receita menos (-) os gastos, exibindo o saldo final (positivo ou negativo) | ALTA | GIOVANNY |
-|RF-002| A aplicação deverá exibir os dados de gastos e receitas ao longo dos 12 meses de um ano por meio de gráficos | ALTA | AMANDA |
-|RF-003| A aplicação permitirá que o usuário faça a gestão de um lembrete de compromissos/marco financeiros | ALTA | GIANLUCA |
-|RF-004| A aplicação permitirá que o usuário faça a gestão de um valor significando a sua receita mensal na calculadora de gastos | ALTA | DIOVANA |
-|RF-005| A aplicação permitirá que o usuário faça a gestão de um valor significando o seu gasto mensal na calculadora de gastos | ALTA | DIOVANA |
-|RF-006| A aplicação permitirá que o usuário faça a gestão de uma meta financeira a ser atingida | ALTA | PEDRO |
-|RF-007| A aplicação contará com um "Quiz" sobre o conteúdo didático disponibilizado, ao final da página, e o usuário poderá responder ou não | MÉDIA | ROMÁRIO |
-|RF-008| A aplicação deverá exibir um feedback visual quando o usuário acessar a plataforma "X" dias antes da data do seu lembrete | MÉDIA | GIANLUCA |
-|RF-009| A aplicação solicitará o cadastramento de dados para a elaboração de perfis sócio/culturais dos usuários | MÉDIA | ROMÁRIO |
-|RF-010| A aplicação permitirá que o usuario faça a gestão do seu perfil na aplicação | BAIXA | GIOVANNY |
+|RF-001|A aplicação apresentará uma HOME PAGE para acesso a determinadas seções sem necessidade de login|ALTA|AMANDA
+|RF-002|A aplicação apresentará graficamente os dados relativos às receitas e despesas dos últimos 12 na funcionalidade REGISTRO FINANCEIRO|MÉDIA|AMANDA|
+|RF-003|A aplicação permitirá que o usuário realize a gestão dos valores de receitas mensais na funcionalidade REGISTRO FINANCEIRO|ALTA|DIOVANA|
+|RF-004|A aplicação permitirá que o usuário realize a gestão dos valores de despesas mensais na funcionalidade REGISTRO FINANCEIRO|ALTA|DIOVANA|
+|RF-005|A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA|ALTA|GIANLUCA|
+|RF-006|A aplicação apresentará uma notificação visual informando sobre a proximidade dos lembretes financeiros adicionados na funcionalidade AGENDA|MÉDIA|GIANLUCA|
+|RF-007|A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação|MÉDIA|GIOVANNY|
+|RF-008|A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO|ALTA|GIOVANNY|
+|RF-009|A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA|ALTA|PEDRO|
+|RF-010|A aplicação apresentará uma HOME PAGE DE USUÁRIO para acesso a todas as seções da plataforma após realização do login|ALTA|PEDRO|
+|RF-011|A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO|ALTO|ROMÁRIO|
+|RF-012|A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ|ALTO|ROMÁRIO|
 
 ### Requisitos não Funcionais
+<p align="justify">
 Os requisitos não-funcionais são os requisitos relacionados ao uso da aplicação em termos de desempenho, usabilidade, confiabilidade, segurança e tecnologias envolvidas.
+</p>
+ 
 |       ID      | Descrição do Requisito  | Prioridade |
 |:-------:|-------------------------|----|
-|RNF-001| A Plataforma Save Coin não permitirá ao usuário logado o acesso ou visualização de quaisquer dados de outros usuários (Ético) | ALTA |
-|RNF-002| A Plataforma Save Coin deverá desenvolvida em HTML, CSS e JavaScript (Implementação) | ALTA |
-|RNF-003| A Plataforma Save Coin deverá dispor de ferramentas de acessibilidade a fim de garantir o acesso aos usuários com necessidades especiais (Usabilidade) | ALTA |
-|RNF-004| A Plataforma Save Coin deverá estar disponível em 90% do tempo para acesso aos usuários (Confiabilidade) | MÉDIA |
-|RNF-005| A Platarorma Save Coin deverá apresentar interface responsiva para rodar em um dispositivos móvel (Portabilidade)| MÉDIA | 
-|RNF-006| A Plataforma Save Coin deverá ser compatível com os principais browsers (Portabilidade)| MÉDIA |
-|RNF-007| A Plataforma Save Coin deverá seguir normas éticas e morais das leis: Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018 e Lei Reguladora dos Direitos Autorais Lei nº 9.610/1998, sendo respeitadas integralmente (Legal) | MÉDIA | 
-|RNF-008| A Plataforma Save Coin deverá processar requisições do usuário em no máximo 5s (Eficiência) | MÉDIA | 
-
-
+|RNF-001| A Plataforma Save Coin não permitirá ao usuário logado acessar ou visualizar de quaisquer dados de outros usuários da plataforma (Ético) | ALTA |
+|RNF-002| A Plataforma Save Coin deverá ser desenvolvida em HTML, CSS e JavaScript (Implementação) | ALTA |
+|RNF-003| A Plataforma Save Coin deverá estar disponível em 90% do tempo para acesso aos usuários (Confiabilidade) | MÉDIA |
+|RNF-004| A Platarorma Save Coin deverá apresentar interface responsiva para rodar em um dispositivos móvel (Portabilidade)| MÉDIA | 
+|RNF-005| A Plataforma Save Coin deverá ser compatível com os principais browsers (Portabilidade)| MÉDIA |
+|RNF-006| A Plataforma Save Coin deverá seguir normas éticas e morais das leis: Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018 e Lei Reguladora dos Direitos Autorais Lei nº 9.610/1998, sendo respeitadas integralmente (Legal) | MÉDIA | 
+|RNF-007| A Plataforma Save Coin deverá processar requisições do usuário em no máximo 5s (Eficiência) | MÉDIA | 
 
 ## Restrições
+<p align="justify">
 As restrições de um projeto são fatores limitantes que podem interromper ou comprometer determinada tarefa. Assim, o projeto estará restrito pelos itens apresentados na tabela a seguir.
-
+</p>
+ 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O Projeto (Plataforma Save Coin) deverá ser entregue até o final do semestre|
+|01| O Projeto (Plataforma Save Coin) deverá ser entregue até o final do semestre letivo|
 |02| A Plataforma Save Coin disponibilizará somente conteúdos relacionados a educação financeira|
-|03| A Plataforma Save Coin deverá ser desenvolvida somente com a colaboração dos seis membros da equipe|
+|03| A Plataforma Save Coin deverá ser desenvolvida somente com a colaboração dos seis membros integrantes da equipe|
 |04| A Plataforma Save Coin não exibirá propagandas ou anúncios|
