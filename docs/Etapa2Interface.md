@@ -111,12 +111,12 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 
 ### 11. Registro Financeiro
 <p align="center">
-
+<img src="/docs/img/WIREFRAMES/11. Registro Financeiro.png" width="480px">
 </p>
 
 ### 12. Edição do Registro Financeiro
 <p align="center">
-
+<img src="/docs/img/WIREFRAMES/12. Edição Registro Financeiro.png" width="480px">
 </p>
 
 ### 13. Meta Financeira
