@@ -1,18 +1,58 @@
 
 # Projeto de Interface
-
+<p align="justify">
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+</p>
 
 ## User Flow
+<p align="justify">
 User Flow é uma técnica que te permite mapear todo fluxo de telas do seu site ou aplicativo de forma rápida. Essa técnica funciona bem para alinhar os caminhos e ações que o usuário pode fazer junto com os membros do time.
+</p>
 
-### 01. User Flow | Save Coin
+### 00. User Flow | Save Coin
+<p align="justify">
+User Flow de todos os caminhos e ações presentes na plataforma Save Coin.
+</p>
 <p align="center">
-<img src="/docs/img/USERFLOW/User Flow - Save Coin.jpg" width="480px">
+<img src="/docs/img/USERFLOW/00. User Flor - Save Coin.png" width="480px">
+</p>
+
+### 01. User Flow Usuário-alvo | Gabriel
+<p align="justify">
+User Flow para adição de receita mensal na funcionalidade Registro Financeiro.
+</p>
+<p align="center">
+<img src="/docs/img/USERFLOW/01. User Flow - Gabriel.jpg" width="480px">
+</p>
+
+### 02. User Flow Usuário-alvo | Gabriely
+<p align="justify">
+User Flow para adição atualização de meta na funcionalidade Meta Financeira.
+</p>
+<p align="center">
+<img src="/docs/img/USERFLOW/02. User Flow - Gabriely.jpg" width="480px">
+</p>
+
+### 03. User Flow Usuário-alvo | Roberto
+<p align="justify">
+User Flow para adição de lembrente de evento financeiro na funcionalidade Agenda.
+</p>
+<p align="center">
+<img src="/docs/img/USERFLOW/03. User Flow - Roberto.jpg" width="480px">
+</p>
+
+### 04. User Flow Usuário-alvo | Bianca
+<p align="justify">
+User Flow para leitura dos artigos educativos na funcionalidade Material Didático e realização da avaliação de conhecimento na funcionalidade Quiz.
+</p>
+<p align="center">
+<img src="/docs/img/USERFLOW/04. User Flow - Bianca.jpg" width="480px">
 </p>
 
 ## Wireframes
+<p align="justify">
 Os Wireframes são representações da diagramação e das estruturas macro do site, ou seja, apresentamos como pensamos a divisão da interface em seções.
+</p>
 
 ### 00. Template Padrão
 <p align="center">
