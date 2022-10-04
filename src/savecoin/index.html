@@ -1,103 +1,109 @@
-
 <!doctype html>
 <html>
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-      name="author"
-      content="Diovana, Pedro, -, -, - e -"
-    />
+    <meta name="author" content="Diovana, Pedro, -, -, - e -" />
 
     <title>Save Coin</title>
 
     <!-- Bootstrap CSS -->
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
-        rel="stylesheet" 
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
-        crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 
     <!-- Bootstrap ICON -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto&display=swap"
-        rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto&display=swap" rel="stylesheet" />
 
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet" />
 
-  </head>
+</head>
 
-  <body>
-    
+<body>
+
     <header class="">
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-light bg-dark p-2">
             <!--  -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="collapse navbar-collapse navBarItems">
-                
-                <ul class="navbar-nav firstIcons">
-                    
+
+                <ul class="navbar-nav">
+
                     <li class="nav-item active">
-                        <a class="nav-link navText" href="#">Página Inicial<i class="bi bi-house" id="StyleIcon"></i></a>
+                        <a class="nav-link navText" href="#">
+                            <i class="bi bi-house" id="StyleIcon"></i>
+                            <span>Página Inicial</span>
+                        </a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link navText" href="#">Agenda <i class="bi bi-calendar-event" id="StyleIcon"></i></a>
+                        <a class="nav-link navText" href="#">
+                            <i class="bi bi-calendar-event" id="StyleIcon"></i>
+                            <span>Agenda</span>
+                        </a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link navText" href="#">Meta financeira <i class="bi bi-graph-up" id="StyleIcon"></i></a>
+                        <a class="nav-link navText" href="#">
+                            <i class="bi bi-graph-up" id="StyleIcon"></i>
+                            <span>Meta financeira</span>
+                        </a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link navText" href="#">Material didático <i class="bi bi-book" id="StyleIcon"></i></a>
+                        <a class="nav-link navText" href="#">
+                            <i class="bi bi-book" id="StyleIcon"></i>
+                            <span>Material didático</span>
+                        </a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link navText" href="#">Registro financeiro <i class="bi bi-file-earmark-bar-graph" id="StyleIcon"></i></a>
+                        <a class="nav-link navText" href="#">
+                            <i class="bi bi-file-earmark-bar-graph" id="StyleIcon"></i>
+                            <span>Registro financeiro</span>
+                        </a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link navText" href="#">Quiz <i class="bi bi-card-checklist" id="StyleIcon"></i></a>
+                        <a class="nav-link navText" href="#">
+                            <i class="bi bi-card-checklist" id="StyleIcon"></i>
+                            <span>Quiz</span>
+                        </a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link navText" href="#">Sobre nós <i class="bi bi-people-fill" id="StyleIcon"></i></a>
+                        <a class="nav-link navText" href="#">
+                            <i class="bi bi-people-fill" id="StyleIcon"></i>
+                            <span>Sobre nós</span>
+                        </a>
                     </li>
 
-                </ul>
-
-                <ul class="navbar-nav lastIcons">
-
-                    <div class="bg-dark text-center text-white navItem">
-                        
+                    <div class="bg-dark text-center text-white navLastItem">
                         <li class="nav-item">
                             <a class="btn btn-outline-dark btn-floating m-1 backgroudLastIcons" href="#!" role="button">
                                 <i class="bi bi-bell" id="lastIconsStyle"></i>
                             </a>
                         </li>
-
                     </div>
 
-                    <div class="bg-dark text-center text-white navItem">
-                        
+                    <div class="bg-dark text-center text-white navLastItem">
                         <li class="nav-item">
                             <a class="btn btn-outline-dark btn-floating m-1 backgroudLastIcons" href="#!" role="button">
                                 <i class="bi bi-person" id="lastIconsStyle"></i>
@@ -107,132 +113,145 @@
                     </div>
 
                 </ul>
-             
+
+
             </div>
-          </nav>
+        </nav>
     </header>
 
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just
+        like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just
+        like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just
+        like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just
+        like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just
+        like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just
+        like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just
+        like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just
+        like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just
+        like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example aaaaaaaaparagraph. Anything in the <strong>body</strong> tag will appear on the page, just
+        like this <strong>p</strong> tag and its contents.</p>
 
     <!-- RODAPÉ -->
     <footer class="bg-dark text-center text-white">
-        
-        <div class="container p-4">
-          <p>Acompanhe nossas redes sociais:</p>
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="bi bi-instagram"></i></a>
-            
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                ><i class="bi bi-twitter"></i></a>
-                
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="bi bi-facebook"></i></a>
-            
-            <!-- Youtube -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="bi bi-youtube"></i></a>
-      
-            <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="bi bi-github"></i></a>
-          </section>
-          <!-- Section: Social media -->
-      
-          <!-- Section: Form -->
-          <section class="">
-            <form action="">
-              <div class="row d-flex justify-content-center">
-                <div class="col-md-5 col-12">
-                  <!-- Email input -->
-                  <div class="form-outline form-white mb-4">
-                    <input type="email" id="form5Example21" class="form-control" placeholder="Insira seu e-mail" />
-                  </div>
-                </div>
-                <div class="col-auto">
-                  <button type="submit" class="btn btn-outline-light mb-4">
-                    Cadastre-se
-                  </button>
-                </div>
-              </div>
-            </form>
-          </section>
-          <!-- Section: Form -->
-      
-          <!-- Section: Text -->
-          <section class="mb-4">
-            <!-- Adicionar o icone da Save Coin Aqui-->
-            <p>
-              Grupo Save Coin
-            </p>
-          </section>
-          <!-- Section: Text -->
-      
-          <!-- Section: Links -->
-          <section class="">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 links">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!" class="text-white">Página inicial</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 2</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 3</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 4</a>
-                  </li>
-                </ul>
 
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 links">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!" class="text-white">Registro financeiro</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 2</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 3</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 4</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-            </div>
-          </section>
+        <div class="container p-4">
+            <p>Acompanhe nossas redes sociais:</p>
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="bi bi-instagram"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="bi bi-twitter"></i></a>
+
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="bi bi-facebook"></i></a>
+
+                <!-- Youtube -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="bi bi-youtube"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="bi bi-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control"
+                                    placeholder="Insira seu e-mail" />
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Cadastre-se
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <!-- Adicionar o icone da Save Coin Aqui-->
+                <p>
+                    Grupo Save Coin
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 links">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Página inicial</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 4</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 links">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Registro financeiro</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+            </section>
 
         </div>
         <!-- Grid container -->
-      
+
         <!-- Copyright -->
         <div class="text-center p-3 copyright">
-            Copyright © 2022 Grupo Save Coin - Todos os direitos reservados 
+            Copyright © 2022 Grupo Save Coin - Todos os direitos reservados
         </div>
         <!-- Copyright -->
-      </footer>  
+    </footer>
 
-  </body>
+</body>
+
 </html>
