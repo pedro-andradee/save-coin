@@ -63,7 +63,7 @@ Os requisitos funcionais representam o que o software faz, em termos de tarefas 
 |RF-007|A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação|MÉDIA|GIOVANNY|
 |RF-008|A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO|ALTA|GIOVANNY|
 |RF-009|A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA|ALTA|PEDRO|
-|RF-010|A aplicação apresentará uma HOME PAGE DE USUÁRIO para acesso a todas as seções da plataforma após realização do login|ALTA|PEDRO|
+|RF-010|A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas|ALTA|PEDRO|
 |RF-011|A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO|ALTO|ROMÁRIO|
 |RF-012|A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ|ALTO|ROMÁRIO|
 
