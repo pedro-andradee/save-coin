@@ -76,22 +76,22 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 
 ### 04. Agenda
 <p align="center">
-
+<img src="/docs/img/WIREFRAMES/04. Agenda.png" width="480px">
 </p>
 
 ### 05. Edição da Agenda
 <p align="center">
-
+<img src="/docs/img/WIREFRAMES/05. Edição Agenda.png" width="480px">
 </p>
 
 ### 06. Pou-up de Lembrete da Agenda
 <p align="center">
-
+<img src="/docs/img/WIREFRAMES/06. Pop-up Agenda.png" width="480px">
 </p>
 
-### 07. Lembrete da Agenda
+### 07. Lembrete da Agenda na Home Page do Usuário
 <p align="center">
-
+<img src="/docs/img/WIREFRAMES/07. Lembrete Agenda.png" width="480px">
 </p>
 
 ### 08. Material Didático
