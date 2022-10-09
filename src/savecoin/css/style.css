@@ -52,3 +52,7 @@ nav ul > li > a {
 .links > ul > li > a {
     text-decoration: none;
 }
+
+main {
+    min-height: 529px;
+}
