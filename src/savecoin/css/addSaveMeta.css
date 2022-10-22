@@ -1,0 +1,54 @@
+.yellowBar {
+    display: block;
+    background-color: #EAD80E;
+}
+
+.yellowBarContent {
+    text-align: center;
+    padding: 2% 32%;
+}
+
+.yellowBarContent h4 {
+    padding-top: 2%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 2em;
+    gap: 1.2em;
+}
+
+fieldset legend {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.formItem label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.formItem .input_descricao {
+    max-width: 35vw;
+}
+
+.formItem input {
+    max-width: 20vw;
+    padding: 0.5em;
+}
+
+.saveButton {
+    background-color: #EAD80E;
+    width: 8rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+}
