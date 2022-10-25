@@ -36,7 +36,7 @@ body main {
     color: rgb(3, 3, 3);
     text-shadow: 1px 1px 1px rgb(180, 174, 174);
     border-radius: 50px;
-    background-color: #EAD80E;
+    background-color: #FFD500;
     background-image: linear-gradient(to top left,
                                       rgba(0, 0, 0, .2),
                                       rgba(0, 0, 0, .2) 30%,
@@ -46,7 +46,7 @@ body main {
 }
 
 .buttonhp:hover {
-    background-color: #988d17;
+    background-color: #c9bb21;
 }
 
 .buttonhp:active {
