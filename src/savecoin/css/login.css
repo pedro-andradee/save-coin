@@ -1,0 +1,36 @@
+#caixa-login{
+    background-color: #E6E6E6;
+    padding: 40px;
+    border-style:groove;
+    border-radius: 10px;
+    border-color: #FFD500;
+}
+
+h2{
+    color:#47525E;
+}
+
+#username , #password {
+    border-style:groove;
+    border-radius: 5px;
+    border-color: #FFD500;
+    border-width: thin;
+}
+
+.text{
+    color: #988006;
+    font-weight: 700;
+    margin-top: 15px; 
+}
+
+#btn-entrar{
+    background-color:whitesmoke;
+    margin-top: 30px;
+    border-style:groove;
+    border-color: #FFD500;
+    color:#47525E;
+    font-size: x-large;
+    font-weight: 500;
+    width: 60%;
+    
+}
