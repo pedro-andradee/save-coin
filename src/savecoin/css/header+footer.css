@@ -19,7 +19,7 @@ nav ul li {
 }
 
 nav ul > li:hover  {
-    background-color: #EAD80E;
+    background-color: #ffffff;
 }
 
 nav ul > li > a {
@@ -37,12 +37,12 @@ nav ul > li > a {
 }
 
 #StyleIcon {
-    color: yellow;
+    color: #FFD500;
     font-size: 2em;
 }
 
 .backgroudLastIcons {
-    background-color: yellow;
+    background-color: #FFD500;
 }
 
 #lastIconsStyle{

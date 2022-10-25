@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,8 +10,8 @@
       content="Amanda, Diovana, Gianluca, Giovanny, Pedro e Romario"
     />
 
-    <title>Save Coin</title>
-    <link rel="shortcut icon" href="../img/Logo Save Coin.png" type="image/x-icon">
+    <title>Agenda</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link
@@ -49,38 +49,38 @@
       });
     </script>
 
-    <!-- Style CSS-->
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/style">
+    <link rel="stylesheet" href="./css/addAgenda.css">
     <link rel="stylesheet" href="./css/header+footer.css">
-    <link rel="stylesheet" href="./css/homepage.css">
-
   </head>
 
-<body>
+  <body>
     <div id="header"></div>
-
     <main>
-        <div id="logohp">
-            <img src="../img/GIF Save Coin.gif" width="500px" height="350px">
-            <h1 class="titulologohp">Save Coin</h1>
+      <div class="yellowBar">
+        <div class="yellowBarContent">
+          <h1>Agenda</h1>
+          <h4>
+            Preocupado em esquecer algum pagamento ou recebimento importante? Então, te aconselhamos colocar no seu calendário!<br />
+          </h4>
         </div>
-        <div id="buttonshp">
-        <p></p>
-            <input id="1stitem" class="buttonhp" type="button"  value="Material Didático" onclick="window.location.href=''">
-        <p></p>
-            <input class="buttonhp" type="button" value="Quiz" onclick="window.location.href=''">
-        <p></p>
-            <input class="buttonhp" type="button" value="Registro Financeiro" onclick="window.location.href=''">
-        <p></p>
-            <input class="buttonhp" type="button" value="Indicativo de Meta" onclick="window.location.href='addSaveMeta.html'">
-        <p></p>
-            <input id="lstitem" class="buttonhp" type="button" value="Agenda" onclick="window.location.href='agenda.html'">
-        <p></p>
+        <div class="form"></div>
+        <form>
+            <fieldset>
+              <button
+              formaction=""
+              formmethod="post"
+              id="lstitem" type="button" value="Agenda"
+              class="saveButtonAgenda"
+              onclick="window.location.href='addLembrete.html'"
+            ><!--Adicionar calendario e colocar adicao no mesmo-->
+              Adicione um lembrete
+            </button>
+            </fieldset>
+          </form>
       </div>
-      
     </main>
-
     <div id="footer"></div>
-
-</body>
+  </body>
 </html>
-
