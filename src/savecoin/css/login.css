@@ -1,36 +1,60 @@
+
+.row{
+align-items: center;
+margin-top: 100px;
+margin-bottom: 100px; 
+}
+
+
+
 #caixa-login{
     background-color: #E6E6E6;
     padding: 40px;
-    border-style:groove;
+    border-style:solid;
     border-radius: 10px;
     border-color: #FFD500;
+    box-shadow: 5px 5px 5px 0px #00000080;
+    
 }
 
+
 h2{
-    color:#47525E;
+    font-family: 'Roboto';
+    font-style: bold;
+    color:#343F4B;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(180, 174, 174);
+    font-size: 3.0rem;
 }
 
 #username , #password {
-    border-style:groove;
+    border-style:solid;
     border-radius: 5px;
     border-color: #FFD500;
     border-width: thin;
+    box-shadow: 2px 2px 2px 0px #00000050;
+    font-size: 1.3rem;
+
 }
 
 .text{
     color: #988006;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-top: 15px; 
+    margin: 15px 0px 5px 0px; 
 }
 
 #btn-entrar{
     background-color:whitesmoke;
     margin-top: 30px;
-    border-style:groove;
+    border-style:solid;
     border-color: #FFD500;
-    color:#47525E;
-    font-size: x-large;
+    text-shadow: 2px 2px 2px rgb(180, 174, 174);
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-style: bold;
     font-weight: 500;
     width: 60%;
+    box-shadow: 2px 2px 2px 0px #00000050;
     
 }
