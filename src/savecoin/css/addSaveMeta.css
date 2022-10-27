@@ -1,6 +1,6 @@
 .yellowBar {
     display: block;
-    background-color: #EAD80E;
+    background-color: #FFD500;
 }
 
 .yellowBarContent {
@@ -46,7 +46,7 @@ fieldset legend {
 }
 
 .saveButton {
-    background-color: #EAD80E;
+    background-color: #FFD500;
     width: 8rem;
     font-weight: 500;
     border: none;
