@@ -1,5 +1,5 @@
 
-.row{
+#linha.row{
 align-items: center;
 margin-top: 100px;
 margin-bottom: 100px; 
@@ -18,7 +18,7 @@ margin-bottom: 100px;
 }
 
 
-h2{
+#caixa-login h2{
     font-family: 'Roboto';
     font-style: bold;
     color:#343F4B;
@@ -27,22 +27,46 @@ h2{
     font-size: 3.0rem;
 }
 
-#username , #password {
+#label-float label{
+    color: #00000098;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 15px 0px 5px 0px; 
+/*My ↑ ↑ */
+    position:absolute;
+    pointer-events: none;
+    top:0;
+    bottom:0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+
+}
+
+#caixa-login #username ,#caixa-login #password {
+    /*
     border-style:solid;
     border-radius: 5px;
     border-color: #FFD500;
     border-width: thin;
-    box-shadow: 2px 2px 2px 0px #00000050;
+    */
+    display: inline-block;
+    background-color: transparent;
+    min-width: 180px;
+    border:0;
+    border-bottom: 3px solid #00000099;
+    border-radius: 2px;
     font-size: 1.3rem;
 
+    transition: all .3s ease-out;
+}
+#caixa-login #username:focus ,#caixa-login #password:focus {
+    border-bottom: 3px solid #FFD500;
 }
 
-.text{
-    color: #988006;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 15px 0px 5px 0px; 
+#caixa-login #username:focus ,#caixa-login #password:focus + #label-float label {
+    /*20:18 -- label-float input:focus + label*/
 }
+
 
 #btn-entrar{
     background-color:whitesmoke;
