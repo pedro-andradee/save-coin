@@ -64,7 +64,7 @@
 
                         <div class="col-md-6 order-1 order-md-2 login-box">
                               <div class="col-md-12 caixa-login">
-                              <form id="login-form" class="form"><!--Pegar o restante das info no login-rommel-->
+                              <form id="login-form" class="form form-scale"  method="post" onsubmit="loginUser (this)"><!--Pegar o restante das info no login-rommel-->
                               <h2 class="text-center">Entrar na sua conta</h2>    
                                     <div class="form-group label-float">
                                     
@@ -81,11 +81,14 @@
                                     <div class="form-group text-center">                                
                                     <input type="submit" name="submit" class="btn btn-entrar" value="Entrar">
                                     </div>
+                                    </form>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal">Cadastre-se</button>
                               </div>
 
                         </div>
 
                   </div>
+                  
           </div>
 
     <!--Se referir ao footer informado com o jquery-->
