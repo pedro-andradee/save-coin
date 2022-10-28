@@ -1,13 +1,19 @@
 
-#linha.row{
-align-items: center;
+/*Remover formatação do navegador*/
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+
+.linha{
 margin-top: 100px;
 margin-bottom: 100px; 
 }
 
 
 
-#caixa-login{
+.caixa-login{
     background-color: #E6E6E6;
     padding: 40px;
     border-style:solid;
@@ -18,7 +24,7 @@ margin-bottom: 100px;
 }
 
 
-#caixa-login h2{
+.caixa-login h2{
     font-family: 'Roboto';
     font-style: bold;
     color:#343F4B;
@@ -27,59 +33,52 @@ margin-bottom: 100px;
     font-size: 3.0rem;
 }
 
-
-#label-float{
-    position: relative;
-}
-
-#label-float label{
-    color: #00000098;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 15px 0px 5px 0px; 
-/*My ↑ ↑ */
-    position:absolute;
-    pointer-events: none;
-    top:0;
-    bottom:0;
-    margin-top: 30px;
-    transition: all .3s ease-out;
-}
-
-
-
-#caixa-login #username ,#caixa-login #password {
-    /*
-    border-style:solid;
-    border-radius: 5px;
-    border-color: #FFD500;
-    border-width: thin;
-    */
-    display: inline-block;
+/*Input de E-mail e de Senha ↓↓↓↓↓↓*/
+.caixa-login input.username , .caixa-login input.password {
     background-color: transparent;
-    min-width: 180px;
     border:0;
     border-bottom: 3px solid #00000099;
     border-radius: 2px;
     font-size: 1.3rem;
     box-shadow: 0 0 0 0;
     outline: none;
+    margin-top: 5vh;
+
     transition: all .3s ease-out;
 }
-#caixa-login #username:focus ,#caixa-login #password:focus {
+
+/*Quando FOCAR no Input de E-mail e de Senha ↓↓↓↓↓↓*/
+.caixa-login input.username:focus , .caixa-login input.password:focus {
     border-bottom: 3px solid #FFD500;
     background-color: #00000010;
     border-radius: 5px;
 }
 
-#caixa-login #username:focus ,#caixa-login #password:focus + #label-float label {
-
-    font-size: 1.2rem;
-    color: #00000099;
+.label-float{
+    position: relative;
 }
 
+.label-float label{
+    color: #00000098;
+    font-weight: 700;
+    font-size: 1.2rem;
+/*My ↑ ↑ */
+    position:absolute;
+    pointer-events: none;
+    top:0;
+    bottom:0;
+    transform: translateY(15px);
+    transition: all .3s ease-out;
+}
 
-#btn-entrar{
+/*Quando FOCAR no Input de E-mail e de Senha ALTERE A LABEL*/
+.caixa-login input.username:focus + label , .caixa-login input.password:focus + label{
+    transform: translateY(-20px);
+    transition: all .3s ease-out;
+    font-size: 1.0rem;
+}
+
+.btn-entrar{
     background-color:whitesmoke;
     margin-top: 30px;
     border-style:solid;
@@ -93,3 +92,4 @@ margin-bottom: 100px;
     box-shadow: 2px 2px 2px 0px #00000050;
     
 }
+
