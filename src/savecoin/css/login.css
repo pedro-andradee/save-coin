@@ -1,5 +1,5 @@
 
-/*Remover formatação do navegador*/
+/* Remover formatação padrão do navegador. */
 *{margin: 0%;
 padding: 0%;
 box-sizing: border-box;
@@ -33,7 +33,7 @@ margin-bottom: 100px;
     font-size: 3.0rem;
 }
 
-/*Input de E-mail e de Senha ↓↓↓↓↓↓*/
+/* Input de E-mail e de Senha. */
 .caixa-login input.username , .caixa-login input.password {
     background-color: transparent;
     border:0;
@@ -43,35 +43,38 @@ margin-bottom: 100px;
     box-shadow: 0 0 0 0;
     outline: none;
     margin-top: 5vh;
-
     transition: all .3s ease-out;
 }
 
-/*Quando FOCAR no Input de E-mail e de Senha ↓↓↓↓↓↓*/
+/* Quando FOCAR no Input de E-mail e de Senha. */
 .caixa-login input.username:focus , .caixa-login input.password:focus {
     border-bottom: 3px solid #FFD500;
-    background-color: #00000010;
+    background-color: #00000007;
     border-radius: 5px;
 }
 
+/* 'Div pai da label' pra fazer a animação.*/
 .label-float{
     position: relative;
 }
+
+/*Se refere a label dentro do 'pai'>label-float.
+position informada no pai e no filho ↑↓ são diferentes, porque a label se torna absoluta dentro de algo relativo */
 
 .label-float label{
     color: #00000098;
     font-weight: 700;
     font-size: 1.2rem;
-/*My ↑ ↑ */
     position:absolute;
     pointer-events: none;
     top:0;
     bottom:0;
     transform: translateY(15px);
     transition: all .3s ease-out;
+    text-shadow: 1px 1px 1px rgb(180, 174, 174);
 }
 
-/*Quando FOCAR no Input de E-mail e de Senha ALTERE A LABEL*/
+/* Quando FOCAR no Input de E-mail e de Senha ALTERE A LABEL */
 .caixa-login input.username:focus + label , .caixa-login input.password:focus + label{
     transform: translateY(-20px);
     transition: all .3s ease-out;
@@ -80,7 +83,7 @@ margin-bottom: 100px;
 
 .btn-entrar{
     background-color:whitesmoke;
-    margin-top: 30px;
+    margin-top: 40px;
     border-style:solid;
     border-color: #FFD500;
     text-shadow: 2px 2px 2px rgb(180, 174, 174);
@@ -90,6 +93,5 @@ margin-bottom: 100px;
     font-weight: 500;
     width: 60%;
     box-shadow: 2px 2px 2px 0px #00000050;
-    
 }
 
