@@ -11,7 +11,7 @@
     />
 
     <title>Meta Financeira</title>
-    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -51,7 +51,7 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="./css/header+footer.css" />
-    <link rel="stylesheet" href="./css/addSaveMeta.css">
+    <link rel="stylesheet" href="./css/addSaveMeta.css" />
   </head>
 
   <body>
@@ -68,41 +68,35 @@
           </h4>
         </div>
       </div>
-      <div class="formulario">
-        <form>
-          <fieldset>
-            <legend>Meta financeira</legend>
-            <div class="formItem">
-              <label for="descricaoMeta">Descrição da meta:</label>
-              <input
-                type="text"
-                name="descricaoMeta"
-                id="descricaoMeta"
-                class="input_descricao"
-                placeholder="Intercâmbio para estudar inglês"
-                required
-                autofocus
-              />
-            </div>
-            <div class="formItem">
-              <label for="valorMeta">Valor da meta:</label>
-              <input
-                type="number"
-                name="valorMeta"
-                id="valorMeta"
-                placeholder="R$ 1000.00"
-                required
-              />
-            </div>
-            <div class="formItem">
-              <label for="dataMeta">Data para atingir a meta:</label>
-              <input
-                type="date"
-                name="dataMeta"
-                id="dataMeta"
-                required
-              />
-            </div>
+      <form>
+        <fieldset>
+          <legend>Meta financeira</legend>
+          <div class="formItem">
+            <label for="descricaoMeta">Descrição da meta:</label>
+            <input
+              type="text"
+              name="descricaoMeta"
+              id="descricaoMeta"
+              placeholder="Intercâmbio para estudar inglês"
+              required
+              autofocus
+            />
+          </div>
+          <div class="formItem">
+            <label for="valorMeta">Valor da meta:</label>
+            <input
+              type="number"
+              name="valorMeta"
+              id="valorMeta"
+              placeholder="R$ 1000.00"
+              required
+            />
+          </div>
+          <div class="formItem">
+            <label for="dataMeta">Data para atingir a meta:</label>
+            <input type="date" name="dataMeta" id="dataMeta" required />
+          </div>
+          <div class="formButtons">
             <button
               type="submit"
               formaction=""
@@ -111,9 +105,18 @@
             >
               Salvar
             </button>
-          </fieldset>
-        </form>
-      </div>
+            <button
+              type="submit"
+              formaction=""
+              formmethod="post"
+              class="cancelButton"
+              onclick="window.location.href='verApagarMeta.html'"
+            >
+              Cancelar
+            </button>
+          </div>
+        </fieldset>
+      </form>
     </main>
     <div id="footer"></div>
   </body>

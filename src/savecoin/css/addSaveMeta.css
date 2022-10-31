@@ -15,14 +15,13 @@
 fieldset {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    margin-top: 2em;
+    margin: 2em 0 2em 10%;
     gap: 1.2em;
 }
 
 fieldset legend {
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: 2.5em;
+    font-weight: 650;
     margin: 0;
 }
 
@@ -36,7 +35,7 @@ fieldset legend {
     margin-bottom: 0.3em;
 }
 
-.formItem .input_descricao {
+.formItem #descricaoMeta {
     max-width: 35vw;
 }
 
@@ -45,10 +44,25 @@ fieldset legend {
     padding: 0.5em;
 }
 
-.saveButton {
-    background-color: #FFD500;
-    width: 8rem;
+.formButtons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.3em;
+    gap: 2em;
+}
+
+.formButtons button {
+    padding: 0.1em 0;
+    width: 9rem;
     font-weight: 500;
     border: none;
-    border-radius: 30px;
+    border-radius: 10px;
+}
+
+.saveButton {
+    background-color: #FFD500;
+}
+
+.cancelButton {
+    background-color: #c2c2c2;
 }
