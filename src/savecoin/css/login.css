@@ -14,8 +14,9 @@ margin-bottom: 100px;
 
 
 .caixa-login{
-    background-color: #E6E6E6;
+    background-color: #fcfcf8;
     padding: 40px;
+    padding-bottom: 15px;
     border-style:solid;
     border-radius: 10px;
     border-color: #FFD500;
@@ -23,11 +24,7 @@ margin-bottom: 100px;
     
 }
 
-.caixa-login:hover{
-    scale: 101%;
-    transition: all .5s ease-in-out;
- 
-}
+
 
 
 .caixa-login h2{
@@ -43,7 +40,7 @@ margin-bottom: 100px;
 .caixa-login input.username , .caixa-login input.password {
     background-color: transparent;
     border:0;
-    border-bottom: 3px solid #00000099;
+    border-bottom: 3px solid #767676;
     border-radius: 2px;
     font-size: 1.3rem;
     box-shadow: 0 0 0 0;
@@ -90,17 +87,38 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 .btn-entrar{
     background-color:whitesmoke;
     margin-top: 40px;
-    border-style:solid;
-    border-color: #FFD500;
+    border: 1px solid #FFD500;
     text-shadow: 2px 2px 2px rgb(180, 174, 174);
     font-size: 1.5rem;
     font-family: 'Roboto';
-    font-style: bold;
     font-weight: 500;
     width: 60%;
     box-shadow: 2px 2px 2px 0px #00000050;
+
+
 }
 .btn-entrar:hover{
-scale: 104%;
-transition: all .3s ease-out;
+    scale: 101%;
+    --bs-btn-hover-border-color:green;
+    transition: all .3s ease-out;
+    
 }
+
+
+.btn-cadastrar{
+    background-color:transparent;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 500;
+    width: 100%;
+}
+.btn-cadastrar:hover{
+    scale: 101%;
+    transition: all .1s ease-in;
+    color:#957d02 !important;
+    font-weight: 600;
+}
+
