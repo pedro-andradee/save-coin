@@ -1,0 +1,122 @@
+.yellowBar {
+    display: block;
+    background-color: #FFD500;
+}
+
+.yellowBarContent {
+    text-align: center;
+    padding: 2% 32%;
+}
+
+.yellowBarContent h4 {
+    padding-top: 2%;
+}
+
+#areaMetas {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    margin: 2em 0 2em 10%;
+}
+
+#areaMetas h2 {
+    margin-bottom: 0;
+    margin-left: 1.8em;
+    font-size: 2.5em;
+    font-weight: 650;
+}
+
+#blocoMeta {
+    display: inline-flex;
+    align-items: center;
+    gap: 4em;
+}
+
+.conteudoMetas {
+    width: 40em;
+    height: 10em;
+    background-color: #FFEF79;
+    border-radius: 45px;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.cofrePorco {
+    width: 5.5em;
+    height: 5.5em;
+}
+
+.containerMeta {
+    margin: 0 0.75rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.descricaoMeta {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.barraProgresso {
+    width: 21.5em;
+    height: 2em;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0.5em 0 1.3em 0;
+}
+
+.preenchimentoBarra {
+    width: 5em;
+    height: 2em;
+    background-color: #13CE66;
+    border-radius: 15px;
+}
+
+.dataMeta {
+    font-size: 1.3em;
+    font-weight: 450;
+}
+
+.containerPorcentDelete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.porcentagemProgresso {
+    margin: 0.5em;
+    margin-right: 0;
+    font-size: 1.4em
+}
+
+.botaoDelete {
+    color: red;
+    size: 30px;
+    font-size: 3em;
+    border: none;
+    background-color: #FFEF79;
+    padding: 0 0 0.3em 0;
+    margin: 0.5em;
+}
+
+.botaoEditar {
+    background-color: #FFEF79;
+    width: 9rem;
+    height: 2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
+
+.addNovaMetaBotao {
+    background-color: #FFD500;
+    width: 15.5rem;
+    height: 1.7em;
+    font-size: 1.2em;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1.5em;
+}
