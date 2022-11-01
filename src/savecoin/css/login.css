@@ -239,3 +239,10 @@ transition: all .3s ease-out;
     transition: all .3s ease-out;
 }
 
+.modal-body .bi-eye-fill{
+    position: absolute;
+    top: -8px;
+    right: 0;
+    color: #00000098 !important; /*!important porque no header está referenciando aos icon com ID*/
+    cursor:pointer;
+}
