@@ -77,8 +77,17 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     text-shadow: 1px 1px 1px rgb(180, 174, 174);
 }
 
-/* Quando FOCAR no Input de E-mail e de Senha ALTERE A LABEL */
-.caixa-login input.username:focus + label , .caixa-login input.password:focus + label{
+.caixa-login .bi-eye-fill{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #00000098 !important; /*!important porque no header está referenciando aos icon com ID*/
+    cursor:pointer;
+}
+
+
+/* Quando FOCAR no Input de E-mail e de Senha ALTERE A LABEL -- :VALID >>> se tiver preenchido com as info, a label continua em cima*/
+.caixa-login input.username:focus + label , .caixa-login input.password:focus + label,.caixa-login input.username:valid + label , .caixa-login input.password:valid + label{
     transform: translateY(-20px);
     transition: all .3s ease-out;
     font-size: 1.0rem;

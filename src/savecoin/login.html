@@ -67,17 +67,18 @@
 
                         <div class="col-md-6 order-1 order-md-2 login-box">
                               <div class="col-md-12 caixa-login">
-                              <form id="login-form" class="form form-scale"  method="post" onsubmit="loginUser (this)"><!--Pegar o restante das info no login-rommel-->
+                              <form id="login-form" class="form form-scale"  ><!--Pegar o restante das info no login-rommel-->
                               <h2 class="text-center">Entrar na sua conta</h2>    
                                     <div class="form-group label-float">
                                     
-                                    <input type="text" name="username" class="form-control username" >
-                                    <label for="username" >E-mail</label><!--Editar e fazer o Login Bonito-->
+                                    <input type="text" name="username" class="form-control username" required>
+                                    <label for="username" >E-mail</label>
                                     </div>
 
                                     <div class= "form-group label-float">
-                                      <input type="password"  name="password" class="form-control password" >
+                                      <input type="password"  name="password" class="form-control password" id="campo-senha" required >
                                     <label for="password" >Senha</label>
+                                    <i class="bi bi-eye-fill" id="StyleIcon"></i>
                                     
                                     </div>
 
