@@ -58,6 +58,7 @@
 <body>
     <!--Se referir ao header informado com o jquery-->
     <div id="header"></div> 
+      <div id="login">
           <div class="container">
                   <div class="row linha">
                                   
@@ -67,7 +68,7 @@
 
                         <div class="col-md-6 order-1 order-md-2 login-box">
                               <div class="col-md-12 caixa-login">
-                              <form id="login-form" class="form form-scale"  ><!--Pegar o restante das info no login-rommel-->
+                              <form id="login-form" class="form" method="post" onsubmit="loginUser (this)"  ><!--Pegar o restante das info no login-rommel-->
                               <h2 class="text-center">Entrar na sua conta</h2>    
                                     <div class="form-group label-float">
                                     
@@ -82,10 +83,11 @@
                                     
                                     </div>
 
-                                    <div class="form-group text-center">                                
-                                    <input type="submit" name="submit" class="btn btn-entrar" value="Entrar">
-                                    </div>
-                                    </form>
+                                        <div class="form-group text-center">                                
+                                            <input type="submit" name="submit" class="btn btn-md btn-entrar" value="Entrar">
+                                        </div>
+
+                              </form>
                                     <button type="button" class="btn btn-cadastrar" data-toggle="modal" data-target="#loginModal">Não possui uma conta? Clique aqui e Cadastre-se.</button>
                               </div>
 
@@ -94,6 +96,65 @@
                   </div>
                   
           </div>
+        </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="text-center text-info">Novo usuário</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div id="login-box" class="col-md-12">
+                <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
+                    
+                    <div class="form-group label-float">
+                      <input type="text" name="txt_login" id="txt_login" class="form-control" required>  
+                      <label for="login" class="text-info">Usuário</label>
+                        
+                    </div>
+                    <div class="form-group label-float">
+                      <input type="text" name="txt_nome" id="txt_nome" class="form-control" required>  
+                      <label for="nome" class="text-info">Nome completo</label>
+                        
+                    </div>
+                    <div class="form-group label-float">
+                      <input type="text" name="txt_email" id="txt_email" class="form-control" required>  
+                      <label for="email" class="text-info">E-mail</label>
+                        
+                    </div>
+                    <div class="form-group label-float">
+                      <input type="password" name="txt_senha" id="txt_senha" class="form-control" required>  
+                      <label for="senha" class="text-info">Senha</label>
+                        
+                    </div>
+                    <div class="form-group label-float">
+                      <input type="password" name="txt_senha2" id="txt_senha2" class="form-control" required>  
+                      <label for="senha2" class="text-info">Confirmação de Senha</label>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-cancelar" data-dismiss="modal">Cancelar</button>
+          <button type="button" id="btn_salvar" class="btn btn-salvar">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+        <!--lINKS DE REF DO LOGIN ROMMEL-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
 
     <!--Se referir ao footer informado com o jquery-->
     <div id="footer"></div>

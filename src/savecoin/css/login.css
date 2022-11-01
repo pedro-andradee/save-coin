@@ -37,7 +37,7 @@ margin-bottom: 100px;
 }
 
 /* Input de E-mail e de Senha. */
-.caixa-login input.username , .caixa-login input.password {
+.caixa-login input.username , .caixa-login input.password{
     background-color: transparent;
     border:0;
     border-bottom: 3px solid #767676;
@@ -97,7 +97,7 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     background-color:whitesmoke;
     margin-top: 40px;
     border: 1px solid #FFD500;
-    text-shadow: 2px 2px 2px rgb(180, 174, 174);
+    text-shadow: 1px 1px 1px rgb(180, 174, 174);
     font-size: 1.5rem;
     font-family: 'Roboto';
     font-weight: 500;
@@ -110,7 +110,6 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     scale: 101%;
     --bs-btn-hover-border-color:green;
     transition: all .3s ease-out;
-    
 }
 
 
@@ -129,5 +128,114 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     transition: all .1s ease-in;
     color:#957d02 !important;
     font-weight: 600;
+}
+
+
+/*ACIMA SOMENETE PAGINA DE LOGIN ↑↑↑ */
+
+/*STYLES MODAL*/
+
+/*Botão 'X' modal*/
+.modal-header .close{
+    position: absolute;
+    right: 16px;
+    width: 50px;
+    border-radius: 5px;
+}
+.modal-header .close:hover{
+scale: 105%;
+
+transition: all .3s ease-out;
+}
+
+/*corpo do modal*/
+.modal-content{
+    background-color: #fcfcf8;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid #FFD500;
+    box-shadow: 5px 5px 5px 0px #00000080;
+}
+
+.modal-body{
+    padding-top: 50;
+}
+
+.modal-body input{
+    background-color: transparent;
+    border:0;
+    border-bottom: 2px solid #767676;
+    border-radius: 2px;
+    font-size: 1.0rem;
+    box-shadow: 0 0 0 0 !important;
+    outline: none;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+    transition: all .3s ease-out;
+}
+
+.modal-body input:focus{
+    border-bottom: 3px solid #FFD500;
+    background-color: #00000007;
+    border-radius: 5px;
+}
+
+.modal-body .label-float{
+    position: relative !important;
+}
+
+.modal-body .label-float label{
+    color: #00000098 !important;
+    font-weight: 400;
+    font-size: 1.2rem;
+    position:absolute;
+    pointer-events: none;
+    top:0;
+    bottom:0;
+    transform: translateY(8px);
+    transition: all .3s ease-out;
+}
+
+
+/*Quando clicar dentro dos inputs do modal, mover a label, caso tenha algo algo preenchendo o campo mantenha a label com a formatação*/
+.modal-body input:focus + label , .modal-body input:valid + label{
+        transform: translateY(-20px);
+        transition: all .4s ease-out;
+        font-size: 0.9rem; 
+}
+
+
+/*Botão 'Salvar' modal*/
+.btn-salvar{
+    background-color:whitesmoke;
+    border: 1px solid #FFD500;
+    text-shadow: 1px 1px 1px rgb(180, 174, 174);
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    box-shadow: 2px 2px 2px 0px #00000050;
+}
+
+.btn-salvar:hover{
+    scale: 105%;
+    --bs-btn-hover-border-color:green;
+    transition: all .3s ease-out;
+}
+/*Botao 'cancelar' modal*/
+.btn-cancelar{
+    background-color:gray;
+    border: 1px solid #00000099;
+    text-shadow: 1px 1px 1px rgb(47, 47, 47);
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    box-shadow: 2px 2px 2px 0px #00000050;
+    color: white;
+}
+
+.btn-cancelar:hover{
+    scale: 105%;
+    --bs-btn-hover-border-color:red;
+    transition: all .3s ease-out;
 }
 
