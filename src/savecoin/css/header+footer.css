@@ -16,7 +16,6 @@ nav ul li {
 
 nav ul > li:hover  {
     background-color: #ffffff;
-
 }
 
 nav ul > li > a {
@@ -42,7 +41,7 @@ nav ul > li > a {
     background-color: #FFD500;
 }
 
-#lastIconsStyle{
+#lastIconsStyle {
     color:black;
 }
 main {
