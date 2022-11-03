@@ -9,7 +9,6 @@
       name="author"
       content="Amanda, Diovana, Gianluca, Giovanny, Pedro e Romario"
     />
-
     <title>Agenda</title>
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 
@@ -56,23 +55,23 @@
   </head>
 
   <body>
-    <div id="header"></div>
-    <main>
-      <div class="yellowBar">
-        <div class="yellowBarContent">
-          <h1>Agenda</h1>
-          <h4>
-            Preocupado em esquecer algum pagamento ou recebimento importante? Então, te aconselhamos colocar no seu calendário!<br />
-          </h4>
-        </div>
-      </div>
+    <div id="header"> </div>
+     <main>
+       <div class="yellowBar">
+         <div class="yellowBarContent">
+           <h1>Agenda</h1>
+           <h4>
+             Preocupado em esquecer algum pagamento ou recebimento importante? Então, te aconselhamos colocar no seu calendário!<br />
+           </h4>
+         </div>
+       </div>
       <div class="Form">
         <form>
           <fieldset>
             <legend>Lembrete da Agenda</legend>
-            <div class="formItem">
+             <div class="formItem">
               <label for="descricaoLembrete">Descrição do lembrete:</label>
-              <input
+               <input
                 type="text"
                 name="descricaoLembrete"
                 id="descricaoLembrete"
@@ -81,10 +80,10 @@
                 required
                 autofocus
               />
-            </div>
+             </div>
             <div class="formItem">
-                <label for="valorLembrete">Valor do lembrete:</label>
-                <input
+             <label for="valorLembrete">Valor do lembrete:</label>
+               <input
                   type="number"
                   name="valorLembrete"
                   id="valorLembrete"
@@ -102,12 +101,9 @@
                 required
               />
             </div>
-
             <label for="dataLembrete">Notificações:</label>
-
-            <div class="form-check">
-              
-              <input class="form-check-input" type="checkbox" value="" id="flexNenhuma" required>
+            <div class="form-check">              
+              <input class="form-check-input" type="checkbox" value="" id="flexNenhuma">
               <label class="form-check-label" for="flexNenhuma">
                 Nenhuma
               </label>
@@ -144,23 +140,22 @@
               class="saveButton"
             >
               Salvar
-            </button>
-            </div>
-            <div>
-              <button
-                formaction=""
-                formmethod="post"
-                id="lstitem" type="button" value="Agenda"
-                class="cancelButton"
-                onclick="window.location.href='agenda.html'"
-              >
-                Cancelar
-              </button>
-              </div>
-          </fieldset>
-        </form>
-      </div>
-    </main>
-    <div id="footer"></div>
-  </body>
+         </button>
+         <button
+             formaction=""
+             formmethod="post"
+             type="button"
+             class="cancelButton"
+             onclick="window.location.href='agenda.html'"
+            >
+           Cancelar
+         </button>
+       </div>
+      </fieldset>
+     </form>
+    </div>
+   </main>
+  <div id="footer"> 
+  </div>
+ </body>
 </html>
