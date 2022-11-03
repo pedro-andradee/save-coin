@@ -121,7 +121,7 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     font-family: 'Roboto';
     font-style: bold;
     font-weight: 500;
-    width: 100%;
+    font-size: 18px;
 }
 .btn-cadastrar:hover{
     scale: 101%;
@@ -140,8 +140,16 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     position: absolute;
     right: 16px;
     width: 50px;
+    height: 40px;
     border-radius: 5px;
+    font-size: 40px;
+    font-weight: 500;
 }
+
+.modal-header span{
+    transform: translateY(-15px);
+}
+
 .modal-header .close:hover{
 scale: 105%;
 

@@ -73,18 +73,18 @@
                                     <div class="form-group label-float">
                                     
                                     <input type="text" name="username" class="form-control username" required>
-                                    <label for="username" >E-mail</label>
+                                    <label id="labelemail" for="username" >E-mail</label>
                                     </div>
 
                                     <div class= "form-group label-float">
-                                      <input type="password"  name="password" class="form-control password" required >
-                                    <label for="password" >Senha</label>
-                                    <i class="bi bi-eye-fill" id="StyleIcon" aria-hidden="true"></i>
+                                    <input type="password"  name="password" class="form-control password" id="inputsenha" required >
+                                    <label id="labelsenha" for="password" >Senha</label>
+                                    <i class="bi bi-eye-fill" id="StyleIcon" aria-hidden="true" onclick='versenha()'></i>
                                     
                                     </div>
 
                                         <div class="form-group text-center">                                
-                                            <input type="submit" name="submit" class="btn btn-md btn-entrar" value="Entrar">
+                                            <input type="submit" name="submit" class="btn btn-md btn-entrar" value="Entrar" onclick='cadastrar()'>
                                         </div>
 
                               </form>
@@ -115,29 +115,29 @@
                     
                     <div class="form-group label-float">
                       <input type="text" name="txt_login" id="txt_login" class="form-control" required>  
-                      <label for="login" class="text-info">Usuário</label>
+                      <label id="labelusuario" for="login" class="text-info">Usuário</label>
                         
                     </div>
                     <div class="form-group label-float">
                       <input type="text" name="txt_nome" id="txt_nome" class="form-control" required>  
-                      <label for="nome" class="text-info">Nome completo</label>
+                      <label id="labelnomecompleto" for="nome" class="text-info">Nome completo</label>
                         
                     </div>
                     <div class="form-group label-float">
                       <input type="text" name="txt_email" id="txt_email" class="form-control" required>  
-                      <label for="email" class="text-info">E-mail</label>
+                      <label id="labelemailmodal" for="email" class="text-info">E-mail</label>
                         
                     </div>
                     <div class="form-group label-float">
                       <input type="password" name="txt_senha" id="txt_senha" class="form-control" required>  
-                      <label for="senha" class="text-info">Senha</label>
-                      <i class="bi bi-eye-fill" id="StyleIcon"></i>
+                      <label id="labelsenhamodal" for="senha" class="text-info">Senha</label>
+                      <!--<i class="bi bi-eye-fill" id="StyleIcon"></i> EYE PARA VER A SENHA-->
                         
                     </div>
                     <div class="form-group label-float">
                       <input type="password" name="txt_senha2" id="txt_senha2" class="form-control" required>  
-                      <label for="senha2" class="text-info">Confirmação de Senha</label>
-                      <i class="bi bi-eye-fill" id="StyleIcon"></i>
+                      <label id="labelconfirmesenhamodal" for="senha2" class="text-info">Confirmação de Senha</label>
+                      <!--<i class="bi bi-eye-fill" id="StyleIcon"></i> EYE PARA VER A SENHA-->
                         
                     </div>
                 </form>

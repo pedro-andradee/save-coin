@@ -51,3 +51,21 @@
     document.getElementById ('btn_salvar').addEventListener ('click', salvaLogin);  
 
     //SCRIPT (DO HTML) LOGIN ROMMEL >> TERMINO
+    
+function cadastrar(){
+
+    alert('clicado')
+}
+
+function versenha(){
+    
+    let boxsenha = document.querySelector('#inputsenha')
+
+    if(boxsenha.getAttribute('type')=='password'){
+        boxsenha.setAttribute('type' , 'text')
+    }
+    else{
+        boxsenha.setAttribute('type' , 'password')
+    }
+
+}
