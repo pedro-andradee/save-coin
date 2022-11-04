@@ -1,15 +1,22 @@
 
-.row{
-align-items: center;
+/* Remover formatação padrão do navegador. */
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+
+.linha{
 margin-top: 100px;
 margin-bottom: 100px; 
 }
 
 
 
-#caixa-login{
-    background-color: #E6E6E6;
+.caixa-login{
+    background-color: #fcfcf8;
     padding: 40px;
+    padding-bottom: 15px;
     border-style:solid;
     border-radius: 10px;
     border-color: #FFD500;
@@ -18,7 +25,9 @@ margin-bottom: 100px;
 }
 
 
-h2{
+
+
+.caixa-login h2{
     font-family: 'Roboto';
     font-style: bold;
     color:#343F4B;
@@ -27,34 +36,221 @@ h2{
     font-size: 3.0rem;
 }
 
-#username , #password {
-    border-style:solid;
-    border-radius: 5px;
-    border-color: #FFD500;
-    border-width: thin;
-    box-shadow: 2px 2px 2px 0px #00000050;
+/* Input de E-mail e de Senha. */
+.caixa-login input.username , .caixa-login input.password{
+    background-color: transparent;
+    border:0;
+    border-bottom: 3px solid #767676;
+    border-radius: 2px;
     font-size: 1.3rem;
-
+    box-shadow: 0 0 0 0;
+    outline: none;
+    margin-top: 5vh;
+    transition: all .3s ease-out;
 }
 
-.text{
-    color: #988006;
-    font-size: 1.5rem;
+/* Quando FOCAR no Input de E-mail e de Senha. */
+.caixa-login input.username:focus , .caixa-login input.password:focus {
+    border-bottom: 3px solid #FFD500;
+    background-color: #00000007;
+    border-radius: 5px;
+}
+
+/* 'Div pai da label' pra fazer a animação.*/
+.label-float{
+    position: relative;
+}
+
+/*Se refere a label dentro do 'pai'>label-float.
+position informada no pai e no filho ↑↓ são diferentes, porque a label se torna absoluta dentro de algo relativo */
+
+.label-float label{
+    color: #00000098;
     font-weight: 700;
-    margin: 15px 0px 5px 0px; 
+    font-size: 1.2rem;
+    position:absolute;
+    pointer-events: none;
+    top:0;
+    bottom:0;
+    transform: translateY(15px);
+    transition: all .3s ease-out;
+    text-shadow: 1px 1px 1px rgb(180, 174, 174);
 }
 
-#btn-entrar{
+.caixa-login .bi-eye-fill{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #00000098 !important; /*!important porque no header está referenciando aos icon com ID*/
+    cursor:pointer;
+}
+
+
+/* Quando FOCAR no Input de E-mail e de Senha ALTERE A LABEL -- :VALID >>> se tiver preenchido com as info, a label continua em cima*/
+.caixa-login input.username:focus + label , .caixa-login input.password:focus + label,.caixa-login input.username:valid + label , .caixa-login input.password:valid + label{
+    transform: translateY(-20px);
+    transition: all .3s ease-out;
+    font-size: 1.0rem;
+}
+
+.btn-entrar{
     background-color:whitesmoke;
-    margin-top: 30px;
-    border-style:solid;
-    border-color: #FFD500;
-    text-shadow: 2px 2px 2px rgb(180, 174, 174);
+    margin-top: 40px;
+    border: 1px solid #FFD500;
+    text-shadow: 1px 1px 1px rgb(180, 174, 174);
     font-size: 1.5rem;
     font-family: 'Roboto';
-    font-style: bold;
     font-weight: 500;
     width: 60%;
     box-shadow: 2px 2px 2px 0px #00000050;
-    
+
+
+}
+.btn-entrar:hover{
+    scale: 101%;
+    --bs-btn-hover-border-color:green;
+    transition: all .3s ease-out;
+}
+
+
+.btn-cadastrar{
+    background-color:transparent;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 18px;
+}
+.btn-cadastrar:hover{
+    scale: 101%;
+    transition: all .1s ease-in;
+    color:#957d02 !important;
+    font-weight: 600;
+}
+
+
+/*ACIMA SOMENETE PAGINA DE LOGIN ↑↑↑ */
+
+/*STYLES MODAL*/
+
+/*Botão 'X' modal*/
+.modal-header .close{
+    position: absolute;
+    right: 16px;
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.modal-header span{
+    transform: translateY(-15px);
+}
+
+.modal-header .close:hover{
+scale: 105%;
+
+transition: all .3s ease-out;
+}
+
+/*corpo do modal*/
+.modal-content{
+    background-color: #fcfcf8;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid #FFD500;
+    box-shadow: 5px 5px 5px 0px #00000080;
+}
+
+.modal-body{
+    padding-top: 50;
+}
+
+.modal-body input{
+    background-color: transparent;
+    border:0;
+    border-bottom: 2px solid #767676;
+    border-radius: 2px;
+    font-size: 1.0rem;
+    box-shadow: 0 0 0 0 !important;
+    outline: none;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+    transition: all .3s ease-out;
+}
+
+.modal-body input:focus{
+    border-bottom: 3px solid #FFD500;
+    background-color: #00000007;
+    border-radius: 5px;
+}
+
+.modal-body .label-float{
+    position: relative !important;
+}
+
+.modal-body .label-float label{
+    color: #00000098 !important;
+    font-weight: 400;
+    font-size: 1.2rem;
+    position:absolute;
+    pointer-events: none;
+    top:0;
+    bottom:0;
+    transform: translateY(8px);
+    transition: all .3s ease-out;
+}
+
+
+/*Quando clicar dentro dos inputs do modal, mover a label, caso tenha algo algo preenchendo o campo mantenha a label com a formatação*/
+.modal-body input:focus + label , .modal-body input:valid + label{
+        transform: translateY(-20px);
+        transition: all .4s ease-out;
+        font-size: 0.9rem; 
+}
+
+
+/*Botão 'Salvar' modal*/
+.btn-salvar{
+    background-color:whitesmoke;
+    border: 1px solid #FFD500;
+    text-shadow: 1px 1px 1px rgb(180, 174, 174);
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    box-shadow: 2px 2px 2px 0px #00000050;
+}
+
+.btn-salvar:hover{
+    scale: 105%;
+    --bs-btn-hover-border-color:green;
+    transition: all .3s ease-out;
+}
+/*Botao 'cancelar' modal*/
+.btn-cancelar{
+    background-color:gray;
+    border: 1px solid #00000099;
+    text-shadow: 1px 1px 1px rgb(47, 47, 47);
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    box-shadow: 2px 2px 2px 0px #00000050;
+    color: white;
+}
+
+.btn-cancelar:hover{
+    scale: 105%;
+    --bs-btn-hover-border-color:red;
+    transition: all .3s ease-out;
+}
+
+.modal-body .bi-eye-fill{
+    position: absolute;
+    top: -8px;
+    right: 0;
+    color: #00000098 !important; /*!important porque no header está referenciando aos icon com ID*/
+    cursor:pointer;
 }

@@ -1,28 +1,35 @@
 .yellowBar {
-    display: block;
-    background-color: #EAD80E;
+    background-color: #FFD500;
 }
 
 .yellowBarContent {
     text-align: center;
-    padding: 2% 32%;
+    padding: 2% 15%;
+}
+
+.yellowBarContent h1 {
+    font-size: 2em;
 }
 
 .yellowBarContent h4 {
+    font-size: 1em;
     padding-top: 2%;
+}
+
+form {
+    padding-bottom: 2em;
 }
 
 fieldset {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    margin-top: 2em;
+    padding: 1em 0 5em 1.5em;
     gap: 1.2em;
 }
 
-fieldset legend {
-    font-size: xx-large;
-    font-weight: bold;
+fieldset legend { 
+    font-size: 2.5em;
+    font-weight: 650;
     margin: 0;
 }
 
@@ -36,19 +43,97 @@ fieldset legend {
     margin-bottom: 0.3em;
 }
 
-.formItem .input_descricao {
-    max-width: 35vw;
+.formItem #descricaoMeta {
+    max-width: 16em;
 }
 
 .formItem input {
-    max-width: 20vw;
+    max-width: 11em;
     padding: 0.5em;
 }
 
-.saveButton {
-    background-color: #EAD80E;
-    width: 8rem;
+.formButtons {
+    display: flex;
+    margin-top: 1.3em;
+    gap: 2em;
+}
+
+.formButtons button {
+    padding: 0.1em 0;
+    width: 9rem;
     font-weight: 500;
     border: none;
-    border-radius: 30px;
+    border-radius: 10px;
+}
+
+.saveButton {
+    background-color: #FFD500;
+}
+
+.cancelButton {
+    background-color: #c2c2c2;
+}
+/* ||SMALL|| */
+@media screen and (min-width: 481px) {
+    .yellowBarContent {
+        padding: 2% 19%;
+    }
+    
+    .yellowBarContent h4 {
+        font-size: 1.2em;
+    }
+
+    fieldset {
+        padding-left: 4em;
+        padding-top: 2em;
+    }
+}
+
+/* ||MEDIUM|| */
+@media screen and (min-width: 768px) {    
+    .yellowBarContent h4 {
+        font-size: 1.3em;
+    }
+
+    fieldset {
+        padding-left: 6.5em;
+    }
+
+    .formItem #descricaoMeta {
+        max-width: 35vw;
+    }
+
+    .formItem input {
+        max-width: 20vw;
+    }
+}
+
+/* ||LARGE|| */
+@media screen and (min-width: 1025px) {
+    .yellowBarContent {
+        padding: 2% 22%;
+    }
+
+    .yellowBarContent h1 {
+        font-size: 2.5em;
+    }
+    
+    .yellowBarContent h4 {
+        font-size: 1.5em;
+    }
+
+    fieldset {
+        padding-left: 11em;
+    }
+}
+
+/* ||X-LARGE|| */
+@media screen and (min-width: 1201px) {
+    .yellowBarContent {
+        padding: 2% 32%;
+    }
+
+    fieldset {
+        padding-left: 15em;
+    }
 }

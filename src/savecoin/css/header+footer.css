@@ -1,7 +1,3 @@
-body {
-    background-color: #FFFDE6;
-}
-
 .navBarItems {
     width: 100%;
 }
@@ -19,8 +15,12 @@ nav ul li {
 }
 
 nav ul > li:hover  {
+<<<<<<< HEAD
     background-color: #c2a619ab;
 
+=======
+    background-color: #ffffff;
+>>>>>>> f4ba0c3702410396b391c7da0dd7b923b4b884bb
 }
 
 nav ul > li > a {
@@ -46,7 +46,7 @@ nav ul > li > a {
     background-color: #FFD500;
 }
 
-#lastIconsStyle{
+#lastIconsStyle {
     color:black;
 }
 main {

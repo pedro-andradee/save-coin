@@ -1,0 +1,136 @@
+.yellowBar {
+  display: block;
+  background-color: #ead80e;
+}
+
+.yellowBarContent {
+  text-align: center;
+  padding: 2% 32%;
+}
+
+.yellowBarContent h4 {
+  padding-top: 2%;
+}
+
+.saveButton {
+  background-color: #ead80e;
+  width: 8rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5em;
+}
+
+section {
+  margin-left: 1em;
+}
+input,
+select {
+  border: 0.015em solid black;
+}
+
+input {
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+.col2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+select {
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+button {
+  margin-top: 0.25em;
+  width: 50%;
+  margin-left: 35%;
+}
+
+.salariosecao {
+  display: flex;
+  justify-content: space-between;
+}
+
+.salariosecaovalores {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.greenicon {
+  color: #c0e4cf;
+}
+
+.redicon {
+  color: #e07679;
+}
+
+.resumo {
+  margin-top: 2em;
+  margin-left: 94px;
+}
+
+.resumodoregistro {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 88px;
+}
+
+.efetuarRegistroBotao {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 85px;
+  margin-bottom: 2em;
+}
+
+.greenicondark {
+  color: #149233;
+}
+
+.title {
+  margin-left: 2.5em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+i {
+  margin-right: 0.2em;
+}
+
+.ultimos12 {
+  margin-left: 72px;
+}
+
+.textoCentralizado {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  #gastoseganhos {
+    flex-direction: column;
+  }
+  select {
+    margin: 0;
+  }
+  form {
+    margin-bottom: 1em;
+  }
+  .resumo {
+    margin-left: 0.5em;
+  }
+  .efetuarRegistroBotao {
+    margin: 0;
+    justify-content: center !important;
+  }
+  .efetuarRegistroBotao .saveButton {
+    margin: 0;
+    margin-bottom: 2em;
+  }
+}
