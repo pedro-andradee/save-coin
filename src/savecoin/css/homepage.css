@@ -1,6 +1,7 @@
-body main {
+body, main {
     background-color: #FFFDE6;
 }
+
 
 #logohp {
     align-items: center;

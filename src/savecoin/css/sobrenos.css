@@ -1,0 +1,28 @@
+body, main {
+    background-color: #FFFDE6;
+}
+
+.yellowBar {
+    height: 200px;
+    display: block;
+    background-color: #FFD500;
+}
+
+.yellowBarContent {
+    text-align: center;
+    padding: 2% 32%;
+}
+
+.yellowBarContent h4 {
+    padding-top: 2%;
+}
+
+.maincontent {
+    text-align: center;
+    font-size: large;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #FFFDE6;
+}
+
+

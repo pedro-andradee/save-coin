@@ -15,12 +15,8 @@ nav ul li {
 }
 
 nav ul > li:hover  {
-<<<<<<< HEAD
     background-color: #c2a619ab;
 
-=======
-    background-color: #ffffff;
->>>>>>> f4ba0c3702410396b391c7da0dd7b923b4b884bb
 }
 
 nav ul > li > a {
