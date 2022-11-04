@@ -136,12 +136,20 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 /*STYLES MODAL*/
 
 /*Botão 'X' modal*/
+
+.modal-header h3{
+    font-family: 'Roboto';
+    font-style: bold;
+    color:#343F4B !important;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(180, 174, 174);
+    font-size: 2.0rem;
+}
+
 .modal-header .close{
     position: absolute;
     right: 16px;
-    width: 50px;
-    height: 40px;
-    border-radius: 5px;
+    border: none;
     font-size: 40px;
     font-weight: 500;
 }
@@ -151,9 +159,9 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 }
 
 .modal-header .close:hover{
-scale: 105%;
+scale: 120%;
 
-transition: all .3s ease-out;
+transition: all .2s ease-out;
 }
 
 /*corpo do modal*/

@@ -64,6 +64,7 @@ function versenha(){
     if(boxsenha.getAttribute('type')=='password'){
         boxsenha.setAttribute('type' , 'text')
     }
+    
     else{
         boxsenha.setAttribute('type' , 'password')
     }
