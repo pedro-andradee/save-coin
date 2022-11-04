@@ -2,6 +2,10 @@ body, main {
     background-color: #FFFDE6;
 }
 
+main {
+    min-height: fit-content;
+}
+
 .yellowBar {
     height: 200px;
     display: block;
@@ -25,4 +29,17 @@ body, main {
     background-color: #FFFDE6;
 }
 
+.gitlink:link, .gitlink:visited {
+    color: black;
+    text-decoration: none;
+}
 
+.gitlink:hover {
+    color: #ffd500e7;
+    text-shadow: 2px 2px 2px #353533;
+    text-decoration: none;
+}
+
+.gitlink:active {
+    text-decoration: none;
+}
