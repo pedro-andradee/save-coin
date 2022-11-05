@@ -1,106 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta 
-    name="author"
-    content="Amanda, Diovana, Gianluca, Giovanny, Pedro e Romario"/>
-    <title>Faça seu Login</title>
-    <link rel="shortcut icon" href="../img/Logo Save Coin.png" type="image/x-icon">
+  <meta name="author" content="Amanda, Diovana, Gianluca, Giovanny, Pedro e Romario" />
+  <title>Faça seu Login</title>
+  <link rel="shortcut icon" href="../img/Logo Save Coin.png" type="image/x-icon">
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"/>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 
   <!-- Bootstrap JS -->
-  <script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-  crossorigin="anonymous" ></script>
-
-  
-    <!-- Bootstrap ICON -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
-
-   <!-- Google Fonts -->
-   <link
-   href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto&display=swap"
-   rel="stylesheet"/>
-
-     <!-- JQuery -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-     <script>
-       $(function () {
-         $("#header").load("header.html");
-         $("#footer").load("footer.html");
-       });
-     </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 
 
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="./css/header+footer.css" />
-    <link rel="stylesheet" href="./css/addSaveMeta.css">
-    <link rel="stylesheet" href="../savecoin/css/login.css">
+  <!-- Bootstrap ICON -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
-    <!-- my link JS -->
-    <script src="js/login.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./css/header+footer.css" />
+  <link rel="stylesheet" href="./css/addSaveMeta.css">
+  <link rel="stylesheet" href="../savecoin/css/login.css">
+
+  <!-- my link JS -->
+  <script src="js/login.js"></script>
 
 </head>
+
 <body>
-    <!--Se referir ao header informado com o jquery-->
-    <div id="header"></div> 
-      <div id="login">
-          <div class="container">
-                  <div class="row linha">
-                                  
-                        <div class="col-md-6  order-2 order-md-1 logo-box">
-                        <img class="img-fluid" src="../img/GIF Save Coin.gif" alt="Logo SaveCoin">
-                        </div>
+  <!--Se referir ao header informado com o jquery-->
+  <div id="header"></div>
+  <div id="login">
+    <div class="container">
+      <div class="row linha">
 
-                        <div class="col-md-6 order-1 order-md-2 login-box">
-                              <div class="col-md-12 caixa-login">
-                              <form id="login-form" class="form" method="post" ><!--Pegar o restante das info no login-rommel-->
-                              <h2 class="text-center">Entrar na sua conta</h2>    
-                                    <div class="form-group label-float">
-                                    
-                                    <input type="text" name="username" class="form-control username" required>
-                                    <label id="labelemail" for="username" >E-mail</label>
-                                    </div>
-
-                                    <div class= "form-group label-float">
-                                    <input type="password"  name="password" class="form-control password" id="inputsenha" required >
-                                    <label id="labelsenha" for="password" >Senha</label>
-                                    <i class="bi bi-eye-fill" id="StyleIcon" aria-hidden="true" onclick='versenha()'></i>
-                                    
-                                    </div>
-
-                                        <div class="form-group text-center">                                
-                                            <input type="submit" name="submit" class="btn btn-md btn-entrar" value="Entrar" onclick="window.location.href='homepage.html'">
-                                        </div>
-
-                              </form>
-                                    <button type="button" class="btn btn-cadastrar" data-toggle="modal" data-target="#loginModal">Não possui uma conta? Clique aqui e Cadastre-se.</button>
-                              </div>
-
-                        </div>
-
-                  </div>
-                  
-          </div>
+        <div class="col-md-6  order-2 order-md-1 logo-box">
+          <img class="img-fluid" src="../img/GIF Save Coin.gif" alt="Logo SaveCoin">
         </div>
+
+        <div class="col-md-6 order-1 order-md-2 login-box">
+          <div class="col-md-12 caixa-login">
+            <form id="login-form" class="form" method="post">
+              <!--Pegar o restante das info no login-rommel-->
+              <h2 class="text-center">Entrar na sua conta</h2>
+              <div class="form-group label-float">
+
+                <input type="text" id="email" name="username" class="form-control username" required>
+                <label id="labelemail" for="username">E-mail</label>
+              </div>
+
+              <div class="form-group label-float">
+                <input type="password" name="password" class="form-control password" id="inputsenha" required>
+                <!--'onkeyup para quando for digitando executar a function validsenha'-->
+                <label id="labelsenha" for="password">Senha</label>
+                <i class="bi bi-eye-fill" id="StyleIcon" aria-hidden="true" onclick='versenha()'></i>
+
+
+              </div>
+
+              <div class="form-group text-center">
+                <input type="submit" name="submit" class="btn btn-md btn-entrar" value="Entrar" id="entrar" onclick="window.location.href='editperfilusuario.html'">
+              </div>
+
+            </form>
+            <button type="button" class="btn btn-cadastrar" data-toggle="modal" data-target="#loginModal">Não possui uma
+              conta? Clique aqui e Cadastre-se.</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
 
 
   <!-- Modal -->
-  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -110,55 +106,62 @@
           </button>
         </div>
         <div class="modal-body">
-            <div id="login-box" class="col-md-12">
-                <form id="login-form-modal" class="form" method="post" onsubmit="loginUser (this)">
-                    
-                    <div class="form-group label-float">
-                      <input type="text" name="txt_login" id="txt_login" class="form-control" required>  
-                      <label id="labelusuario" for="login" class="text-info">Usuário</label>
-                        
-                    </div>
-                    <div class="form-group label-float">
-                      <input type="text" name="txt_nome" id="txt_nome" class="form-control" required>  
-                      <label id="labelnomecompleto" for="nome" class="text-info">Nome completo</label>
-                        
-                    </div>
-                    <div class="form-group label-float">
-                      <input type="text" name="txt_email" id="txt_email" class="form-control" required>  
-                      <label id="labelemailmodal" for="email" class="text-info">E-mail</label>
-                        
-                    </div>
-                    <div class="form-group label-float">
-                      <input type="password" name="txt_senha" id="txt_senha" class="form-control" required>  
-                      <label id="labelsenhamodal" for="senha" class="text-info">Senha</label>
-                      <i class="bi bi-eye-fill" id="StyleIcon"></i>
-                        
-                    </div>
-                    <div class="form-group label-float">
-                      <input type="password" name="txt_senha2" id="txt_senha2" class="form-control" required>  
-                      <label id="labelconfirmesenhamodal" for="senha2" class="text-info">Confirmação de Senha</label>
-                      <i class="bi bi-eye-fill" id="StyleIcon"></i>
-                        
-                    </div>
-                </form>
-            </div>
+          <div id="login-box" class="col-md-12">
+            <form id="login-form-modal" class="form" method="post" >
+
+              <div class="form-group label-float">
+                <input type="text" id="inputusuario" class="form-control" onkeyup="nomeusuario()" required>
+                <label id="labelusuario" for="labelusuario" class="text-info">Usuário</label>
+
+              </div>
+              <div class="form-group label-float">
+                <input type="text" name="txt_nome" id="txt_nome" class="form-control" required>
+                <label id="labelnomecompleto" for="nome" class="text-info">Nome completo</label>
+
+              </div>
+              <div class="form-group label-float">
+                <input type="text" name="txt_email" id="txt_email" class="form-control" required>
+                <label id="labelemailmodal" for="email" class="text-info">E-mail</label>
+
+              </div>
+              <div class="form-group label-float">
+                <input type="password" id="inputsenhamodal" class="form-control password" onkeyup='validsenha()'
+                  required>
+                <label id="labelsenhamodal" for="senha" class="text-info">Senha</label>
+                <i class="bi bi-eye-fill" id="StyleIcon" onclick='versenhamodal()'></i>
+
+              </div>
+              <div class="form-group label-float">
+                <input type="password" id="inputconfirmsenhamodal" class="form-control" onkeyup="ConfirmSenha()"
+                  required>
+                <label id="labelconfirmesenhamodal" for="senha2" class="text-info password">Confirmação de Senha</label>
+                <i class="bi bi-eye-fill" id="StyleIcon" onclick='verconfirmsenhamodal()'></i>
+
+              </div>
+            </form>
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary btn-cancelar" data-dismiss="modal">Cancelar</button>
-          <button type="button" id="btn_salvar" class="btn btn-salvar">Salvar</button>
+          <button type="button" id="btn_salvar" class="btn btn-salvar" onclick='cadastrar()'>Salvar</button>
         </div>
       </div>
     </div>
   </div>
 
-        
-
-        <!--lINKS DE REF DO LOGIN ROMMEL-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
 
 
-    <!--Se referir ao footer informado com o jquery-->
-    <div id="footer"></div>
+  <!--lINKS DE REF DO LOGIN ROMMEL-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <!--Se referir ao footer informado com o jquery-->
+  <div id="footer"></div>
 </body>
+
 </html>
