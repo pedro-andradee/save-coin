@@ -16,24 +16,24 @@
     font-size: 20px;
 }
 
-.container {
-    font-family: 'roboto';
+.row-art {
+    
     text-align: justify;
-    color: #3b4c53;
-
-}
-
-.row {
-    font-family: 'roboto';
-    text-align: justify;
-    color: #3b4c53;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.row h3 {
+.row-art h3 {
     font-size: 42px;
     text-shadow: 1.2px 1.2px 1.2px rgb(180, 174, 174);
+}
+
+.container-art {
+    text-align: justify;
+}
+
+article p {
+    text-align: justify;
 }
 
 .title {
