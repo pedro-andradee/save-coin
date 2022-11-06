@@ -1,0 +1,26 @@
+.yellowBar {
+    display: block;
+    background-color: #FFD500;
+}
+
+.yellowBarContent {
+    text-align: center;
+    padding: 2% 32%;
+}
+
+.yellowBarContent h4 {
+    padding-top: 2%;
+}
+
+.yellowBar h4 {
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.quest {
+    margin-bottom: 15px;
+}

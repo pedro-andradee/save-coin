@@ -11,3 +11,62 @@
 .yellowBarContent h4 {
     padding-top: 2%;
 }
+
+.yellowBar h4 {
+    font-size: 20px;
+}
+
+.container {
+    font-family: 'roboto';
+    text-align: justify;
+    color: #3b4c53;
+
+}
+
+.row {
+    font-family: 'roboto';
+    text-align: justify;
+    color: #3b4c53;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.row h3 {
+    font-size: 42px;
+    text-shadow: 1.2px 1.2px 1.2px rgb(180, 174, 174);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.title h2 {
+    font-size: 80px;
+    text-shadow: 3px 3px 3px rgb(180, 174, 174);
+}
+
+.text h3 {
+    font-size: 32px;
+    text-shadow: 1.2px 1.2px 1.2px rgb(180, 174, 174);
+    font-weight: bolder;
+}
+
+.text {
+    font-size: 24px;
+}
+
+.stitle {
+    font-size: 28px;
+}
+
+.ref {
+    margin-top: 70px;
+    font-size: 24px;
+}
+
+.ref h4 {
+    font-size: 28px;
+}
