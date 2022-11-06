@@ -1,4 +1,8 @@
+main {
+    background-color: #FFFDE6;
+}
 .yellowBar {
+    height: 18em;
     background-color: #FFD500;
 }
 
