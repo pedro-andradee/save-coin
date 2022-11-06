@@ -1,0 +1,45 @@
+.yellowBar {
+    display: block;
+    background-color: #FFD500;
+}
+
+.yellowBarContent {
+    text-align: center;
+    padding: 2% 32%;
+}
+
+.yellowBarContent h4 {
+    padding-top: 2%;
+}
+
+.yellowBar h4 {
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.pic {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.card-title {
+    font-size: 32px;
+    text-shadow: 1.2px 1.2px 1.2px rgb(180, 174, 174);
+    font-weight: bolder;
+}
