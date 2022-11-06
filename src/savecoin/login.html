@@ -74,11 +74,14 @@
                 <label id="labelsenha" for="password">Senha</label>
                 <i class="bi bi-eye-fill" id="StyleIcon" aria-hidden="true" onclick='versenha()'></i>
 
-
+                
               </div>
 
               <div class="form-group text-center">
-                <input type="submit" name="submit" class="btn btn-md btn-entrar" value="Entrar" id="entrar" onclick="window.location.href='editperfilusuario.html'">
+                <input type="button"  name="submit" class="btn btn-md btn-entrar" value="Entrar" id="entrar"
+                  onclick="logar()">
+                </div><div class="msg-error-entrar">
+                </div><div class="msg-sucess-entrar">
               </div>
 
             </form>
@@ -107,7 +110,7 @@
         </div>
         <div class="modal-body">
           <div id="login-box" class="col-md-12">
-            <form id="login-form-modal" class="form" method="post" >
+            <form id="login-form-modal" class="form" method="post">
 
               <div class="form-group label-float">
                 <input type="text" id="inputusuario" class="form-control" onkeyup="nomeusuario()" required>
@@ -137,7 +140,10 @@
                 <label id="labelconfirmesenhamodal" for="senha2" class="text-info password">Confirmação de Senha</label>
                 <i class="bi bi-eye-fill" id="StyleIcon" onclick='verconfirmsenhamodal()'></i>
 
+              </div><div class="msg-error">
+              </div><div class="msg-sucess">
               </div>
+
             </form>
           </div>
         </div>

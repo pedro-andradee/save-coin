@@ -2,7 +2,8 @@
 let ValidaUsuario = false;
 let ValidaSenha = false;
 let ValidaConfirmSenha = false;
-
+let ValidaTeste1 = false
+let ValidaTeste2= false
 
 
 
@@ -101,7 +102,7 @@ function nomeusuario() {
         LabelUsuario.innerHTML = '<strong>Usuário *Insira uma Usuario com no mínimo 3 dígitos</strong>';
         BoxUsuario.setAttribute('style', 'border-color: red');
         ValidaUsuario = false;
-        
+
     }
     else {
         LabelUsuario.setAttribute('style', 'color:green  !important');
@@ -118,11 +119,49 @@ function nomeusuario() {
 }
 
 
-function cadastrar(){
-    if( ValidaUsuario && ValidaSenha && ValidaConfirmSenha){
-             alert("DEUUU VERDADEIRO");
+function cadastrar() {
+    if (ValidaUsuario && ValidaSenha && ValidaConfirmSenha) {
+        let MsgSucess = document.querySelector('.msg-sucess');
+
+        MsgSucess.innerHTML = '*Usuario cadastrado com sucesso';
+
+        setTimeout(() => {window.location.href = 'homepage.html'}, 1300);
+    
+
     }
-    else{
-            alert("DEUU FALSO");
+    else {
+        let MsgError = document.querySelector('.msg-error');
+        MsgError.innerHTML = '*Preencha todos os campos corretamente';
     }
 }
+
+
+function logar() {
+    
+    let BoxEmail = document.querySelector('#email');
+    let ValorEmail = BoxEmail.value;
+    let BoxSenhaLogin = document.querySelector('#inputsenha');
+    let ValorSenhaLogin = BoxSenhaLogin.value;
+    let MsgErrorEntrar = document.querySelector('.msg-error-entrar');
+    let MsgSucessEntrar = document.querySelector('.msg-sucess-entrar');
+    if(ValorEmail && ValorSenhaLogin == "admin"){
+        ValidaTeste1=true;
+        ValidaTeste2=true;
+    }
+    else{
+        ValidaTeste1=false;
+        ValidaTeste2=false;
+    }
+
+    if (ValidaTeste1 && ValidaTeste2) {
+       
+
+        MsgSucessEntrar.innerHTML = '*Efetuando Login';
+        setTimeout(() => {window.location.href = 'homepage.html'}, 1300);
+    }
+    else {
+        MsgErrorEntrar.innerHTML = '*Usuario não encontrado! Confira seu E-mail e sua senha.';
+        setTimeout(() => {MsgErrorEntrar.innerHTML = ''}, 1800);
+    }
+}
+
