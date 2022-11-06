@@ -1,5 +1,9 @@
+body {
+    background-color: #FFFDE6;
+}
+
 .yellowBar {
-    display: block;
+    height: 18em;
     background-color: #FFD500;
 }
 
