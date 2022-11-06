@@ -45,10 +45,6 @@ nav ul > li > a {
 #lastIconsStyle {
     color:black;
 }
-main {
-    min-height: 85vh;
-    background-color: white;
-}
 
 .text-reset {
     text-decoration: none;

@@ -1,3 +1,7 @@
+main {
+    background-color: #FFFDE6 !important;
+}
+
 .yellowBar {
     display: block;
     background-color: #FFD500;
@@ -15,7 +19,6 @@
 fieldset {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
     margin-top: 2em;
     gap: 1.2em;
 }
@@ -24,11 +27,13 @@ fieldset legend {
     font-size: xx-large;
     font-weight: bold;
     margin: 0;
+    margin-left: 10%;
 }
 
 .formItem {
     display: flex;
     flex-direction: column;
+    margin-left: 10%;
 }
 
 .formItem label {
@@ -45,6 +50,18 @@ fieldset legend {
     padding: 0.5em;
 }
 
+.form-check {
+    margin:0 12px 0 0;
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+    margin-left: 10%;
+}
+
+.form-check-label {
+    margin-bottom: 0.3em;
+}
+
 .saveButton {
     background-color: #FFD500;
     width: 8rem;
@@ -53,8 +70,9 @@ fieldset legend {
     border-radius: 30px;
     margin-top: 1.3em;
     margin-right: 1em;
+    margin-left: 10%;
 }
-.saveButtonAgenda {
+.addButtonAgenda {
     background-color: #FFFFFF;
     width: 12rem;
     height: 3rem;
@@ -73,3 +91,4 @@ fieldset legend {
     border-radius: 30px;
     margin-bottom: 5em;
 }
+
