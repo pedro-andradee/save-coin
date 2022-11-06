@@ -77,6 +77,8 @@ fieldset legend {
 .cancelButton {
     background-color: #c2c2c2;
 }
+
+
 /* ||SMALL|| */
 @media screen and (min-width: 481px) {
     .yellowBarContent {

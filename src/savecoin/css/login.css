@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #FFFDE6 !important;
+}
+
 .linha {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -31,8 +35,6 @@
 
 
 .caixa-login h2 {
-    font-family: 'Roboto';
-    font-style: bold;
     color: #343F4B;
     text-align: center;
     text-shadow: 2px 2px 2px rgb(180, 174, 174);
@@ -108,7 +110,7 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     border: 1px solid #FFD500;
     text-shadow: 1px 1px 1px rgb(180, 174, 174);
     font-size: 1.5rem;
-    font-family: 'Roboto';
+
     font-weight: 500;
     width: 60%;
     box-shadow: 2px 2px 2px 0px #00000050;
@@ -124,7 +126,6 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 
 .msg-error-entrar {
     position: absolute;
-    font-family: 'Roboto';
     font-weight:bolder;
     color: rgba(172, 0, 0, 0.656) !important;
     text-align: center;
@@ -136,7 +137,6 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 
 .msg-sucess-entrar {
     position: absolute;
-    font-family: 'Roboto';
     font-weight:bolder;
     color:  rgba(11, 140, 22, 0.656)  !important;
     text-align: left;
@@ -150,7 +150,6 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     border: none;
     width: 100%;
     margin-top: 20px;
-    font-family: 'Roboto';
     font-style: bold;
     font-weight: 500;
     font-size: 18px;
@@ -171,7 +170,6 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 /*Botão 'X' modal*/
 
 .modal-header h3 {
-    font-family: 'Roboto';
     font-style: bold;
     color: #343F4B !important;
     text-align: center;
@@ -180,7 +178,6 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 }
 
 .modal-body .msg-error {
-    font-family: 'Roboto';
     font-weight:bolder;
     color: rgba(172, 0, 0, 0.656) !important;
     text-align: left;
@@ -188,7 +185,6 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 }
 
 .modal-body .msg-sucess {
-    font-family: 'Roboto';
     font-weight:bolder;
     color: rgba(11, 140, 22, 0.656) !important;
     text-align: left;
@@ -278,7 +274,6 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     border: 1px solid #FFD500;
     text-shadow: 1px 1px 1px rgb(180, 174, 174);
     font-size: 1rem;
-    font-family: 'Roboto';
     font-weight: 500;
     box-shadow: 2px 2px 2px 0px #00000050;
 }
@@ -295,13 +290,12 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     border: 1px solid #00000099;
     text-shadow: 1px 1px 1px rgb(47, 47, 47);
     font-size: 1rem;
-    font-family: 'Roboto';
     font-weight: 500;
     box-shadow: 2px 2px 2px 0px #00000050;
     color: white;
 }
 
-.btn-cancelar:hover {
+.btn-cancelar-modal:hover {
     scale: 105%;
     --bs-btn-hover-border-color: red;
     transition: all .3s ease-out;
