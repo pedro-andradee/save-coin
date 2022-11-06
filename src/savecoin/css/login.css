@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 .linha {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -127,7 +126,7 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     position: absolute;
     font-family: 'Roboto';
     font-weight:bolder;
-    color: rgb(255, 134, 134) !important;
+    color: rgba(172, 0, 0, 0.656) !important;
     text-align: center;
     font-size: 1.3rem;
     transform: translateY(15px);
@@ -139,7 +138,7 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     position: absolute;
     font-family: 'Roboto';
     font-weight:bolder;
-    color:  rgb(68, 174, 77)  !important;
+    color:  rgba(11, 140, 22, 0.656)  !important;
     text-align: left;
     font-size: 1.3rem;
     transform: translateY(20x);
@@ -183,7 +182,7 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 .modal-body .msg-error {
     font-family: 'Roboto';
     font-weight:bolder;
-    color: rgb(255, 134, 134) !important;
+    color: rgba(172, 0, 0, 0.656) !important;
     text-align: left;
     font-size: 1.3rem;
 }
@@ -191,7 +190,7 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 .modal-body .msg-sucess {
     font-family: 'Roboto';
     font-weight:bolder;
-    color: rgb(68, 174, 77) !important;
+    color: rgba(11, 140, 22, 0.656) !important;
     text-align: left;
     font-size: 1.3rem;
 }

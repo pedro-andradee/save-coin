@@ -1,3 +1,8 @@
+<head>
+    <link rel="stylesheet" href="../savecoin/css/login.css">
+    <script src="js/login.js"></script>
+</head>
+
 <footer class="bg-dark text-center text-white">
     <div class="container p-4">
 
@@ -96,13 +101,81 @@
                 </div>
                 </div>
                 <div class="col-auto">
-                <button type="submit" class="btn btn-outline-light mb-4">
+                <button type="button" class="btn btn-outline-light mb-4" data-toggle="modal" data-target="#loginModal">
                     Cadastre-se
                 </button>
                 </div>
             </div>
             </form>
         </section>
+
+        <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="text-center text-info">Novo usuário</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="login-box" class="col-md-12">
+          <form id="login-form-modal" class="form" method="post">
+
+            <div class="form-group label-float">
+              <input type="text" id="inputusuario" class="form-control" onkeyup="nomeusuario()" required>
+              <label id="labelusuario" for="labelusuario" class="text-info">Usuário</label>
+
+            </div>
+            <div class="form-group label-float">
+              <input type="text" name="txt_nome" id="txt_nome" class="form-control" required>
+              <label id="labelnomecompleto" for="nome" class="text-info">Nome completo</label>
+
+            </div>
+            <div class="form-group label-float">
+              <input type="text" name="txt_email" id="txt_email" class="form-control" required>
+              <label id="labelemailmodal" for="email" class="text-info">E-mail</label>
+
+            </div>
+            <div class="form-group label-float">
+              <input type="password" id="inputsenhamodal" class="form-control password" onkeyup='validsenha()'
+                required><!--'onkeyup para quando for digitando executar a function validsenha, validando se possui o número de carecteres estipulado'-->
+              <label id="labelsenhamodal" for="senha" class="text-info">Senha</label>
+              <i class="bi bi-eye-fill" id="StyleIcon" onclick='versenhamodal()'></i>
+
+            </div>
+            <div class="form-group label-float">
+              <input type="password" id="inputconfirmsenhamodal" class="form-control" onkeyup="ConfirmSenha()"
+                required><!--'onkeyup para quando for digitando executar a function ConfirmSenha, validando se a confirmsenha é igual a senha'-->
+              <label id="labelconfirmesenhamodal" for="senha2" class="text-info password">Confirmação de Senha</label>
+              <i class="bi bi-eye-fill" id="StyleIcon" onclick='verconfirmsenhamodal()'></i>
+
+            </div><div class="msg-error">
+            </div><div class="msg-sucess">
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-cancelar" data-dismiss="modal">Cancelar</button>
+        <button type="button" id="btn_salvar" class="btn btn-salvar" onclick='cadastrar()'>Salvar</button><!--'onclick para quando clicar executar a function cadastrar, validando se todos os campos estão validados e simulando o cadastro do login e logando o usuario.'-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--lINKS DE REF DO LOGIN ROMMEL-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
 
         </div>
         <!-- Grid container -->

@@ -70,7 +70,7 @@
 
               <div class="form-group label-float">
                 <input type="password" name="password" class="form-control password" id="inputsenha" required>
-                <!--'onkeyup para quando for digitando executar a function validsenha'-->
+                
                 <label id="labelsenha" for="password">Senha</label>
                 <i class="bi bi-eye-fill" id="StyleIcon" aria-hidden="true" onclick='versenha()'></i>
 
@@ -79,7 +79,7 @@
 
               <div class="form-group text-center">
                 <input type="button"  name="submit" class="btn btn-md btn-entrar" value="Entrar" id="entrar"
-                  onclick="logar()">
+                  onclick="logar()"><!--'onclick para quando for clicado executar a function logar que simula o login do usuário, validando se a informação confere com a do bd'-->
                 </div><div class="msg-error-entrar">
                 </div><div class="msg-sucess-entrar">
               </div>
@@ -129,14 +129,14 @@
               </div>
               <div class="form-group label-float">
                 <input type="password" id="inputsenhamodal" class="form-control password" onkeyup='validsenha()'
-                  required>
+                  required><!--'onkeyup para quando for digitando executar a function validsenha, validando se possui o número de carecteres estipulado'-->
                 <label id="labelsenhamodal" for="senha" class="text-info">Senha</label>
                 <i class="bi bi-eye-fill" id="StyleIcon" onclick='versenhamodal()'></i>
 
               </div>
               <div class="form-group label-float">
                 <input type="password" id="inputconfirmsenhamodal" class="form-control" onkeyup="ConfirmSenha()"
-                  required>
+                  required><!--'onkeyup para quando for digitando executar a function ConfirmSenha, validando se a confirmsenha é igual a senha'-->
                 <label id="labelconfirmesenhamodal" for="senha2" class="text-info password">Confirmação de Senha</label>
                 <i class="bi bi-eye-fill" id="StyleIcon" onclick='verconfirmsenhamodal()'></i>
 
@@ -149,7 +149,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary btn-cancelar" data-dismiss="modal">Cancelar</button>
-          <button type="button" id="btn_salvar" class="btn btn-salvar" onclick='cadastrar()'>Salvar</button>
+          <button type="button" id="btn_salvar" class="btn btn-salvar" onclick='cadastrar()'>Salvar</button><!--'onclick para quando clicar executar a function cadastrar, validando se todos os campos estão validados e simulando o cadastro do login e logando o usuario.'-->
         </div>
       </div>
     </div>

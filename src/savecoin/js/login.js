@@ -1,12 +1,15 @@
 
+
+//Variaveis
 let ValidaUsuario = false;
 let ValidaSenha = false;
 let ValidaConfirmSenha = false;
 let ValidaTeste1 = false
 let ValidaTeste2= false
+let LoginAdmin = "admin"
 
 
-
+//Função para ver a senha quando clicar no ícone de olho
 function versenha() {
     let boxsenha = document.querySelector('#inputsenha');
     if (boxsenha.getAttribute('type') == 'password') {
@@ -16,7 +19,7 @@ function versenha() {
         boxsenha.setAttribute('type', 'password');
     }
 }
-
+//Função para ver a senha quando clicar no ícone de olho no modal
 function versenhamodal() {
     let boxsenhamodal = document.querySelector('#inputsenhamodal');
     if (boxsenhamodal.getAttribute('type') == 'password') {
@@ -26,7 +29,7 @@ function versenhamodal() {
         boxsenhamodal.setAttribute('type', 'password')
     }
 }
-
+//Função para ver a ConfirmSenha quando clicar no ícone de olho no modal
 function verconfirmsenhamodal() {
     let boxconfirmsenhamodal = document.querySelector('#inputconfirmsenhamodal');
     if (boxconfirmsenhamodal.getAttribute('type') == 'password') {
@@ -37,7 +40,8 @@ function verconfirmsenhamodal() {
     }
 }
 
-
+//Função para validar se possui o número de caracteres estipulado e estilizar a label da senha do modal.
+//As variaveis que possuem 'valida' foram colocadas no inicio como false, para que seja alterada para true somente quando preencher os requisitos estipulados, assim fazendo com que seja possivel efetuar a simulação de login  
 function validsenha() {
     let BoxSenha = document.querySelector("#inputsenhamodal");
     let ValorSenha = BoxSenha.value;
@@ -45,9 +49,9 @@ function validsenha() {
     let LabelSenha = document.querySelector("#labelsenhamodal");
 
     if (QteSenha <= 5) {
-        LabelSenha.setAttribute('style', 'color:red !important');
+        LabelSenha.setAttribute('style', 'color:#ff0000a6 !important');
         LabelSenha.innerHTML = '<strong>Senha *Insira uma senha com no mínimo 6 dígitos</strong>'
-        BoxSenha.setAttribute('style', 'border-color: red');
+        BoxSenha.setAttribute('style', 'border-color: #ff0000a6');
         ValidaSenha = false;
     }
     else {
@@ -64,6 +68,7 @@ function validsenha() {
     }
 }
 
+//Função para validar se o valor colocado no input de confirmação de senha é igual ao colocado na senha.
 function ConfirmSenha() {
     let BoxConfirmSenha = document.querySelector("#inputconfirmsenhamodal");
     let ValorConfirmSenha = BoxConfirmSenha.value;
@@ -78,9 +83,9 @@ function ConfirmSenha() {
         ValidaConfirmSenha = true;
     }
     else {
-        LabelConfirmSenha.setAttribute('style', 'color:red !important');
-        LabelConfirmSenha.innerHTML = '<strong>Confirmação de senha *As senhas não conferem</strong>';
-        BoxConfirmSenha.setAttribute('style', 'border-color: red');
+        LabelConfirmSenha.setAttribute('style', 'color:#ff0000a6 !important');
+        LabelConfirmSenha.innerHTML = '<strong>Confirmação de senha *As senhas não são iguais</strong>';
+        BoxConfirmSenha.setAttribute('style', 'border-color: #ff0000a6');
         ValidaConfirmSenha = false;
     }
     if (QteConfirmSenha == 0) {
@@ -90,7 +95,7 @@ function ConfirmSenha() {
         ValidaConfirmSenha = false;
     }
 }
-
+//Função para validar se o valor colocado no input de nome usuario possui o numero de caracteres estipulado
 function nomeusuario() {
     let BoxUsuario = document.querySelector("#inputusuario");
     let ValorUsuario = BoxUsuario.value;
@@ -98,9 +103,9 @@ function nomeusuario() {
     let LabelUsuario = document.querySelector("#labelusuario");
 
     if (QteUsuario <= 2) {
-        LabelUsuario.setAttribute('style', 'color:red !important');
+        LabelUsuario.setAttribute('style', 'color:#ff0000a6 !important');
         LabelUsuario.innerHTML = '<strong>Usuário *Insira uma Usuario com no mínimo 3 dígitos</strong>';
-        BoxUsuario.setAttribute('style', 'border-color: red');
+        BoxUsuario.setAttribute('style', 'border-color: #ff0000a6');
         ValidaUsuario = false;
 
     }
@@ -118,7 +123,8 @@ function nomeusuario() {
     }
 }
 
-
+//As variaveis que possuem 'valida' foram colocadas no inicio como false, para que seja alterada para true somente quando preencher os requisitos estipulados, assim fazendo com que seja possivel efetuar a simulação de login  
+//Função que simula o cadastro do usuario.Quando todos os campos estiverem validados ele registra e loga o usuario, caso contrario aparece uma msg de erro.
 function cadastrar() {
     if (ValidaUsuario && ValidaSenha && ValidaConfirmSenha) {
         let MsgSucess = document.querySelector('.msg-sucess');
@@ -132,10 +138,12 @@ function cadastrar() {
     else {
         let MsgError = document.querySelector('.msg-error');
         MsgError.innerHTML = '*Preencha todos os campos corretamente';
+        setTimeout(()=> {MsgError.innerHTML = ''}, 3000)
     }
 }
 
 
+//simula o login do usuario. Consulta no codigo se as informações de login batem com a estipulada e loga o usuario, caso contrario mostra uma mensagem de erro.
 function logar() {
     
     let BoxEmail = document.querySelector('#email');
@@ -144,7 +152,8 @@ function logar() {
     let ValorSenhaLogin = BoxSenhaLogin.value;
     let MsgErrorEntrar = document.querySelector('.msg-error-entrar');
     let MsgSucessEntrar = document.querySelector('.msg-sucess-entrar');
-    if(ValorEmail && ValorSenhaLogin == "admin"){
+
+    if(ValorEmail && ValorSenhaLogin == LoginAdmin){
         ValidaTeste1=true;
         ValidaTeste2=true;
     }
@@ -161,7 +170,8 @@ function logar() {
     }
     else {
         MsgErrorEntrar.innerHTML = '*Usuario não encontrado! Confira seu E-mail e sua senha.';
-        setTimeout(() => {MsgErrorEntrar.innerHTML = ''}, 1800);
+        setTimeout(() => {MsgErrorEntrar.innerHTML = ''}, 3500);
     }
 }
 
+//FAZER A  VALIDAÇÃO EMAIL .includes("history")
