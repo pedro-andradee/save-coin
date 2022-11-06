@@ -15,7 +15,9 @@ nav ul li {
 }
 
 nav ul > li:hover  {
+    scale: 104%;
     background-color: #c2a619ab;
+    transition: all .2s ease-out;
 
 }
 
@@ -49,3 +51,18 @@ nav ul > li > a {
 .text-reset {
     text-decoration: none;
 }
+
+.backgroudLastIcons:hover{
+    border-color: black !important;
+    background-color: #FFD500 !important;
+    scale: 115%;
+    transition: all .2s ease-out;
+}
+
+.backgroudLastIcons:hover > i {
+    color: black !important;   
+    scale: 115%;
+    transition: all .2 ease-out;
+ 
+}
+

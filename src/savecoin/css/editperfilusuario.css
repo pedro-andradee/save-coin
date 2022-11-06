@@ -17,11 +17,11 @@
     color: #ff0000a6;
 }
 
-.formItem input {
+.formItem .editusuario input {
     max-width: 40vw;
 }
 
-.modal{
+#deletemodal{
     transform: translateY(20%);
 }
 
