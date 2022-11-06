@@ -85,10 +85,10 @@
             <form>
               <p>Adicione os lucros do mês</p>
               <div>
-                <input placeholder="Descrição" />
-                <input placeholder="Valor" />
+                <input placeholder="Descrição" type="text" required />
+                <input placeholder="Valor" type="number" required />
               </div>
-              <select name="mes" id="mes">
+              <select name="mes" id="mes" required>
                 <option value="Janeiro">Janeiro</option>
                 <option value="Fevereiro">Fevereiro</option>
                 <option value="Março">Março</option>
@@ -102,9 +102,11 @@
                 <option value="Novembro">Novembro</option>
                 <option value="Dezembro">Dezembro</option>
               </select>
-              <button class="saveButton" onclick="adicionarLucro()">
-                Adicionar lucro
-              </button>
+              <div class="buttonHolder">
+                <button class="saveButton" onclick="adicionarLucro()">
+                  Adicionar lucro
+                </button>
+              </div>
             </form>
             <p>Ganhos Adicionados</p>
             <div>
@@ -134,10 +136,10 @@
           <form>
             <p>Adicione as despesas do mês</p>
             <div>
-              <input placeholder="Descrição" />
-              <input placeholder="Valor" />
+              <input placeholder="Descrição"  type="text" required />
+              <input placeholder="Valor"  type="number" required />
             </div>
-            <select name="mes" id="mes">
+            <select name="mes" id="mes" required>
               <option value="Janeiro">Janeiro</option>
               <option value="Fevereiro">Fevereiro</option>
               <option value="Março">Março</option>
@@ -151,9 +153,11 @@
               <option value="Novembro">Novembro</option>
               <option value="Dezembro">Dezembro</option>
             </select>
-            <button class="saveButton" onclick="adicionarLucro()">
-              Adicionar lucro
-            </button>
+            <div class="buttonHolder">
+              <button class="saveButton" onclick="adicionarGasto()">
+                Adicionar gasto
+              </button>
+            </div>
           </form>
           <p>Gastos Adicionados</p>
           <div>

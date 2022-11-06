@@ -1,3 +1,7 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .yellowBar {
   display: block;
   background-color: #ead80e;
@@ -13,13 +17,15 @@
 }
 
 .saveButton {
-  background-color: #ead80e;
-  width: 8rem;
+  background-color: #FFD500;
+  padding: 0.1em 0;
+  width: 9rem;
   font-weight: 500;
   border: none;
-  border-radius: 30px;
-  padding: 0.5em;
+  border-radius: 10px;
 }
+
+
 
 section {
   margin-left: 1em;
@@ -30,7 +36,6 @@ select {
 }
 
 input {
-  border-radius: 0.5em;
   padding: 0.5em;
 }
 
@@ -42,7 +47,6 @@ input {
 select {
   width: 50%;
   margin-left: 25%;
-  border-radius: 0.5em;
   padding: 0.5em;
   margin-top: 1em;
 }
@@ -50,7 +54,6 @@ select {
 button {
   margin-top: 0.25em;
   width: 50%;
-  margin-left: 35%;
 }
 
 .salariosecao {
@@ -112,9 +115,26 @@ i {
   text-align: center;
 }
 
+.buttonHolder{
+  display: flex; 
+  align-items: center; 
+  justify-content: center
+}
+
+#gastoseganhos{
+  gap: 3em
+}
+
 @media only screen and (max-width: 1000px) {
   #gastoseganhos {
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  select,input{
+    max-width: 33%;
   }
   select {
     margin: 0;
