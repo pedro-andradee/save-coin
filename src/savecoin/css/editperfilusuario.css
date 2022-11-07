@@ -31,6 +31,10 @@ body{
     transform: translateY(20%);
 }
 
+#sucessmodal{
+    transform: translateY(30%);
+}
+
 
 /*MODAL*/
 .title-modal {
@@ -47,13 +51,13 @@ body{
 }
 
 
-.modal-footer .formButtons {
+.modal-footer-edit .formButtons {
     justify-content: center;
     width: 100%;
     margin: 10px;
 }
 
-BUTTON {
+button{
     padding: 0.1em 0;
     width: 9rem;
     font-weight: 500;

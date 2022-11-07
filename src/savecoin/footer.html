@@ -107,14 +107,14 @@
             <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
               aria-hidden="true">
               <div class="modal-dialog" role="document">
-                <div class="modal-content">
+                <div class="modal-content modal-content-login">
                   <div class="modal-header">
-                    <h3 class="text-center text-info">Novo usuário</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <h3 class="text-center text-info modal-h3">Novo usuário</h3>
+                    <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body modal-body-login">
                     <div id="login-box" class="col-md-12">
                       <form id="login-form-modal" class="form" method="post">
 
@@ -159,7 +159,8 @@
                     </div>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary btn-cancelar" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-secondary btn-cancelar-modal"
+                      data-dismiss="modal">Cancelar</button>
                     <button type="button" id="btn_salvar" class="btn btn-salvar" onclick='cadastrar()'>Salvar</button>
                     <!--'onclick para quando clicar executar a function cadastrar, validando se todos os campos estão validados e simulando o cadastro do login e logando o usuario.'-->
                   </div>
