@@ -14,14 +14,14 @@ nav ul li {
     height: 100%;
 }
 
-nav ul > li:hover  {
+nav ul>li:hover {
     scale: 104%;
     background-color: #c2a619ab;
     transition: all .2s ease-out;
 
 }
 
-nav ul > li > a {
+nav ul>li>a {
     width: 100%;
     display: flex;
     align-items: center;
@@ -45,24 +45,27 @@ nav ul > li > a {
 }
 
 #lastIconsStyle {
-    color:black;
+    color: black;
 }
 
 .text-reset {
     text-decoration: none;
 }
 
-.backgroudLastIcons:hover{
+.backgroudLastIcons:hover {
     border-color: black !important;
     background-color: #FFD500 !important;
     scale: 115%;
     transition: all .2s ease-out;
 }
 
-.backgroudLastIcons:hover > i {
-    color: black !important;   
+.backgroudLastIcons:hover>i {
+    color: black !important;
     scale: 115%;
     transition: all .2 ease-out;
- 
+
 }
 
+.btn-cadastre-se {
+    width: 90%;
+}
