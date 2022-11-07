@@ -1,10 +1,12 @@
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: #FFFDE6 !important;
 }
 
 .yellowBar {
   display: block;
-  background-color: #ead80e;
+  background-color: #FFD500;
+  height: 18em;
 }
 
 .yellowBarContent {
