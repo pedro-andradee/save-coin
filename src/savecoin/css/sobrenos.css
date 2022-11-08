@@ -29,17 +29,17 @@ main {
     background-color: #FFFDE6;
 }
 
-.gitlink:link, .gitlink:visited {
+.sociallink:link, .sociallink:visited {
     color: black;
     text-decoration: none;
 }
 
-.gitlink:hover {
+.sociallink:hover {
     color: #ffd500e7;
     text-shadow: 2px 2px 2px #353533;
     text-decoration: none;
 }
 
-.gitlink:active {
+.sociallink:active {
     text-decoration: none;
 }
