@@ -31,7 +31,7 @@ const changeAccordion = (mes) => {
 //CHART BAR:
 //CHAT BAR GANHOS
 
-  const dataGanhos = {
+  var dataGanhos = {
     labels: ["Salário" , "Ganho 2","Ganho 3","Ganho 4"],
     datasets: [{
       label: 'Ganhos',
@@ -47,7 +47,7 @@ const changeAccordion = (mes) => {
     }]
   };
 
-  const configGanhos = {
+  var configGanhos = {
     type: 'bar',
     data: dataGanhos,
     options: {
@@ -59,15 +59,16 @@ const changeAccordion = (mes) => {
     },
   };
 
-  const ChartBarGanhos = new Chart(
+  var ChartBarGanhos = new Chart(
     document.getElementsByClassName('ChartBarGanhos'),
     configGanhos
   );
 
+  
 
 //CHAT BAR GASTOS
 
-const dataGastos = {
+var dataGastos = {
   labels: ["Brinquedo" , "Gasto 2","Gasto 3","Gasto 4"],
   datasets: [{
     label: 'Gastos',
@@ -83,7 +84,7 @@ const dataGastos = {
   }]
 };
 
-const configGastos = {
+var configGastos = {
   type: 'bar',
   data: dataGastos,
   options: {
@@ -95,8 +96,81 @@ const configGastos = {
   },
 };
 
-const ChartBarGastos = new Chart(
+var ChartBarGastos = new Chart(
   document.getElementsByClassName('ChartBarGastos'),
   configGastos
+);
+
+
+//grafico linha 2
+
+var dataGanhos2 = {
+  labels: ["Salário" , "Ganho 2","Ganho 3","Ganho 4"],
+  datasets: [{
+    label: 'Ganhos',
+    data: [400,400,300,100],
+    backgroundColor: [
+     '#39ce6b',
+    ],
+    borderColor: [
+     'green',
+    ],
+    borderWidth: [2
+    ]
+  }]
+};
+
+var configGanhos2 = {
+  type: 'bar',
+  data: dataGanhos2,
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true
+      }
+    }
+  },
+};
+
+var ChartBarGanhos2 = new Chart(
+  document.getElementsByClassName('ChartBarGanhos2'),
+  configGanhos2
+);
+
+
+
+//CHAT BAR GASTOS
+
+var dataGastos2 = {
+labels: ["Brinquedo" , "Gasto 2","Gasto 3","Gasto 4"],
+datasets: [{
+  label: 'Gastos2',
+  data: [100,200,300,400],
+  backgroundColor: [
+   '#d8454a',
+  ],
+  borderColor: [
+   'red',
+  ],
+  borderWidth: [2
+  ]
+}]
+};
+
+var configGastos2 = {
+type: 'bar',
+data: dataGastos2,
+options: {
+  scales: {
+    y: {
+      beginAtZero: true
+    }
+  }
+},
+};
+
+var ChartBarGastos2 = new Chart(
+document.getElementsByClassName('ChartBarGastos2'),
+configGastos2
 );
 
