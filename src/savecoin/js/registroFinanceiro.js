@@ -26,3 +26,77 @@ const changeAccordion = (mes) => {
     accordionContainer.classList?.remove("displaynone");
   }
 };
+
+
+//CHART BAR:
+//CHAT BAR GANHOS
+
+  const dataGanhos = {
+    labels: ["Salário" , "Ganho 2","Ganho 3","Ganho 4"],
+    datasets: [{
+      label: 'Ganhos',
+      data: [900,400,100,700],
+      backgroundColor: [
+       '#39ce6b',
+      ],
+      borderColor: [
+       'green',
+      ],
+      borderWidth: [2
+      ]
+    }]
+  };
+
+  const configGanhos = {
+    type: 'bar',
+    data: dataGanhos,
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    },
+  };
+
+  const ChartBarGanhos = new Chart(
+    document.getElementsByClassName('ChartBarGanhos'),
+    configGanhos
+  );
+
+
+//CHAT BAR GASTOS
+
+const dataGastos = {
+  labels: ["Brinquedo" , "Gasto 2","Gasto 3","Gasto 4"],
+  datasets: [{
+    label: 'Gastos',
+    data: [900,400,100,700],
+    backgroundColor: [
+     '#d8454a',
+    ],
+    borderColor: [
+     'red',
+    ],
+    borderWidth: [2
+    ]
+  }]
+};
+
+const configGastos = {
+  type: 'bar',
+  data: dataGastos,
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true
+      }
+    }
+  },
+};
+
+const ChartBarGastos = new Chart(
+  document.getElementsByClassName('ChartBarGastos'),
+  configGastos
+);
+

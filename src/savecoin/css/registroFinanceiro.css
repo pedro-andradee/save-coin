@@ -134,3 +134,30 @@ h3 {
     padding: 3em;
   }
 }
+
+.graficos-giovanny{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+/*ChartBarGanhos*/
+
+.DivChartBarGanhos{
+  width: 45%;
+  margin-right: 5%;
+  border:2px solid #FFD50080;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/*ChartBarGastos*/
+
+.DivChartBarGastos{
+  margin-left: 5%;
+  width: 45%;
+  border:2px solid #FFD50080;
+  border-radius: 15px;
+  padding: 10px;
+}
