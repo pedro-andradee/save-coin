@@ -77,7 +77,7 @@ function validEmailModal() {
 
     if (!ValorEmail.includes("@")) {
         LabelEmail.setAttribute('style', 'color:#ff0000a6 !important');
-        LabelEmail.innerHTML = '<strong>Usuário *Insira uma Email válido</strong>';
+        LabelEmail.innerHTML = '<strong>E-mail *Insira uma Email válido</strong>';
         BoxEmail.setAttribute('style', 'border-color: #ff0000a6');
         ValidaEmail = false;
 
