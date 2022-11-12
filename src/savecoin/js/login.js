@@ -214,4 +214,4 @@ function logar() {
     }
 }
 
-//FAZER A  VALIDAÇÃO EMAIL .includes("history")
+
