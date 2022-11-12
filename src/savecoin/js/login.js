@@ -6,6 +6,7 @@ let ValidaSenha = false;
 let ValidaConfirmSenha = false;
 let ValidaTeste1 = false
 let ValidaTeste2= false
+let ValidaEmail= false
 let LoginAdmin = "admin"
 
 
@@ -39,6 +40,62 @@ function verconfirmsenhamodal() {
         boxconfirmsenhamodal.setAttribute('type', 'password')
     }
 }
+
+//Função para validar se o valor colocado no input de nome usuario possui o numero de caracteres estipulado
+function nomeusuario() {
+    let BoxUsuario = document.querySelector("#inputusuario");
+    let ValorUsuario = BoxUsuario.value;
+    let QteUsuario = ValorUsuario.length;
+    let LabelUsuario = document.querySelector("#labelusuario");
+
+    if (QteUsuario <= 2) {
+        LabelUsuario.setAttribute('style', 'color:#ff0000a6 !important');
+        LabelUsuario.innerHTML = '<strong>Usuário *Insira uma Usuario com no mínimo 3 dígitos</strong>';
+        BoxUsuario.setAttribute('style', 'border-color: #ff0000a6');
+        ValidaUsuario = false;
+
+    }
+    else {
+        LabelUsuario.setAttribute('style', 'color:green  !important');
+        LabelUsuario.innerHTML = '<strong>Usuário</strong>';
+        BoxUsuario.setAttribute('style', 'border-color: green');
+        ValidaUsuario = true;
+    }
+    if (QteUsuario == 0) {
+        LabelUsuario.setAttribute('style', 'color:#00000098  !important');
+        LabelUsuario.innerHTML = "Usuário";
+        BoxUsuario.setAttribute('style', 'border-color: #767676');
+        ValidaUsuario = false;
+    }
+}
+
+function validEmailModal() {
+    let BoxEmail = document.querySelector("#inputuEmailModal");
+    let ValorEmail = BoxEmail.value;
+    let QteValorEmail = ValorEmail.length
+    let LabelEmail = document.querySelector("#labelemailmodal");
+
+    if (!ValorEmail.includes("@")) {
+        LabelEmail.setAttribute('style', 'color:#ff0000a6 !important');
+        LabelEmail.innerHTML = '<strong>Usuário *Insira uma Email válido</strong>';
+        BoxEmail.setAttribute('style', 'border-color: #ff0000a6');
+        ValidaEmail = false;
+
+    }
+    else {
+        LabelEmail.setAttribute('style', 'color:green  !important');
+        LabelEmail.innerHTML = '<strong>E-mail</strong>';
+        BoxEmail.setAttribute('style', 'border-color: green');
+        ValidaEmail = true;
+    }
+    if (ValorEmail =='') {
+        LabelEmail.setAttribute('style', 'color:#00000098  !important');
+        LabelEmail.innerHTML = "E-mail";
+        BoxEmail.setAttribute('style', 'border-color: #767676');
+        ValidaEmail = false;
+    }
+}
+
 
 //Função para validar se possui o número de caracteres estipulado e estilizar a label da senha do modal.
 //As variaveis que possuem 'valida' foram colocadas no inicio como false, para que seja alterada para true somente quando preencher os requisitos estipulados, assim fazendo com que seja possivel efetuar a simulação de login  
@@ -95,38 +152,21 @@ function ConfirmSenha() {
         ValidaConfirmSenha = false;
     }
 }
-//Função para validar se o valor colocado no input de nome usuario possui o numero de caracteres estipulado
-function nomeusuario() {
-    let BoxUsuario = document.querySelector("#inputusuario");
-    let ValorUsuario = BoxUsuario.value;
-    let QteUsuario = ValorUsuario.length;
-    let LabelUsuario = document.querySelector("#labelusuario");
 
-    if (QteUsuario <= 2) {
-        LabelUsuario.setAttribute('style', 'color:#ff0000a6 !important');
-        LabelUsuario.innerHTML = '<strong>Usuário *Insira uma Usuario com no mínimo 3 dígitos</strong>';
-        BoxUsuario.setAttribute('style', 'border-color: #ff0000a6');
-        ValidaUsuario = false;
 
-    }
-    else {
-        LabelUsuario.setAttribute('style', 'color:green  !important');
-        LabelUsuario.innerHTML = '<strong>Usuário</strong>';
-        BoxUsuario.setAttribute('style', 'border-color: green');
-        ValidaUsuario = true;
-    }
-    if (QteUsuario == 0) {
-        LabelUsuario.setAttribute('style', 'color:#00000098  !important');
-        LabelUsuario.innerHTML = "Usuário";
-        BoxUsuario.setAttribute('style', 'border-color: #767676');
-        ValidaUsuario = false;
-    }
-}
 
 //As variaveis que possuem 'valida' foram colocadas no inicio como false, para que seja alterada para true somente quando preencher os requisitos estipulados, assim fazendo com que seja possivel efetuar a simulação de login  
 //Função que simula o cadastro do usuario.Quando todos os campos estiverem validados ele registra e loga o usuario, caso contrario aparece uma msg de erro.
 function cadastrar() {
-    if (ValidaUsuario && ValidaSenha && ValidaConfirmSenha) {
+
+        nomeusuario();
+        validEmailModal();
+        validsenha();
+        ConfirmSenha();
+  
+
+    if (ValidaUsuario && ValidaSenha && ValidaConfirmSenha && ValidaEmail) {
+        
         let MsgSucess = document.querySelector('.msg-sucess');
 
         MsgSucess.innerHTML = '*Usuario cadastrado com sucesso';
@@ -138,7 +178,7 @@ function cadastrar() {
     else {
         let MsgError = document.querySelector('.msg-error');
         MsgError.innerHTML = '*Preencha todos os campos corretamente';
-        setTimeout(()=> {MsgError.innerHTML = ''}, 3000)
+        setTimeout(()=> {MsgError.innerHTML = ''}, 3000);
     }
 }
 
