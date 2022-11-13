@@ -86,7 +86,12 @@
             </div>
             <div class="containerPorcentDelete">
               <span class="porcentagemProgresso">100%</span>
-              <button class="bi bi-x-circle botaoDelete"></button>
+              <button
+                type="button"
+                data-toggle="modal"
+                data-target="#modal-delete-meta"
+                class="bi bi-x-circle botaoDelete"
+              ></button>
             </div>
           </div>
           <button
@@ -98,7 +103,7 @@
             Nova entrada
           </button>
           <button
-            type="submit"
+            type="button"
             data-toggle="modal"
             data-target="#modal-criar-editar-meta"
             class="botaoEditar"
@@ -107,7 +112,7 @@
           </button>
         </div>
         <button
-          type="submit"
+          type="button"
           data-toggle="modal"
           data-target="#modal-criar-editar-meta"
           class="addNovaMetaBotao"
@@ -253,6 +258,37 @@
               class="botao-modal-salvar"
             >
               Salvar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MODAL DELETE META-->
+    <div
+      class="modal fade"
+      id="modal-delete-meta"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="deletemodalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="text-center titulo-modal-delete">
+              Tem certeza que deseja excluir essa meta financeira?
+            </h4>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="botao-modal-cancelar"
+              data-dismiss="modal"
+            >
+              Cancelar
+            </button>
+            <button type="button" id="btn-excluir" class="btn btn-danger">
+              Excluir
             </button>
           </div>
         </div>
