@@ -105,7 +105,7 @@ body {
     margin: 0.5em;
 }
 
-.botaoEditar {
+.botaoAtualizarValor, .botaoEditar {
     background-color: #FFEF79;
     width: 9rem;
     height: 2rem;
@@ -123,4 +123,73 @@ body {
     border: none;
     border-radius: 10px;
     margin-left: 1.5em;
+}
+
+/* MODAL INSERIR ENTRADA META */
+.botao-modal-fechar {
+    background-color: #fff;
+    border: none;
+}
+
+.botao-modal-fechar span {
+    font-size: 1.7em;
+}
+
+.body-modal-nova-entrada label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+    margin-right: 1em;
+}
+
+.body-modal-nova-entrada input {
+    max-width: 11em;
+    padding: 0.5em;
+}
+
+.modal-footer {
+    justify-content: space-evenly;
+}
+
+.botao-modal-salvar, .botao-modal-cancelar {
+    padding: 0.1em 0;
+    width: 9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
+
+.botao-modal-cancelar {
+    background-color: #c2c2c2;
+    opacity: 0.85;
+}
+
+.botao-modal-salvar {
+    background-color: #FFD500;
+    opacity: 0.85;
+}
+
+.botao-modal-cancelar:hover, .botao-modal-salvar:hover {
+    opacity: 1;
+}
+
+/* MODAL CRIAR/EDITAR META */
+.title-nova-meta {
+    font-size: 1.6em;
+}
+
+.body-modal-criar-editar-meta .formItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.6em;
+}
+
+.formItem label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+    margin-right: 1em;
+}
+
+.formItem > input {
+    max-width: 18em;
+    padding: 0.5em;
 }
