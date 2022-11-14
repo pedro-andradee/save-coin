@@ -35,9 +35,9 @@ function generateUUID() { // Public Domain/MIT
 
 
 // Dados de usuários para serem utilizados como carga inicial
-const dadosIniciais = {
-    usuarios: [
-        { "id": generateUUID (), "login": "giovanny", "senha": "admin123", "nome": "Administrador do Sistema - Giovanny", "email": "giovanny@admin.com"},
+const DadosIniciais = {
+    UsuariosIniciais: [
+        //Meu ID foi usado como base para o JSON, testar se irá manter posteriormente no arquivo ou se terei que incluir aqui no codigo{ "id": 1, "login": "giovanny", "senha": "admin123", "nome": "Administrador do Sistema - Giovanny", "email": "giovanny@admin.com"},
         { "id": generateUUID (), "login": "gian", "senha": "admin123", "nome": "Administrador do Sistema - Gian", "email": "gian@admin.com"},
         { "id": generateUUID (), "login": "dio", "senha": "admin123", "nome": "Administrador do Sistema - Dio", "email": "dio@admin.com"},
         { "id": generateUUID (), "login": "roma", "senha": "admin123", "nome": "Administrador do Sistema - Roma", "email": "roma@admin.com"},
@@ -66,10 +66,12 @@ function initLoginApp () {
         console.log('Dados de usuários não encontrados no localStorage. Feita a carga inicial dos Admin.');
 
         // Copia os dados iniciais para o banco de dados 
-        BancoUsuarios = dadosIniciais;
+        BancoUsuarios = DadosIniciais
+    ;
 
         // Salva os dados iniciais no local Storage convertendo-os para string antes
-        localStorage.setItem('BancoUsuarios', JSON.stringify (dadosIniciais));
+        localStorage.setItem('BancoUsuarios', JSON.stringify (DadosIniciais
+        ));
     }
     else  {  // Se há dados no localStorage
         
