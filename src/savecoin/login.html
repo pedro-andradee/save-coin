@@ -17,7 +17,7 @@
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-  </script>
+    </script>
 
 
   <!-- Bootstrap ICON -->
@@ -41,8 +41,6 @@
   <link rel="stylesheet" href="./css/addSaveMeta.css">
   <link rel="stylesheet" href="../savecoin/css/login.css">
 
-  <!-- my link JS -->
-  <script src="js/login.js"></script>
 
 </head>
 
@@ -59,18 +57,17 @@
 
         <div class="col-md-6 order-1 order-md-2 login-box">
           <div class="col-md-12 caixa-login">
-            <form id="login-form" class="form" method="post">
-              <!--Pegar o restante das info no login-rommel-->
+            <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
+
               <h2 class="text-center">Entrar na sua conta</h2>
               <div class="form-group label-float">
 
-                <input type="text" id="email" name="username" class="form-control username" required>
+                <input type="text" id="email" name="username" class="form-control username">
                 <label id="labelemail" for="username">E-mail</label>
               </div>
 
               <div class="form-group label-float">
-                <input type="password" name="password" class="form-control password" id="inputsenha" required>
-
+                <input type="password" name="password" class="form-control password" id="inputsenha">
                 <label id="labelsenha" for="password">Senha</label>
                 <i class="bi bi-eye-fill" id="StyleIcon" aria-hidden="true" onclick='versenha()'></i>
 
@@ -79,9 +76,11 @@
 
               <div class="form-group text-center">
                 <input type="button" name="submit" class="btn btn-md btn-entrar" value="Entrar" id="entrar"
-                  onclick="logar()">
-                <!--'onclick para quando for clicado executar a function logar que simula o login do usuário, validando se a informação confere com a do bd'-->
+                  onclick="processaFormLogin()">
+
               </div>
+
+              <!--COLOCAR PRA FUNCIONAR A CONFERENCIA REAL DAS MSG NA HR DE LOGAR, CONFERINDO O BD AO INVES DO METODO PADRAO-->
               <div class="msg-error-entrar">
               </div>
               <div class="msg-sucess-entrar">
@@ -113,20 +112,21 @@
         </div>
         <div class="modal-body modal-body-login">
           <div id="login-box" class="col-md-12">
-            <form id="login-form-modal" class="form" method="post">
+            <form id="login-form-modal" class="form" method="post" onsubmit="loginUser (this)">
 
               <div class="form-group label-float">
-                <input type="text" id="inputusuario" class="form-control" onkeyup="nomeusuario()" required>
+                <input type="text" id="inputusuario" class="form-control" onkeyup="nomeusuario()">
                 <label id="labelusuario" for="labelusuario" class="text-info">Usuário</label>
 
               </div>
               <div class="form-group label-float">
-                <input type="text" name="txt_nome" id="txt_nome" class="form-control" required>
+                <input type="text" name="txt_nome" id="txt_nome" class="form-control">
                 <label id="labelnomecompleto" for="nome" class="text-info">Nome completo</label>
 
               </div>
               <div class="form-group label-float">
-                <input type="text" name="txt_email" id="inputuEmailModal" class="form-control"  onkeyup="validEmailModal()" required>
+                <input type="text" name="txt_email" id="inputuEmailModal" class="form-control"
+                  onkeyup="validEmailModal()">
                 <label id="labelemailmodal" for="email" class="text-info">E-mail</label>
 
               </div>
@@ -156,23 +156,23 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary btn-cancelar-modal" data-dismiss="modal">Cancelar</button>
-          <button type="button" id="btn_salvar" class="btn btn-salvar" onclick='cadastrar()'>Salvar</button>
-          <!--'onclick para quando clicar executar a function cadastrar, validando se todos os campos estão validados e simulando o cadastro do login e logando o usuario.'-->
+          <button type="submit" id="btn_salvar" class="btn btn-salvar" onclick="salvaLogin()">Salvar</button>
         </div>
       </div>
     </div>
   </div>
 
 
-
   <!--lINKS DE REF DO LOGIN ROMMEL-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
+    </script>
 
+  <script src="js/loginall.js"></script>
+  <!--script src="js/login.js"></script-->
 
   <!--Se referir ao footer informado com o jquery-->
   <div id="footer"></div>
