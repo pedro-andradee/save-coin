@@ -124,24 +124,20 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     transition: all .3s ease-out;
 }
 
-.msg-error-entrar {
-    position: absolute;
+.msg-error-entrar { 
+    position: static;
     font-weight:bolder;
     color: rgba(172, 0, 0, 0.656) !important;
     text-align: center;
     font-size: 1.3rem;
-    transform: translateY(15px);
-    
-
 }
 
 .msg-sucess-entrar {
-    position: absolute;
+    position: static;
     font-weight:bolder;
     color:  rgba(11, 140, 22, 0.656)  !important;
-    text-align: left;
+    text-align: center;
     font-size: 1.3rem;
-    transform: translateY(20x);
 }
 
 
@@ -149,7 +145,6 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
     background-color: transparent;
     border: none;
     width: 100%;
-    margin-top: 20px;
     font-style: bold;
     font-weight: 500;
     font-size: 18px;
@@ -178,6 +173,7 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 }
 
 .modal-body .msg-error {
+    display: inline-flex;
     font-weight:bolder;
     color: rgba(172, 0, 0, 0.656) !important;
     text-align: left;
