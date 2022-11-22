@@ -4,10 +4,10 @@ var BancoUsuarios = {};
 // Objeto para o usuário corrente
 var usuarioCorrente = {};
 
-let ValidaUsuario = false;
-let ValidaSenha = false;
-let ValidaConfirmSenha = false;
-let ValidaEmail = false
+var ValidaUsuario = false;
+var ValidaSenha = false;
+var ValidaConfirmSenha = false;
+var ValidaEmail = false
 
 
 // função para gerar códigos randômicos a serem utilizados como código de usuário
@@ -30,7 +30,7 @@ function generateUUID() { // Public Domain/MIT
 
 
 // Dados de usuários para serem utilizados como carga inicial
-const DadosIniciais = {
+var DadosIniciais = {
     usuarios: [
         { "id": 1, "login": "giovanny", "senha": "admin123", "nome": "Administrador do Sistema - Giovanny", "email": "giovanny@admin.com" },
         { "id": generateUUID(), "login": "gian", "senha": "admin123", "nome": "Administrador do Sistema - Gian", "email": "gian@admin.com" },
