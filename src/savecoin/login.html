@@ -60,6 +60,10 @@
             <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
 
               <h2 class="text-center">Entrar na sua conta</h2>
+              <div class="msg-error-entrar">
+              </div>
+              <div class="msg-sucess-entrar">
+              </div>
               <div class="form-group label-float">
 
                 <input type="text" id="email" name="username" class="form-control username">
@@ -80,11 +84,6 @@
 
               </div>
 
-              <!--COLOCAR PRA FUNCIONAR A CONFERENCIA REAL DAS MSG NA HR DE LOGAR, CONFERINDO O BD AO INVES DO METODO PADRAO-->
-              <div class="msg-error-entrar">
-              </div>
-              <div class="msg-sucess-entrar">
-              </div>
 
             </form>
             <button type="button" class="btn btn-cadastrar" data-toggle="modal" data-target="#loginModal">Não possui uma
@@ -172,8 +171,6 @@
     </script>
 
   <script src="js/loginall.js"></script>
-  <!--script src="js/login.js"></script-->
-
   <!--Se referir ao footer informado com o jquery-->
   <div id="footer"></div>
 </body>

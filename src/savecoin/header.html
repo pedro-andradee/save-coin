@@ -89,7 +89,7 @@
                 <button type="button" 
                 class="dropdown-item item-dropdown" 
                 onclick="EditarPefil()">Editar perfil</a>
-                <button type="button" class="dropdown-item item-dropdown" onclick="Logout()">Sair</a>
+                <button type="button" class="dropdown-item item-dropdown" onclick="logoutUser()">Sair</a>
               </div>
             </div>
           </li>
@@ -101,10 +101,6 @@
 
 <!--Depois criar o js para essas funções ou incluir em algum js criado que será linkado a todas as page-->
 <script>
-  function Logout() {
-    alert("O login seria encerrado no sessionstorage e o usuario terá que fazer login novamente!")
-    setTimeout(() => { window.location.href = 'login.html' }, 500);
-}
   function EditarPefil(){
     setTimeout(() => { window.location.href = 'editperfilusuario.html' }, 500);
   }

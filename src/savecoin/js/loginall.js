@@ -1,19 +1,14 @@
-//
-//
-// Disciplina: Trabalho Interdisciplinar - Aplicações Web
-// Professor: Rommel Vieira Carneiro (rommelcarneiro@gmail.com)
-//
-// Código LoginApp utilizado como exemplo para alunos de primeiro período 
-
-
-// Página inicial de Login
-const URLLogin = href = 'login.html';
-
 // Objeto para o banco de dados de usuários baseado em JSON
 var BancoUsuarios = {};
 
 // Objeto para o usuário corrente
 var usuarioCorrente = {};
+
+let ValidaUsuario = false;
+let ValidaSenha = false;
+let ValidaConfirmSenha = false;
+let ValidaEmail = false
+
 
 // função para gerar códigos randômicos a serem utilizados como código de usuário
 // Fonte: https://stackoverflow.com/questions/105034/how-to-create-guid-uuid
@@ -82,12 +77,6 @@ function initLoginApp() {
 };
 
 
-//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Continuar analise daqui. ↑ 
-
-function teste() {
-    console.log(BancoUsuarios)
-}
-
 
 // Verifica se o login do usuário está ok e, se positivo, direciona para a página inicial
 function loginUser(email, senha) {
@@ -123,7 +112,7 @@ function loginUser(email, senha) {
 function logoutUser() {
     usuarioCorrente = {};
     sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
-    window.location = URLLogin;
+    setTimeout(() => { window.location.href = 'login.html' }, 1000);
 }
 
 function addUser(nome, login, senha, email) {
@@ -165,11 +154,6 @@ function processaFormLogin() {
     }
 }
 
-let ValidaUsuario = false;
-let ValidaSenha = false;
-let ValidaConfirmSenha = false;
-let ValidaEmail = false
-let LoginAdmin = "admin"
 
 
 //Função para ver a senha quando clicar no ícone de olho
