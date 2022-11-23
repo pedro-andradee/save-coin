@@ -95,6 +95,8 @@ function loginUser(email, senha) {
             usuarioCorrente.login = usuario.login;
             usuarioCorrente.email = usuario.email;
             usuarioCorrente.nome = usuario.nome;
+            usuarioCorrente.senha = usuario.senha;
+      
 
             // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
             sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
@@ -330,10 +332,9 @@ function salvaLogin() {
 
     }
     // Adiciona o usuário no banco de dados
-    
-
 
 }
 
 // Inicializa as estruturas utilizadas pelo LoginApp
 initLoginApp();
+

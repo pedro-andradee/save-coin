@@ -41,9 +41,7 @@
     <link rel="stylesheet" href="./css/addSaveMeta.css">
     <link rel="stylesheet" href="../savecoin/css/editperfilusuario.css">
 
-    <!-- my link JS -->
-    <script src="../savecoin/js/editperfilusuario.js"></script>
-
+   
 
 </head>
 
@@ -62,11 +60,11 @@
 
     <form>
         <fieldset>
-            <legend>Bom dia {Usuario logado}!</legend>
+            <legend id="LegendEditUsuario"></legend>
             <!--Inserir uma linha-->
             <div class="formItem editusuario">
                 <label class="labelnomecompleto">Nome completo</label>
-                <input type="text" name="nomecompleto" id="nomecompleto" placeholder="Nome completo do usuario logado"
+                <input type="text" name="nomecompleto" id="nomecompleto" placeholder=""
                     required autofocus />
             </div>
 
@@ -148,7 +146,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+     <!-- my link JS -->
 
+     <script src="../savecoin/js/loginall.js"></script>
+     <script src="../savecoin/js/editperfilusuario.js"></script>
 
     <!--Se referir ao footer informado com o jquery-->
     <div id="footer"></div>

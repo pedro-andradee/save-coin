@@ -4,6 +4,9 @@ let BtnExcluir = document.querySelector('#btn-excluir');
 
 // inserir function pai para validar tudo 
 
+document.querySelector("#LegendEditUsuario").innerHTML = "Olá, " + (usuarioCorrente.login) + "! Seja bem vindo ao seu perfil.";
+document.getElementById('nomecompleto').setAttribute('placeholder', usuarioCorrente.nome);
+
 
 
 function ValidEditPerfil() {
@@ -16,10 +19,9 @@ function ValidEditPerfil() {
 
         let SenhaAtual = document.querySelector('#senhaatual');
         let ValorSenhaAtual = SenhaAtual.value;
-        let LoginAdmin = "admin"
         let LabelSenhaAtual = document.querySelector('.labelsenhatual')
 
-        if (ValorSenhaAtual !== LoginAdmin) {
+        if (ValorSenhaAtual !== usuarioCorrente.senha) {
             LabelSenhaAtual.setAttribute('style', 'color:#ff0000a6');
             LabelSenhaAtual.innerHTML = 'Senha atual *Não é essa'
             SenhaAtual.setAttribute('style', 'border-color: #ff0000a6');
@@ -43,14 +45,17 @@ function ValidEditPerfil() {
 
         let NovaSenha = document.querySelector('#novasenha');
         let ValorNovaSenha = NovaSenha.value;
-        let LoginAdmin = "admin";
         let LabelNovaSenha = document.querySelector('.labelnovasenha');
         let QteNovaSenha = ValorNovaSenha.length;
 
-        if (ValorNovaSenha == LoginAdmin) {
-            alert("A senha atual não pode ser igual a anterior.");
+        if (ValorNovaSenha == usuarioCorrente.senha) {
+            alert("");
+            LabelNovaSenha.setAttribute('style', 'color:#ff0000a6');
+            LabelNovaSenha.innerHTML = 'Nova senha *A senha atual não pode ser igual a anterior.'
+            NovaSenha.setAttribute('style', 'border-color: #ff0000a6');
             ConfereNovaSenha = false;
         }
+        else{
 
         if (QteNovaSenha <= 5) {
             LabelNovaSenha.setAttribute('style', 'color:#ff0000a6');
@@ -71,7 +76,7 @@ function ValidEditPerfil() {
             NovaSenha.setAttribute('style', 'border-color:#ff0000a6');
             ConfereNovaSenha = false;
         }
-    }
+    }}
     ValidNovaSenha()
 
     function ValidConfirmSenha() {
