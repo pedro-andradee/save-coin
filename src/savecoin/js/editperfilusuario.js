@@ -39,6 +39,32 @@ function edit(){
     }
 }
 
+function excluir(){
+    getLocalStorage()
+    var UsuariodoBanco = BancoUsuarios.usuarios;
+    var QTEUsuarios = UsuariodoBanco.length;
+    for (var i = 0; i < QTEUsuarios; i++) {
+        var usuario = UsuariodoBanco[i];
+
+        if(usuario.id == usuarioCorrente.id){
+
+            usuario.email = "";
+            usuario.senha = "";
+
+            localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
+
+           // usuarioCorrente = {};
+
+          //  sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
+            
+            alert("A conta foi excluida do LocalStorage")
+            //setTimeout(() => { window.location.href = 'login.html' }, 500);
+
+        }
+ 
+    }
+}
+
 // inserir function pai para validar tudo 
 
 document.querySelector("#LegendEditUsuario").innerHTML = "Olá, " + (usuarioCorrente.nome) + "! Seja bem vindo ao seu perfil.";//tentar pegar somente o primeiro nome --- pegar o "login não é interessante porque não possui alteração, ou coloco para alterar somente o nome de login ao inves do nome completo"
@@ -170,7 +196,3 @@ function ValidEditPerfil() {
 
 }
 
-function excluir() {
-    alert("A conta seria excluida do JSON")
-    setTimeout(() => { window.location.href = 'login.html' }, 500);
-}
