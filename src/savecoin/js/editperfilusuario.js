@@ -16,7 +16,7 @@ function edit(){
         
         if(usuario.id == usuarioCorrente.id){
             console.log(usuario.id+" É O ID DO USUARIO QUE TA LOGADO")
-            usuario.nome = //INSERIR O ID DO INPUT DA PAGE 
+            usuario.nome = "aaaa" //INSERIR O ID DO INPUT DA PAGE 
 
             localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
 
@@ -24,13 +24,13 @@ function edit(){
             sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
             location.reload() /// TESTAR O RELOAD DA PAGE 
         }
-        else{console.log("não deu...")}
+ 
     }
 }
 
 // inserir function pai para validar tudo 
 
-document.querySelector("#LegendEditUsuario").innerHTML = "Olá, " + (usuarioCorrente.login) + "! Seja bem vindo ao seu perfil.";
+document.querySelector("#LegendEditUsuario").innerHTML = "Olá, " + (usuarioCorrente.nome) + "! Seja bem vindo ao seu perfil.";//tentar pegar somente o primeiro nome --- pegar o "login não é interessante porque não possui alteração, ou coloco para alterar somente o nome de login ao inves do nome completo"
 document.getElementById('nomecompleto').setAttribute('placeholder', usuarioCorrente.nome);
 
 
