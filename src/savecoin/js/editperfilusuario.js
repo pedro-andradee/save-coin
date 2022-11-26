@@ -18,7 +18,14 @@ function edit(){
         if(usuario.id == usuarioCorrente.id){
             console.log(usuario.id+" É O ID DO USUARIO QUE TA LOGADO")
             usuario.nome = nomecompleto.value 
-            usuario.senha = novasenha.value
+            
+            if(novasenha.value == "" || null){
+                usuario.senha = usuario.senha
+            }
+            if(!novasenha.value == "" || null){
+                usuario.senha = novasenha.value
+            }
+          
 
             localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
 
@@ -26,7 +33,7 @@ function edit(){
             usuarioCorrente.senha = usuario.senha;
 
             sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
-            location.reload() 
+            
         }
  
     }
@@ -89,7 +96,7 @@ function ValidEditPerfil() {
         }
         else{
 
-        if (QteNovaSenha <= 5) {
+        if (QteNovaSenha >=1 && QteNovaSenha <=5) {
             LabelNovaSenha.setAttribute('style', 'color:#ff0000a6');
             LabelNovaSenha.innerHTML = 'Nova senha *Insira uma senha com no mínimo 6 dígitos'
             NovaSenha.setAttribute('style', 'border-color: #ff0000a6');
@@ -102,12 +109,7 @@ function ValidEditPerfil() {
             ConfereNovaSenha = true;
         }
 
-        if (ValorNovaSenha == "") {
-            LabelNovaSenha.setAttribute('style', 'color:#ff0000a6');
-            LabelNovaSenha.innerHTML = 'Nova senha *Campo Obrigátorio'
-            NovaSenha.setAttribute('style', 'border-color:#ff0000a6');
-            ConfereNovaSenha = false;
-        }
+
     }}
     ValidNovaSenha()
 
@@ -130,14 +132,17 @@ function ValidEditPerfil() {
             LabelConfirmSenha.innerHTML = 'Confirma senha';
             ConfirmSenha.setAttribute('style', 'border-color: green');
             ConfereConfirmSenha = true;
+
+        }
+        if(ValorNovaSenha !== ""){
+            if (ValorConfirmSenha == "") {
+                LabelConfirmSenha.setAttribute('style', 'color:#ff0000a6');
+                LabelConfirmSenha.innerHTML = 'Confirm senha *Campo Obrigátorio';
+                ConfirmSenha.setAttribute('style', 'border-color:#ff0000a6');
+                ConfereConfirmSenha = false;
+            }
         }
 
-        if (ValorConfirmSenha == "") {
-            LabelConfirmSenha.setAttribute('style', 'color:#ff0000a6');
-            LabelConfirmSenha.innerHTML = 'Confirm senha *Campo Obrigátorio';
-            ConfirmSenha.setAttribute('style', 'border-color:#ff0000a6');
-            ConfereConfirmSenha = false;
-        }
     }
     ValidConfirmSenha()
 
@@ -153,7 +158,7 @@ function ValidEditPerfil() {
             $('#sucessmodal').modal('show');
         })
 
-        setTimeout(() => { window.location.href = 'homepage.html' }, 3000);
+        setTimeout(() => { location.reload() }, 3000);
 
     }
 
