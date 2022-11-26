@@ -9,20 +9,24 @@ function edit(){
     getLocalStorage()
     var UsuariodoBanco = BancoUsuarios.usuarios;
     var QTEUsuarios = UsuariodoBanco.length;
-
+    var nomecompleto = document.getElementById('nomecompleto')
+    var novasenha = document.getElementById('novasenha')
     for (var i = 0; i < QTEUsuarios; i++) {
         var usuario = UsuariodoBanco[i];
     
         
         if(usuario.id == usuarioCorrente.id){
             console.log(usuario.id+" É O ID DO USUARIO QUE TA LOGADO")
-            usuario.nome = "aaaa" //INSERIR O ID DO INPUT DA PAGE 
+            usuario.nome = nomecompleto.value 
+            usuario.senha = novasenha.value
 
             localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
 
             usuarioCorrente.nome = usuario.nome;
+            usuarioCorrente.senha = usuario.senha;
+
             sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
-            location.reload() /// TESTAR O RELOAD DA PAGE 
+            location.reload() 
         }
  
     }
@@ -32,6 +36,8 @@ function edit(){
 
 document.querySelector("#LegendEditUsuario").innerHTML = "Olá, " + (usuarioCorrente.nome) + "! Seja bem vindo ao seu perfil.";//tentar pegar somente o primeiro nome --- pegar o "login não é interessante porque não possui alteração, ou coloco para alterar somente o nome de login ao inves do nome completo"
 document.getElementById('nomecompleto').setAttribute('placeholder', usuarioCorrente.nome);
+document.getElementById('nomecompleto').setAttribute('value', usuarioCorrente.nome);
+
 
 
 
@@ -140,7 +146,7 @@ function ValidEditPerfil() {
 
     if(ConfereSenhaAtual && ConfereNovaSenha && ConfereConfirmSenha){
         
-
+        edit()
         console.log("Salvo com sucesso")
 
         $(document).ready(function() {

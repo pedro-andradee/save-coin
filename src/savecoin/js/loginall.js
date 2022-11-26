@@ -90,7 +90,7 @@ function loginUser(email, senha) {
         var usuario = UsuariodoBanco[i];
 
         // Se encontrou login, carrega usuário corrente e salva no Session Storage
-        if (email == usuario.email && senha == usuario.senha) {
+        if ((email.toLowerCase()) == usuario.email && senha == usuario.senha) {
             usuarioCorrente.id = usuario.id;
             usuarioCorrente.login = usuario.login;
             usuarioCorrente.email = usuario.email;
@@ -315,7 +315,7 @@ function salvaLogin() {
     // Obtem os dados do formulário
     let login = document.getElementById('inputusuario').value;
     let nome = document.getElementById('txt_nome').value;
-    let email = document.getElementById('inputuEmailModal').value;
+    let email = (document.getElementById('inputuEmailModal').value).toLowerCase();
     let senha = document.getElementById('inputsenhamodal').value;
     let senha2 = document.getElementById('inputconfirmsenhamodal').value;
 
