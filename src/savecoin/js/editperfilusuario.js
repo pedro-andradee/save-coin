@@ -2,10 +2,37 @@ let NomeCompleto = document.querySelector('#nomecopleto');
 let ConfirmNovaSenha = document.querySelector('#confirmsenha');
 let BtnExcluir = document.querySelector('#btn-excluir');
 
+const getLocalStorage = () => JSON.parse(localStorage.getItem('BancoUsuarios')) ?? []
+//const setLocalStorage = (BancoUsuarios) => localStorage.setItem("BancoUsuarios", JSON.stringify(BancoUsuarios))
+
+function edit(){
+    getLocalStorage()
+    var UsuariodoBanco = BancoUsuarios.usuarios;
+    var QTEUsuarios = UsuariodoBanco.length;
+
+    for (var i = 0; i < QTEUsuarios; i++) {
+        var usuario = UsuariodoBanco[i];
+    
+        
+        if(usuario.id == usuarioCorrente.id){
+            console.log(usuario.id+" É O ID DO USUARIO QUE TA LOGADO")
+            usuario.nome = //INSERIR O ID DO INPUT DA PAGE 
+
+            localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
+
+            usuarioCorrente.nome = usuario.nome;
+            sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
+            location.reload() /// TESTAR O RELOAD DA PAGE 
+        }
+        else{console.log("não deu...")}
+    }
+}
+
 // inserir function pai para validar tudo 
 
 document.querySelector("#LegendEditUsuario").innerHTML = "Olá, " + (usuarioCorrente.login) + "! Seja bem vindo ao seu perfil.";
 document.getElementById('nomecompleto').setAttribute('placeholder', usuarioCorrente.nome);
+
 
 
 
