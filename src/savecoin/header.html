@@ -1,15 +1,8 @@
 <header class="">
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-light bg-dark p-2">
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -66,11 +59,7 @@
 
         <div class="bg-dark text-center text-white navLastItem ">
           <li class="nav-item">
-            <a
-              class="btn btn-outline-dark btn-floating m-1 backgroudLastIcons"
-              href="#!"
-              role="button"
-            >
+            <a class="btn btn-outline-dark btn-floating m-1 backgroudLastIcons" href="#!" role="button">
               <i class="bi bi-bell icon-linha" id="lastIconsStyle"></i>
             </a>
           </li>
@@ -79,17 +68,16 @@
         <div class="bg-dark text-center text-white navLastItem">
           <li class="nav-item item-dropdown-superior">
             <div class="dropdown dropdown-superior">
-              <a
-              class="btn btn-outline-dark btn-floating m-1 backgroudLastIcons " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-              role="button"
-            >
-              <i class="bi bi-person icon-linha" id="lastIconsStyle"></i>
-            </a>
+              <a class="btn btn-outline-dark btn-floating m-1 backgroudLastIcons " id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">
+                <i class="bi bi-person icon-linha" id="lastIconsStyle"></i>
+              </a>
               <div class="dropdown-menu menu-dropdown" aria-labelledby="dropdownMenuButton">
-                <button type="button" 
-                class="dropdown-item item-dropdown" 
-                onclick="EditarPefil()">Editar perfil</a>
-                <button type="button" class="dropdown-item item-dropdown" onclick="logoutUser()">Sair</a>
+                <button type="button" class="dropdown-item item-dropdown" id="ButNavEdit" onclick="EditarPefil()">Editar
+                  perfil</button>
+                <button type="button" class="dropdown-item item-dropdown" onclick="logoutUser()"
+                  id="ButNavSair">Sair</button>
+                <a href="../savecoin/login.html" class="dropdown-item item-dropdown" id="ButNavLogin"> Fazer Login</a>
               </div>
             </div>
           </li>
@@ -99,9 +87,25 @@
   </nav>
 </header>
 
-<!--Depois criar o js para essas funções ou incluir em algum js criado que será linkado a todas as page-->
+
 <script>
-  function EditarPefil(){
-    setTimeout(() => { window.location.href = 'editperfilusuario.html' }, 500);
+  function EditarPefil() {
+    setTimeout(() => {
+      window.location.href = 'editperfilusuario.html'
+    }, 500);
+  }
+</script>
+<script src="../savecoin/js/loginall.js"></script>
+<script>
+  if (!usuarioCorrente.login) {
+    let ButNavLogin = document.getElementById('ButNavLogin');
+    let ButNavEdit = document.getElementById('ButNavEdit');
+    let ButNavSair = document.getElementById('ButNavSair');
+
+
+    ButNavEdit.setAttribute('style', "display: none;");
+    ButNavSair.setAttribute('style', 'display:none;');
+  } else {
+    ButNavLogin.setAttribute('style', "display: none;");
   }
 </script>

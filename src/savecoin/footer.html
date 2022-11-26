@@ -118,18 +118,18 @@
                       <form id="login-form-modal" class="form" method="post" onsubmit="loginUser (this)">
 
                         <div class="form-group label-float">
-                          <input type="text" id="inputusuario" class="form-control" onkeyup="nomeusuario()">
+                          <input type="text" id="inputusuario" class="form-control" onkeyup="nomeusuario()" required>
                           <label id="labelusuario" for="labelusuario" class="text-info">Usuário</label>
 
                         </div>
                         <div class="form-group label-float">
-                          <input type="text" name="txt_nome" id="txt_nome" class="form-control">
+                          <input type="text" name="txt_nome" id="txt_nome" class="form-control" required>
                           <label id="labelnomecompleto" for="nome" class="text-info">Nome completo</label>
 
                         </div>
                         <div class="form-group label-float">
                           <input type="text" name="txt_email" id="inputuEmailModal" class="form-control"
-                            onkeyup="validEmailModal()">
+                            onkeyup="validEmailModal()" required>
                           <label id="labelemailmodal" for="email" class="text-info">E-mail</label>
 
                         </div>

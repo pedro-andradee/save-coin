@@ -23,7 +23,7 @@ function ValidEditPerfil() {
 
         if (ValorSenhaAtual !== usuarioCorrente.senha) {
             LabelSenhaAtual.setAttribute('style', 'color:#ff0000a6');
-            LabelSenhaAtual.innerHTML = 'Senha atual *Não é essa'
+            LabelSenhaAtual.innerHTML = 'Senha atual * Inválida'
             SenhaAtual.setAttribute('style', 'border-color: #ff0000a6');
             ConfereSenhaAtual = false;
         }
@@ -49,7 +49,6 @@ function ValidEditPerfil() {
         let QteNovaSenha = ValorNovaSenha.length;
 
         if (ValorNovaSenha == usuarioCorrente.senha) {
-            alert("");
             LabelNovaSenha.setAttribute('style', 'color:#ff0000a6');
             LabelNovaSenha.innerHTML = 'Nova senha *A senha atual não pode ser igual a anterior.'
             NovaSenha.setAttribute('style', 'border-color: #ff0000a6');
@@ -109,7 +108,12 @@ function ValidEditPerfil() {
     }
     ValidConfirmSenha()
 
+    
+
+
     if(ConfereSenhaAtual && ConfereNovaSenha && ConfereConfirmSenha){
+        
+
         console.log("Salvo com sucesso")
 
         $(document).ready(function() {
@@ -125,6 +129,7 @@ function ValidEditPerfil() {
 
 
     }
+
 }
 
 function excluir() {

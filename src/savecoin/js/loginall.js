@@ -110,6 +110,7 @@ function loginUser(email, senha) {
     return false;
 }
 
+
 // Apaga os dados do usuário corrente no sessionStorage
 function logoutUser() {
     usuarioCorrente = {};
@@ -129,6 +130,9 @@ function addUser(nome, login, senha, email) {
     // Salva o novo banco de dados com o novo usuário no localStorage
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
 }
+
+
+
 
 function setUserPass() {
 
