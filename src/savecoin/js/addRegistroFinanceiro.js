@@ -143,6 +143,9 @@ const removeElement = (idToRemove, lucroOuDespesa, valor, mes) => {
     const fonteComValores = document.getElementById(`resumo${lucroOuDespesa}`);
     fonteComValores.innerHTML = lucroOuDespesa === "Lucro" ? totalLucro : totalDespesa 
 
+    fonteLucro.innerHTML +=" R$"
+    fonteComValores.innerHTML +=" R$"
+
     const resumoTotal = document.getElementById("resumoTotal");
     const saldoTotal = totalLucro - totalDespesa
     resumoTotal.innerHTML = saldoTotal + " R$" 
