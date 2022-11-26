@@ -70,47 +70,6 @@
       </div>
       <div id="areaMetas">
         <h2>Metas registradas</h2>
-        <div id="blocoMeta">
-          <div class="conteudoMetas">
-            <img
-              class="cofrePorco"
-              src="../img/piggy-bank.svg"
-              alt="cofrinho porco"
-            />
-            <div class="containerMeta">
-              <span class="descricaoMeta">Livro de ciências</span>
-              <div class="barraProgresso">
-                <div class="preenchimentoBarra"></div>
-              </div>
-              <span class="dataMeta">Data final: 02/03/2022</span>
-            </div>
-            <div class="containerPorcentDelete">
-              <span class="porcentagemProgresso">100%</span>
-              <button
-                type="button"
-                data-toggle="modal"
-                data-target="#modal-delete-meta"
-                class="bi bi-x-circle botaoDelete"
-              ></button>
-            </div>
-          </div>
-          <button
-            type="button"
-            data-toggle="modal"
-            data-target="#modal-atualizar-valor"
-            class="botaoAtualizarValor"
-          >
-            Nova entrada
-          </button>
-          <button
-            type="button"
-            data-toggle="modal"
-            data-target="#modal-criar-editar-meta"
-            class="botaoEditar"
-          >
-            Editar
-          </button>
-        </div>
         <button
           type="button"
           data-toggle="modal"
@@ -206,8 +165,6 @@
           </div>
           <div class="modal-body body-modal-criar-editar-meta">
             <form
-              action="https://httpbin.org/post"
-              method="post"
               id="nova-editar-meta-form"
             >
               <div class="formItem">
@@ -218,6 +175,7 @@
                   id="descricaoMeta"
                   placeholder="Intercâmbio para estudar inglês"
                   autocomplete="on"
+                  maxlength="25"
                   required
                 />
               </div>
@@ -256,6 +214,7 @@
               type="submit"
               form="nova-editar-meta-form"
               class="botao-modal-salvar"
+              onclick="salvarMeta()"
             >
               Salvar
             </button>
@@ -295,5 +254,6 @@
       </div>
     </div>
     <div id="footer"></div>
+    <script src="../savecoin/js/meta.js"></script>
   </body>
 </html>
