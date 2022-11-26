@@ -48,9 +48,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="../savecoin/js/loginall.js"></script>
+    <script >
+      if(!usuarioCorrente.login){
+        alert("FAÇA O LOGIN")
+        window.location.href = "login.html"
+      }
+    </script>
 </head>
 
-<body>
+<body onload="fetchPreviousData()">
   <div id="header"></div>
   <main>
     <div class="yellowBar">
@@ -71,6 +79,7 @@
           </a>
         </div>
       </header>
+      <!--
       <div id="accordion" onclick="changeAccordion('outubro')">
         <div>
           <h2>Outubro</h2>
@@ -183,6 +192,9 @@
           </div>
         </div>
       </div>
+
+      -->
+
     </section>
     <h1 class=".textoCentralizado">GRAFICO</h1>
   </main>

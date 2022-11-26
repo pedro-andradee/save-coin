@@ -27,11 +27,10 @@ body{
   border-radius: 10px;
 }
 
-
-
 section {
   margin-left: 1em;
 }
+
 input,
 select {
   border: 0.015em solid black;
@@ -85,6 +84,7 @@ button {
 .resumodoregistro {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-right: 88px;
 }
 
@@ -125,6 +125,17 @@ i {
 
 #gastoseganhos{
   gap: 3em
+}
+
+.resumoLucroFlex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.resumoLucroFlex p{
+  margin: 0;
 }
 
 @media only screen and (max-width: 1000px) {
