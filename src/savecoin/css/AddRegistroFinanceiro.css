@@ -138,6 +138,17 @@ i {
   margin: 0;
 }
 
+#ContainerLucro{
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#ContainerDespesa{
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+
 @media only screen and (max-width: 1000px) {
   #gastoseganhos {
     flex-direction: column;
