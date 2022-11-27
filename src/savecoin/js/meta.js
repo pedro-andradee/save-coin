@@ -8,8 +8,8 @@ var usuarioCorrente = {};
 // Dados para serem utilizados como carga inicial
 var dadosIniciaisMeta = {
     metas: [
-        { "id": 1, "descricaoMeta": "Livro de ciências", "valorMeta": 100.99, "valorDepositado": 45.60, "dataMeta": "02/03/2022"},
-        { "id": 2, "descricaoMeta": "Presente de natal", "valorMeta": 150, "valorDepositado":25, "dataMeta": "25/12/2022"}
+        { "id": 1, "descricaoMeta": "Livro de ciências", "valorMeta": 100, "valorDepositado": 50, "dataMeta": "02/03/2022"},
+        { "id": 2, "descricaoMeta": "Presente de natal", "valorMeta": 1000, "valorDepositado":750, "dataMeta": "25/12/2022"}
     ]
 };
 
@@ -56,11 +56,11 @@ function carregarMetas() {
                 <div class="containerMeta">
                     <span class="descricaoMeta">${bancoMetas.metas[i].descricaoMeta}</span>
                     <div class="barraProgresso">
-                    <div class="preenchimentoBarra"></div>
+                        <div class="barraVerde preenchimentoBarra${i.toString()}"></div>
                     </div>
                     <div class="containerDataProgresso">
                         <span class="dataMeta">Data final: ${bancoMetas.metas[i].dataMeta}</span>
-                        <span class="valorRestante">Faltam: R$ ${(bancoMetas.metas[i].valorMeta - bancoMetas.metas[i].valorDepositado).toFixed(2)}</span>
+                        <span class ="valorMeta">Meta: R$ ${bancoMetas.metas[i].valorMeta.toFixed(2)}&nbsp;|&nbsp;Faltam: R$ ${(bancoMetas.metas[i].valorMeta - bancoMetas.metas[i].valorDepositado).toFixed(2)}</span>
                     </div>
                 </div>
                 <div class="containerDelete">
@@ -94,9 +94,18 @@ function carregarMetas() {
     areaMetas.insertBefore(divBlocoMetas, addNovaMetaBotao)
 }
 
+function carregarBarraProgresso() {
+    for(let i = 0; i < bancoMetas.metas.length; i++) {
+        let progresso = document.querySelector(`.preenchimentoBarra${i.toString()}`)
+        let porcentagem = Math.round((bancoMetas.metas[i].valorDepositado * 100) / bancoMetas.metas[i].valorMeta)
+        if(porcentagem > 100) porcentagem = 100
+        progresso.setAttribute("style", "width: " + porcentagem.toString() + "%")
+    }   
+}
+
 function salvarMeta() {
     let descricaoMeta = document.querySelector("#descricaoMeta").value;
-    let valorMeta = Number.parseInt(document.querySelector("#valorMeta").value);
+    let valorMeta = Number.parseFloat(document.querySelector("#valorMeta").value);
     let dataMeta = document.querySelector("#dataMeta").value;
     var dataFormatada = dataMeta.split('-').reverse().join('/');
     let meta = {"id": bancoMetas.metas.length + 1, "descricaoMeta": descricaoMeta, "valorMeta": valorMeta,
@@ -107,3 +116,4 @@ function salvarMeta() {
 
 initDadosMeta();
 carregarMetas();
+carregarBarraProgresso();

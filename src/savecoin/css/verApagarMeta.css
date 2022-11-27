@@ -77,11 +77,10 @@ body {
     margin: 0.5em 0 0.3em 0;
 }
 
-.preenchimentoBarra {
-    width: 5em;
-    height: 2em;
-    background-color: #13CE66;
+.barraVerde {
+    height: 100%;
     border-radius: 15px;
+    background-color: #13CE66;
 }
 
 .containerDataProgresso {
@@ -89,9 +88,9 @@ body {
     flex-direction: column;
 }
 
-.dataMeta, .valorRestante {
+.dataMeta, .valorRestante, .valorMeta {
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .containerDelete {
