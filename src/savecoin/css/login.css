@@ -277,7 +277,8 @@ position informada no pai e no filho ↑↓ são diferentes, porque a label se t
 
 .btn-salvar:hover {
     scale: 105%;
-    --bs-btn-hover-border-color: green;
+    --bs-btn-hover-border-color: green !important;
+    color: #000000 !important;
     transition: all .3s ease-out;
 }
 
