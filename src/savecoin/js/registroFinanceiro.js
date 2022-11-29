@@ -311,3 +311,16 @@ document.getElementsByClassName('ChartBarGastos2'),
 configGastos2
 );
 
+
+
+/*
+<div class="graficos-giovanny">
+            <div class="DivChartBarGanhos">
+              <canvas class="ChartBarGanhos"></canvas>
+            </div>
+
+            <div class="DivChartBarGastos">
+              <canvas class="ChartBarGastos"></canvas>
+            </div>
+          </div>
+           */

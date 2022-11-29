@@ -1,3 +1,5 @@
+getLocalStorage =  () => JSON.parse(localStorage.getItem('BancoUsuarios')) ?? []
+
 // Objeto para o banco de dados de usuários baseado em JSON
 var bancoMetas = {};
 
@@ -104,14 +106,44 @@ function carregarBarraProgresso() {
 }
 
 function salvarMeta() {
-    let descricaoMeta = document.querySelector("#descricaoMeta").value;
+   let descricaoMeta = document.querySelector("#descricaoMeta").value;
     let valorMeta = Number.parseFloat(document.querySelector("#valorMeta").value);
     let dataMeta = document.querySelector("#dataMeta").value;
     var dataFormatada = dataMeta.split('-').reverse().join('/');
     let meta = {"id": bancoMetas.metas.length + 1, "descricaoMeta": descricaoMeta, "valorMeta": valorMeta,
     "valorDepositado": 0, "dataMeta": dataFormatada}
+
+
     bancoMetas.metas.push(meta)
+
     localStorage.setItem('bancoMetas', JSON.stringify(bancoMetas));
+
+
+
+   /* getLocalStorage()
+    var UsuariodoBanco = BancoUsuarios.usuarios;
+    var QTEUsuarios = UsuariodoBanco.length;
+    for (var i = 0; i < QTEUsuarios; i++) {
+        const usuario = UsuariodoBanco[i];
+       
+      
+
+        if(usuario.id == usuarioCorrente.id){
+
+            let descricaoMeta = document.querySelector("#descricaoMeta").value;
+            let valorMeta = Number.parseFloat(document.querySelector("#valorMeta").value);
+            let dataMeta = document.querySelector("#dataMeta").value;
+            var dataFormatada = dataMeta.split('-').reverse().join('/');
+            let meta = {"id": bancoMetas.metas.length + 1, "descricaoMeta": descricaoMeta, "valorMeta": valorMeta,
+            "valorDepositado": 0, "dataMeta": dataFormatada}
+
+            usuario.meta = meta;
+
+            }
+ 
+       localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
+    }*/
+
 }
 
 initDadosMeta();
