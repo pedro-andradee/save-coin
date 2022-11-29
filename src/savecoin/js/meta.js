@@ -126,7 +126,10 @@ function salvarMeta() {
     for (var i = 0; i < QTEUsuarios; i++) {
         const usuario = UsuariodoBanco[i];
        
-      
+        if(!usuario.RegistroMetas ||  !usuario.RegistroMetas.metas){
+            usuario.RegistroMetas = {}
+            usuario.RegistroMetas.metas = []
+        }
 
         if(usuario.id == usuarioCorrente.id){
 
@@ -136,15 +139,31 @@ function salvarMeta() {
             var dataFormatada = dataMeta.split('-').reverse().join('/');
             let meta = {"id": bancoMetas.metas.length + 1, "descricaoMeta": descricaoMeta, "valorMeta": valorMeta,
             "valorDepositado": 0, "dataMeta": dataFormatada}
+           
+            
 
-            usuario.meta = meta;
-
+            function Checkuser (usuarios){
+                return usuarios.id == usuarioCorrente.id // PROCURA O ID DO USUARIO CORRENTE NO BANCO DE DADOS E RETORNA O INDEX QUE ELE SE ENCONTRA
             }
- 
-       localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
-    }*/
+
+            const IndexdoUsuarioLogado = UsuariodoBanco.findIndex(Checkuser); // PARA SABER QUAL O INDEX DO USUARIO ATUAL
+
+            var metasdousuarioatual = BancoUsuarios.usuarios[IndexdoUsuarioLogado].RegistroMetas.metas;
+            
+
+            metasdousuarioatual.push(meta);
+
+          
+            localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
+            console.log(metasdousuarioatual)
+            }
+
+      
+    }
+     */
 
 }
+
 
 initDadosMeta();
 carregarMetas();
