@@ -44,25 +44,30 @@ function excluir(){
     var UsuariodoBanco = BancoUsuarios.usuarios;
     var QTEUsuarios = UsuariodoBanco.length;
     for (var i = 0; i < QTEUsuarios; i++) {
-        var usuario = UsuariodoBanco[i];
+        const usuario = UsuariodoBanco[i];
+       
+      
 
         if(usuario.id == usuarioCorrente.id){
 
-            usuario.email = "";
-            usuario.senha = "";
+            function Checkuser (usuarios){
+                return usuarios.id == usuarioCorrente.id // PROCURA O ID DO USUARIO CORRENTE NO BANCO DE DADOS E RETORNA O INDEX QUE ELE SE ENCONTRA
+            }
 
-            localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
-
-           // usuarioCorrente = {};
-
-          //  sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
+            const IndexdoUsuarioLogado = UsuariodoBanco.findIndex(Checkuser); // PARA SABER QUAL O INDEX DO USUARIO ATUAL
             
-            alert("A conta foi excluida do LocalStorage")
-            //setTimeout(() => { window.location.href = 'login.html' }, 500);
 
-        }
+          UsuariodoBanco.splice(IndexdoUsuarioLogado,1) // PARA REMOVER O USUARIO DO BANCO 
+            }
  
+       localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
+       sessionStorage.clear()
+       
+       setTimeout(() => { window.location.href = 'login.html' }, 1300);
+       
+
     }
+  
 }
 
 // inserir function pai para validar tudo 
