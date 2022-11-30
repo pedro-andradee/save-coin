@@ -34,14 +34,24 @@ const fetchPreviousData = () =>{
         }
 
         for(let i=0; i<todosRegistros.length; i++){
-            const parentElement = document.getElementById(`mes${todosRegistros[i].tipo}`);
             const {valor ,desc, id : elementID, tipo, mes} = todosRegistros[i];
 
             // adicionar os ganhos na lista
             // adicionar as despesas na lista
+            let divMes = document.getElementById(`${mes}${tipo}`);
+            if(!divMes){
+                divMes = document.createElement("div");
+                divMes.setAttribute("id", `${mes}${tipo}`)
+
+                divMesDesc = document.createElement("h3");
+                divMesDesc.setAttribute("id", `${mes}${tipo}desc`)
+                divMesDesc.innerHTML = mes
+
+                divMes.append(divMesDesc)
+            }
             const divSalario = document.createElement("div");
             const salarioP = document.createElement("p");
-            salarioP.innerHTML = desc;
+            salarioP.innerHTML = desc ;
             divSalario.append(salarioP);
 
             const divValor = document.createElement("div");
@@ -60,8 +70,9 @@ const fetchPreviousData = () =>{
             mainContainer.append(divSalario,divValor)
             mainContainer.setAttribute("id", `${elementID}${tipo}`)
 
+            divMes.append(mainContainer)
             const containerGanhos  = document.getElementById(`Container${tipo}`)
-            containerGanhos.append(mainContainer)
+            containerGanhos.append(divMes)
 
             if(tipo === "Lucro"){
                 fontesLucro++;
@@ -125,14 +136,27 @@ const removeElement = (idToRemove, lucroOuDespesa, valor, mes) => {
 
     let objectRemoved = {...mainObject}
 
+    const lucroOuDespesas = 0;
+    
+
     for(let i=0; i< mainObject?.[mes]?.registros?.length;i++){
         if(`${mainObject[mes].registros[i].id}${lucroOuDespesa}` == idToRemove){
             objectRemoved[mes].registros.splice(i, 1)
+        } else if(mainObject[mes].registros[i].tipo === lucroOuDespesa){
+            lucroOuDespesas++;
         }
     }
 
-    if(objectRemoved[mes].registros.length === 0)
-    delete objectRemoved[mes]
+    const removerMesDesc = document.getElementById(`${mes}${lucroOuDespesa}`)
+
+    if(lucroOuDespesas === 0){
+        removerMesDesc.remove()
+    }
+
+    if(objectRemoved[mes].registros.length === 0){
+        removerMesDesc.remove()
+        delete objectRemoved[mes]
+    }
 
     mainObject = {...objectRemoved}
 
@@ -143,7 +167,6 @@ const removeElement = (idToRemove, lucroOuDespesa, valor, mes) => {
     const fonteComValores = document.getElementById(`resumo${lucroOuDespesa}`);
     fonteComValores.innerHTML = lucroOuDespesa === "Lucro" ? totalLucro : totalDespesa 
 
-    fonteLucro.innerHTML +=" R$"
     fonteComValores.innerHTML +=" R$"
 
     const resumoTotal = document.getElementById("resumoTotal");
@@ -173,7 +196,6 @@ const adicionarLucro = (event, lucroOuDespesa) => {
     // CRIAR UM ID UNICO PRA CADA ELEMENTO
     const elementID = generateUUID();
     // PEGAR MES
-    const value = e.options[e.selectedIndex].value;
     const text = e.options[e.selectedIndex].text;
 
     const divSalario = document.createElement("div");
@@ -199,8 +221,23 @@ const adicionarLucro = (event, lucroOuDespesa) => {
     mainContainer.append(divSalario,divValor)
     mainContainer.setAttribute("id", `${elementID}${lucroOuDespesa}`)
 
+
+    let divMes = document.getElementById(`${text}${lucroOuDespesa}`);
+    if(!divMes){
+        divMes = document.createElement("div");
+        divMes.setAttribute("id", `${text}${lucroOuDespesa}`)
+
+        divMesDesc = document.createElement("h3");
+        divMesDesc.setAttribute("id", `${text}${lucroOuDespesa}desc`)
+        divMesDesc.innerHTML = text
+
+        divMes.append(divMesDesc)
+    }
+
+    divMes.append(mainContainer)
+
     const containerGanhos  = document.getElementById(`Container${lucroOuDespesa}`)
-    containerGanhos.append(mainContainer)
+    containerGanhos.append(divMes)
 
     // Add fontes de renda e gasto
 
@@ -247,5 +284,4 @@ const efetuarRegistro = () => {
     localStorage.setItem('BancoUsuarios', JSON.stringify(objToReplace));
 
     window.location.href = 'registroFinanceiro.html' 
-    //localStorage.setItem("objectToStore",JSON.stringify(mainObject))
 }
