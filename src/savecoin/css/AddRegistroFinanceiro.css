@@ -143,6 +143,10 @@ i {
   overflow-y: auto;
 }
 
+#ContainerLucro h3{
+  margin:1em 0;
+}
+
 #ContainerDespesa{
   max-height: 200px;
   overflow-y: auto;
