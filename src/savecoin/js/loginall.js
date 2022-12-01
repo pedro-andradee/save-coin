@@ -4,10 +4,10 @@ var BancoUsuarios = {};
 // Objeto para o usuário corrente
 var usuarioCorrente = {};
 
-let ValidaUsuario = false;
-let ValidaSenha = false;
-let ValidaConfirmSenha = false;
-let ValidaEmail = false
+var ValidaUsuario = false;
+var ValidaSenha = false;
+var ValidaConfirmSenha = false;
+var ValidaEmail = false
 
 
 // função para gerar códigos randômicos a serem utilizados como código de usuário
@@ -30,9 +30,9 @@ function generateUUID() { // Public Domain/MIT
 
 
 // Dados de usuários para serem utilizados como carga inicial
-const DadosIniciais = {
+var DadosIniciais = {
     usuarios: [
-        { "id": 1, "login": "giovanny", "senha": "admin123", "nome": "Administrador do Sistema - Giovanny", "email": "giovanny@admin.com" },
+        { "id": 1, "login": "giovanny", "senha": "admin123", "nome": "Administrador do Sistema - Giovanny", "email": "giovanny@admin.com"},
         { "id": generateUUID(), "login": "gian", "senha": "admin123", "nome": "Administrador do Sistema - Gian", "email": "gian@admin.com" },
         { "id": generateUUID(), "login": "dio", "senha": "admin123", "nome": "Administrador do Sistema - Dio", "email": "dio@admin.com" },
         { "id": generateUUID(), "login": "roma", "senha": "admin123", "nome": "Administrador do Sistema - Roma", "email": "roma@admin.com" },
@@ -90,11 +90,13 @@ function loginUser(email, senha) {
         var usuario = UsuariodoBanco[i];
 
         // Se encontrou login, carrega usuário corrente e salva no Session Storage
-        if (email == usuario.email && senha == usuario.senha) {
+        if ((email.toLowerCase()) == usuario.email && senha == usuario.senha) {
             usuarioCorrente.id = usuario.id;
             usuarioCorrente.login = usuario.login;
             usuarioCorrente.email = usuario.email;
             usuarioCorrente.nome = usuario.nome;
+            usuarioCorrente.senha = usuario.senha;
+      
 
             // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
             sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
@@ -107,6 +109,7 @@ function loginUser(email, senha) {
     // Se chegou até aqui é por que não encontrou o usuário e retorna falso
     return false;
 }
+
 
 // Apaga os dados do usuário corrente no sessionStorage
 function logoutUser() {
@@ -127,6 +130,9 @@ function addUser(nome, login, senha, email) {
     // Salva o novo banco de dados com o novo usuário no localStorage
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
 }
+
+
+
 
 function setUserPass() {
 
@@ -309,7 +315,7 @@ function salvaLogin() {
     // Obtem os dados do formulário
     let login = document.getElementById('inputusuario').value;
     let nome = document.getElementById('txt_nome').value;
-    let email = document.getElementById('inputuEmailModal').value;
+    let email = (document.getElementById('inputuEmailModal').value).toLowerCase();
     let senha = document.getElementById('inputsenhamodal').value;
     let senha2 = document.getElementById('inputconfirmsenhamodal').value;
 
@@ -330,10 +336,9 @@ function salvaLogin() {
 
     }
     // Adiciona o usuário no banco de dados
-    
-
 
 }
 
 // Inicializa as estruturas utilizadas pelo LoginApp
 initLoginApp();
+

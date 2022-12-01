@@ -30,6 +30,12 @@ body {
     font-weight: 650;
 }
 
+#blocoMetas {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
 #blocoMeta {
     display: inline-flex;
     align-items: center;
@@ -68,31 +74,27 @@ body {
     height: 2em;
     background-color: white;
     border-radius: 15px;
-    margin: 0.5em 0 1.3em 0;
+    margin: 0.5em 0 0.3em 0;
 }
 
-.preenchimentoBarra {
-    width: 5em;
-    height: 2em;
-    background-color: #13CE66;
+.barraVerde {
+    height: 100%;
     border-radius: 15px;
+    background-color: #13CE66;
 }
 
-.dataMeta {
-    font-size: 1.3em;
-    font-weight: 450;
-}
-
-.containerPorcentDelete {
+.containerDataProgresso {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
 }
 
-.porcentagemProgresso {
-    margin: 0.5em;
-    margin-right: 0;
-    font-size: 1.4em
+.dataMeta, .valorRestante, .valorMeta {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.containerDelete {
+    margin-left: 1.4em;
 }
 
 .botaoDelete {

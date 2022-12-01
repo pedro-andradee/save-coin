@@ -1,13 +1,150 @@
-const changeAccordion = (mes) => {
-  console.log("OPENED");
+const fetchPreviousData = () =>{
+  usuarioCorrenteJSON = sessionStorage.getItem('usuarioCorrente');
+  if (usuarioCorrenteJSON) {
+      usuarioCorrenteJSON = JSON.parse(usuarioCorrenteJSON);
+  }
+  const usuariosJSON = JSON.parse(localStorage.getItem('BancoUsuarios'));
 
+  let getUserData; 
+
+  for(let i=0; i < usuariosJSON.usuarios.length; i++){
+      if(usuarioCorrenteJSON.id == usuariosJSON.usuarios[i].id)
+      getUserData = usuariosJSON.usuarios[i].registros;
+  }
+
+  const mainObject = getUserData
+
+  for (const [key, value] of Object.entries(mainObject)) {
+    console.log("key", key)
+    console.log("value", value)
+
+    const accordionDivButton = document.createElement("div");
+    accordionDivButton.addEventListener("click",() => { changeAccordion(`${key}`)})
+
+    const accordionDivContainer = document.createElement("div");
+
+    const monthName = document.createElement("h2");
+    monthName.innerHTML = `${key}`
+    const monthValue = document.createElement("h3");
+    monthValue.classList.add("greenicon");
+    monthValue.innerHTML = `${key}`
+
+
+    const iconAccordion = document.createElement("i");
+    iconAccordion.classList.add("bi","bi-caret-down-fill")
+    iconAccordion.setAttribute("id", `accordionIcon__${key}`)
+
+    accordionDivButton.setAttribute("id","accordion")
+
+    const registroMainContainer = document.getElementById("register")
+
+    const accordionContent = document.createElement("div");
+    accordionContent.classList.add("displaynone")
+    accordionContent.setAttribute("id", `accordionContent__${key}`)
+
+    const accordionContentHeader = document.createElement("header");
+    accordionContentHeader.classList.add("accordionContentItemsHeader")
+
+    const headerDesc = document.createElement("h3");
+    headerDesc.innerHTML = "Descrição"
+
+    const innerAccordionContentHeader = document.createElement("div");
+    innerAccordionContentHeader.classList.add("accordionContainer");
+
+    const spanValor = document.createElement("span")
+    const spanTipo = document.createElement("span")
+    const spanEditar = document.createElement("span")
+    const spanDeletar = document.createElement("span")
+    spanValor.innerHTML = "Valor"
+    spanTipo.innerHTML = "Tipo"
+    spanEditar.innerHTML = "Editar"
+    spanDeletar.innerHTML = "Deletar"
+
+
+
+
+    const accordionItems = document.createElement("div");
+    accordionItems.classList.add("accordionContentItems")
+    accordionItems.classList.add("m-2")
+
+    let lucroMensal = 0;
+    for(let x=0; x< value.registros.length; x++ ){
+      console.log("AQ", value.registros[x])
+      
+
+      const maindiv = document.createElement("div");
+      maindiv.classList.add("accordionContentItemsHeader")
+      maindiv.classList.add("m-0")
+      maindiv.classList.add("p-0")
+
+      const DescriptionName = document.createElement("h3");
+      DescriptionName.innerHTML = value.registros[x].desc
+
+
+      const accordionSubContainer = document.createElement("div");
+      accordionSubContainer.classList.add("accordionContainer")
+
+      const spanValue = document.createElement("span");
+      spanValue.innerHTML = value.registros[x].valor;
+
+      const iconType = document.createElement("i");
+
+      if(value.registros[x].tipo === "Lucro"){
+        iconType.classList.add("fa-solid","fa-square-plus","fa-xl","greenicon")
+        lucroMensal+=Number(value.registros[x].valor)
+      }else{
+        iconType.classList.add("fa-solid","fa-square-minus","fa-xl","redicon")
+        lucroMensal-=Number(value.registros[x].valor)
+      }
+
+      const editButton = document.createElement("a");
+      const editIcon = document.createElement("i");
+      editIcon.classList.add("fa-solid","fa-pen-to-square","fa-xl","greenicon") 
+      editButton.href = '../savecoin/AddRegistroFinanceiro.html' 
+      editButton.append(editIcon)
+
+
+
+      const deleteButton = document.createElement("a");
+      const deleteIcon = document.createElement("i");
+      deleteIcon.classList.add("fa-solid","fa-trash","fa-xl","redicon")
+      deleteButton.href = '../savecoin/AddRegistroFinanceiro.html' 
+      deleteButton.append(deleteIcon)
+
+
+      accordionSubContainer.append(spanValue, iconType, editButton, deleteButton)
+
+      maindiv.append(DescriptionName, accordionSubContainer)
+
+      accordionItems.append(maindiv)
+    }
+
+    monthValue.innerHTML = `${lucroMensal} R$`
+
+
+    accordionDivContainer.append(monthName,monthValue)
+
+    accordionDivButton.append(accordionDivContainer, iconAccordion);
+
+    registroMainContainer.append(accordionDivButton)
+
+    innerAccordionContentHeader.append(spanValor,spanTipo,spanEditar,spanDeletar)
+    accordionContentHeader.append(headerDesc,innerAccordionContentHeader)
+    accordionContent.append(accordionContentHeader)
+    accordionContent.append(accordionItems)
+    registroMainContainer.append(accordionContent)
+  } 
+}
+
+
+const changeAccordion = (mes) => {
   const accordionContainer = document.getElementById(
     `accordionContent__${mes}`
   );
 
-  const accordionIcon = document.getElementById("accordionIcon");
+  const accordionIcon = document.getElementById( `accordionIcon__${mes}`);
 
-  if (accordionContainer.classList[0] === "displayblock") {
+  if (accordionContainer?.classList[0] === "displayblock") {
     // SE TIVERMOS MOSTRANDO VAMOS REMOVER A DIV DA VISÃO
 
     accordionContainer.classList.add("displaynone");
@@ -18,12 +155,12 @@ const changeAccordion = (mes) => {
   } else {
     // SE TIVERMOS NÃO MOSTRANDO VAMOS MOSTRAR A DIV
 
-    accordionContainer.classList.add("displayblock");
+    accordionContainer?.classList.add("displayblock");
 
-    accordionIcon.classList?.add("bi-caret-up-fill");
-    accordionIcon.classList?.remove("bi-caret-down-fill");
+    accordionIcon?.classList?.add("bi-caret-up-fill");
+    accordionIcon?.classList?.remove("bi-caret-down-fill");
 
-    accordionContainer.classList?.remove("displaynone");
+    accordionContainer?.classList?.remove("displaynone");
   }
 };
 
@@ -174,3 +311,16 @@ document.getElementsByClassName('ChartBarGastos2'),
 configGastos2
 );
 
+
+
+/*
+<div class="graficos-giovanny">
+            <div class="DivChartBarGanhos">
+              <canvas class="ChartBarGanhos"></canvas>
+            </div>
+
+            <div class="DivChartBarGastos">
+              <canvas class="ChartBarGastos"></canvas>
+            </div>
+          </div>
+           */

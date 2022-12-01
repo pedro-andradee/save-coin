@@ -2,7 +2,81 @@ let NomeCompleto = document.querySelector('#nomecopleto');
 let ConfirmNovaSenha = document.querySelector('#confirmsenha');
 let BtnExcluir = document.querySelector('#btn-excluir');
 
+const getLocalStorage = () => JSON.parse(localStorage.getItem('BancoUsuarios')) ?? []
+//const setLocalStorage = (BancoUsuarios) => localStorage.setItem("BancoUsuarios", JSON.stringify(BancoUsuarios))
+
+function edit(){
+    getLocalStorage()
+    var UsuariodoBanco = BancoUsuarios.usuarios;
+    var QTEUsuarios = UsuariodoBanco.length;
+    var nomecompleto = document.getElementById('nomecompleto')
+    var novasenha = document.getElementById('novasenha')
+    for (var i = 0; i < QTEUsuarios; i++) {
+        var usuario = UsuariodoBanco[i];
+    
+        
+        if(usuario.id == usuarioCorrente.id){
+            console.log(usuario.id+" É O ID DO USUARIO QUE TA LOGADO")
+            usuario.nome = nomecompleto.value 
+            
+            if(novasenha.value == "" || null){
+                usuario.senha = usuario.senha
+            }
+            if(!novasenha.value == "" || null){
+                usuario.senha = novasenha.value
+            }
+          
+
+            localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
+
+            usuarioCorrente.nome = usuario.nome;
+            usuarioCorrente.senha = usuario.senha;
+
+            sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
+            
+        }
+ 
+    }
+}
+
+function excluir(){
+    getLocalStorage()
+    var UsuariodoBanco = BancoUsuarios.usuarios;
+    var QTEUsuarios = UsuariodoBanco.length;
+    for (var i = 0; i < QTEUsuarios; i++) {
+        const usuario = UsuariodoBanco[i];
+       
+      
+
+        if(usuario.id == usuarioCorrente.id){
+
+            function Checkuser (usuarios){
+                return usuarios.id == usuarioCorrente.id // PROCURA O ID DO USUARIO CORRENTE NO BANCO DE DADOS E RETORNA O INDEX QUE ELE SE ENCONTRA
+            }
+
+            const IndexdoUsuarioLogado = UsuariodoBanco.findIndex(Checkuser); // PARA SABER QUAL O INDEX DO USUARIO ATUAL
+            
+
+          UsuariodoBanco.splice(IndexdoUsuarioLogado,1) // PARA REMOVER O USUARIO DO BANCO 
+            }
+ 
+       localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
+       sessionStorage.clear()
+       
+       setTimeout(() => { window.location.href = 'login.html' }, 1300);
+       
+
+    }
+  
+}
+
 // inserir function pai para validar tudo 
+
+document.querySelector("#LegendEditUsuario").innerHTML = "Olá, " + (usuarioCorrente.nome) + "! Seja bem vindo ao seu perfil.";//tentar pegar somente o primeiro nome --- pegar o "login não é interessante porque não possui alteração, ou coloco para alterar somente o nome de login ao inves do nome completo"
+document.getElementById('nomecompleto').setAttribute('placeholder', usuarioCorrente.nome);
+document.getElementById('nomecompleto').setAttribute('value', usuarioCorrente.nome);
+
+
 
 
 
@@ -16,12 +90,11 @@ function ValidEditPerfil() {
 
         let SenhaAtual = document.querySelector('#senhaatual');
         let ValorSenhaAtual = SenhaAtual.value;
-        let LoginAdmin = "admin"
         let LabelSenhaAtual = document.querySelector('.labelsenhatual')
 
-        if (ValorSenhaAtual !== LoginAdmin) {
+        if (ValorSenhaAtual !== usuarioCorrente.senha) {
             LabelSenhaAtual.setAttribute('style', 'color:#ff0000a6');
-            LabelSenhaAtual.innerHTML = 'Senha atual *Não é essa'
+            LabelSenhaAtual.innerHTML = 'Senha atual * Inválida'
             SenhaAtual.setAttribute('style', 'border-color: #ff0000a6');
             ConfereSenhaAtual = false;
         }
@@ -43,16 +116,18 @@ function ValidEditPerfil() {
 
         let NovaSenha = document.querySelector('#novasenha');
         let ValorNovaSenha = NovaSenha.value;
-        let LoginAdmin = "admin";
         let LabelNovaSenha = document.querySelector('.labelnovasenha');
         let QteNovaSenha = ValorNovaSenha.length;
 
-        if (ValorNovaSenha == LoginAdmin) {
-            alert("A senha atual não pode ser igual a anterior.");
+        if (ValorNovaSenha == usuarioCorrente.senha) {
+            LabelNovaSenha.setAttribute('style', 'color:#ff0000a6');
+            LabelNovaSenha.innerHTML = 'Nova senha *A senha atual não pode ser igual a anterior.'
+            NovaSenha.setAttribute('style', 'border-color: #ff0000a6');
             ConfereNovaSenha = false;
         }
+        else{
 
-        if (QteNovaSenha <= 5) {
+        if (QteNovaSenha >=1 && QteNovaSenha <=5) {
             LabelNovaSenha.setAttribute('style', 'color:#ff0000a6');
             LabelNovaSenha.innerHTML = 'Nova senha *Insira uma senha com no mínimo 6 dígitos'
             NovaSenha.setAttribute('style', 'border-color: #ff0000a6');
@@ -65,13 +140,8 @@ function ValidEditPerfil() {
             ConfereNovaSenha = true;
         }
 
-        if (ValorNovaSenha == "") {
-            LabelNovaSenha.setAttribute('style', 'color:#ff0000a6');
-            LabelNovaSenha.innerHTML = 'Nova senha *Campo Obrigátorio'
-            NovaSenha.setAttribute('style', 'border-color:#ff0000a6');
-            ConfereNovaSenha = false;
-        }
-    }
+
+    }}
     ValidNovaSenha()
 
     function ValidConfirmSenha() {
@@ -93,25 +163,33 @@ function ValidEditPerfil() {
             LabelConfirmSenha.innerHTML = 'Confirma senha';
             ConfirmSenha.setAttribute('style', 'border-color: green');
             ConfereConfirmSenha = true;
+
+        }
+        if(ValorNovaSenha !== ""){
+            if (ValorConfirmSenha == "") {
+                LabelConfirmSenha.setAttribute('style', 'color:#ff0000a6');
+                LabelConfirmSenha.innerHTML = 'Confirm senha *Campo Obrigátorio';
+                ConfirmSenha.setAttribute('style', 'border-color:#ff0000a6');
+                ConfereConfirmSenha = false;
+            }
         }
 
-        if (ValorConfirmSenha == "") {
-            LabelConfirmSenha.setAttribute('style', 'color:#ff0000a6');
-            LabelConfirmSenha.innerHTML = 'Confirm senha *Campo Obrigátorio';
-            ConfirmSenha.setAttribute('style', 'border-color:#ff0000a6');
-            ConfereConfirmSenha = false;
-        }
     }
     ValidConfirmSenha()
 
+    
+
+
     if(ConfereSenhaAtual && ConfereNovaSenha && ConfereConfirmSenha){
+        
+        edit()
         console.log("Salvo com sucesso")
 
         $(document).ready(function() {
             $('#sucessmodal').modal('show');
         })
 
-        setTimeout(() => { window.location.href = 'homepage.html' }, 3000);
+        setTimeout(() => { location.reload() }, 3000);
 
     }
 
@@ -120,9 +198,6 @@ function ValidEditPerfil() {
 
 
     }
+
 }
 
-function excluir() {
-    alert("A conta seria excluida do JSON")
-    setTimeout(() => { window.location.href = 'login.html' }, 500);
-}

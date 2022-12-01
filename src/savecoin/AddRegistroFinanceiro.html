@@ -60,9 +60,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <script src="../savecoin/js/loginall.js"></script>
+    <script>
+        if (!usuarioCorrente.login) {
+            alert('Faça login antes de continuar.');
+            window.location.href = "login.html";
+        }
+    </script>
   </head>
 
-  <body>
+  <body onload="fetchPreviousData()" >
     <div id="header"></div>
     <main>
       <div class="yellowBar">
@@ -85,10 +93,10 @@
             <form>
               <p>Adicione os lucros do mês</p>
               <div>
-                <input placeholder="Descrição" type="text" required />
-                <input placeholder="Valor" type="number" required />
+                <input placeholder="Descrição" type="text" id="descLucro" required />
+                <input placeholder="Valor" type="number" id="valorLucro" required />
               </div>
-              <select name="mes" id="mes" required>
+              <select name="mesLucro" id="mesLucro" required>
                 <option value="Janeiro">Janeiro</option>
                 <option value="Fevereiro">Fevereiro</option>
                 <option value="Março">Março</option>
@@ -103,31 +111,13 @@
                 <option value="Dezembro">Dezembro</option>
               </select>
               <div class="buttonHolder">
-                <button class="saveButton" onclick="adicionarLucro()">
+                <button class="saveButton" onclick="adicionarLucro(event,'Lucro')">
                   Adicionar lucro
                 </button>
               </div>
             </form>
             <p>Ganhos Adicionados</p>
-            <div>
-              <div class="salariosecao">
-                <div>
-                  <p>Salario</p>
-                </div>
-                <div class="salariosecaovalores">
-                  <p>1500R$</p>
-                  <i class="fa-solid fa-trash redicon"></i>
-                </div>
-              </div>
-              <div class="salariosecao">
-                <div>
-                  <p>Aluguel</p>
-                </div>
-                <div class="salariosecaovalores">
-                  <p>2000R$</p>
-                  <i class="fa-solid fa-trash redicon"></i>
-                </div>
-              </div>
+            <div id="ContainerLucro">
             </div>
           </div>
         </div>
@@ -136,10 +126,10 @@
           <form>
             <p>Adicione as despesas do mês</p>
             <div>
-              <input placeholder="Descrição"  type="text" required />
-              <input placeholder="Valor"  type="number" required />
+              <input placeholder="Descrição"  type="text" id="descDespesa" required />
+              <input placeholder="Valor"  type="number" id="valorDespesa"  required />
             </div>
-            <select name="mes" id="mes" required>
+            <select name="mes" id="mesDespesa" required>
               <option value="Janeiro">Janeiro</option>
               <option value="Fevereiro">Fevereiro</option>
               <option value="Março">Março</option>
@@ -154,42 +144,30 @@
               <option value="Dezembro">Dezembro</option>
             </select>
             <div class="buttonHolder">
-              <button class="saveButton" onclick="adicionarGasto()">
+              <button class="saveButton" onclick="adicionarLucro(event, 'Despesa')">
                 Adicionar gasto
               </button>
             </div>
           </form>
           <p>Gastos Adicionados</p>
-          <div>
-            <div class="salariosecao">
-              <div>
-                <p>Comida</p>
-              </div>
-              <div class="salariosecaovalores">
-                <p>1000R$</p>
-                <i class="fa-solid fa-trash redicon"></i>
-              </div>
-            </div>
-            <div class="salariosecao">
-              <div>
-                <p>Passagem</p>
-              </div>
-              <div class="salariosecaovalores">
-                <p>500R$</p>
-                <i class="fa-solid fa-trash redicon"></i>
-              </div>
-            </div>
+          <div id="ContainerDespesa">
           </div>
         </div>
       </section>
-      <section class="resumo">
+      <section id="resumoDoRegistro" class="resumo">
         <h1>RESUMO</h1>
-        <h4>Fontes de renda: 2</h4>
-        <h4>Fontes de despesas: 2</h4>
-        <p><i class="fa-solid fa-square-plus fa-xl greenicon"></i>3500R$</p>
+        <h4>Fontes de renda: <span id="fonteLucro"></span></h4>
+        <h4>Fontes de despesas: <span id="fonteDespesa"></span></h4>
+        <div class="resumoLucroFlex">
+          <i class="fa-solid fa-square-plus fa-xl greenicon"></i>
+          <p id="resumoLucro"></p>
+        </div>
         <div class="resumodoregistro">
-          <p><i class="fa-solid fa-square-minus fa-xl redicon"></i>1500R$</p>
-          <p class="greenicondark">TOTAL: 2000R$</p>
+          <div class="resumoLucroFlex">
+            <i class="fa-solid fa-square-minus fa-xl redicon"></i>
+            <p id="resumoDespesa"></p>
+          </div>
+          <p id="total" class="greenicondark">TOTAL:<span id="resumoTotal"></span></p>
         </div>
         <div class="efetuarRegistroBotao">
           <button class="saveButton" onclick="efetuarRegistro()">
@@ -202,6 +180,7 @@
         <h1 class="textoCentralizado">GRÁFICOS</h1>
       </section>
     </main>
-    <div id="footer"></div>
+    <script src="./js/addRegistroFinanceiro.js"></script>
   </body>
+  <footer id="footer"></footer>
 </html>

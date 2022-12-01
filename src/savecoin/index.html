@@ -29,6 +29,14 @@
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet" />
 
+    <script src="../savecoin/js/loginall.js"></script>
+    <script>
+        if (!usuarioCorrente.login) {
+            alert('Faça login antes de continuar.');
+            window.location.href = "login.html";
+        }
+    </script>
+
 </head>
 
 <body>

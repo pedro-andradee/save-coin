@@ -48,6 +48,14 @@
       });
     </script>
 
+<script src="../savecoin/js/loginall.js"></script>
+    <script>
+        if (!usuarioCorrente.login) {
+            alert('Faça login antes de continuar.');
+            window.location.href = "login.html";
+        }
+    </script>
+
     <!-- Style CSS -->
     <link rel="stylesheet" href="./css/addAgenda.css">
     <link rel="stylesheet" href="./css/header+footer.css" />

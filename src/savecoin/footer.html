@@ -118,26 +118,26 @@
                       <form id="login-form-modal" class="form" method="post" onsubmit="loginUser (this)">
 
                         <div class="form-group label-float">
-                          <input type="text" id="inputusuario" class="form-control" onkeyup="nomeusuario()">
-                          <label id="labelusuario" for="labelusuario" class="text-info">Usuário</label>
+                          <input type="text" id="inputusuario" class="form-control" onkeyup="nomeusuario()" required>
+                          <label id="labelusuario" for="labelusuario" class="text-info d-flex">Usuário</label>
 
                         </div>
                         <div class="form-group label-float">
-                          <input type="text" name="txt_nome" id="txt_nome" class="form-control">
-                          <label id="labelnomecompleto" for="nome" class="text-info">Nome completo</label>
+                          <input type="text" name="txt_nome" id="txt_nome" class="form-control" required>
+                          <label id="labelnomecompleto" for="nome" class="text-info d-flex">Nome completo</label>
 
                         </div>
                         <div class="form-group label-float">
                           <input type="text" name="txt_email" id="inputuEmailModal" class="form-control"
-                            onkeyup="validEmailModal()">
-                          <label id="labelemailmodal" for="email" class="text-info">E-mail</label>
+                            onkeyup="validEmailModal()" required>
+                          <label id="labelemailmodal" for="email" class="text-info d-flex">E-mail</label>
 
                         </div>
                         <div class="form-group label-float">
                           <input type="password" id="inputsenhamodal" class="form-control password"
                             onkeyup='validsenha()' required>
                           <!--'onkeyup para quando for digitando executar a function validsenha, validando se possui o número de carecteres estipulado'-->
-                          <label id="labelsenhamodal" for="senha" class="text-info">Senha</label>
+                          <label id="labelsenhamodal" for="senha" class="text-info d-flex">Senha</label>
                           <i class="bi bi-eye-fill" id="StyleIcon" onclick='versenhamodal()'></i>
 
                         </div>
@@ -145,7 +145,7 @@
                           <input type="password" id="inputconfirmsenhamodal" class="form-control"
                             onkeyup="ConfirmSenha()" required>
                           <!--'onkeyup para quando for digitando executar a function ConfirmSenha, validando se a confirmsenha é igual a senha'-->
-                          <label id="labelconfirmesenhamodal" for="senha2" class="text-info password">Confirmação de
+                          <label id="labelconfirmesenhamodal" for="senha2" class="text-info d-flex password">Confirmação de
                             Senha</label>
                           <i class="bi bi-eye-fill" id="StyleIcon" onclick='verconfirmsenhamodal()'></i>
 
@@ -176,7 +176,7 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
               integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
               crossorigin="anonymous"></script>
-           
+           <script src="../savecoin/js/loginall.js"></script>
           </div>
           <!-- Grid container -->
 
