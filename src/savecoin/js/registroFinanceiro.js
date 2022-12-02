@@ -312,6 +312,67 @@ configGastos2
 );
 
 
+        // CHART LINE ANUAL
+
+          const labels = [
+            'Janeiro',
+            'Fevereiro',
+            'Março',
+            'Abril',
+            'Maio',
+            'Junho',
+            'Julho',
+            'Agosto',
+            'Setembro',
+            'Outubro',
+            'Novembro',
+            'Dezembro'
+          ];
+
+          const data = {
+            labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+            datasets: [{
+              label: 'AnualChart',
+              backgroundColor: "#e755ba",
+              pointBackgroundColor: "#55bae7",
+              pointBorderColor: "#55bae7",
+              pointHoverBackgroundColor: "#55bae7",
+              pointHoverBorderColor: "#55bae7",
+              data: [],
+            }]
+          };
+
+
+          const config = {
+            type: 'line',
+            data: {
+              labels:['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+              datasets: [{
+                label: 'Gastos',
+                data: [
+                  300,
+                  500,
+                  400,
+                  100,
+                  300,
+                  500,
+                  600,
+                  700,
+                  400,
+                  100,
+                  200,
+                  400
+                ]
+              }]
+            },
+            options: {}
+          };
+
+          const ChartLineAnual = new Chart(
+            document.getElementById('ChartLineAnual'),
+            config
+          );
+
 
 /*
 <div class="graficos-giovanny">
