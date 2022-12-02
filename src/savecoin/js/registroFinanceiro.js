@@ -311,6 +311,48 @@ document.getElementsByClassName('ChartBarGastos2'),
 configGastos2
 );
 
+  /* // CHART LINE ANUAL
+
+          const labels = [
+            'Janeiro',
+            'Fevereiro',
+            'Março',
+            'Abril',
+            'Maio',
+            'Junho',
+            'Julho',
+            'Agosto',
+            'Setembro',
+            'Outubro',
+            'Novembro',
+            'Dezembro'
+          ];
+
+          const data = {
+            labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+            datasets: [{
+              label: 'AnualChart',
+              borderColor: 'red',// só o nome da cor, HEX ou RGB 'rgb(75, 192, 192)', 
+              data: [100,90,80,70,60,50,40,30,20,10], //valores de teste
+            }]
+          };
+
+
+          const config = {
+            type: 'line',
+            data: data,
+          };
+
+          const ChartLineAnual = new Chart(
+            document.getElementById('ChartLineAnual'),
+            config
+          );
+*/
+
+
+
+
+
 
         // CHART LINE ANUAL
 
