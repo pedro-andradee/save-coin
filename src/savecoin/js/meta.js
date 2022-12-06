@@ -1,53 +1,41 @@
-getLocalStorage =  () => JSON.parse(localStorage.getItem('BancoUsuarios')) ?? []
-
-// Objeto para o banco de dados de usuários baseado em JSON
-var bancoMetas = {};
-
-// Objeto para o usuário corrente
-var usuarioCorrente = {};
-
-
-// Dados para serem utilizados como carga inicial
-var dadosIniciaisMeta = {
-    metas: [
-        { "id": 1, "descricaoMeta": "Livro de ciências", "valorMeta": 100, "valorDepositado": 50, "dataMeta": "02/03/2022"},
-        { "id": 2, "descricaoMeta": "Presente de natal", "valorMeta": 1000, "valorDepositado":750, "dataMeta": "25/12/2022"}
-    ]
-};
-
-// Inicializa o usuarioCorrente e banco de dados de usuários da aplicação de Login
 function initDadosMeta() {
-    // PARTE 2 - INICIALIZA BANCO DE DADOS DE METAS
-    // Obtem a string JSON com os dados de usuários a partir do localStorage
-    var metasJSON = localStorage.getItem('bancoMetas');
-
-    // Verifica se existem dados já armazenados no localStorage
-    if (!metasJSON) {  // Se NÃO há dados no localStorage
-
-        // Informa sobre localStorage vazio e e que serão carregados os dados iniciais
-        console.log('Dados de metas não encontrados no localStorage. Feita a carga inicial dos Admin.');
-
-        // Copia os dados iniciais para o banco de dados 
-        bancoMetas = dadosIniciaisMeta
-
-        // Salva os dados iniciais no local Storage convertendo-os para string antes
-        localStorage.setItem('bancoMetas', JSON.stringify(dadosIniciaisMeta));
-    } else {  // Se há dados no localStorage
-
-        // Converte a string JSON em objeto colocando no banco de dados baseado em JSON
-        bancoMetas = JSON.parse(metasJSON);
+    var UsuariodoBanco = BancoUsuarios.usuarios;
+    var QTEUsuarios = UsuariodoBanco.length;
+    for (var i = 0; i < QTEUsuarios; i++) {
+        const usuario = UsuariodoBanco[i];
+       
+        if(!usuario.registroMetas || !usuario.registroMetas.metas){
+            usuario.registroMetas = {}
+            usuario.registroMetas.metas = []
+        }
     }
+    localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
 }
-//DadosIniciais.usuarios[0].metas[0].length
+
+function carregarRegistrosMetaUsuarioCorrente() {
+    var usuarioDoBanco = BancoUsuarios.usuarios;
+    var qtdeUsuarios = usuarioDoBanco.length;
+    let registroMetasUsuario;
+    for (let i = 0; i < qtdeUsuarios; i++) {
+        let usuario = usuarioDoBanco[i];
+
+        if (usuarioCorrente.id == usuario.id) {
+            registroMetasUsuario = usuario.registroMetas;
+        }
+    }
+    return registroMetasUsuario;
+}
+
 function carregarMetas() {
     let addNovaMetaBotao = document.querySelector(".addNovaMetaBotao");
     let areaMetas = addNovaMetaBotao.parentNode
     let divBlocoMetas = document.createElement("div")
     divBlocoMetas.setAttribute("id", "blocoMetas")
-    for(let i = 0; i < bancoMetas.metas.length;i++) {
+    let getMetasUsuario = carregarRegistrosMetaUsuarioCorrente();
+    for(let i = 0; i < getMetasUsuario.metas.length;i++) {
         let divBlocoMeta = document.createElement("div")
         divBlocoMeta.setAttribute("id", "blocoMeta")
-        if (bancoMetas.metas[i].id !== null) {
+        if (getMetasUsuario.metas[i].id !== null) {
             divBlocoMeta.innerHTML = `
                 <div class="conteudoMetas">
                 <img
@@ -56,13 +44,13 @@ function carregarMetas() {
                     alt="cofrinho porco"
                 />
                 <div class="containerMeta">
-                    <span class="descricaoMeta">${bancoMetas.metas[i].descricaoMeta}</span>
+                    <span class="descricaoMeta">${getMetasUsuario.metas[i].descricaoMeta}</span>
                     <div class="barraProgresso">
                         <div class="barraVerde preenchimentoBarra${i.toString()}"></div>
                     </div>
                     <div class="containerDataProgresso">
-                        <span class="dataMeta">Data final: ${bancoMetas.metas[i].dataMeta}</span>
-                        <span class ="valorMeta">Meta: R$ ${bancoMetas.metas[i].valorMeta.toFixed(2)}&nbsp;|&nbsp;Faltam: R$ ${(bancoMetas.metas[i].valorMeta - bancoMetas.metas[i].valorDepositado).toFixed(2)}</span>
+                        <span class="dataMeta">Data final: ${getMetasUsuario.metas[i].dataMeta}</span>
+                        <span class ="valorMeta">Meta: R$ ${getMetasUsuario.metas[i].valorMeta.toFixed(2)}&nbsp;|&nbsp;Faltam: R$ ${(getMetasUsuario.metas[i].valorMeta - getMetasUsuario.metas[i].valorDepositado).toFixed(2)}</span>
                     </div>
                 </div>
                 <div class="containerDelete">
@@ -97,9 +85,10 @@ function carregarMetas() {
 }
 
 function carregarBarraProgresso() {
-    for(let i = 0; i < bancoMetas.metas.length; i++) {
+    let registrosMetaUsuario = carregarRegistrosMetaUsuarioCorrente();
+    for(let i = 0; i < registrosMetaUsuario.metas.length; i++) {
         let progresso = document.querySelector(`.preenchimentoBarra${i.toString()}`)
-        let porcentagem = Math.round((bancoMetas.metas[i].valorDepositado * 100) / bancoMetas.metas[i].valorMeta)
+        let porcentagem = Math.round((registrosMetaUsuario.metas[i].valorDepositado * 100) / registrosMetaUsuario.metas[i].valorMeta)
         if(porcentagem > 100) porcentagem = 100
         progresso.setAttribute("style", "width: " + porcentagem.toString() + "%")
     }   
@@ -110,58 +99,12 @@ function salvarMeta() {
     let valorMeta = Number.parseFloat(document.querySelector("#valorMeta").value);
     let dataMeta = document.querySelector("#dataMeta").value;
     var dataFormatada = dataMeta.split('-').reverse().join('/');
-    let meta = {"id": bancoMetas.metas.length + 1, "descricaoMeta": descricaoMeta, "valorMeta": valorMeta,
+    let registrosMetaUsuario = carregarRegistrosMetaUsuarioCorrente();
+    let meta = {"id": registrosMetaUsuario.metas.length + 1, "descricaoMeta": descricaoMeta, "valorMeta": valorMeta,
     "valorDepositado": 0, "dataMeta": dataFormatada}
+    registrosMetaUsuario.metas.push(meta)
 
-
-    bancoMetas.metas.push(meta)
-
-    localStorage.setItem('bancoMetas', JSON.stringify(bancoMetas));
-
-
-
-   /* getLocalStorage()
-    var UsuariodoBanco = BancoUsuarios.usuarios;
-    var QTEUsuarios = UsuariodoBanco.length;
-    for (var i = 0; i < QTEUsuarios; i++) {
-        const usuario = UsuariodoBanco[i];
-       
-        if(!usuario.RegistroMetas ||  !usuario.RegistroMetas.metas){
-            usuario.RegistroMetas = {}
-            usuario.RegistroMetas.metas = []
-        }
-
-        if(usuario.id == usuarioCorrente.id){
-
-            let descricaoMeta = document.querySelector("#descricaoMeta").value;
-            let valorMeta = Number.parseFloat(document.querySelector("#valorMeta").value);
-            let dataMeta = document.querySelector("#dataMeta").value;
-            var dataFormatada = dataMeta.split('-').reverse().join('/');
-            let meta = {"id": bancoMetas.metas.length + 1, "descricaoMeta": descricaoMeta, "valorMeta": valorMeta,
-            "valorDepositado": 0, "dataMeta": dataFormatada}
-           
-            
-
-            function Checkuser (usuarios){
-                return usuarios.id == usuarioCorrente.id // PROCURA O ID DO USUARIO CORRENTE NO BANCO DE DADOS E RETORNA O INDEX QUE ELE SE ENCONTRA
-            }
-
-            const IndexdoUsuarioLogado = UsuariodoBanco.findIndex(Checkuser); // PARA SABER QUAL O INDEX DO USUARIO ATUAL
-
-            var metasdousuarioatual = BancoUsuarios.usuarios[IndexdoUsuarioLogado].RegistroMetas.metas;
-            
-
-            metasdousuarioatual.push(meta);
-
-          
-            localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
-            console.log(metasdousuarioatual)
-            }
-
-      
-    }
-     */
-
+    localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
 }
 
 
