@@ -311,109 +311,39 @@ document.getElementsByClassName('ChartBarGastos2'),
 configGastos2
 );
 
-  /* // CHART LINE ANUAL
+   // CHART LINE ANUAL GASTOS
 
-          const labels = [
-            'Janeiro',
-            'Fevereiro',
-            'Março',
-            'Abril',
-            'Maio',
-            'Junho',
-            'Julho',
-            'Agosto',
-            'Setembro',
-            'Outubro',
-            'Novembro',
-            'Dezembro'
-          ];
+          var ctx = document.getElementsByClassName("ChartLineAnual")
 
-          const data = {
-            labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
-            datasets: [{
-              label: 'AnualChart',
-              borderColor: 'red',// só o nome da cor, HEX ou RGB 'rgb(75, 192, 192)', 
-              data: [100,90,80,70,60,50,40,30,20,10], //valores de teste
-            }]
-          };
-
-
-          const config = {
-            type: 'line',
-            data: data,
-          };
-
-          const ChartLineAnual = new Chart(
-            document.getElementById('ChartLineAnual'),
-            config
-          );
-*/
-
-
-
-
-
-
-        // CHART LINE ANUAL
-
-          const labels = [
-            'Janeiro',
-            'Fevereiro',
-            'Março',
-            'Abril',
-            'Maio',
-            'Junho',
-            'Julho',
-            'Agosto',
-            'Setembro',
-            'Outubro',
-            'Novembro',
-            'Dezembro'
-          ];
-
-          const data = {
-            labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
-            datasets: [{
-              label: 'AnualChart',
-              backgroundColor: "#e755ba",
-              pointBackgroundColor: "#55bae7",
-              pointBorderColor: "#55bae7",
-              pointHoverBackgroundColor: "#55bae7",
-              pointHoverBorderColor: "#55bae7",
-              data: [],
-            }]
-          };
-
-
-          const config = {
+          var chartGraph = new Chart(ctx, {
             type: 'line',
             data: {
-              labels:['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+              labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
               datasets: [{
-                label: 'Gastos',
-                data: [
-                  300,
-                  500,
-                  400,
-                  100,
-                  300,
-                  500,
-                  600,
-                  700,
-                  400,
-                  100,
-                  200,
-                  400
-                ]
-              }]
+                label: 'Gasto mensal',
+                data: [100, 300, 450, 400, 50, 200, 300, 250, 200, 100, 200, 300],
+                borderWidth: 4,
+                borderColor: 'rgb(139,0,0)',
+                backgroundColor: 'transparent',
+              },
+              {
+                label: 'Ganho mensal',
+                data: [400, 500, 600, 400, 300, 100, 550, 400, 800, 100, 150, 700],
+                borderWidth: 4,
+                borderColor: 'rgb(34,139,34)',
+                backgroundColor: 'transparent',
+              },
+             
+               ]
             },
-            options: {}
-          };
-
-          const ChartLineAnual = new Chart(
-            document.getElementById('ChartLineAnual'),
-            config
-          );
+            options: {
+              title: {
+                display: true,
+                fontSize: 30,
+                text: 'GRÁFICO ANUAL',
+              }
+            }
+          });
 
 
 /*

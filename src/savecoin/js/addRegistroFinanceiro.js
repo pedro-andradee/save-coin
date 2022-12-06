@@ -285,3 +285,43 @@ const efetuarRegistro = () => {
 
     window.location.href = 'registroFinanceiro.html' 
 }
+
+   // CHART LINE 12 MESES
+
+   var ctx = document.getElementsByClassName("ChartLine12M")
+
+   var chartGraph = new Chart(ctx, {
+     type: 'line',
+     data: {
+       labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+       datasets: [{
+         label: 'Gasto mensal',
+         data: [100, 300, 450, 400, 50, 200, 300, 250, 200, 100, 200, 300],
+         borderWidth: 4,
+         borderColor: 'rgb(139,0,0)',
+         backgroundColor: 'transparent',
+       },
+       {
+         label: 'Ganho mensal',
+         data: [400, 500, 600, 400, 300, 100, 550, 400, 800, 100, 150, 700],
+         borderWidth: 4,
+         borderColor: 'rgb(34,139,34)',
+         backgroundColor: 'transparent',
+       },
+       {
+         label: 'Receita mensal',
+         data: [300, 200, 150, 0, 250, -100, 150, 200, 600, 0, -50, 400],
+         borderWidth: 4,
+         borderColor: 'rgb(65,105,225)',
+         backgroundColor: 'transparent',
+       },
+        ]
+     },
+     options: {
+       title: {
+         display: true,
+         fontSize: 30,
+         text: 'GRÁFICO ANUAL',
+       }
+     }
+   });

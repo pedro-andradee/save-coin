@@ -52,6 +52,7 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="./css/header+footer.css" />
     <link rel="stylesheet" href="./css/AddRegistroFinanceiro.css" />
+
     <!-- Font awesome-->
     <link
       rel="stylesheet"
@@ -60,6 +61,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+     <!--Chart JS-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script src="../savecoin/js/loginall.js"></script>
     <script>
@@ -177,7 +181,11 @@
       </section>
       <section>
         <h1 class="ultimos12">Últimos 12 meses</h1>
-        <h1 class="textoCentralizado">GRÁFICOS</h1>
+        <div class="grafico-amanda">
+          <div class="DivCharLine12M">
+            <canvas class="ChartLine12M"></canvas>
+          </div>
+        </div>
       </section>
     </main>
     <script src="./js/addRegistroFinanceiro.js"></script>
