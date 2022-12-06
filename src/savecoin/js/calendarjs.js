@@ -241,7 +241,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build (layout, days, etc)
+     * Estrutura 
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -286,7 +286,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Getting/Remove Events
+     * Adicionando e Removendo Eventos
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -359,7 +359,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Layout
+     * Estrutura Layout
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -598,7 +598,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Date-Picker Mode
+     * Estrutura Escolha de Data
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -766,7 +766,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Years Drop-Down Menu
+     * Anos Drop-Down Menu
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -880,7 +880,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Document Events
+     * Estrutura Documento Eventos
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -1025,7 +1025,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Date/Time Validation & Handling
+     * Data/Hora Validação
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -1281,7 +1281,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Day Events
+     * Estrutura dos Eventos
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -1603,7 +1603,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Full Day View
+     * Tela Cheia do Dia
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -2044,7 +2044,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Full Day View - Overlapping Events
+     * Tela Cheia do Dia - Eventos Repetidos
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -2141,7 +2141,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Full Day View - Time Arrow
+     * Tela Cheia - Hora exata
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -2178,7 +2178,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * List All Events View
+     * Lista de Todos os Eventos
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -2400,7 +2400,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * List All Week Events View
+     * Lista de Todos os Eventos da Semana
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -2826,7 +2826,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Date/Time Displays
+     * Estrutura Data/Hora Display
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -2888,7 +2888,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Month Days
+     * Estrutura Meses
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
     
@@ -3103,7 +3103,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Drag & Drop
+     * Arrastar e Soltar
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -3286,7 +3286,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Drop-Down Menus
+     * Estrutura Drop-Down Menus
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -3599,7 +3599,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Disabled Background
+     * Estrutura Desabilitar Plano de Fundo
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -3616,7 +3616,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Event Editing Dialog
+     * Estrutura Editor de Eventos
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -4173,7 +4173,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Event Editing Colors Dialog
+     * Estrutura Editor de Eventos Cores
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -4248,7 +4248,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Event Editing Repeat Options Dialog
+     * Estrutura Editor de Eventos Opções de Repetição
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -4347,7 +4347,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Confirmation Dialog
+     * Estrutura Dialog Confirmação
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -4420,7 +4420,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Select Export Type Dialog
+     * Escolha de Tipo de Exportação
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -4510,7 +4510,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Search Dialog
+     * Dialog de Busca
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -4924,7 +4924,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Configuration Dialog
+     * Dialog de Configuração
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -5172,7 +5172,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Tooltip
+     * Ferramentas
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -5337,7 +5337,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Tabs
+     * Abas
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -5412,7 +5412,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Browser Notifications
+     * Notificações do Navegador
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -5495,7 +5495,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Auto-Refresh Timer
+     * Atualização
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -5536,7 +5536,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Overlay Handling
+     * Manuseio de sobreposição
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -5561,7 +5561,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Element Handling
+     * Elementos
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -5848,7 +5848,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Build Controls/Text
+     * Estrutura Controle/Texto
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -5935,7 +5935,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * String Handling
+     * Manuseio de String
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -5989,7 +5989,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Validation
+     * Validação
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -6044,7 +6044,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Export Events
+     * Exportação de Eventos
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -6386,7 +6386,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Exporting To CSV
+     * Exportição para CSV
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -6437,7 +6437,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Exporting To XML
+     * Exportação para XML
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -6476,7 +6476,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Exporting To JSON
+     * Exportação para JSON
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -6517,7 +6517,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Exporting To TEXT
+     * Exportação para TEXT
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -6549,7 +6549,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Exporting To iCAL
+     * Exportação para iCAL
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -6582,7 +6582,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Exporting To MD
+     * Exportação para MD
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -6615,7 +6615,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Exporting To HTML
+     * Exportação para HTML
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -6654,7 +6654,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Exporting To TSV
+     * Exportação para TSV
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
@@ -6703,14 +6703,14 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Main Controls (public)
+     * Controles Principais
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
     /**
      * turnOnFullScreen().
      * 
-     * Turns on the full-screen mode (if enabled).
+     * Ativa tela cheia, se desabilitado.
      * 
      * @public
      */
@@ -6723,7 +6723,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * turnOffFullScreen().
      * 
-     * Turns off the full-screen mode (if enabled).
+     * Desativa tela cheia, se hablitado.
      * 
      * @public
      */
@@ -6736,11 +6736,11 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * isFullScreenActivated().
      * 
-     * States if full-screen mode is activated.
+     * Continua tela cheia se ativado.
      * 
      * @public
      * 
-     * @returns     {boolean}                                               States if full-screen mode is activated.
+     * @returns     {boolean}                                               Continua tela cheia se ativado.
      */
     this.isFullScreenActivated = function() {
         return _isFullScreenModeActivated;
@@ -6749,7 +6749,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * startTheAutoRefreshTimer().
      * 
-     * Starts the auto-refresh timer (if enabled).
+     * Começa a atualizar, se desativado.
      * 
      * @public
      */
@@ -6764,7 +6764,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * stopTheAutoRefreshTimer().
      * 
-     * Stops the auto-refresh timer (if enabled).
+     * Para de atualizar, ser ativado.
      * 
      * @public
      */
@@ -6779,7 +6779,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * destroy().
      * 
-     * Removes the calendar from the DOM.
+     * Remove o calendario do DOM.
      * 
      * @public
      */
@@ -6794,14 +6794,14 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Navigation, Exporting and Refreshing (public)
+     * Navegação, Atualização e Exportação
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
     /**
      * moveToPreviousMonth().
      * 
-     * Moves to the previous month.
+     * Ir para o mês anterior.
      * 
      * @public
      * @fires       onPreviousMonth
@@ -6813,7 +6813,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * moveToNextMonth().
      * 
-     * Moves to the next month.
+     * Ir para o próximo mês.
      * 
      * @public
      * @fires       onNextMonth
@@ -6825,7 +6825,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * moveToPreviousYear().
      * 
-     * Moves to the previous year.
+     * Ir para o ano anterior.
      * 
      * @public
      * @fires       onPreviousYear
@@ -6837,7 +6837,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * moveToNextYear().
      * 
-     * Moves to the next year.
+     * Ir para o próximo ano.
      * 
      * @public
      * @fires       onNextYear
@@ -6849,7 +6849,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * moveToToday().
      * 
-     * Moves to the current month.
+     * Ir para o mês atual.
      * 
      * @public
      * @fires       onToday
@@ -6861,11 +6861,11 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * getCurrentDisplayDate().
      * 
-     * Returns the current date that is being used in the main display.
+     * Ir para o dia atual.
      * 
      * @public
      * 
-     * @returns     {Object}                                                A Date() object (day is always set to the 1st).
+     * @returns     {Object}                                         
      */
     this.getCurrentDisplayDate = function() {
         return new Date( _currentDate );
@@ -6874,12 +6874,12 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * setCurrentDisplayDate().
      * 
-     * Sets the current date that is being used in the main display.
+     * Define a data atual que está sendo usada no display principal.
      * 
      * @public
      * @fires       onSetDate
      * 
-     * @param       {Object}    date                                        The Date() object to set.
+     * @param       {Object}    date                                     
      */
      this.setCurrentDisplayDate = function( date ) {
         if ( !_datePickerModeEnabled || _datePickerVisible ) {
@@ -6895,11 +6895,11 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * getSelectedDatePickerDate().
      * 
-     * Returns the current date that has been selected in DatePicker mode.
+     * Retorna a data atual que foi selecionada no modo DatePicker.
      * 
      * @public
      * 
-     * @returns     {Object}                                                A Date() object.
+     * @returns     {Object}                                                
      */
     this.getSelectedDatePickerDate = function() {
         return _datePickerModeEnabled ? new Date( _currentDateForDatePicker ) : null;
@@ -6908,12 +6908,12 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * setSelectedDatePickerDate().
      * 
-     * Sets the current date that is being used in DatePicker mode.
+     * Define a data atual que está sendo usada no modo DatePicker.
      * 
      * @public
      * @fires       onDatePickerDateChanged
      * 
-     * @param       {Object}    date                                        The Date() object to set.
+     * @param       {Object}    date                                        
      */
     this.setSelectedDatePickerDate = function( date ) {
         if ( _datePickerModeEnabled ) {
@@ -6935,12 +6935,12 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * exportAllEvents().
      * 
-     * Exports all the events into a downloadable file.
+     * Exporta todos os eventos para um arquivo para download.
      * 
      * @public
      * @fires       onEventsExported
      * 
-     * @param       {string}    type                                        The data type to export to (defaults to "csv", accepts "csv", "xml", "json", "txt", "ical", "md", "html", and "tsv").
+     * @param       {string}    type                                  
      */
     this.exportAllEvents = function( type ) {
         if ( _options.exportEventsEnabled && !_datePickerModeEnabled ) {
@@ -6953,7 +6953,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * refresh().
      * 
-     * Refreshes all of the views.
+     * Refresca todas as opiniões.
      * 
      * @public
      */
@@ -7025,21 +7025,21 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Add/Remove Events (public)
+     * Adicionar e Remover Eventos
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
     /**
      * setEvents().
      * 
-     * Sets the events and clears any existing ones.
+     * Define os eventos e limpa quaisquer eventos existentes.
      * 
      * @public
      * @fires       onEventsSet
      * 
-     * @param       {Event[]}   events                                      The array of events (refer to "Day Event" documentation for properties).
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onEventsSet" event should be triggered.
+     * @param       {Event[]}   events                              
+     * @param       {boolean}   updateEvents                              
+     * @param       {boolean}   triggerEvent                           
      */
     this.setEvents = function( events, updateEvents, triggerEvent ) {
         if ( !_datePickerModeEnabled ) {
@@ -7057,14 +7057,14 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * setEventsFromJson().
      * 
-     * Sets new events from JSON data and clears any existing ones.
+     * Define novos eventos a partir dos dados do JSON e limpa quaisquer eventos existentes.
      * 
      * @public
      * @fires       onEventsSetFromJSON
      * 
-     * @param       {string}    json                                        The JSON string containing the events (refer to "Day Event" documentation for properties).
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onEventsSetFromJSON" event should be triggered.
+     * @param       {string}    json                                    
+     * @param       {boolean}   updateEvents                          
+     * @param       {boolean}   triggerEvent                                
      */
     this.setEventsFromJson = function( json, updateEvents, triggerEvent ) {
         if ( !_datePickerModeEnabled ) {
@@ -7087,14 +7087,14 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * addEvents().
      * 
-     * Adds an array of new events.
+     * Adiciona uma série de novos eventos.
      * 
      * @public
      * @fires       onEventsAdded
      * 
-     * @param       {Event[]}   events                                      The array of events (refer to "Day Event" documentation for properties).
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onEventsAdded" event should be triggered.
+     * @param       {Event[]}   events                                   
+     * @param       {boolean}   updateEvents                           
+     * @param       {boolean}   triggerEvent                             
      */
     this.addEvents = function( events, updateEvents, triggerEvent ) {
         if ( !_datePickerModeEnabled ) {
@@ -7122,14 +7122,14 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * addEventsFromJson().
      * 
-     * Adds new events from JSON data.
+     * Adiciona novos eventos a partir dos dados do JSON.
      * 
      * @public
      * @fires       onEventsAddedFromJSON
      * 
-     * @param       {string}    json                                        The JSON string containing the events (refer to "Day Event" documentation for properties).
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onEventsAddedFromJSON" event should be triggered.
+     * @param       {string}    json                                       
+     * @param       {boolean}   updateEvents                              
+     * @param       {boolean}   triggerEvent                              
      */
     this.addEventsFromJson = function( json, updateEvents, triggerEvent ) {
         if ( !_datePickerModeEnabled ) {
@@ -7152,17 +7152,16 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * addEvent().
      * 
-     * Adds a of new event.
+     * Adiciona um de novos eventos.
      * 
      * @public
      * @fires       onEventAdded
      * 
-     * @param       {Event}     event                                       The event (refer to "Day Event" documentation for properties).
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onEventAdded" event should be triggered.
-     * @param       {boolean}   setLastUpdated                              States if the "lastUpdated" date should be set (defaults to true).
-     * 
-     * @returns     {boolean}                                               States if the event was added.
+     * @param       {Event}     event                                    
+     * @param       {boolean}   updateEvents                                
+     * @param       {boolean}   triggerEvent                             
+     * @param       {boolean}   setLastUpdated                             
+     * @returns     {boolean}                                             
      */
     this.addEvent = function( event, updateEvents, triggerEvent, setLastUpdated ) {
         var added = false;
@@ -7262,14 +7261,14 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * updateEvents().
      * 
-     * Updates an array of existing events.
+     * Atualiza uma série de eventos existentes.
      * 
      * @public
      * @fires       onEventsUpdated
      * 
-     * @param       {Event[]}   events                                      The array of events (refer to "Day Event" documentation for properties).
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onEventsUpdated" event should be triggered.
+     * @param       {Event[]}   events                               
+     * @param       {boolean}   updateEvents                            
+     * @param       {boolean}   triggerEvent                              
      */
     this.updateEvents = function( events, updateEvents, triggerEvent ) {
         if ( !_datePickerModeEnabled ) {
@@ -7297,17 +7296,16 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * updateEvent().
      * 
-     * Updates an existing event.
+     * Atualiza um evento existente.
      * 
      * @public
      * @fires       onEventUpdated
      * 
-     * @param       {string}    id                                          The ID of the event.
-     * @param       {Event}     event                                       The event (refer to "Day Event" documentation for properties).
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onEventUpdated" event should be triggered.
-     * 
-     * @returns     {boolean}                                               States if the event was updated.
+     * @param       {string}    id                                        
+     * @param       {Event}     event                                     
+     * @param       {boolean}   updateEvents                               
+     * @param       {boolean}   triggerEvent                                
+     * @returns     {boolean}                                               
      */
     this.updateEvent = function( id, event, updateEvents, triggerEvent ) {
         var updated = false;
@@ -7333,19 +7331,18 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * updateEventDateTimes().
      * 
-     * Updates an existing events from, to, and repeatEnds dates.
+     * Atualiza um evento existente de, para, e repete as datasEnds.
      * 
      * @public
      * @fires       onEventUpdated
      * 
-     * @param       {string}    id                                          The ID of the event.
-     * @param       {Object}    from                                        The new from date.
-     * @param       {Object}    to                                          The new to date.
-     * @param       {Object}    repeatEnds                                  The new repeat ends day.
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onEventUpdated" event should be triggered.
-     * 
-     * @returns     {boolean}                                               States if the event was updated.
+     * @param       {string}    id                                        
+     * @param       {Object}    from                                       
+     * @param       {Object}    to                                       
+     * @param       {Object}    repeatEnds                                  
+     * @param       {boolean}   updateEvents                               
+     * @param       {boolean}   triggerEvent                               
+     * @returns     {boolean}                                               
      */
     this.updateEventDateTimes = function( id, from, to, repeatEnds, updateEvents, triggerEvent ) {
         var updated = false;
@@ -7381,16 +7378,15 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * removeEvent().
      * 
-     * Removes an event.
+     * Remove um evento.
      * 
      * @public
      * @fires       onEventRemoved
      * 
-     * @param       {string}    id                                          The ID of the event.
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onEventRemoved" event should be triggered.
-     * 
-     * @returns     {boolean}                                               States if the event was removed.
+     * @param       {string}    id                                        
+     * @param       {boolean}   updateEvents                              
+     * @param       {boolean}   triggerEvent                              
+     * @returns     {boolean}                                              
      */
     this.removeEvent = function( id, updateEvents, triggerEvent ) {
         var removed = false;
@@ -7424,13 +7420,13 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * clearEvents().
      * 
-     * Clears all the events.
+     * Limpar todos os eventos.
      * 
      * @public
      * @fires       onEventsCleared
      * 
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onEventsCleared" event should be triggered.
+     * @param       {boolean}   updateEvents                             
+     * @param       {boolean}   triggerEvent                                
      */
     this.clearEvents = function( updateEvents, triggerEvent ) {
         if ( !_datePickerModeEnabled ) {
@@ -7453,11 +7449,11 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * getEvents().
      * 
-     * Returns an array of the events available.
+     * Retorna uma série de eventos disponíveis.
      * 
      * @public
      * 
-     * @returns     {Event[]}                                               An array of events.
+     * @returns     {Event[]}                                             
      */
     this.getEvents = function() {
         var events = [];
@@ -7472,13 +7468,12 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * getEvent().
      * 
-     * Returns an event that matches the ID passed.
+     * Devolve um evento que combina com a identificação aprovada.
      * 
      * @public
      * 
-     * @param       {string}    id                                          The ID of the event to get.
-     * 
-     * @returns     {Event}                                                 The event details (or null if the ID cannot be found).
+     * @param       {string}    id                                         
+     * @returns     {Event}                                                 
      */
     this.getEvent = function( id ) {
         var returnEvent = null;
@@ -7502,18 +7497,18 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Add/Remove Groups (public)
+     * Adicionar e Remover Grupos
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
     /**
      * getAllGroups().
      * 
-     * Returns an array of group names being used.
+     * Devolve uma série de nomes de grupos sendo utilizados.
      * 
      * @public
      * 
-     * @returns     {string[]}                                              An array of the group names.
+     * @returns     {string[]}                                             
      */
     this.getAllGroups = function() {
         return getGroups();
@@ -7522,13 +7517,13 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * clearAllGroups().
      * 
-     * Clears all the event groups.
+     * Limpa todos os grupos de eventos.
      * 
      * @public
      * @fires       onGroupsCleared
      * 
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onGroupsCleared" event should be triggered.
+     * @param       {boolean}   updateEvents                              
+     * @param       {boolean}   triggerEvent                              
      */
     this.clearAllGroups = function( updateEvents, triggerEvent ) {
         if ( !_datePickerModeEnabled ) {
@@ -7553,14 +7548,14 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * removeGroup().
      * 
-     * Removes a group by name.
+     * Remove um grupo pelo nome.
      * 
      * @public
      * @fires       onGroupRemoved
      * 
-     * @param       {string}    groupName                                   The name of the group to remove.
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
-     * @param       {boolean}   triggerEvent                                States if the "onGroupRemoved" event should be triggered.
+     * @param       {string}    groupName                                  
+     * @param       {boolean}   updateEvents                            
+     * @param       {boolean}   triggerEvent                               
      */
     this.removeGroup = function( groupName, updateEvents, triggerEvent ) {
         if ( !_datePickerModeEnabled ) {
@@ -7589,18 +7584,18 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
 
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Internal Clipboard (public)
+     * Placa interna
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
     /**
      * setClipboardEvent().
      * 
-     * Set the clipboard event.
+     * Definir o evento da prancheta.
      * 
      * @public
      * 
-     * @param       {Event}    event                                        The event to set (refer to "Day Event" documentation for properties).
+     * @param       {Event}    event                                        
      */
     this.setClipboardEvent = function( event ) {
         _copiedEventDetails = cloneEventDetails( event );
@@ -7609,11 +7604,11 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * getClipboardEvent().
      * 
-     * Returns the event copied in the clipboard.
+     * Devolve o evento copiado na prancheta.
      * 
      * @public
      * 
-     * @returns     {Event}                                                 The copied event details.
+     * @returns     {Event}                                                
      */
     this.getClipboardEvent = function() {
         return _copiedEventDetails;
@@ -7622,7 +7617,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * clearClipboard().
      * 
-     * Clears the internal clipboard.
+     * Limpa a prancheta interna.
      * 
      * @public
      */
@@ -7664,13 +7659,13 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * setSearchOptions().
      * 
-     * Sets the specific search options that should be used.
+     * Define as opções de busca específicas que devem ser utilizadas.
      * 
      * @public
      * @fires       onSearchOptionsUpdated
      * 
-     * @param       {Search}    newSearchOptions                            All the search options that should be set (refer to "Search Options" documentation for properties).
-     * @param       {boolean}   triggerEvent                                States if the "onSearchOptionsUpdated" event should be triggered.
+     * @param       {Search}    newSearchOptions                            
+     * @param       {boolean}   triggerEvent              
      */
     this.setSearchOptions = function( newSearchOptions, triggerEvent ) {
         if ( !_datePickerModeEnabled ) {
@@ -7694,14 +7689,14 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * addHolidays().
      * 
-     * Adds new holidays.
+     * Adicionar novo feriado.
      * 
      * @public
      * @fires       onOptionsUpdated
      * 
-     * @param       {Holiday[]} holidays                                    The holidays to add (refer to "Holiday" documentation for properties).
-     * @param       {boolean}   triggerEvent                                States if the "onOptionsUpdated" event should be triggered.
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
+     * @param       {Holiday[]} holidays                                   
+     * @param       {boolean}   triggerEvent                           
+     * @param       {boolean}   updateEvents                              
      */
     this.addHolidays = function( holidays, triggerEvent, updateEvents ) {
         if ( !_datePickerModeEnabled ) {
@@ -7723,14 +7718,14 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     /**
      * removeHolidays().
      * 
-     * Removes holidays.
+     * Remove feriado.
      * 
      * @public
      * @fires       onOptionsUpdated
      * 
-     * @param       {string[]}  holidayNames                                The names of the holidays to remove (case sensitive).
-     * @param       {boolean}   triggerEvent                                States if the "onOptionsUpdated" event should be triggered.
-     * @param       {boolean}   updateEvents                                States if the calendar display should be updated (defaults to true).
+     * @param       {string[]}  holidayNames                                
+     * @param       {boolean}   triggerEvent                             
+     * @param       {boolean}   updateEvents                               
      */
     this.removeHolidays = function( holidayNames, triggerEvent, updateEvents ) {
         if ( !_datePickerModeEnabled ) {
@@ -8673,7 +8668,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
     
     /*
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Initialize Calendar.js
+     * Inicialização
      * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      */
 
