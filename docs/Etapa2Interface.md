@@ -84,57 +84,47 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 <img src="/docs/img/WIREFRAMES/05. Edição Agenda.png" width="480px">
 </p>
 
-### 06. Pou-up de Lembrete da Agenda
-<p align="center">
-<img src="/docs/img/WIREFRAMES/06. Pop-up Agenda.png" width="480px">
-</p>
-
-### 07. Lembrete da Agenda na Home Page do Usuário
-<p align="center">
-<img src="/docs/img/WIREFRAMES/07. Lembrete Agenda.png" width="480px">
-</p>
-
-### 08. Material Didático
+### 06. Material Didático
 <p align="center">
 <img src="/docs/img/WIREFRAMES/08. Material Didático.png" width="480px">
 </p>
 
-### 09. Matéria
+### 07. Matéria
 <p align="center">
 <img src="/docs/img/WIREFRAMES/09. Matéria.png" width="480px">
 </p>
 
-### 10. Quiz
+### 08. Quiz
 <p align="center">
 <img src="/docs/img/WIREFRAMES/10. Quiz.png" width="480px">
 </p>
 
-### 11. Registro Financeiro
+### 09. Registro Financeiro
 <p align="center">
 <img src="/docs/img/WIREFRAMES/11. Registro Financeiro.png" width="480px">
 </p>
 
-### 12. Edição do Registro Financeiro
+### 10. Edição do Registro Financeiro
 <p align="center">
 <img src="/docs/img/WIREFRAMES/12. Edição Registro Financeiro.png" width="480px">
 </p>
 
-### 13. Meta Financeira
+### 11. Meta Financeira
 <p align="center">
 <img src="/docs/img/WIREFRAMES/13. Meta Financeira.png" width="480px">
 </p>
 
-### 14. Edição Meta Financeira
+### 12. Edição Meta Financeira
 <p align="center">
 <img src="/docs/img/WIREFRAMES/14. Edição Meta Financeira.png" width="480px">
 </p>
 
-### 15. Edição do Perfil de Usuário
+### 13. Edição do Perfil de Usuário
 <p align="center">
 <img src="/docs/img/WIREFRAMES/15. Edição Perfil.png" width="480px">
 </p>
 
-### 16. Questionário 
+### 14. Questionário 
 <p align="center">
 <img src="/docs/img/WIREFRAMES/16. Questionário.png" width="480px">
 </p>

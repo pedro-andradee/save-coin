@@ -1,16 +1,3 @@
-/**
- * calendarJs().
- * 
- * The main Calendar.js class.
- * 
- * @public
- * @class
- * 
- * @param       {string}    id                                          The ID of the element that should be used to display the calendar (or input to assign a DatePicker).
- * @param       {Options}   options                                     All the configurable options that should be used (refer to "Options" documentation for properties).
- * @param       {Search}    searchOptions                               All the configurable options that should be used (refer to "Search Options" documentation for properties).
- * @param       {Object}    startDateTime                               The date that the calendar should start from (defaults to today).
- */
 function calendarJs( id, options, searchOptions, startDateTime ) {
     var _options = {},
         _optionsForSearch = {},
@@ -6571,8 +6558,6 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
             orderedEventLength = orderedEvents.length;
 
         contents.push( "BEGIN:VCALENDAR" );
-        contents.push( "VERSION:2.0" );
-        contents.push( "PRODID:Calendar.js v" + _this.getVersion() );
         contents.push( "CALSCALE:GREGORIAN" );
 
         for ( var orderedEventIndex = 0; orderedEventIndex < orderedEventLength; orderedEventIndex++ ) {
@@ -7645,44 +7630,10 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
         _copiedEventDetails = null;
     };
 
-
-    /*
-     * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Get/Set Additional Data (public)
-     * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     */
-
-    /**
-     * getVersion().
-     * 
-     * Returns the version of Calendar.js.
-     * 
-     * @public
-     * 
-     * @returns     {string}                                                The version number.
-     */
     this.getVersion = function() {
-        return "1.6.5";
+        return "";
     };
 
-
-    /*
-     * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     * Setting Options (public)
-     * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     */
-
-    /**
-     * setOptions().
-     * 
-     * Sets the specific options that should be used.
-     * 
-     * @public
-     * @fires       onOptionsUpdated
-     * 
-     * @param       {Options}   newOptions                                  All the options that should be set (refer to "Options" documentation for properties).
-     * @param       {boolean}   triggerEvent                                States if the "onOptionsUpdated" event should be triggered.
-     */
     this.setOptions = function( newOptions, triggerEvent ) {
         newOptions = getOptions( newOptions );
 
