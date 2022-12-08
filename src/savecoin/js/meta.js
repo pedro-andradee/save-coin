@@ -76,7 +76,7 @@ function carregarMetas() {
                         data-toggle="modal"
                         data-target="#modal-delete-meta"
                         class="bi bi-x-circle botaoDelete"
-                        onclick="getIdMeta(event)"
+                        onclick="setIdMeta(event)"
                         ></button>
                     </div>
                 </div>
@@ -132,16 +132,17 @@ initDadosMeta();
 carregarMetas();
 carregarBarraProgresso();
 
-function getIdMeta(event) {
+function setIdMetaDelete(event) {
+    let modalFooter = document.querySelector("#modal-delete-meta .modal-footer");
     let containerDelete = event.target.parentNode.id;
-    return containerDelete;
+    modalFooter.setAttribute("id", `${containerDelete}`);
 }
 
 function deletarMeta(event) {
-    let containerDelete = getIdMeta(event);
+    let idMetaRemover = event.target.parentNode.id;
     let getMetasUsuarioCorrente = carregarRegistrosMetaUsuarioCorrente();
     for(let i = 0; i < getMetasUsuarioCorrente.metas.length;i++) {
-        if(getMetasUsuarioCorrente.metas[i].id == containerDelete) {
+        if(getMetasUsuarioCorrente.metas[i].id == idMetaRemover) {
             getMetasUsuarioCorrente.metas.splice(i, 1);
             break;
         }
