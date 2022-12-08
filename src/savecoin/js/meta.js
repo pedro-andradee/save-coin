@@ -85,6 +85,8 @@ function carregarMetas() {
                 data-toggle="modal"
                 data-target="#modal-atualizar-valor"
                 class="botaoAtualizarValor"
+                id="${getMetasUsuario.metas[i].id}"
+                onclick="setIdMetaEntrada(event)"
                 >
                 Nova entrada
                 </button>
@@ -131,6 +133,26 @@ function salvarMeta() {
 initDadosMeta();
 carregarMetas();
 carregarBarraProgresso();
+
+function setIdMetaEntrada(event) {
+    let modalFooter = document.querySelector("#modal-atualizar-valor .modal-footer");
+    let idMetaAtualizar = event.target.id;
+    modalFooter.setAttribute("id", `${idMetaAtualizar}`);
+}
+
+function inserirNovaEntrada(event) {
+    let valorEntrada = Number.parseFloat(document.querySelector("#valor-entrada").value);
+    let idMetaAtualizarValor = event.target.parentNode.id;
+    let getMetasUsuarioCorrente = carregarRegistrosMetaUsuarioCorrente();
+    for(let i = 0; i < getMetasUsuarioCorrente.metas.length;i++) {
+        if(getMetasUsuarioCorrente.metas[i].id == idMetaAtualizarValor) {
+            getMetasUsuarioCorrente.metas[i].valorDepositado += valorEntrada;
+            break;
+        }
+    }
+    localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
+    window.location.href = 'verApagarMeta.html'
+}
 
 function setIdMetaDelete(event) {
     let modalFooter = document.querySelector("#modal-delete-meta .modal-footer");

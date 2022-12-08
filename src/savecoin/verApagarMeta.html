@@ -114,8 +114,7 @@
           </div>
           <div class="modal-body body-modal-nova-entrada">
             <form
-              action="https://httpbin.org/post"
-              method="post"
+              method="get"
               id="nova-entrada-form"
             >
               <label for="valor-entrada">Valor da nova entrada:</label>
@@ -141,6 +140,7 @@
               type="submit"
               form="nova-entrada-form"
               class="botao-modal-salvar"
+              onclick="inserirNovaEntrada(event)"
             >
               Salvar
             </button>
