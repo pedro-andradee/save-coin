@@ -95,6 +95,8 @@ function carregarMetas() {
                 data-toggle="modal"
                 data-target="#modal-criar-editar-meta"
                 class="botaoEditar"
+                id="${getMetasUsuario.metas[i].id}"
+                onclick="setIdMetaEditar(event)"
                 >
                 Editar
                 </button>`            
@@ -114,16 +116,28 @@ function carregarBarraProgresso() {
     }   
 }
 
-function salvarMeta() {
+function salvarMeta(event) {
+    let idMeta = event.target.parentNode.id;
     let descricaoMeta = document.querySelector("#descricaoMeta").value;
     let valorMeta = Number.parseFloat(document.querySelector("#valorMeta").value);
     let dataMeta = document.querySelector("#dataMeta").value;
     var dataFormatada = dataMeta.split('-').reverse().join('/');
     let registrosMetaUsuario = carregarRegistrosMetaUsuarioCorrente();
-    let metaUUID = generateUUID();
-    let meta = {"id": metaUUID, "descricaoMeta": descricaoMeta, "valorMeta": valorMeta,
-    "valorDepositado": 0, "dataMeta": dataFormatada}
-    registrosMetaUsuario.metas.push(meta)
+    if(!!idMeta) {
+        for(let i = 0; i < registrosMetaUsuario.metas.length;i++) {
+            if(registrosMetaUsuario.metas[i].id == idMeta) {
+                registrosMetaUsuario.metas[i].descricaoMeta = descricaoMeta;
+                registrosMetaUsuario.metas[i].valorMeta = valorMeta;
+                registrosMetaUsuario.metas[i].dataMeta = dataFormatada;
+                break;
+            }
+        }
+    } else {
+        let metaUUID = generateUUID();
+        let meta = {"id": metaUUID, "descricaoMeta": descricaoMeta, "valorMeta": valorMeta,
+        "valorDepositado": 0, "dataMeta": dataFormatada}
+        registrosMetaUsuario.metas.push(meta)
+    }
 
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
     window.location.href = 'verApagarMeta.html'
@@ -133,6 +147,12 @@ function salvarMeta() {
 initDadosMeta();
 carregarMetas();
 carregarBarraProgresso();
+
+function setIdMetaEditar(event) {
+    let modalFooter = document.querySelector("#modal-criar-editar-meta .modal-footer");
+    let idMetaEditar = event.target.id;
+    modalFooter.setAttribute("id", `${idMetaEditar}`);
+}
 
 function setIdMetaEntrada(event) {
     let modalFooter = document.querySelector("#modal-atualizar-valor .modal-footer");
