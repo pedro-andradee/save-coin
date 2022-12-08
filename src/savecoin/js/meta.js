@@ -76,7 +76,7 @@ function carregarMetas() {
                         data-toggle="modal"
                         data-target="#modal-delete-meta"
                         class="bi bi-x-circle botaoDelete"
-                        onclick="setIdMeta(event)"
+                        onclick="setIdMetaDelete(event)"
                         ></button>
                     </div>
                 </div>
