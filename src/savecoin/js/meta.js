@@ -116,6 +116,12 @@ function carregarBarraProgresso() {
     }   
 }
 
+function setIdMetaEditar(event) {
+    let modalFooter = document.querySelector("#modal-criar-editar-meta .modal-footer");
+    let idMetaEditar = event.target.id;
+    modalFooter.setAttribute("id", `${idMetaEditar}`);
+}
+
 function salvarMeta(event) {
     let idMeta = event.target.parentNode.id;
     let descricaoMeta = document.querySelector("#descricaoMeta").value;
@@ -141,17 +147,6 @@ function salvarMeta(event) {
 
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
     window.location.href = 'verApagarMeta.html'
-}
-
-
-initDadosMeta();
-carregarMetas();
-carregarBarraProgresso();
-
-function setIdMetaEditar(event) {
-    let modalFooter = document.querySelector("#modal-criar-editar-meta .modal-footer");
-    let idMetaEditar = event.target.id;
-    modalFooter.setAttribute("id", `${idMetaEditar}`);
 }
 
 function setIdMetaEntrada(event) {
@@ -192,3 +187,7 @@ function deletarMeta(event) {
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
     window.location.href = 'verApagarMeta.html'
 }
+
+initDadosMeta();
+carregarMetas();
+carregarBarraProgresso();
