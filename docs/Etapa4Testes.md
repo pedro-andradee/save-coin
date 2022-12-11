@@ -200,10 +200,10 @@ Com uma interface intuitiva, o usuário clicará no botão com um "X" vermelho d
 
 ## Validação do Login
 
-![image](img/TESTES/validlogin1.png)
-![image](img/TESTES/validlogin2.png)
-![image](img/TESTES/validlogin3.png)
-![image](img/TESTES/validlogin4.png)
+![image](img/TESTES/validlogin1.PNG)
+![image](img/TESTES/validlogin2.PNG)
+![image](img/TESTES/validlogin3.PNG)
+![image](img/TESTES/validlogin4.PNG)
 
 - TRF-010
 - TRF-011
