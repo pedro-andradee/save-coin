@@ -2,6 +2,20 @@
 
 Nesta seção estão descritos os artefatos e estruturas de dados criados para atender aos requisitos previstos nas <a href="docs/Etapa1Especificacao.md">Especificações do Projeto</a>, bem como as instruções para acesso e verificação da implementação. As tecnologias utilizadas se baseiam nas linguagens HTML, CSS e JavaScript.
 
+|       ID      | Descrição do Requisito  | Prioridade | Responsável |
+|------|-----------------------------------------|----| ----|
+|RF-001|A aplicação apresentará uma HOME PAGE para acesso a determinadas seções sem necessidade de login|ALTA|AMANDA
+|RF-002|A aplicação apresentará graficamente os dados relativos às receitas e despesas dos últimos 12 na funcionalidade REGISTRO FINANCEIRO|MÉDIA|AMANDA|
+|RF-003|A aplicação permitirá que o usuário realize a gestão dos valores de receitas mensais na funcionalidade REGISTRO FINANCEIRO|ALTA|DIOVANA|
+|RF-004|A aplicação permitirá que o usuário realize a gestão dos valores de despesas mensais na funcionalidade REGISTRO FINANCEIRO|ALTA|DIOVANA|
+|RF-005|A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA|ALTA|GIANLUCA|
+|RF-006|A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação|MÉDIA|GIOVANNY|
+|RF-007|A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO|ALTA|GIOVANNY|
+|RF-008|A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA|ALTA|PEDRO|
+|RF-009|A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas|ALTA|GIOVANNY|
+|RF-010|A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO|ALTO|ROMÁRIO|
+|RF-011|A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ|ALTO|ROMÁRIO|
+
 ## Meta Financeira
 
 ### Requisitos
@@ -29,3 +43,15 @@ Clicando no botão "Editar", um modal com um formulário é aberto para que o us
 Clicando no botão "Adicionar nova meta", um modal com um formulário é aberto para que o usuário possa inserir os dados da nova meta.
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/salvar%20editar%20meta.png" width="1020px">
+
+- RF-010: A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO.
+
+Para atender ao requisito RF-010 foi desenvolvida a página MATERIAL DIDÁTICO, `hArticle.html`.
+
+Ao acessar a página MATERIAL DIDÁTICO, serão exibidos diversos "cards" que representão os artigos diposníveis para leitura dos usuários. Cada "card" contém uma ilustração, um título, um texto resumo e um botão.
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/HMD.png" width="1020px">
+
+Clicando no botão 'Aprenda', o usuário será dicerionado à página que contém o artigo na íntegra para leitura e aprendizado.
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/A01.png" width="1020px">
