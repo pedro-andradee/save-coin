@@ -176,18 +176,19 @@ Foram desenvolvidas diversas páginas com artigos sobre educação fincanceira p
 
 ### Escolher Artigo
 Página MATERIAL DIDÁTICO:
+
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/HMD.png" width="1020px">
 
 Com uma interface amigável e intuitiva, o usuário pode `ESCOLHER` um artigo para leitura apenas clicando no botão `APRENDA` e em seguida será direcionado a uma página contendo o artigo na íntegra. 
 
 Página ARTIGO:
+
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/A01.png" width="1020px">
 
 ## TRF-011 - A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ.
-Para atender ao requisito RF-011 foi desenvolvida a página QUIZ, `quiz.html`.
+Foi desenvolvida uma página com um jogo interativo de perguntas e respostas sobre conhecimentos em educação fincanceira baseado nos artigos disponívels na aba MATERIAL DIDÁTICO. 
 
-Ao acessar a página QUIZ, será exibido um jogo interativo de perguntas e respostas sobre conhecimentos em educação fincanceira baseado nos artigos disponívels na aba MATERIAL DIDÁTICO. O quiz é composto de seis perguntas, contendo três opções de resposta e apenas uma correta. O quiz conta com um marcador de pontos, uma barra de progesso, destaque visual para opção de resposta a ser selecionada, resposta visual nas cores verde ou vemelho conforme acerto ou erro da questão, notificação sonora conforme acerto ou erro da questão e uma notificação sonora de vitória para potuanções altas.
-
+O quiz é composto de seis perguntas, contendo três opções de resposta e apenas uma correta. O quiz conta com um marcador de pontos, uma barra de progesso.
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 01.png" width="1020px">
 
 Ao passar o mouse sobre uma alternativa, esta receberá um destaque visual.
@@ -208,9 +209,7 @@ Em seguida será exibida uma nova perguta.
 
 Os processos anteriores são repetidos, até o final das perguntas.
 Ao fim do quiz, será exibida uma tela com a informação "Fim de Jogo!", a pontuação final do jogador, e uma notificação sonora de aplausos para pontuações altas.
-
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 06.png" width="1020px">
-
 
 
 ## Resultados Obtidos
@@ -228,7 +227,7 @@ Ao fim do quiz, será exibida uma tela com a informação "Fim de Jogo!", a pont
 |TRF-008|metaFinanceira.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção das metas na ferramenta Meta Financeira.|PEDRO|
 |TRF-009|-|-|GIOVANNY|
 |TRF-010|hArticle.html e articleXX.hmtl|O usuário foi capaz de navegar entre os conteúdos disponíveis para leitura na ferramenta MATERIAL DIDÁTICO.|ROMÁRIO|
-|TRF-011|quiz.html|O usuário foi capaz de interagir e testar seus conhecimentos na ferramenta MATERIAL DIDÁTICO.|ROMÁRIO|
+|TRF-011|quiz.html|O usuário foi capaz de interagir e testar seus conhecimentos na ferramenta QUIZ.|ROMÁRIO|
 
 
 ## Avaliação
