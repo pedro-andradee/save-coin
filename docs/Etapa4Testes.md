@@ -112,7 +112,7 @@ Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em c
 
 Caso o usuario não possua uma conta já cadastrada no sistema, o mesmo pode criar e `ADICIONAR` uma clicando em "Não possui uma conta? Clique aqui e Cadastre-se", após isto preencher corretamente os campos de novo usuario (Usuario, nome completo, e-mail, senha, confirmação de senha)  e clicando no botão "salvar" os dados do usuario serão `ADICIONADOS` ao sistema com um ID único, possibilitando ao usuario efetuar login posteriormente sem a necessidade de criar outra conta. 
 
-![image](img/TESTES/telalogin.PNG)
+![image](img/TESTES/telalogin.png)
 ![image](img/TESTES/modallogin.PNG)
 ![image](img/TESTES/fazendologin.PNG)
 
