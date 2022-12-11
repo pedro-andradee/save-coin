@@ -67,9 +67,9 @@ const q4 = {
 const q5 = {
     numQuestao: 5,
     pergunta: "O cartão de crédito é:",
-    alternativaA: "Uma forma de pagamento onde o valor da compra é descontado imediatamente na conta bancária do usuário após a compra.",
+    alternativaA: "Uma forma de pagamento onde o valor da compra é cobrado ao usuário em uma fatura com data posterior à compra.",
     alternativaB: "Uma forma de pagamento em que você deve recarregar o cartão com dinheiro antes de realizar a compra.",
-    alternativaC: "Uma forma de pagamento onde o valor da compra é cobrado ao usuário em uma fatura com data posterior à compra.",
+    alternativaC: "Uma forma de pagamento onde o valor da compra é descontado imediatamente na conta bancária do usuário após a compra.",
     correta: "Uma forma de pagamento onde o valor da compra é cobrado ao usuário em uma fatura com data posterior à compra.",
 }
 
