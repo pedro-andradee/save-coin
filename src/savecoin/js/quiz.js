@@ -59,7 +59,7 @@ const q4 = {
     numQuestao: 4,
     pergunta: "O que é uma reserva de emergência?",
     alternativaA: "Um valor guardado que você economizou em tempos difíceis.",
-    alternativaB: "Um valor guardado que será destinado a aproveitar boas opotunidades de negócios.",
+    alternativaB: "Um valor guardado que será destinado a aproveitar boas oportunidades de negócios.",
     alternativaC: "Um valor guardado que está disponível para custear gastos necessários que estavam fora do orçamento.",
     correta: "Um valor guardado que está disponível para custear gastos necessários que estavam fora do orçamento.",
 }
