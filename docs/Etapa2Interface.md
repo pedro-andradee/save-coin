@@ -123,8 +123,3 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 <p align="center">
 <img src="/docs/img/WIREFRAMES/15. Edição Perfil.png" width="480px">
 </p>
-
-### 14. Questionário 
-<p align="center">
-<img src="/docs/img/WIREFRAMES/16. Questionário.png" width="480px">
-</p>
