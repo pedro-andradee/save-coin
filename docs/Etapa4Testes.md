@@ -12,7 +12,7 @@
 |RF-006|A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação|MÉDIA|GIOVANNY|
 |RF-007|A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO|ALTA|GIOVANNY|
 |RF-008|A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA|ALTA|PEDRO|
-|RF-009|A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas|ALTA|PEDRO|
+|RF-009|A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas|ALTA|GIOVANNY|
 |RF-010|A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO|ALTO|ROMÁRIO|
 |RF-011|A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ|ALTO|ROMÁRIO|
 
@@ -130,7 +130,16 @@ O balanço númerico geral referente às receitas e despesas também pode ser vi
 
 ![image](img/TESTES/testesDio20.jpg)
 
-- TRF-008
+- TRF-008 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
+
+Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` metas financeiras. 
+
+Adicionar Meta
+Com uma interface amigável e intuitiva, o usuário pode ADICIONAR uma meta financeira clicando no botão amarelo "Adicionar nova meta". Em seguida, pode preencher os campos referentes à descrição, valor e a data final da meta. Para completar a adição da nova meta com os valores inseridos nos campos, basta clicar no botão "Salvar".
+![image](img/TESTES/metaFinanceiraNovaMeta.png)
+![image](img/TESTES/novaMetaFinanceiraModal.png)
+Ao clicar em "Salvar" podemos ver que uma nova meta financeira foi criada.
+![image](img/TESTES/novaMetaFinanceiraCriada.png)
 - TRF-009
 - TRF-010
 - TRF-011
@@ -148,8 +157,8 @@ O balanço númerico geral referente às receitas e despesas também pode ser vi
 |TRF-005|agenda.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção do lembrete na ferramenta Agenda.|GIANLUCA|
 |TRF-006|-|-|GIOVANNY|
 |TRF-007|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a leitura do balanco financeiro após a criação, atualização ou remoção dos ganhos e gastos na ferramenta Registro Financeiro.|GIOVANNY|
-|TRF-008|-|-|PEDRO|
-|TRF-009|-|-|PEDRO|
+|TRF-008|metaFinanceira.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção das metas na ferramenta Meta Financeira.|PEDRO|
+|TRF-009|-|-|GIOVANNY|
 |TRF-010|-|-|ROMÁRIO|
 |TRF-011|-|-|QUIZ|ROMÁRIO|
 
