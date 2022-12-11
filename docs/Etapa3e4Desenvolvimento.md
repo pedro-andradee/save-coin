@@ -18,9 +18,9 @@ Nesta seção estão descritos os artefatos e estruturas de dados criados para a
 
 ## Meta Financeira
 
-### Requisitos
+## Requisitos
 
-## RF-008: A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade Meta Financeira
+### RF-008: A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade Meta Financeira
 
 Para atender aos requisitos RF-008 foi desenvolvida a página Meta Financeira, `metaFinanceira.html`.
 
@@ -46,9 +46,9 @@ Clicando no botão "Adicionar nova meta", um modal com um formulário é aberto 
 
 ## Material Didático
 
-### Requisito
+## Requisito
 
-## RF-010: A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO.
+### RF-010: A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO.
 
 Para atender ao requisito RF-010 foi desenvolvida a página MATERIAL DIDÁTICO, `hArticle.html`.
 
@@ -62,9 +62,9 @@ Clicando no botão 'Aprenda', o usuário será direcionado à página, `articleX
 
 ## Quiz
 
-### Requisito
+## Requisito
 
-## RF-011: A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ.
+### RF-011: A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ.
 
 Para atender ao requisito RF-011 foi desenvolvida a página QUIZ, `quiz.html`.
 
