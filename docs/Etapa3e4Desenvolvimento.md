@@ -8,7 +8,7 @@ Nesta seção estão descritos os artefatos e estruturas de dados criados para a
 
 - RF-008: A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade Meta Financeira
 
-Para atender aos requisitos RF-008 foi desenvolvida a página Meta Financeira `metafinanceira.html`.
+Para atender aos requisitos RF-008 foi desenvolvida a página Meta Financeira, `metaFinanceira.html`.
 
 Ao acessar a página Meta Financeira, será exibido um botão para o usuário adicionar novas metas e serão carregadas as metas já cadastradas pelo usuário, caso ele já tenha alguma cadastrada. Havendo metas cadastradas, o usuário tem como possibilidade, através de botões, a exclusão da meta, adicionar uma nova entrada financeira/depósito e editar a meta.
 
