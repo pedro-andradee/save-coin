@@ -136,7 +136,7 @@ const removeElement = (idToRemove, lucroOuDespesa, valor, mes) => {
 
     let objectRemoved = {...mainObject}
 
-    const lucroOuDespesas = 0;
+    let lucroOuDespesas = 0;
     
 
     for(let i=0; i< mainObject?.[mes]?.registros?.length;i++){
@@ -149,7 +149,7 @@ const removeElement = (idToRemove, lucroOuDespesa, valor, mes) => {
 
     const removerMesDesc = document.getElementById(`${mes}${lucroOuDespesa}`)
 
-    if(lucroOuDespesas === 0){
+    if(removerMesDesc.childNodes.length === 1){
         removerMesDesc.remove()
     }
 

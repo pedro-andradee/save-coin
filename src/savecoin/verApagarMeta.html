@@ -114,8 +114,7 @@
           </div>
           <div class="modal-body body-modal-nova-entrada">
             <form
-              action="https://httpbin.org/post"
-              method="post"
+              method="get"
               id="nova-entrada-form"
             >
               <label for="valor-entrada">Valor da nova entrada:</label>
@@ -141,6 +140,7 @@
               type="submit"
               form="nova-entrada-form"
               class="botao-modal-salvar"
+              onclick="inserirNovaEntrada(event)"
             >
               Salvar
             </button>
@@ -225,7 +225,7 @@
               type="submit"
               form="nova-editar-meta-form"
               class="botao-modal-salvar"
-              onclick="salvarMeta()"
+              onclick="salvarMeta(event)"
             >
               Salvar
             </button>
@@ -257,7 +257,7 @@
             >
               Cancelar
             </button>
-            <button type="button" id="btn-excluir" class="btn btn-danger">
+            <button type="button" id="btn-excluir" class="btn btn-danger" onclick="deletarMeta(event)">
               Excluir
             </button>
           </div>
