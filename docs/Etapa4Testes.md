@@ -134,7 +134,7 @@ O balanço númerico geral referente às receitas e despesas também pode ser vi
 
 Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` metas financeiras. 
 
-Adicionar Meta
+### Adicionar Meta
 Com uma interface amigável e intuitiva, o usuário pode ADICIONAR uma meta financeira clicando no botão amarelo "Adicionar nova meta". Em seguida, pode preencher os campos referentes à descrição, valor e a data final da meta. Para completar a adição da nova meta com os valores inseridos nos campos, basta clicar no botão "Salvar".
 ![image](img/TESTES/metaFinanceiraNovaMeta.png)
 ![image](img/TESTES/novaMetaFinanceiraModal.png)
