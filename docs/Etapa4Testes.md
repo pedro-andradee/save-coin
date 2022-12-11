@@ -25,25 +25,25 @@
 - TRF-004
 - TRF-005 A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
 
-Foi desenvolvido um calendário com interação do usuário, onde o mesmo pode 'ADICIONAR', 'VISUALIZAR', 'ATUALIZAR' e 'REMOVER' lembretes. 
+Foi desenvolvido um calendário com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` lembretes. 
 
 ### Adicionar lembrete
-Com uma interface amigável e intuitiva, o usuário pode 'ADICIONAR' um lembrete na agenda clicando no ícone de + na parte superior da navbar do calendário. Em seguida adicionar os dados e salvar. 
+Com uma interface amigável e intuitiva, o usuário pode `ADICIONAR` um lembrete na agenda clicando no ícone de + na parte superior da navbar do calendário. Em seguida adicionar os dados e salvar. 
 
 ![image](img/TESTES/createLembrete.png)
 
 ### Visualizar lembrete
-Após adicionar um evento, o mesmo pode ser visualizado diretamente na agenda ou até mesmo pela navbar, onde pode 'VISUALIZAR' o evento adicionado.
+Após adicionar um evento, o mesmo pode ser visualizado diretamente na agenda ou até mesmo pela navbar, onde pode `VISUALIZAR` o evento adicionado.
 
 ![image](img/TESTES/readLembrete.png)
 
 ### Editar lembrete
-Para 'EDITAR' o lembrete deve clicar duas vezes em cima do lembrete desejado ou clicar com o botão esquerdo do mouse, assim, abrindo um menu com a opção de edição, realizar a edição desejada e salvar.
+Para `EDITAR` o lembrete deve clicar duas vezes em cima do lembrete desejado ou clicar com o botão esquerdo do mouse, assim, abrindo um menu com a opção de edição, realizar a edição desejada e salvar.
 
 ![image](img/TESTES/updateLembrete.png)
 
 ### Remover lembrete
-Depois de criar o lembrete, para 'REMOVER' o evento basta clicar duas vezes em cima do lembrete desejado e apertar o botão de remover ou clicar com o botão esquerdo do mouse, assim, abrindo um menu com a opção de exclusão. Em ambas as formas aparecerá uma mensagem se o usuário deseja remover o lembrete.
+Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em cima do lembrete desejado e apertar o botão de remover ou clicar com o botão esquerdo do mouse, assim, abrindo um menu com a opção de exclusão. Em ambas as formas aparecerá uma mensagem se o usuário deseja remover o lembrete.
 
 ![image](img/TESTES/deleteLembrete.png)
 
@@ -59,12 +59,12 @@ Depois de criar o lembrete, para 'REMOVER' o evento basta clicar duas vezes em c
 
 
 |       Teste      | Página | Resultado do Teste | Responsável |
-|-------|------------|-----------------------------|----|
+|---------|------------|--------------------------|----|
 |TRF-001|-|-|AMANDA|
 |TRF-002|-|-|AMANDA|
 |TRF-003|-|-|DIOVANA|
 |TRF-004|-|-|DIOVANA|
-|TRF-005|agenda.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção do lembrete na ferramenta Agenda |AGENDA|GIANLUCA|
+|TRF-005|agenda.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção do lembrete na ferramenta Agenda.|GIANLUCA|
 |TRF-006|-|-|GIOVANNY|
 |TRF-007|-|-|GIOVANNY|
 |TRF-008|-|-|PEDRO|
