@@ -20,8 +20,66 @@
 # Registro de Testes de Software
 
 - TRF-001
-- TRF-002
-- TRF-003
+- TRF-002 A aplicação permitirá que o usuário realize a gestão de ganhos mensais na funcionalidade REGISTRO FINANCEIRO
+
+Foi desenvolvido uma seção de registro com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` ganhos mensais. 
+
+### Adicionar ganho
+Com uma interface amigável e intuitiva, o usuário pode `ADICIONAR` um registro clicando em "Adicionar registro" na parte superior da tela. Em seguida adicionar os ganhos nos respectivos campos, clicar em "Adicionar lucro" e assim que o valor for mostrado abaixo dos campos, clicar em "Efetuar registro" para confirmar a Adição. 
+
+![image](img/TESTES/testesDio1.jpg)
+
+![image](img/TESTES/testesDio2.jpg)
+
+### Visualizar ganho
+Após adicionar um ganho, o mesmo pode ser visualizado diretamente na página de registro, onde pode `VISUALIZAR` o ganho adicionado, no mês escolhido. O ganho é representado por um icone de "+", abaixo do "Tipo"
+
+![image](img/TESTES/testesDio3.jpg)
+
+### Editar ganho
+Para `EDITAR` o ganho, você deve clicar no icone de edição, abaixo do "Editar", assim, você será redirecionado ao menu de edições, você poderá realizar a edição desejada e para salva clicar em "Efetuar registro" para confirmar a edição.
+
+![image](img/TESTES/testesDio4.jpg)
+
+![image](img/TESTES/testesDio5.jpg)
+
+### Remover ganho
+Depois de criar o ganho, para `REMOVER` o registro basta clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o resgitro clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
+
+![image](img/TESTES/testesDio6.jpg)
+
+![image](img/TESTES/testesDio7.jpg)
+
+- TRF-003 A aplicação permitirá que o usuário realize a gestão de gastos mensais na funcionalidade REGISTRO FINANCEIRO
+
+Foi desenvolvido uma seção de registro com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` gastos mensais. 
+
+### Adicionar gasto
+Com uma interface amigável e intuitiva, o usuário pode `ADICIONAR` um registro clicando em "Adicionar registro" na parte superior da tela. Em seguida adicionar os gastos nos respectivos campos, clicar em "Adicionar gasto" e assim que o valor for mostrado abaixo dos campos, clicar em "Efetuar registro" para confirmar a Adição. 
+
+![image](img/TESTES/testesDio8.jpg)
+
+![image](img/TESTES/testesDio9.jpg)
+
+### Visualizar gasto
+Após adicionar um gasto, o mesmo pode ser visualizado diretamente na página de registro, onde pode `VISUALIZAR` o gasto adicionado, no mês escolhido. O gasto é representado por um icone de "-", abaixo do "Tipo"
+
+![image](img/TESTES/testesDio10.jpg)
+
+### Editar gasto
+Para `EDITAR` o gasto, você deve clicar no icone de edição, abaixo do "Editar", assim, você será redirecionado ao menu de edições, você poderá realizar a edição desejada e para salva clicar em "Efetuar registro" para confirmar a edição.
+
+![image](img/TESTES/testesDio11.jpg)
+
+![image](img/TESTES/testesDio12.jpg)
+
+### Remover gasto
+Depois de criar o gasto, para `REMOVER` o registro basta clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o resgitro clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
+
+![image](img/TESTES/testesDio13.jpg)
+
+![image](img/TESTES/testesDio14.jpg)
+
 - TRF-004
 - TRF-005 A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
 
@@ -48,7 +106,30 @@ Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em c
 ![image](img/TESTES/deleteLembrete.png)
 
 - TRF-006
-- TRF-007
+- TRF-007 A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
+
+Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente às receitas e despesas, o usuário poderá `VISUALIZAR` toda vez que `ADICIONAR`, `ATUALIZAR` ou `REMOVER` um ganho ou gasto.
+
+### Adicionar gasto ou ganho
+
+![image](img/TESTES/testesDio15.jpg)
+
+![image](img/TESTES/testesDio16.jpg)
+
+### Editar gasto ou ganho
+
+![image](img/TESTES/testesDio17.jpg)
+
+### Remover gasto ou ganho
+
+![image](img/TESTES/testesDio18.jpg)
+
+O balanço númerico geral referente às receitas e despesas também pode ser visualizado na tela de `ADICIONAR`, `ATUALIZAR` ou `REMOVER` um ganho ou gasto.
+
+![image](img/TESTES/testesDio19.jpg)
+
+![image](img/TESTES/testesDio20.jpg)
+
 - TRF-008
 - TRF-009
 - TRF-010
