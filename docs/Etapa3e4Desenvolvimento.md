@@ -52,6 +52,36 @@ Ao acessar a página MATERIAL DIDÁTICO, serão exibidos diversos "cards" que re
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/HMD.png" width="1020px">
 
-Clicando no botão 'Aprenda', o usuário será dicerionado à página que contém o artigo na íntegra para leitura e aprendizado.
+Clicando no botão 'Aprenda', o usuário será dicerionado à página, `ArticleXX.html` que contém o artigo na íntegra para leitura e aprendizado.
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/A01.png" width="1020px">
+
+- RF-011: A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ.
+
+Para atender ao requisito RF-011 foi desenvolvida a página QUIZ, `quiz.html`.
+
+Ao acessar a página QUIZ, será exibido um jogo interativo de perguntas e respostas sobre conhecimentos em educação fincanceira baseado nos artigos disponívels na aba MATERIAL DIDÁTICO. O quiz é composto de seis perguntas, contendo três opções de resposta e apenas uma correta. O quiz conta com um marcador de pontos, uma barra de progesso, destaque visual para opção de resposta a ser selecionada, resposta visual nas cores verde ou vemelho conforme acerto ou erro da questão, notificação sonora conforme acerto ou erro da questão e uma notificação sonora de vitória para potuanções altas.
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 01.png" width="1020px">
+
+Ao passar o mouse sobre uma alternativa, esta receberá um destaque visual.
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 02.png" width="1020px">
+
+Ao escolher uma alternativa, será acionado um destaque visual, verde para acerto, e uma notificação sonora:
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 03.png" width="1020px">
+
+Ao escolher uma alternativa, será acionado um destaque visual, vermelho para erro, e uma notificação sonora:
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 04.png" width="1020px">
+
+Em seguida será exibida uma nova perguta.
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 05.png" width="1020px">
+
+Os processos anteriores são repetidos, até o final das perguntas.
+Ao fim do quiz, será exibida uma tela com a informação "Fim de Jogo!", a pontuação final do jogador, e uma notificação sonora de aplausos para pontuações altas.
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 06.png" width="1020px">
+
