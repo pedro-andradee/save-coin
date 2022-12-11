@@ -14,7 +14,7 @@ User Flow é uma técnica que te permite mapear todo fluxo de telas do seu site 
 User Flow de todos os caminhos e ações presentes na plataforma Save Coin.
 </p>
 <p align="center">
-<img src="/docs/img/USERFLOW/00. User Flor - Save Coin.png" width="480px">
+<img src="/docs/img/USERFLOW/00. User Flor - Save Coin.jpg" width="480px">
 </p>
 
 ### 01. User Flow Usuário-alvo | Gabriel
@@ -122,9 +122,4 @@ Os Wireframes são representações da diagramação e das estruturas macro do s
 ### 13. Edição do Perfil de Usuário
 <p align="center">
 <img src="/docs/img/WIREFRAMES/15. Edição Perfil.png" width="480px">
-</p>
-
-### 14. Questionário 
-<p align="center">
-<img src="/docs/img/WIREFRAMES/16. Questionário.png" width="480px">
 </p>
