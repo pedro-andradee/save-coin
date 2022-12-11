@@ -52,7 +52,7 @@ Ao acessar a página MATERIAL DIDÁTICO, serão exibidos diversos "cards" que re
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/HMD.png" width="1020px">
 
-Clicando no botão 'Aprenda', o usuário será dicerionado à página, `ArticleXX.html` que contém o artigo na íntegra para leitura e aprendizado.
+Clicando no botão 'Aprenda', o usuário será dicerionado à página, `articleXX.html` que contém o artigo na íntegra para leitura e aprendizado.
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/A01.png" width="1020px">
 
