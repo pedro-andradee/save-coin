@@ -146,7 +146,7 @@ function salvarMeta(event) {
     }
 
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
-    window.location.href = 'verApagarMeta.html'
+    window.location.href = 'metaFinanceira.html'
 }
 
 function setIdMetaEntrada(event) {
@@ -166,7 +166,7 @@ function inserirNovaEntrada(event) {
         }
     }
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
-    window.location.href = 'verApagarMeta.html'
+    window.location.href = 'metaFinanceira.html'
 }
 
 function setIdMetaDelete(event) {
@@ -185,7 +185,7 @@ function deletarMeta(event) {
         }
     }
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
-    window.location.href = 'verApagarMeta.html'
+    window.location.href = 'metaFinanceira.html'
 }
 
 initDadosMeta();
