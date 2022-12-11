@@ -143,11 +143,11 @@ O balanço númerico geral referente às receitas e despesas também pode ser vi
 |---------|------------|--------------------------|----|
 |TRF-001|-|-|AMANDA|
 |TRF-002|-|-|AMANDA|
-|TRF-003|-|-|DIOVANA|
-|TRF-004|-|-|DIOVANA|
+|TRF-003|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção dos ganhos na ferramenta Registro Financeiro.|DIOVANA|
+|TRF-004|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção dos gastos na ferramenta Registro Financeiro.|DIOVANA|
 |TRF-005|agenda.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção do lembrete na ferramenta Agenda.|GIANLUCA|
 |TRF-006|-|-|GIOVANNY|
-|TRF-007|-|-|GIOVANNY|
+|TRF-007|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a leitura do balanco financeiro após a criação, atualização ou remoção dos ganhos e gastos na ferramenta Registro Financeiro.|GIOVANNY|
 |TRF-008|-|-|PEDRO|
 |TRF-009|-|-|PEDRO|
 |TRF-010|-|-|ROMÁRIO|
