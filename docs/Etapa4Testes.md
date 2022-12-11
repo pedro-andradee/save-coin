@@ -105,7 +105,34 @@ Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em c
 
 ![image](img/TESTES/deleteLembrete.png)
 
-- TRF-006
+
+- TRF-006 A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação.
+
+### Criar Conta
+
+Caso o usuario não possua uma conta já cadastrada no sistema, o mesmo pode criar e `ADICIONAR` uma clicando em "Não possui uma conta? Clique aqui e Cadastre-se", após isto preencher corretamente os campos de novo usuario (Usuario, nome completo, e-mail, senha, confirmação de senha)  e clicando no botão "salvar" os dados do usuario serão `ADICIONADOS` ao sistema com um ID único, possibilitando ao usuario efetuar login posteriormente sem a necessidade de criar outra conta. 
+
+![image](img/TESTES/telalogin.PNG)
+![image](img/TESTES/modallogin.PNG)
+![image](img/TESTES/fazendologin.PNG)
+
+### Editar Conta
+
+Para `EDITAR` informações da conta é necessario estar logado e após isso clicar na barra de navegação em "Editar Perfil". Após acessar a pagina 'Perfil do Usuario' o mesmo pode alterar as informações como o nome e inserir uma nova senha (após uma validação com a senha atual).
+
+![image](img/TESTES/navbareditperfil.PNG)
+![image](img/TESTES/editperfil1.PNG)
+![image](img/TESTES/editperfil2.PNG)
+
+### Excluir Conta
+
+Para `EXCLUIR` a conta, o usuario deve estar logado, e dentro da página 'Perfil do Usuario' o mesmo deve clicar no botão "excluir" destacado em vermelho. Após isso clicar novamente no botão "excluir" que irá aparecer dentro de uma janela para confirmar a vontade do usuario.
+
+![image](img/TESTES/editperfil2.PNG)
+![image](img/TESTES/modalexcluir.PNG)
+![image](img/TESTES/excluidologin.PNG)
+
+
 - TRF-007 A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
 
 Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente às receitas e despesas, o usuário poderá `VISUALIZAR` toda vez que `ADICIONAR`, `ATUALIZAR` ou `REMOVER` um ganho ou gasto.
@@ -169,7 +196,15 @@ Com uma interface intuitiva, o usuário clicará no botão com um "X" vermelho d
 ![image](img/TESTES/telaAposExclusaoMeta.png)
 
 
-- TRF-009
+- TRF-009  A aplicação permitirá que o usuário acesse páginas e recursos especificos (Agenda, Meta financeira, Registro financeiro e Perfil do Usuario) somente após efetuado o login, caso contrario o mesmo verá um alerta e será redimensionado para a página de login, para efetivar o login ou criar uma conta.
+
+## Validação do Login
+
+![image](img/TESTES/validlogin1.png)
+![image](img/TESTES/validlogin2.png)
+![image](img/TESTES/validlogin3.png)
+![image](img/TESTES/validlogin4.png)
+
 - TRF-010
 - TRF-011
 
@@ -184,10 +219,10 @@ Com uma interface intuitiva, o usuário clicará no botão com um "X" vermelho d
 |TRF-003|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção dos ganhos na ferramenta Registro Financeiro.|DIOVANA|
 |TRF-004|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção dos gastos na ferramenta Registro Financeiro.|DIOVANA|
 |TRF-005|agenda.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção do lembrete na ferramenta Agenda.|GIANLUCA|
-|TRF-006|-|-|GIOVANNY|
+|TRF-006|login.html, editperfilusuario.html e footer.html |O usuario foi capaz de criar uma conta, alterar as informações da conta e excluir a mesma.|GIOVANNY|
 |TRF-007|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a leitura do balanco financeiro após a criação, atualização ou remoção dos ganhos e gastos na ferramenta Registro Financeiro.|GIOVANNY|
 |TRF-008|metaFinanceira.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção das metas na ferramenta Meta Financeira.|PEDRO|
-|TRF-009|-|-|GIOVANNY|
+|TRF-009|TODAS|A aplicação não permitiu acesso as páginas e recursos: Agenda, Meta financeira, Registro financeiro e Perfil do Usuario quando o usuario não estava logado. |GIOVANNY|
 |TRF-010|-|-|ROMÁRIO|
 |TRF-011|-|-|QUIZ|ROMÁRIO|
 
