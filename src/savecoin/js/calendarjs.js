@@ -1,3 +1,36 @@
+function initDadosEvento() {
+    var UsuariodoBanco = BancoUsuarios.usuarios;
+    var QTEUsuarios = UsuariodoBanco.length;
+    for (var i = 0; i < QTEUsuarios; i++) {
+        const usuario = UsuariodoBanco[i];
+       
+        if(!usuario.registroEvento || !usuario.registroEvento.evento){
+            usuario.registroEvento = {}
+            usuario.registroEvento.evento = []
+        }
+    }
+    localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
+}
+
+function carregarRegistroEventoUsuarioCorrente() {
+    var usuarioDoBanco = BancoUsuarios.usuarios;
+    var qtdeUsuarios = usuarioDoBanco.length;
+    let registroEvento;
+    for (let i = 0; i < qtdeUsuarios; i++) {
+        let usuario = usuarioDoBanco[i];
+
+        if (usuarioCorrente.id == usuario.id) {
+            registroEvento = usuario.registroEvento;
+        }
+    }
+    return registroEventoUsuario;
+}
+/* OK */
+
+initDadosEvento();
+
+/* OK */
+
 function calendarJs( id, options, searchOptions, startDateTime ) {
     var _options = {},
         _optionsForSearch = {},
@@ -7147,14 +7180,13 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
                 triggerOptionsEventWithData( "onEventsAddedFromJSON", json );
             }
         }
-    };
-
+    }
     /**
      * addEvent().
      * 
      * Adiciona um de novos eventos.
      * 
-     * @public
+     * @public 
      * @fires       onEventAdded
      * 
      * @param       {Event}     event                                    
@@ -7197,7 +7229,7 @@ function calendarJs( id, options, searchOptions, startDateTime ) {
                     location = getString( event.location ),
                     group = getString( event.group ),
                     url = getString( event.url );
-    
+
                 if ( !_events.hasOwnProperty( storageDate ) ) {
                     _events[ storageDate ] = {};
                 }

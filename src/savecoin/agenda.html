@@ -46,31 +46,37 @@
       });
     </script>
 
+    <script src="../savecoin/js/loginall.js"></script>
+    <script>
+    if (!usuarioCorrente.login) {
+        alert('Faça login antes de continuar.');
+        window.location.href = "login.html";
+    }
+     </script>
+
     <!-- Style CSS -->
     <link rel="stylesheet" href="./css/addAgenda.css">
     <link rel="stylesheet" href="./css/header+footer.css">
     <link rel="stylesheet" href="./css/calendarjs.css" />
-        <script src="./js/calendarjs.js"></script>
     </head>
-
       <body>
-        <div id="header"></div>
-        <main>
-          <div class="yellowBar">
+         <div id="header"></div>
+          <main>
+           <div class="yellowBar">
             <div class="yellowBarContent">
               <h1>AGENDA</h1>
               <h4>
                 Preocupado em esquecer algum pagamento ou recebimento importante? Então, te aconselhamos colocar no seu calendário!<br />
               </h4>
             </div>
-      </div>
-        <div class="contents">
+           </div>
+           <div class="contents">
             <div id="myCalendar" style="max-width: 800px;">
             </div>       
-        </div>
+           </div>
       </body>
-
-      <script>
+      <script type="text/javascript" src="./js/calendarjs.js"></script>
+          <script>
         var calendarInstance = new calendarJs( "myCalendar", { 
             exportEventsEnabled: true, 
             manualEditingEnabled: true, 
@@ -95,7 +101,7 @@
         }
 
         function removeEvent() {
-            calendarInstance.removeEvent( new Date(), "Test Title 2" );
+            calendarInstance.removeEvent( new Date(), "Teste" );
         }
 
         function daysInMonth( year, month ) {
@@ -188,77 +194,33 @@
             previousYear.setFullYear( previousYear.getFullYear() - 1 );
             nextYear.setFullYear( nextYear.getFullYear() + 1 );
 
-            overlappingEvent1.setDate( overlappingEvent1.getDate() - 3 );
-            overlappingEventTo1.setDate( overlappingEventTo1.getDate() - 3 );
-            overlappingEvent2.setDate( overlappingEvent2.getDate() - 3 );
-            overlappingEventTo2.setDate( overlappingEventTo2.getDate() - 3 );
-            overlappingEvent3.setDate( overlappingEvent3.getDate() - 3 );
-            overlappingEventTo3.setDate( overlappingEventTo3.getDate() - 3 );
-            overlappingEvent4.setDate( overlappingEvent4.getDate() - 3 );
-            overlappingEventTo4.setDate( overlappingEventTo4.getDate() - 3 );
-            overlappingEvent5.setDate( overlappingEvent5.getDate() - 3 );
-            overlappingEventTo5.setDate( overlappingEventTo5.getDate() - 3 );
-            overlappingEvent1.setHours( 0, 10, 0, 0 );
-            overlappingEventTo1.setHours( 1, 10, 0, 0 );
-            overlappingEvent2.setHours( 0, 35, 0, 0 );
-            overlappingEventTo2.setHours( 1, 35, 0, 0 );
-            overlappingEvent3.setHours( 1, 20, 0, 0 );
-            overlappingEventTo3.setHours( 2, 20, 0, 0 );
-            overlappingEvent4.setHours( 2, 0, 0, 0 );
-            overlappingEventTo4.setHours( 3, 0, 0, 0 );
-            overlappingEvent5.setHours( 3, 30, 0, 0 );
-            overlappingEventTo5.setHours( 4, 40, 0, 0 );
-
             return [
-                {
-                    from: previousYear,
-                    to: previousYear,
-                    title: "Pagamento natação",
-                    description: "Ir cedo ao ginásio.",
-                    isAllDay: true,
-                    group: "Grupo 2"
-                },
                 {
                     from: previousDay,
                     to: previousDay,
-                    title: "Salário",
-                    description: "Receber salário.",
+                    title: "Salario",
+                    description: "Receber salario.",
                     location: "Empresa",
                     isAllDay: true,
-                    color: "#000000",
-                    colorText: "#FFFF00",
-                    colorBorder: "#00FF00",
-                    group: "Grupo 1"
+                    group: "Grupo 1",
+                    color: "RGB(72,72,72)",
+                    colorText: "#FFFFFF",
+                    colorBorder: "#FFD500",
                 },
                 {
                     from: today11,
                     to: today11,
                     title: "Pagar PUC Minas",
-                    description: "To ficando pobre.",
+                    description: "Pago.",
                     location: "Minas Gerais",
-                    isAllDay: false,
-                    group: "Faculdade"
-                },
-                {
-                    from: firstDayInNextMonth,
-                    to: firstDayInNextMonth,
-                    title: "Ano Novo",
-                    description: "Receber mesada anual.",
                     isAllDay: true,
-                    color: "#00FFFF",
-                    colorText: "#FF0000",
-                },
-                {
-                    from: lastDayInNextMonth,
-                    to: lastDayInNextMonth,
-                    title: "Pagar boleto da internet",
-                    description: "A net vai vencer.",
-                    isAllDay: true,
-                    color: "#0000FF",
+                    group: "Faculdade",
+                    color: "RGB(72,72,72)",
+                    colorText: "#FFFFFF",
+                    colorBorder: "#FFD500",
                 }
             ];
         }
-      </script>
-
+          </script>
     <div id="footer"></div>
 </html>
