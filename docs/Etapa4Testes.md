@@ -19,8 +19,8 @@
 
 # Registro de Testes de Software
 
-- TRF-001
-- TRF-002 A aplicação permitirá que o usuário realize a gestão de ganhos mensais na funcionalidade REGISTRO FINANCEIRO
+## TRF-001 - A aplicação apresentará uma HOME PAGE para acesso a determinadas seções sem necessidade de login
+## TRF-002 - A aplicação permitirá que o usuário realize a gestão de ganhos mensais na funcionalidade REGISTRO FINANCEIRO
 
 Foi desenvolvido uma seção de registro com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` ganhos mensais. 
 
@@ -50,7 +50,7 @@ Depois de criar o ganho, para `REMOVER` o registro basta clicar no icone de excl
 
 ![image](img/TESTES/testesDio7.jpg)
 
-- TRF-003 A aplicação permitirá que o usuário realize a gestão de gastos mensais na funcionalidade REGISTRO FINANCEIRO
+## TRF-003 - A aplicação permitirá que o usuário realize a gestão de gastos mensais na funcionalidade REGISTRO FINANCEIRO
 
 Foi desenvolvido uma seção de registro com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` gastos mensais. 
 
@@ -80,8 +80,8 @@ Depois de criar o gasto, para `REMOVER` o registro basta clicar no icone de excl
 
 ![image](img/TESTES/testesDio14.jpg)
 
-- TRF-004
-- TRF-005 A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
+## TRF-004 - A aplicação permitirá que o usuário realize a gestão dos valores de despesas mensais na funcionalidade REGISTRO FINANCEIRO
+## TRF-005 - A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
 
 Foi desenvolvido um calendário com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` lembretes. 
 
@@ -105,35 +105,8 @@ Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em c
 
 ![image](img/TESTES/deleteLembrete.png)
 
-
-- TRF-006 A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação.
-
-### Criar Conta
-
-Caso o usuario não possua uma conta já cadastrada no sistema, o mesmo pode criar e `ADICIONAR` uma clicando em "Não possui uma conta? Clique aqui e Cadastre-se", após isto preencher corretamente os campos de novo usuario (Usuario, nome completo, e-mail, senha, confirmação de senha)  e clicando no botão "salvar" os dados do usuario serão `ADICIONADOS` ao sistema com um ID único, possibilitando ao usuario efetuar login posteriormente sem a necessidade de criar outra conta. 
-
-![image](img/TESTES/telalogin.png)
-![image](img/TESTES/modallogin.PNG)
-![image](img/TESTES/fazendologin.PNG)
-
-### Editar Conta
-
-Para `EDITAR` informações da conta é necessario estar logado e após isso clicar na barra de navegação em "Editar Perfil". Após acessar a pagina 'Perfil do Usuario' o mesmo pode alterar as informações como o nome e inserir uma nova senha (após uma validação com a senha atual), e basta clicar no botão "Salvar" que as alterações serão realizadas.
-
-![image](img/TESTES/navbareditperfil.PNG)
-![image](img/TESTES/editperfil1.PNG)
-![image](img/TESTES/editperfilnomealterado.PNG)
-![image](img/TESTES/editperfilnomealterado2.PNG)
-### Excluir Conta
-
-Para `EXCLUIR` a conta, o usuario deve estar logado, e dentro da página 'Perfil do Usuario' o mesmo deve clicar no botão "excluir" destacado em vermelho. Após isso clicar novamente no botão "excluir" que irá aparecer dentro de uma janela para confirmar a vontade do usuario.
-
-![image](img/TESTES/editperfil2.PNG)
-![image](img/TESTES/modalexcluir.PNG)
-![image](img/TESTES/excluidologin.PNG)
-
-
-- TRF-007 A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
+## TRF-006 - A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação
+## TRF-007 - A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
 
 Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente às receitas e despesas, o usuário poderá `VISUALIZAR` toda vez que `ADICIONAR`, `ATUALIZAR` ou `REMOVER` um ganho ou gasto.
 
@@ -157,7 +130,7 @@ O balanço númerico geral referente às receitas e despesas também pode ser vi
 
 ![image](img/TESTES/testesDio20.jpg)
 
-- TRF-008 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
+## TRF-008 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
 
 Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR O VALOR DEPOSITADO`, `EDITAR` e `REMOVER` metas financeiras. 
 
@@ -196,17 +169,48 @@ Com uma interface intuitiva, o usuário clicará no botão com um "X" vermelho d
 ![image](img/TESTES/telaAposExclusaoMeta.png)
 
 
-- TRF-009  A aplicação permitirá que o usuário acesse páginas e recursos especificos (Agenda, Meta financeira, Registro financeiro e Perfil do Usuario) somente após efetuado o login, caso contrario o mesmo verá um alerta e será redimensionado para a página de login, para efetivar o login ou criar uma conta.
+## TRF-009 - A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas.
 
-## Validação do Login
+## TRF-010 - A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO.
+Foram desenvolvidas diversas páginas com artigos sobre educação fincanceira para jovens e estas foram agrupadas em uma página de fácil navegação, onde o usuário poderá escolher entre os artigos disponíveis para leitura.
 
-![image](img/TESTES/validlogin1.PNG)
-![image](img/TESTES/validlogin2.PNG)
-![image](img/TESTES/validlogin3.PNG)
-![image](img/TESTES/validlogin4.PNG)
+### Escolher Artigo
+Página MATERIAL DIDÁTICO:
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/HMD.png" width="1020px">
 
-- TRF-010
-- TRF-011
+Com uma interface amigável e intuitiva, o usuário pode `ESCOLHER` um artigo para leitura apenas clicando no botão `APRENDA` e em seguida será direcionado a uma página contendo o artigo na íntegra. 
+
+Página ARTIGO:
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/A01.png" width="1020px">
+
+## TRF-011 - A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ.
+Para atender ao requisito RF-011 foi desenvolvida a página QUIZ, `quiz.html`.
+
+Ao acessar a página QUIZ, será exibido um jogo interativo de perguntas e respostas sobre conhecimentos em educação fincanceira baseado nos artigos disponívels na aba MATERIAL DIDÁTICO. O quiz é composto de seis perguntas, contendo três opções de resposta e apenas uma correta. O quiz conta com um marcador de pontos, uma barra de progesso, destaque visual para opção de resposta a ser selecionada, resposta visual nas cores verde ou vemelho conforme acerto ou erro da questão, notificação sonora conforme acerto ou erro da questão e uma notificação sonora de vitória para potuanções altas.
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 01.png" width="1020px">
+
+Ao passar o mouse sobre uma alternativa, esta receberá um destaque visual.
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 02.png" width="1020px">
+
+Ao escolher uma alternativa, será acionado um destaque visual, verde para acerto, e uma notificação sonora:
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 03.png" width="1020px">
+
+Ao escolher uma alternativa, será acionado um destaque visual, vermelho para erro, e uma notificação sonora:
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 04.png" width="1020px">
+
+Em seguida será exibida uma nova perguta.
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 05.png" width="1020px">
+
+Os processos anteriores são repetidos, até o final das perguntas.
+Ao fim do quiz, será exibida uma tela com a informação "Fim de Jogo!", a pontuação final do jogador, e uma notificação sonora de aplausos para pontuações altas.
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 06.png" width="1020px">
+
 
 
 ## Resultados Obtidos
@@ -219,12 +223,12 @@ Com uma interface intuitiva, o usuário clicará no botão com um "X" vermelho d
 |TRF-003|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção dos ganhos na ferramenta Registro Financeiro.|DIOVANA|
 |TRF-004|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção dos gastos na ferramenta Registro Financeiro.|DIOVANA|
 |TRF-005|agenda.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção do lembrete na ferramenta Agenda.|GIANLUCA|
-|TRF-006|login.html, editperfilusuario.html e footer.html |O usuario foi capaz de criar uma conta, alterar as informações da conta e excluir a mesma.|GIOVANNY|
+|TRF-006|-|-|GIOVANNY|
 |TRF-007|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a leitura do balanco financeiro após a criação, atualização ou remoção dos ganhos e gastos na ferramenta Registro Financeiro.|GIOVANNY|
 |TRF-008|metaFinanceira.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção das metas na ferramenta Meta Financeira.|PEDRO|
-|TRF-009|TODAS|A aplicação não permitiu acesso as páginas e recursos: Agenda, Meta financeira, Registro financeiro e Perfil do Usuario quando o usuario não estava logado. |GIOVANNY|
-|TRF-010|-|-|ROMÁRIO|
-|TRF-011|-|-|QUIZ|ROMÁRIO|
+|TRF-009|-|-|GIOVANNY|
+|TRF-010|hArticle.html e articleXX.hmtl|O usuário foi capaz de navegar entre os conteúdos disponíveis para leitura na ferramenta MATERIAL DIDÁTICO.|ROMÁRIO|
+|TRF-011|quiz.html|O usuário foi capaz de interagir e testar seus conhecimentos na ferramenta MATERIAL DIDÁTICO.|ROMÁRIO|
 
 
 ## Avaliação
