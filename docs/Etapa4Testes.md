@@ -118,12 +118,12 @@ Caso o usuario não possua uma conta já cadastrada no sistema, o mesmo pode cri
 
 ### Editar Conta
 
-Para `EDITAR` informações da conta é necessario estar logado e após isso clicar na barra de navegação em "Editar Perfil". Após acessar a pagina 'Perfil do Usuario' o mesmo pode alterar as informações como o nome e inserir uma nova senha (após uma validação com a senha atual).
+Para `EDITAR` informações da conta é necessario estar logado e após isso clicar na barra de navegação em "Editar Perfil". Após acessar a pagina 'Perfil do Usuario' o mesmo pode alterar as informações como o nome e inserir uma nova senha (após uma validação com a senha atual), e basta clicar no botão "Salvar" que as alterações serão realizadas.
 
 ![image](img/TESTES/navbareditperfil.PNG)
 ![image](img/TESTES/editperfil1.PNG)
-![image](img/TESTES/editperfil2.PNG)
-
+![image](img/TESTES/editperfilnomealterado.PNG)
+![image](img/TESTES/editperfilnomealterado2.PNG)
 ### Excluir Conta
 
 Para `EXCLUIR` a conta, o usuario deve estar logado, e dentro da página 'Perfil do Usuario' o mesmo deve clicar no botão "excluir" destacado em vermelho. Após isso clicar novamente no botão "excluir" que irá aparecer dentro de uma janela para confirmar a vontade do usuario.
