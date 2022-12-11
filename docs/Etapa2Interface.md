@@ -14,7 +14,7 @@ User Flow é uma técnica que te permite mapear todo fluxo de telas do seu site 
 User Flow de todos os caminhos e ações presentes na plataforma Save Coin.
 </p>
 <p align="center">
-<img src="/docs/img/USERFLOW/00. User Flor - Save Coin.png" width="480px">
+<img src="/docs/img/USERFLOW/00. User Flor - Save Coin.jpg" width="480px">
 </p>
 
 ### 01. User Flow Usuário-alvo | Gabriel
