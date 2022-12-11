@@ -48,11 +48,11 @@ Clicando no botão "Adicionar nova meta", um modal com um formulário é aberto 
 
 Para atender ao requisito RF-010 foi desenvolvida a página MATERIAL DIDÁTICO, `hArticle.html`.
 
-Ao acessar a página MATERIAL DIDÁTICO, serão exibidos diversos "cards" que representão os artigos diposníveis para leitura dos usuários. Cada "card" contém uma ilustração, um título, um texto resumo e um botão.
+Ao acessar a página MATERIAL DIDÁTICO, serão exibidos diversos "cards" que representam os artigos disponíveis para leitura dos usuários. Cada "card" contém uma ilustração, um título, um texto resumo e um botão.
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/HMD.png" width="1020px">
 
-Clicando no botão 'Aprenda', o usuário será dicerionado à página, `articleXX.html` que contém o artigo na íntegra para leitura e aprendizado.
+Clicando no botão 'Aprenda', o usuário será direcionado à página, `articleXX.html` que contém o artigo na íntegra para leitura e aprendizado.
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/A01.png" width="1020px">
 
@@ -60,7 +60,7 @@ Clicando no botão 'Aprenda', o usuário será dicerionado à página, `articleX
 
 Para atender ao requisito RF-011 foi desenvolvida a página QUIZ, `quiz.html`.
 
-Ao acessar a página QUIZ, será exibido um jogo interativo de perguntas e respostas sobre conhecimentos em educação fincanceira baseado nos artigos disponívels na aba MATERIAL DIDÁTICO. O quiz é composto de seis perguntas, contendo três opções de resposta e apenas uma correta. O quiz conta com um marcador de pontos, uma barra de progesso, destaque visual para opção de resposta a ser selecionada, resposta visual nas cores verde ou vemelho conforme acerto ou erro da questão, notificação sonora conforme acerto ou erro da questão e uma notificação sonora de vitória para potuanções altas.
+Ao acessar a página QUIZ, será exibido um jogo interativo de perguntas e respostas sobre conhecimentos em educação financeira baseado nos artigos disponíveis na aba MATERIAL DIDÁTICO. O quiz é composto de seis perguntas, contendo três opções de resposta e apenas uma correta. O quiz conta com um marcador de pontos, uma barra de progresso, destaque visual para opção de resposta a ser selecionada, resposta visual nas cores verde ou vermelho conforme acerto ou erro da questão, notificação sonora conforme acerto ou erro da questão e uma notificação sonora de vitória para pontuanções altas.
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 01.png" width="1020px">
 
@@ -76,7 +76,7 @@ Ao escolher uma alternativa, será acionado um destaque visual, vermelho para er
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 04.png" width="1020px">
 
-Em seguida será exibida uma nova perguta.
+Em seguida será exibida uma nova pergunta.
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 05.png" width="1020px">
 
