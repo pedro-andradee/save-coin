@@ -41,20 +41,20 @@ Nosso projeto proposto é estruturado sobre o objetivo principal de proporcionar
 <table>
 <tr>
 
-<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Amanda borda.png" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🌎</a></td>
+<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/.INTEGRANTES/Amanda borda.png" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🌎</a></td>
 
-<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Dio borda.png" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
+<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/.Dio borda.png" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
 
-<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Gian borda.png" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">☀️</a></td>
+<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/.Gian borda.png" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">☀️</a></td>
 
 </tr>
 <tr>
 
-<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Giovanny Borda.png" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito"><img src="docs/img/EMOJI/cube.png" width="20px" ></a></td>
+<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/.Giovanny Borda.png" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito"><img src="docs/img/EMOJI/cube.png" width="20px" ></a></td>
 
-<td align="center"><a href="https://github.com/pedro-andradee"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Pedro borda.png" width="100px;" alt=""/><br /><sub><b>Pedro Andrade</b></sub></a><br /><a href="https://github.com/pedro-andradee" title="Pedro Andrade">🚀</a></td>
+<td align="center"><a href="https://github.com/pedro-andradee"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/.Pedro borda.png" width="100px;" alt=""/><br /><sub><b>Pedro Andrade</b></sub></a><br /><a href="https://github.com/pedro-andradee" title="Pedro Andrade">🚀</a></td>
 
-<td align="center"><a href="https://github.com/romamedeiros"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Roma borda.png" width="100px;" alt=""/><br /><sub><b>Romário Medeiros</b></sub></a><br /><a href="https://github.com/romamedeiros" title="Romário Medeiros">🎸</a></td>
+<td align="center"><a href="https://github.com/romamedeiros"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/.Roma borda.png" width="100px;" alt=""/><br /><sub><b>Romário Medeiros</b></sub></a><br /><a href="https://github.com/romamedeiros" title="Romário Medeiros">🎸</a></td>
 
 </tr>
 </table>
@@ -75,10 +75,9 @@ Nosso projeto proposto é estruturado sobre o objetivo principal de proporcionar
 2. [Especificação do Projeto](docs/Etapa1Especificacao.md) 
 3. [Projeto de Interface](docs/Etapa2Interface.md)
 4. [Template Padrão](docs/Etapa2Template.md) 
-5. [Programação de Funcionalidades - HTML e CSS](docs/Etapa3e4Desenvolvimento.md) 
-6. [Programação de Funcionalidades - Javascript](docs/Etapa3e4Desenvolvimento.md) 
-7. [Testes de Software ](docs/Etapa4Testes.md) 
-8. [Apresentação](presentation/README.md) 
+5. [Programação de Funcionalidades - HTML/CSS/JS](docs/Etapa3e4Desenvolvimento.md) 
+6. [Testes de Software](docs/Etapa4Testes.md) 
+7. [Apresentação do projeto](presentation/README.md) 
 
 # Código
 
