@@ -132,14 +132,43 @@ O balanço númerico geral referente às receitas e despesas também pode ser vi
 
 - TRF-008 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
 
-Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` metas financeiras. 
+Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR O VALOR DEPOSITADO`, `EDITAR` e `REMOVER` metas financeiras. 
 
 ### Adicionar Meta
 Com uma interface amigável e intuitiva, o usuário pode ADICIONAR uma meta financeira clicando no botão amarelo "Adicionar nova meta". Em seguida, pode preencher os campos referentes à descrição, valor e a data final da meta. Para completar a adição da nova meta com os valores inseridos nos campos, basta clicar no botão "Salvar".
+
 ![image](img/TESTES/metaFinanceiraNovaMeta.png)
 ![image](img/TESTES/novaMetaFinanceiraModal.png)
-Ao clicar em "Salvar" podemos ver que uma nova meta financeira foi criada.
+Após clicar em "Salvar", pode-se VISUALIZAR que uma nova meta financeira foi criada.
+
 ![image](img/TESTES/novaMetaFinanceiraCriada.png)
+
+### Visualizar Meta
+Ao entrar na página de metas financeiras serão carregadas as metas já cadastradas pelo usuário.
+
+![image](img/TESTES/novaMetaFinanceiraCriada.png)
+
+### Atualizar valor depositado para a cumprir a meta
+Para ATUALIZAR a quantia já depositada na meta, o usuário clicará no botão "Nova Entrada". Em seguida, abrirá um modal em que o usuário irá preencher o campo com o valor a ser depositado, referente ao valor guardado para cumprir a meta. Por fim, clicando no botão "Salvar" o usuário finaliza o processo de atualizar o valor depositado da meta.
+
+![image](img/TESTES/addNovaEntradaMeta.png)
+Após salvar, o usuário verá a atualização do valor referente à quantia que falta para cumprir a meta e a atualização da barra verde que indica o progresso para atingir a meta.
+
+![image](img/TESTES/atualizacaoNovaEntradaMeta.png)
+
+### Editar Meta
+Para EDITAR a descrição, o valor ou a data da meta, o usuário clicará no botão "Editar". Em seguida, abrirá um modal em que o usuário irá preencher os campos com os valores atuais da meta, modificando os valores desejados. Por fim, ao clicar no botão "Salvar", o usuário conseguirá ver a meta com os novos valores.
+
+![image](img/TESTES/editarMetaFinanceira.png)
+![image](img/TESTES/metaFinanceiraEditada.png)
+
+### Remover Meta
+Com uma interface intuitiva, o usuário clicará no botão com um "X" vermelho dentro de um círculo para REMOVER a meta selecionada. Em seguida, abrirá um modal em que irá confirmar o seu desejo de remoção. Por fim, ao clicar no botão "Excluir", a exclusão será realizada.
+
+![image](img/TESTES/modalExcluirMetaFinanceira.png)
+![image](img/TESTES/telaAposExclusaoMeta.png)
+
+
 - TRF-009
 - TRF-010
 - TRF-011
