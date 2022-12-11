@@ -59,17 +59,35 @@
       <p></p>
       <input class="buttonhp" type="button" value="Quiz" onclick="window.location.href='quiz.html'">
       <p></p>
-      <input class="buttonhp" type="button" value="Registro Financeiro"
+      <input class="buttonhp btnregistro" type="button" value="Registro Financeiro"
         onclick="window.location.href='registroFinanceiro.html'">
       <p></p>
-      <input class="buttonhp" type="button" value="Meta Financeira" onclick="window.location.href='metaFinanceira.html'">
+      <input class="buttonhp btnmeta" type="button" value="Meta Financeira" onclick="window.location.href='metaFinanceira.html'">
       <p></p>
-      <input id="lstitem" class="buttonhp" type="button" value="Agenda" onclick="window.location.href='agenda.html'">
+      <input id="lstitem" class="buttonhp btnagenda" type="button" value="Agenda" onclick="window.location.href='agenda.html'">
       <p></p>
     </div>
 
   </main>
 
+  <script>
+    if (!usuarioCorrente.login) {
+
+      var btnregistro = document.querySelector('.btnregistro');
+      var btnmeta = document.querySelector('.btnmeta');
+      var btnagenda = document.querySelector('.btnagenda');
+      btnregistro.setAttribute("style","background-color:gray !important")
+      btnmeta.setAttribute("style","background-color:gray !important")
+      btnagenda.setAttribute("style","background-color:gray !important")
+    }else{
+      btnregistro.setAttribute("style","background-color:FFD500 !important")
+      btnmeta.setAttribute("style","background-color:FFD500 !important")
+      btnagenda.setAttribute("style","background-color:FFD500 !important")
+    }
+
+
+</script>
+  
   <div id="footer"></div>
 
 </body>
