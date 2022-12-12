@@ -16,6 +16,37 @@ Nesta seção estão descritos os artefatos e estruturas de dados criados para a
 |RF-010|A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO|ALTO|ROMÁRIO|
 |RF-011|A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ|ALTO|ROMÁRIO|
 
+## Agenda
+
+## Requisito
+
+### RF-005: A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
+
+Para atender aos requisitos RF-005 foi desenvolvida a página Agenda, `agenda.html`.
+
+Ao acessar a página Agenda, será exibido um calendário para o usuário visualizar e adicionar novos lembretes. Após adicionar a meta desejada, será possível visualizar o evento no calendário. Com o auxílio das ferramentas da Agenda, será possível fazer a edição, visualização, adição, remoção e exportalção de eventos. 
+
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/agenda.png" width="1020px">
+
+Ao clicar no ícone + o usuário será capaz de adicionar um lembrete e salvar no calendário.
+
+<img src="/docs/img/TESTES/createLembrete.png" width="1020px">
+
+Com o evento criado, será possível a visualização do lembrete no calendário.
+
+<img src="/docs/img/TESTES/readLembrete.png" width="1020px">
+
+Clicando duas vezes no nome do evento desejado para edição, abrirá uma janela onde será possível editar as informações do mesmo.
+
+<img src="/docs/img/TESTES/updateLembrete.png" width="1020px">
+
+Na janela do lembrete será possível remover o evento ao clicar no botão "Remover".
+<img src="/docs/img/TESTES/deleteLembrete.png" width="1020px">
+
+No ícone de "seta", localizado no menu superior do calendário, será possível exportar seus eventos para o formato desejado.
+<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/exportLembrete.png" width="1020px">
+
+
 ## Meta Financeira
 
 ## Requisitos
