@@ -269,7 +269,4 @@ Ao fim do quiz, será exibida uma tela com a informação "Fim de Jogo!", a pont
 
 ## Avaliação
 
-Foram realizados testes funcionais do sistema, de acordo com o Plano de testes dos requisitos funcionais, no ambiente de produção com início no dia 5 de Dezembro de 2022.
-
-- ()
-- ()
+Foram realizados testes funcionais do sistema, de acordo com o Plano de testes dos requisitos funcionais, no ambiente de produção com início no dia 11 de Dezembro de 2022 e mediante o apresentado, concluímos que a plataforma está APROVADA.
