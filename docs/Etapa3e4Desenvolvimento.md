@@ -24,11 +24,11 @@ Nesta seção estão descritos os artefatos e estruturas de dados criados para a
 
 Para atender aos requisitos RF-005 foi desenvolvida a página Agenda, `agenda.html`.
 
-Ao acessar a página Agenda, será exibido um calendário para o usuário visualizar e adicionar novos lembretes. Após adicionar a meta desejada, será possível visualizar o evento no calendário. Com o auxílio das ferramentas da Agenda, será possível fazer a edição, visualização, adição, remoção e exportalção de eventos. 
+Ao acessar a página Agenda, será exibido um calendário para o usuário visualizar e adicionar novos lembretes. Após adicionar o lembrete desejado, será possível visualizar o evento no calendário. Com o auxílio das ferramentas da Agenda, será possível fazer a edição, visualização, adição, remoção e exportação de eventos. 
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/agenda.png" width="1020px">
 
-Ao clicar no ícone + o usuário será capaz de adicionar um lembrete e salvar no calendário.
+Ao clicar no ícone "+" o usuário será capaz de adicionar um lembrete e salvar no calendário.
 
 <img src="/docs/img/TESTES/createLembrete.png" width="1020px">
 
