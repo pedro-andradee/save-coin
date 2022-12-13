@@ -15,17 +15,17 @@
 |TRF-005.1|teste referente ao RF-005|GIANLUCA|
 |TRF-006.1|teste referente ao RF-006|GIOVANNY|
 |TRF-007.1|Ao adicionar um registro do tipo ganho, o valor do balanço deverá ser alterado positivamente na página de edição|GIOVANNY|
-|TRF-007.1|Ao adicionar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamentena página de edição|GIOVANNY|
-|TRF-007.1|Ao adicionar um registro do tipo ganho, o valor do balanço deverá ser alterado positivamente na página de visualização|GIOVANNY|
-|TRF-007.1|Ao adicionar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamentena página de visualização|GIOVANNY|
-|TRF-007.1|Ao editar um registro do tipo ganho, o valor do balanço deverá ser alterado positivamente na página de edição|GIOVANNY|
-|TRF-007.1|Ao editar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamentena página de edição|GIOVANNY|
-|TRF-007.1|Ao editar um registro do tipo ganho, o valor do balanço deverá ser alterado positivamente na página de visualização|GIOVANNY|
-|TRF-007.1|Ao editar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamentena página de visualização|GIOVANNY|
-|TRF-007.1|Ao remover um registro do tipo ganho, o valor do balanço deverá ser alterado negativamentena na página de edição|GIOVANNY|
-|TRF-007.1|Ao remover um registro do tipo gasto, o valor do balanço deverá ser alterado positivamente página de edição|GIOVANNY|
-|TRF-007.1|Ao remover um registro do tipo ganho, o valor do balanço deverá ser alterado negativamentena na página de visualização|GIOVANNY|
-|TRF-007.1|Ao remover um registro do tipo gasto, o valor do balanço deverá ser alterado positivamente página de visualização|GIOVANNY|
+|TRF-007.2|Ao adicionar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamentena página de edição|GIOVANNY|
+|TRF-007.3|Ao adicionar um registro do tipo ganho, o valor do balanço deverá ser alterado positivamente na página de visualização|GIOVANNY|
+|TRF-007.4|Ao adicionar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamentena página de visualização|GIOVANNY|
+|TRF-007.5|Ao editar um registro do tipo ganho, o valor do balanço deverá ser alterado positivamente na página de edição|GIOVANNY|
+|TRF-007.6|Ao editar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamentena página de edição|GIOVANNY|
+|TRF-007.7|Ao editar um registro do tipo ganho, o valor do balanço deverá ser alterado positivamente na página de visualização|GIOVANNY|
+|TRF-007.8|Ao editar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamentena página de visualização|GIOVANNY|
+|TRF-007.9|Ao remover um registro do tipo ganho, o valor do balanço deverá ser alterado negativamentena na página de edição|GIOVANNY|
+|TRF-007.10|Ao remover um registro do tipo gasto, o valor do balanço deverá ser alterado positivamente página de edição|GIOVANNY|
+|TRF-007.11|Ao remover um registro do tipo ganho, o valor do balanço deverá ser alterado negativamentena na página de visualização|GIOVANNY|
+|TRF-007.12|Ao remover um registro do tipo gasto, o valor do balanço deverá ser alterado positivamente página de visualização|GIOVANNY|
 |TRF-008.1|teste referente ao RF-008|PEDRO|
 |TRF-009.1|teste referente ao RF-009|GIOVANNY|
 |TRF-010.1|teste referente ao RF-010|ROMÁRIO|
@@ -114,9 +114,7 @@ Depois de criar o gasto, para `REMOVER` o registro basta clicar no icone de excl
 
 ![image](img/TESTES/testesDio14.jpg)
 
-## RF-005 - A aplicação permitirá que o usuário realize a gestão dos valores de despesas mensais na funcionalidade REGISTRO FINANCEIRO
-
-## RF-006 - A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
+## RF-005 - A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
 
 Foi desenvolvido um calendário com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` lembretes. 
 
@@ -141,7 +139,7 @@ Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em c
 ![image](img/TESTES/deleteLembrete.png)
 
 
-## RF-007 - A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação
+## RF-006 - A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação
 
 ### Criar Conta
 
@@ -168,7 +166,7 @@ Para `EXCLUIR` a conta, o usuario deve estar logado, e dentro da página 'Perfil
 ![image](img/TESTES/excluidologin.PNG)
 
 
-## RF-008 - A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
+## RF-007 - A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
 
 Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente às receitas e despesas, o usuário poderá `VISUALIZAR` toda vez que `ADICIONAR`, `ATUALIZAR` ou `REMOVER` um ganho ou gasto.
 
@@ -192,7 +190,7 @@ O balanço númerico geral referente às receitas e despesas também pode ser vi
 
 ![image](img/TESTES/testesDio20.jpg)
 
-## RF-009 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
+## RF-008 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
 
 Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR O VALOR DEPOSITADO`, `EDITAR` e `REMOVER` metas financeiras. 
 
@@ -231,7 +229,7 @@ Com uma interface intuitiva, o usuário clicará no botão com um "X" vermelho d
 ![image](img/TESTES/telaAposExclusaoMeta.png)
 
 
-## RF-010 - A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas.
+## RF-009 - A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas.
 A aplicação permitirá que o usuário acesse páginas e recursos especificos (Agenda, Meta financeira, Registro financeiro e Perfil do Usuario) somente após efetuado o login, caso contrario o mesmo verá um alerta e será redimensionado para a página de login, para efetivar o login ou criar uma conta.
 
 ![image](img/TESTES/validlogin1.PNG)
@@ -239,7 +237,7 @@ A aplicação permitirá que o usuário acesse páginas e recursos especificos (
 ![image](img/TESTES/validlogin3.PNG)
 ![image](img/TESTES/validlogin4.PNG)
 
-## RF-011 - A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO.
+## RF-010 - A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO.
 Foram desenvolvidas diversas páginas com artigos sobre educação fincanceira para jovens e estas foram agrupadas em uma página de fácil navegação, onde o usuário poderá escolher entre os artigos disponíveis para leitura.
 
 ### Escolher Artigo
@@ -253,7 +251,7 @@ Página ARTIGO:
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/A01.png" width="1020px">
 
-## RF-012 - A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ.
+## RF-011 - A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ.
 Foi desenvolvida uma página com um jogo interativo de perguntas e respostas sobre conhecimentos em educação fincanceira baseado nos artigos disponívels na aba MATERIAL DIDÁTICO. 
 
 O quiz é composto de seis perguntas, contendo três opções de resposta e apenas uma correta. O quiz conta com um marcador de pontos, uma barra de progesso.
