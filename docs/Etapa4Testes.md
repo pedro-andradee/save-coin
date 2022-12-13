@@ -71,14 +71,14 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 ![image](img/TESTES/testesDio3.jpg)
 
 ### TRF-003.3 Editar ganho
-Para `EDITAR` o ganho, você deve clicar no icone de edição, abaixo do "Editar", assim, você será redirecionado ao menu de edições, você poderá realizar a edição desejada e para salva clicar em "Efetuar registro" para confirmar a edição.
+`EDITAR` um registro: Clicar no icone de edição, abaixo do "Editar", assim, você será redirecionado ao menu de edições, existe duas edições possíveis, adicionar um novo ganho nos respectivos campos (Descrição: sendo o nome do ganho / Valor: Sendo o valor númerico do seu ganho / Mês: entre Janeiro e Dezembro), clicar em "Adicionar lucro", abaixo dos campos e/ou excluir o ganho, clicando no icone de "lixeira" ao lado do ganho e para salva clicar em "Efetuar registro" para confirmar a edição.
 
 ![image](img/TESTES/testesDio4.jpg)
 
 ![image](img/TESTES/testesDio5.jpg)
 
 ### TRF-003.4 Excluir ganho
-Depois de criar o ganho, para `REMOVER` o registro basta clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o resgitro clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
+`REMOVER` um registro: Clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o ganho clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
 
 ![image](img/TESTES/testesDio6.jpg)
 
@@ -89,26 +89,26 @@ Depois de criar o ganho, para `REMOVER` o registro basta clicar no icone de excl
 Foi desenvolvido uma seção de registro com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` gastos mensais. 
 
 ### TRF-004.1 Adicionar gasto
-Com uma interface amigável e intuitiva, o usuário pode `ADICIONAR` um registro clicando em "Adicionar registro" na parte superior da tela. Em seguida adicionar os gastos nos respectivos campos, clicar em "Adicionar gasto" e assim que o valor for mostrado abaixo dos campos, clicar em "Efetuar registro" para confirmar a Adição. 
+`ADICIONAR` um registro: Clicar em "Adicionar registro" na parte superior da tela. Em seguida adicionar os gastos nos respectivos campos (Descrição: sendo o nome do gasto / Valor: Sendo o valor númerico do seu gasto / Mês: entre Janeiro e Dezembro), clicar em "Adicionar gasto", abaixo dos campos e assim que o valor for mostrado abaixo do botão "Adicionar gasto", clicar em "Efetuar registro", no canto infeior direito, para confirmar a Adição. 
 
 ![image](img/TESTES/testesDio8.jpg)
 
 ![image](img/TESTES/testesDio9.jpg)
 
 ### TRF-004.2 Visualizar gasto
-Após adicionar um gasto, o mesmo pode ser visualizado diretamente na página de registro, onde pode `VISUALIZAR` o gasto adicionado, no mês escolhido. O gasto é representado por um icone de "-", abaixo do "Tipo"
+`VISUALIZAR` um registro: o mesmo pode ser visualizado diretamente na página de registro, no mês escolhido. O gasto é representado por um icone de "-", abaixo do "Tipo"
 
 ![image](img/TESTES/testesDio10.jpg)
 
 ### TRF-004.3 Editar gasto
-Para `EDITAR` o gasto, você deve clicar no icone de edição, abaixo do "Editar", assim, você será redirecionado ao menu de edições, você poderá realizar a edição desejada e para salva clicar em "Efetuar registro" para confirmar a edição.
+`EDITAR` um registro: Clicar no icone de edição, abaixo do "Editar", assim, você será redirecionado ao menu de edições, existe duas edições possíveis, adicionar um novo gasto nos respectivos campos (Descrição: sendo o nome do gasto / Valor: Sendo o valor númerico do seu gasto / Mês: entre Janeiro e Dezembro), clicar em "Adicionar gasto", abaixo dos campos e excluir o gasto, clicando no icone de "lixeira" ao lado do gasto e para salva clicar em "Efetuar registro" para confirmar a edição.
 
 ![image](img/TESTES/testesDio11.jpg)
 
 ![image](img/TESTES/testesDio12.jpg)
 
 ### TRF-004.4 Excluir gasto
-Depois de criar o gasto, para `REMOVER` o registro basta clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o resgitro clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
+`REMOVER` um registro: Clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o gasto clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
 
 ![image](img/TESTES/testesDio13.jpg)
 
@@ -168,19 +168,19 @@ Para `EXCLUIR` a conta, o usuario deve estar logado, e dentro da página 'Perfil
 
 ## RF-007 - A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
 
-Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente às receitas e despesas, o usuário poderá `VISUALIZAR` toda vez que `ADICIONAR`, `ATUALIZAR` ou `REMOVER` um ganho ou gasto.
+Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente às receitas e despesas, o usuário poderá `VISUALIZAR` toda vez que `ADICIONAR`, `ATUALIZAR` ou `REMOVER` um ganho ou gasto, na tela de edição e de visualização dos registros.
 
-### Adicionar gasto ou ganho
+### TRF-007.1 ao TRF-007.4 Adicionar gasto ou ganho
 
 ![image](img/TESTES/testesDio15.jpg)
 
 ![image](img/TESTES/testesDio16.jpg)
 
-### Editar gasto ou ganho
+### TRF-007.5 ao TRF-007.8 Editar gasto ou ganho
 
 ![image](img/TESTES/testesDio17.jpg)
 
-### Remover gasto ou ganho
+### TRF-007.9 ao TRF-007.12  Remover gasto ou ganho
 
 ![image](img/TESTES/testesDio18.jpg)
 
