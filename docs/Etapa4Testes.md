@@ -40,7 +40,7 @@
 
 # Registro de Testes de Software
 
-## TRF-001 - A aplicação apresentará uma HOME PAGE para acesso a determinadas seções sem necessidade de login
+## RF-001 - A aplicação apresentará uma HOME PAGE para acesso a determinadas seções sem necessidade de login
 ## RF-002 - A aplicação apresentará graficamente os dados relativos às receitas e despesas dos últimos 12 na funcionalidade REGISTRO FINANCEIRO
 
 ## RF-003 - A aplicação permitirá que o usuário realize a gestão de ganhos mensais na funcionalidade REGISTRO FINANCEIRO
