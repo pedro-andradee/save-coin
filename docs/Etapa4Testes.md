@@ -22,10 +22,10 @@
 |TRF-007.6|Ao editar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamente ou positivamente na página de edição|GIOVANNY|
 |TRF-007.7|Ao editar um registro do tipo ganho, o valor do balanço deverá ser alterado positivamente ou negativamente na página de visualização|GIOVANNY|
 |TRF-007.8|Ao editar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamente ou positivamente na página de visualização|GIOVANNY|
-|TRF-007.9|Ao remover um registro do tipo ganho, o valor do balanço deverá ser alterado negativamente na na página de edição|GIOVANNY|
+|TRF-007.9|Ao remover um registro do tipo ganho, o valor do balanço deverá ser alterado negativamente na página de edição|GIOVANNY|
 |TRF-007.10|Ao remover um registro do tipo gasto, o valor do balanço deverá ser alterado positivamente página de edição|GIOVANNY|
-|TRF-007.11|Ao remover um registro do tipo ganho, o valor do balanço deverá ser alterado negativamente na na página de visualização|GIOVANNY|
-|TRF-007.12|Ao remover um registro do tipo gasto, o valor do balanço deverá ser alterado positivamente página de visualização|GIOVANNY|
+|TRF-007.11|Ao remover um registro do tipo ganho, o valor do balanço deverá ser alterado negativamente na página de visualização|GIOVANNY|
+|TRF-007.12|Ao remover um registro do tipo gasto, o valor do balanço deverá ser alterado positivamente na página de visualização|GIOVANNY|
 |TRF-008.1|teste referente ao RF-008|PEDRO|
 |TRF-009.1|teste referente ao RF-009|GIOVANNY|
 |TRF-010.1|teste referente ao RF-010|ROMÁRIO|
