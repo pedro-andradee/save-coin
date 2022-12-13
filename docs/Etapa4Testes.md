@@ -59,14 +59,14 @@
 Foi desenvolvido uma seção de registro com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` ganhos mensais. 
 
 ### TRF-003.1 Adicionar ganho
-`ADICIONAR` um registro: Clicar em "Adicionar registro" na parte superior da tela. Em seguida adicionar os ganhos nos respectivos campos (Descrição: sendo o nome do ganho / Valor: Sendo o valor númerico do seu ganho / Mês: entre Janeiro e Dezembro), clicar em "Adicionar lucro", abaixo dos campos e assim que o valor for mostrado abaixo do botão "Adicionar lucro", clicar em "Efetuar registro", no canto infeior direito, para confirmar a Adição. 
+`ADICIONAR` um registro: Clicar em "Adicionar registro" na parte superior da tela. Em seguida adicionar os ganhos nos respectivos campos (Descrição: sendo o nome do ganho / Valor: Sendo o valor númerico do seu ganho / Mês: entre Janeiro e Dezembro), clicar em "Adicionar lucro", abaixo dos campos e assim que o valor for mostrado abaixo do botão "Adicionar lucro", clicar em "Efetuar registro", no canto inferior direito, para confirmar a Adição. 
 
 ![image](img/TESTES/testesDio1.jpg)
 
 ![image](img/TESTES/testesDio2.jpg)
 
 ### TRF-003.2 Visualizar ganho
-`VISUALIZAR` um registro: o mesmo pode ser visualizado diretamente na página de registro, no mês escolhido. O ganho é representado por um icone de "+", abaixo do "Tipo"
+`VISUALIZAR` um registro: O mesmo pode ser visualizado diretamente na página de registro, no mês escolhido. O ganho é representado por um icone de "+", abaixo do "Tipo"
 
 ![image](img/TESTES/testesDio3.jpg)
 
@@ -89,14 +89,14 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 Foi desenvolvido uma seção de registro com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` gastos mensais. 
 
 ### TRF-004.1 Adicionar gasto
-`ADICIONAR` um registro: Clicar em "Adicionar registro" na parte superior da tela. Em seguida adicionar os gastos nos respectivos campos (Descrição: sendo o nome do gasto / Valor: Sendo o valor númerico do seu gasto / Mês: entre Janeiro e Dezembro), clicar em "Adicionar gasto", abaixo dos campos e assim que o valor for mostrado abaixo do botão "Adicionar gasto", clicar em "Efetuar registro", no canto infeior direito, para confirmar a Adição. 
+`ADICIONAR` um registro: Clicar em "Adicionar registro" na parte superior da tela. Em seguida adicionar os gastos nos respectivos campos (Descrição: sendo o nome do gasto / Valor: Sendo o valor númerico do seu gasto / Mês: entre Janeiro e Dezembro), clicar em "Adicionar gasto", abaixo dos campos e assim que o valor for mostrado abaixo do botão "Adicionar gasto", clicar em "Efetuar registro", no canto inferior direito, para confirmar a Adição. 
 
 ![image](img/TESTES/testesDio8.jpg)
 
 ![image](img/TESTES/testesDio9.jpg)
 
 ### TRF-004.2 Visualizar gasto
-`VISUALIZAR` um registro: o mesmo pode ser visualizado diretamente na página de registro, no mês escolhido. O gasto é representado por um icone de "-", abaixo do "Tipo"
+`VISUALIZAR` um registro: O mesmo pode ser visualizado diretamente na página de registro, no mês escolhido. O gasto é representado por um icone de "-", abaixo do "Tipo"
 
 ![image](img/TESTES/testesDio10.jpg)
 
