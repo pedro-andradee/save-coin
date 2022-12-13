@@ -1,5 +1,26 @@
 # Plano de Testes de Software
 
+|       ID      | Descrição do Teste  | Responsável |
+|------|-----------------------------------------|----|
+|TRF-001.1|teste referente ao RF-001|AMANDA
+|TRF-002.1|teste referente ao RF-002|AMANDA|
+|TRF-003.1|Adicionar um registro do tipo ganho|DIOVANA|
+|TRF-003.2|Visualizar um registro do tipo ganho|DIOVANA|
+|TRF-003.3|Editar um registro do tipo ganho|DIOVANA|
+|TRF-003.4|Excluir um registro do tipo ganho|DIOVANA|
+|TRF-004.1|Adicionar um registro do tipo gasto|DIOVANA|
+|TRF-004.2|Visualizar um registro do tipo gasto|DIOVANA|
+|TRF-004.3|Editar um registro do tipo gasto|DIOVANA|
+|TRF-004.4|Excluir um registro do tipo gasto|DIOVANA|
+|TRF-005.1|teste referente ao RF-005|GIANLUCA|
+|TRF-006.1|teste referente ao RF-006|GIOVANNY|
+|TRF-007.1|teste referente ao RF-007|GIOVANNY|
+|TRF-008.1|teste referente ao RF-008|PEDRO|
+|TRF-009.1|teste referente ao RF-009|GIOVANNY|
+|TRF-010.1|teste referente ao RF-010|ROMÁRIO|
+|TRF-011.1|teste referente ao RF-011|ROMÁRIO|
+
+
 ## Resultados Esperados
 
 |       ID      | Descrição do Requisito  | Prioridade | Responsável |
@@ -20,11 +41,13 @@
 # Registro de Testes de Software
 
 ## TRF-001 - A aplicação apresentará uma HOME PAGE para acesso a determinadas seções sem necessidade de login
-## TRF-002 - A aplicação permitirá que o usuário realize a gestão de ganhos mensais na funcionalidade REGISTRO FINANCEIRO
+## RF-002 - A aplicação apresentará graficamente os dados relativos às receitas e despesas dos últimos 12 na funcionalidade REGISTRO FINANCEIRO
+
+## RF-003 - A aplicação permitirá que o usuário realize a gestão de ganhos mensais na funcionalidade REGISTRO FINANCEIRO
 
 Foi desenvolvido uma seção de registro com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` ganhos mensais. 
 
-### Adicionar ganho
+### TRF-002.1 Adicionar ganho
 `ADICIONAR` um registro: Clicar em "Adicionar registro" na parte superior da tela. Em seguida adicionar os ganhos nos respectivos campos (Descrição: sendo o nome do ganho / Valor: Sendo o valor númerico do seu ganho / Mês: entre Janeiro e Dezembro), clicar em "Adicionar lucro", abaixo dos campos e assim que o valor for mostrado abaixo do botão "Adicionar lucro", clicar em "Efetuar registro", no canto infeior direito, para confirmar a Adição. 
 
 ![image](img/TESTES/testesDio1.jpg)
@@ -43,14 +66,14 @@ Para `EDITAR` o ganho, você deve clicar no icone de edição, abaixo do "Editar
 
 ![image](img/TESTES/testesDio5.jpg)
 
-### Remover ganho
+### Excluir ganho
 Depois de criar o ganho, para `REMOVER` o registro basta clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o resgitro clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
 
 ![image](img/TESTES/testesDio6.jpg)
 
 ![image](img/TESTES/testesDio7.jpg)
 
-## TRF-003 - A aplicação permitirá que o usuário realize a gestão de gastos mensais na funcionalidade REGISTRO FINANCEIRO
+## RF-004 - A aplicação permitirá que o usuário realize a gestão de gastos mensais na funcionalidade REGISTRO FINANCEIRO
 
 Foi desenvolvido uma seção de registro com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` gastos mensais. 
 
@@ -73,15 +96,16 @@ Para `EDITAR` o gasto, você deve clicar no icone de edição, abaixo do "Editar
 
 ![image](img/TESTES/testesDio12.jpg)
 
-### Remover gasto
+### Excluir gasto
 Depois de criar o gasto, para `REMOVER` o registro basta clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o resgitro clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
 
 ![image](img/TESTES/testesDio13.jpg)
 
 ![image](img/TESTES/testesDio14.jpg)
 
-## TRF-004 - A aplicação permitirá que o usuário realize a gestão dos valores de despesas mensais na funcionalidade REGISTRO FINANCEIRO
-## TRF-005 - A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
+## RF-005 - A aplicação permitirá que o usuário realize a gestão dos valores de despesas mensais na funcionalidade REGISTRO FINANCEIRO
+
+## RF-006 - A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
 
 Foi desenvolvido um calendário com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` lembretes. 
 
@@ -106,7 +130,7 @@ Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em c
 ![image](img/TESTES/deleteLembrete.png)
 
 
-## TRF-006 - A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação
+## RF-007 - A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação
 
 ### Criar Conta
 
@@ -133,7 +157,7 @@ Para `EXCLUIR` a conta, o usuario deve estar logado, e dentro da página 'Perfil
 ![image](img/TESTES/excluidologin.PNG)
 
 
-## TRF-007 - A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
+## RF-008 - A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
 
 Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente às receitas e despesas, o usuário poderá `VISUALIZAR` toda vez que `ADICIONAR`, `ATUALIZAR` ou `REMOVER` um ganho ou gasto.
 
@@ -157,7 +181,7 @@ O balanço númerico geral referente às receitas e despesas também pode ser vi
 
 ![image](img/TESTES/testesDio20.jpg)
 
-## TRF-008 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
+## RF-009 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
 
 Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR O VALOR DEPOSITADO`, `EDITAR` e `REMOVER` metas financeiras. 
 
@@ -196,7 +220,7 @@ Com uma interface intuitiva, o usuário clicará no botão com um "X" vermelho d
 ![image](img/TESTES/telaAposExclusaoMeta.png)
 
 
-## TRF-009 - A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas.
+## RF-010 - A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas.
 A aplicação permitirá que o usuário acesse páginas e recursos especificos (Agenda, Meta financeira, Registro financeiro e Perfil do Usuario) somente após efetuado o login, caso contrario o mesmo verá um alerta e será redimensionado para a página de login, para efetivar o login ou criar uma conta.
 
 ![image](img/TESTES/validlogin1.PNG)
@@ -204,7 +228,7 @@ A aplicação permitirá que o usuário acesse páginas e recursos especificos (
 ![image](img/TESTES/validlogin3.PNG)
 ![image](img/TESTES/validlogin4.PNG)
 
-## TRF-010 - A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO.
+## RF-011 - A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO.
 Foram desenvolvidas diversas páginas com artigos sobre educação fincanceira para jovens e estas foram agrupadas em uma página de fácil navegação, onde o usuário poderá escolher entre os artigos disponíveis para leitura.
 
 ### Escolher Artigo
@@ -218,7 +242,7 @@ Página ARTIGO:
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/A01.png" width="1020px">
 
-## TRF-011 - A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ.
+## RF-012 - A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ.
 Foi desenvolvida uma página com um jogo interativo de perguntas e respostas sobre conhecimentos em educação fincanceira baseado nos artigos disponívels na aba MATERIAL DIDÁTICO. 
 
 O quiz é composto de seis perguntas, contendo três opções de resposta e apenas uma correta. O quiz conta com um marcador de pontos, uma barra de progesso.
