@@ -25,14 +25,14 @@
 Foi desenvolvido uma seção de registro com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` ganhos mensais. 
 
 ### Adicionar ganho
-`ADICIONAR` um registro: Clicar em "Adicionar registro" na parte superior da tela. Em seguida adicionar os ganhos nos respectivos campos (Descrição: sendo o nome do ganho / Valor: Sendo o valor númerico do seu ganho), clicar em "Adicionar lucro" e assim que o valor for mostrado abaixo dos campos, clicar em "Efetuar registro" para confirmar a Adição. 
+`ADICIONAR` um registro: Clicar em "Adicionar registro" na parte superior da tela. Em seguida adicionar os ganhos nos respectivos campos (Descrição: sendo o nome do ganho / Valor: Sendo o valor númerico do seu ganho / Mês: entre Janeiro e Dezembro), clicar em "Adicionar lucro", abaixo dos campos e assim que o valor for mostrado abaixo do botão "Adicionar lucro", clicar em "Efetuar registro", no canto infeior direito, para confirmar a Adição. 
 
 ![image](img/TESTES/testesDio1.jpg)
 
 ![image](img/TESTES/testesDio2.jpg)
 
 ### Visualizar ganho
-Após adicionar um ganho, o mesmo pode ser visualizado diretamente na página de registro, onde pode `VISUALIZAR` o ganho adicionado, no mês escolhido. O ganho é representado por um icone de "+", abaixo do "Tipo"
+`VISUALIZAR` um registro: o mesmo pode ser visualizado diretamente na página de registro, no mês escolhido. O ganho é representado por um icone de "+", abaixo do "Tipo"
 
 ![image](img/TESTES/testesDio3.jpg)
 
