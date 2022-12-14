@@ -134,102 +134,78 @@ Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em c
 
 #### Teste Logando no sistema após criar a conta:
 
-1• Na página da homepage clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela);
+| Passo |Descrição|
+| :------: |:---------------------|
+|1|Na página da homepage clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela)|
+|2|Aguardar aparecer a opção "Fazer login"|
+|3|Clicar em "Fazer login"|
+|4|Aguardar ser redimensionado para a tela de Login|
+|5|Inserir o E-mail e senha da conta criada (No teste de exemplo em questão as informações são: E-mail:giovanny1412@gmail.com e Senha:giovanny1412)|
+|6|Clicar no botão "Entrar"|
+|7|Aguardar a mensagem informando "Efetuando login"|
+|8|Aguardar ser redimensionado para a homepage|
 
-2• Aguardar aparecer a opção "Fazer login";
-
-3• Clicar em "Fazer login";
-
-4• Aguardar ser redimensionado para a tela de Login;
-
-5• Inserir o E-mail e senha da conta criada (No teste de exemplo em questão as informações são: E-mail:giovanny1412@gmail.com e Senha:giovanny1412)
-
-6• Clicar no botão "Entrar";
-
-7• Aguardar a mensagem informando "Efetuando login"
-
-8• Aguardar ser redimensionado para a homepage.
-
-#### Login Efetuado ✅
-
-<a href= "https://drive.google.com/file/d/1vdATpyI6zdUqw7Ctk1oVCx_v9xnsAMra/view?usp=share_link">Video Teste: fazendo login (00:56 à 01:25)</a>
+|        **Login Efetuado✅**       |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1vdATpyI6zdUqw7Ctk1oVCx_v9xnsAMra/view?usp=share_link">Video Teste: fazendo login (00:56 à 01:25)</a>|
 
 ### TRF-006.2 - Editar Conta
 
 #### Teste editando nome da conta no sistema:
 
-1• Efetuar o login;
+| Passo |Descrição|
+| :------: |:---------------------|
+|1|Efetuar o login|
+|2|Clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela)|
+|3|Clicar em "Editar Perfil"|
+|4|Aguardar ser redimensionado para a tela de Perfil de usuario|
+|5|Alterar no campo nome completo inserindo o novo nome desejado (No teste de exemplo em questão o nome a ser inserido é: "Giovanny Nome Alterado")|
+|6|Digitar a senha atual da conta no campo "Senha atual" (No teste de exemplo em questão a senha atual é: giovanny1412)|
+|7|Clicar no botão "Salvar"|
+|8|Aguardar a mensagem do sistema informando "Alterações salvas com sucesso"|
+|9|A pagina retornara para a tela e Perfil de usuario, porem com a alteração no nome realizada|
 
-2• Clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela);
-
-3• Clicar em "Editar Perfil";
-
-4• Aguardar ser redimensionado para a tela de Perfil de usuario;
-
-5• Alterar no campo nome completo inserindo o novo nome desejado (No teste de exemplo em questão o nome a ser inserido é: "Giovanny Nome Alterado")
-
-6• Digitar a senha atual da conta no campo "Senha atual" (No teste de exemplo em questão a senha atual é: giovanny1412);
-
-7• Clicar no botão "Salvar";
-
-8• Aguardar a mensagem do sistema informando "Alterações salvas com sucesso";
-
-9• A pagina retornara para a tela e Perfil de usuario, porem com a alteração no nome realizada.
-
-#### Nome Alterado ✅
-
-<a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (00:00 à 01:01)</a>
+|        **Nome Alterado✅**       |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (00:00 à 01:01)</a>|
 
 #### Teste alterando a senha da conta:
 
-1• Efetuar o login;
+| Passo |Descrição|
+| :------: |:---------------------|
+|1|Efetuar o login|
+|2|Clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela)|
+|3|Clicar em "Editar Perfil"|
+|4|Aguardar ser redimensionado para a tela de Perfil de usuario|
+|5|Digitar a senha atual da conta no campo "Senha atual" (No teste de exemplo em questão a senha atual é: giovanny1412)|
+|6|Digitar a nova senha desejada no campo "Nova senha" (No teste de exemplo em questão a nova senha é: giovanny123)|
+|7|Digitar a nova senha desejada no campo "Confirme a senha"|
+|8|Clicar no botão "Salvar"|
+|9|Aguardar a mensagem do sistema informando "Alterações salvas com sucesso"|
+|10|A pagina retornara para a tela e Perfil de usuario, porem com a alteração de senha realizada|
 
-2• Clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela);
-
-3• Clicar em "Editar Perfil";
-
-4• Aguardar ser redimensionado para a tela de Perfil de usuario;
-
-5• Digitar a senha atual da conta no campo "Senha atual" (No teste de exemplo em questão a senha atual é: giovanny1412);
-
-6• Digitar a nova senha desejada no campo "Nova senha" (No teste de exemplo em questão a nova senha é: giovanny123)
-
-7• Digitar a nova senha desejada no campo "Confirme a senha";
-
-8•  Clicar no botão "Salvar";
-
-9• Aguardar a mensagem do sistema informando "Alterações salvas com sucesso";
-
-10• A pagina retornara para a tela e Perfil de usuario, porem com a alteração de senha realizada.
-
-#### Senha Alterada ✅
-
-<a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (01:01 à 01:40)</a>
-
+|        **Senha Alterada✅**       |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (01:01 à 01:40)</a>|
 
 ### TRF-006.3 - Excluir Conta
 
 #### Teste excluindo a conta do sistema:
 
-1• Efetuar o login;
+| Passo |Descrição|
+| :------: |:---------------------|
+|1|Efetuar o login|
+|2|Clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela)|
+|3|Clicar em "Editar Perfil"|
+|4|Aguardar ser redimensionado para a tela de Perfil de usuario|
+|5|Clicar no botão "Excluir" destacado em vermelho|
+|6|Aguardar aparecer uma janela de confirmação do sistema|
+|7|Clicar novamente em "Excluir" na janela que apareceu|
+|8|Aguardar ser redimensionado para a tela de login|
 
-2• Clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela);
-
-3• Clicar em "Editar Perfil";
-
-4• Aguardar ser redimensionado para a tela de Perfil de usuario;
-
-5• Clicar no botão "Excluir" destacado em vermelho;
-
-6• Aguardar aparecer uma janela de confirmação do sistema;
-
-7• Clicar novamente em "Excluir" na janela que apareceu;
-
-8• Aguardar ser redimensionado para a tela de login.
-
-#### Conta Excluida ✅
-
-<a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (01:40 à 02:13)</a>
+|        **Conta Excluida✅**       |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (01:40 à 02:13)</a>|
 
 
 ## RF-007 - A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
