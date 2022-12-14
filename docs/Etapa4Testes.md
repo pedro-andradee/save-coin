@@ -260,12 +260,18 @@ Com uma interface intuitiva, o usuário clicará no botão com um "X" vermelho d
 
 
 ## RF-009 - A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas.
-A aplicação permitirá que o usuário acesse páginas e recursos especificos (Agenda, Meta financeira, Registro financeiro e Perfil do Usuario) somente após efetuado o login, caso contrario o mesmo verá um alerta e será redimensionado para a página de login, para efetivar o login ou criar uma conta.
 
-![image](img/TESTES/validlogin1.PNG)
-![image](img/TESTES/validlogin2.PNG)
-![image](img/TESTES/validlogin3.PNG)
-![image](img/TESTES/validlogin4.PNG)
+### TRF-009.1 Controle de login
+
+#### Teste de acesso restrito a usuarios logado:
+
+A aplicação permitirá que o usuário acesse páginas e recursos especificos (Agenda, Meta financeira, Registro financeiro e Perfil do Usuario) somente após efetuado o login, caso contrario o mesmo verá um alerta e será redimensionado para a página de login, para efetivar o login e/ou criar uma conta.
+
+|        **Controle de Login✅**       |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1E7YovSpTfcUq-kHHBuvdU2qfBxt2FImo/view?usp=sharing">Video Teste: Tentando acessar sem Login (00:00 à 01:05)</a>|
+|<a href= "https://drive.google.com/file/d/1E7YovSpTfcUq-kHHBuvdU2qfBxt2FImo/view?usp=sharing">Video Teste: Tentando acessar com Login (01:05 à 01:45)</a>|
+
 
 ## RF-010 - A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO.
 Foram desenvolvidas diversas páginas com artigos sobre educação fincanceira para jovens e estas foram agrupadas em uma página de fácil navegação, onde o usuário poderá escolher entre os artigos disponíveis para leitura.
