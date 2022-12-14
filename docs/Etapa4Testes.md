@@ -147,11 +147,8 @@ Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente �
 ### TRF-007.1 ao TRF-007.4 Adicionar gasto ou ganho
 ### TRF-007.5 ao TRF-007.8 Editar gasto ou ganho
 ### TRF-007.9 ao TRF-007.12  Remover gasto ou ganho
-<video controls>
-  <source src="https://gfycat.com/electricscratchyanteater">
-</video>
 
-[![Balanço Financeiro](https://gfycat.com/electricscratchyanteater)](https://gfycat.com/electricscratchyanteater)
+[![Balanço Financeiro](https://drive.google.com/file/d/1YIAEzKZ6cipz06D1HF6zbPGK0DIqV3E2/view)](https://drive.google.com/file/d/1YIAEzKZ6cipz06D1HF6zbPGK0DIqV3E2/view)
 
 ## RF-008 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
 
