@@ -46,6 +46,36 @@ Na janela do lembrete será possível remover o evento ao clicar no botão "Remo
 No ícone de "seta", localizado no menu superior do calendário, será possível exportar seus eventos para o formato desejado.
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/exportLembrete.png" width="1020px">
 
+## Sistema de Login 
+
+## Requisito
+
+### RF-006 - A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação
+
+### Criar Conta
+
+Caso o usuario não possua uma conta já cadastrada no sistema, o mesmo pode criar e `ADICIONAR` uma clicando em "Não possui uma conta? Clique aqui e Cadastre-se", após isto preencher corretamente os campos de novo usuario (Usuario, nome completo, e-mail, senha, confirmação de senha)  e clicando no botão "salvar" os dados do usuario serão `ADICIONADOS` ao sistema com um ID único, possibilitando ao usuario efetuar login posteriormente sem a necessidade de criar outra conta. 
+
+![image](img/TESTES/telalogin.png)
+![image](img/TESTES/modallogin.PNG)
+![image](img/TESTES/fazendologin.PNG)
+
+### Editar Conta
+
+Para `EDITAR` informações da conta é necessario estar logado e após isso clicar na barra de navegação em "Editar Perfil". Após acessar a pagina 'Perfil do Usuario' o mesmo pode alterar as informações como o nome e inserir uma nova senha (após uma validação com a senha atual), e basta clicar no botão "Salvar" que as alterações serão realizadas.
+
+![image](img/TESTES/navbareditperfil.PNG)
+![image](img/TESTES/editperfil1.PNG)
+![image](img/TESTES/editperfilnomealterado.PNG)
+![image](img/TESTES/editperfilnomealterado2.PNG)
+### Excluir Conta
+
+Para `EXCLUIR` a conta, o usuario deve estar logado, e dentro da página 'Perfil do Usuario' o mesmo deve clicar no botão "excluir" destacado em vermelho. Após isso clicar novamente no botão "excluir" que irá aparecer dentro de uma janela para confirmar a vontade do usuario.
+
+![image](img/TESTES/editperfil2.PNG)
+![image](img/TESTES/modalexcluir.PNG)
+![image](img/TESTES/excluidologin.PNG)
+
 
 ## Meta Financeira
 
@@ -74,6 +104,19 @@ Clicando no botão "Editar", um modal com um formulário é aberto para que o us
 Clicando no botão "Adicionar nova meta", um modal com um formulário é aberto para que o usuário possa inserir os dados da nova meta.
 
 <img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/salvar%20editar%20meta.png" width="1020px">
+
+## Lógica de Acesso do Login
+
+## Requisito
+
+### RF-009 - A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas.
+A aplicação permitirá que o usuário acesse páginas e recursos especificos (Agenda, Meta financeira, Registro financeiro e Perfil do Usuario) somente após efetuado o login, caso contrario o mesmo verá um alerta e será redimensionado para a página de login, para efetivar o login ou criar uma conta.
+
+![image](img/TESTES/validlogin1.PNG)
+![image](img/TESTES/validlogin2.PNG)
+![image](img/TESTES/validlogin3.PNG)
+![image](img/TESTES/validlogin4.PNG)
+
 
 ## Material Didático
 
