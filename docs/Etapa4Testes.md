@@ -114,26 +114,45 @@ Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em c
 ### TRF-006.1 - Criar conta
 
 Teste criando uma conta no sistema:
+
 1• Acessar a tela de Login;
+
 2• Clicar em "Não possui uma conta? Clique aqui e Cadastre-se";
+
 3• Esperar abrir uma Janela para ser preenchida as informações do novo usuario;
+
 4• Preencher os campos: Nome, Nome completo, E-mail, Senha e confirmação de senha. (No teste de exemplo foi inserido as seguintes informações: Nome:giovanny, Nome Completo: giovanny sales, E-mail: giovanny1412@gmail.com, Senha:giovanny1412 e Confirmação de senha: giovanny1412);
+
 5• Clicar em "Salvar" abaixo da janela modal;
+
 6• Aguardar a mensagem "Usuario cadastrado com sucesso";
+
 7• Aguardar ser redimensionado para a homepage.
+
 Conta criada✅
+
 <a href= "https://drive.google.com/file/d/1vdATpyI6zdUqw7Ctk1oVCx_v9xnsAMra/view?usp=share_link">Video Teste: criando conta (00:00 à 00:56)</a>
 
 Teste Logando no sistema após criar a conta:
+
 1• Na página da homepage clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela);
+
 2• Aguardar aparecer a opção "Fazer login";
+
 3• Clicar em "Fazer login";
+
 4• Aguardar ser redimensionado para a tela de Login;
+
 5• Inserir o E-mail e senha da conta criada (No teste de exemplo em questão as informações são: E-mail:giovanny1412@gmail.com e Senha:giovanny1412)
+
 6• Clicar no botão "Entrar";
+
 7• Aguardar a mensagem informando "Efetuando login"
+
 8• Aguardar ser redimensionado para a homepage.
+
 Login Efetuado ✅
+
 <a href= "https://drive.google.com/file/d/1vdATpyI6zdUqw7Ctk1oVCx_v9xnsAMra/view?usp=share_link">Video Teste: fazendo login (00:56 à 01:25)</a>
 
 ### TRF-006.2 - Editar Conta
