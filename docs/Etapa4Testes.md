@@ -85,7 +85,7 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 `REMOVER` um registro: Clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o gasto clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
 
 <video controls>
-  <source src="img/TESTES/registrogasto.webm" type="video/webm">
+  <source src="https://drive.google.com/file/d/1YIAEzKZ6cipz06D1HF6zbPGK0DIqV3E2/view">
 </video>
 
 ## RF-005 - A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
