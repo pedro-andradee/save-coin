@@ -111,29 +111,74 @@ Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em c
 
 ## RF-006 - A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação
 
-### Criar Conta
+### TRF-006.1 - Criar conta
 
-Caso o usuario não possua uma conta já cadastrada no sistema, o mesmo pode criar e `ADICIONAR` uma clicando em "Não possui uma conta? Clique aqui e Cadastre-se", após isto preencher corretamente os campos de novo usuario (Usuario, nome completo, e-mail, senha, confirmação de senha)  e clicando no botão "salvar" os dados do usuario serão `ADICIONADOS` ao sistema com um ID único, possibilitando ao usuario efetuar login posteriormente sem a necessidade de criar outra conta. 
+Teste criando uma conta no sistema:
+1• Acessar a tela de Login;
+2• Clicar em "Não possui uma conta? Clique aqui e Cadastre-se";
+3• Esperar abrir uma Janela para ser preenchida as informações do novo usuario;
+4• Preencher os campos: Nome, Nome completo, E-mail, Senha e confirmação de senha. (No teste de exemplo foi inserido as seguintes informações: Nome:giovanny, Nome Completo: giovanny sales, E-mail: giovanny1412@gmail.com, Senha:giovanny1412 e Confirmação de senha: giovanny1412);
+5• Clicar em "Salvar" abaixo da janela modal;
+6• Aguardar a mensagem "Usuario cadastrado com sucesso";
+7• Aguardar ser redimensionado para a homepage.
+Conta criada✅
+<a href= "https://drive.google.com/file/d/1vdATpyI6zdUqw7Ctk1oVCx_v9xnsAMra/view?usp=share_link">Video Teste: criando conta (00:00 à 00:56)</a>
 
-![image](img/TESTES/telalogin.png)
-![image](img/TESTES/modallogin.PNG)
-![image](img/TESTES/fazendologin.PNG)
+Teste Logando no sistema após criar a conta:
+1• Na página da homepage clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela);
+2• Aguardar aparecer a opção "Fazer login";
+3• Clicar em "Fazer login";
+4• Aguardar ser redimensionado para a tela de Login;
+5• Inserir o E-mail e senha da conta criada (No teste de exemplo em questão as informações são: E-mail:giovanny1412@gmail.com e Senha:giovanny1412)
+6• Clicar no botão "Entrar";
+7• Aguardar a mensagem informando "Efetuando login"
+8• Aguardar ser redimensionado para a homepage.
+Login Efetuado ✅
+<a href= "https://drive.google.com/file/d/1vdATpyI6zdUqw7Ctk1oVCx_v9xnsAMra/view?usp=share_link">Video Teste: fazendo login (00:56 à 01:25)</a>
 
-### Editar Conta
+### TRF-006.2 - Editar Conta
 
-Para `EDITAR` informações da conta é necessario estar logado e após isso clicar na barra de navegação em "Editar Perfil". Após acessar a pagina 'Perfil do Usuario' o mesmo pode alterar as informações como o nome e inserir uma nova senha (após uma validação com a senha atual), e basta clicar no botão "Salvar" que as alterações serão realizadas.
+Teste editando nome da conta no sistema:
+1• Efetuar o login;
+2• Clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela);
+3• Clicar em "Editar Perfil";
+4• Aguardar ser redimensionado para a tela de Perfil de usuario;
+5• Alterar no campo nome completo inserindo o novo nome desejado (No teste de exemplo em questão o nome a ser inserido é: "Giovanny Nome Alterado")
+6• Digitar a senha atual da conta no campo "Senha atual" (No teste de exemplo em questão a senha atual é: giovanny1412);
+7• Clicar no botão "Salvar";
+8• Aguardar a mensagem do sistema informando "Alterações salvas com sucesso";
+9• A pagina retornara para a tela e Perfil de usuario, porem com a alteração no nome realizada.
+Nome Alterado ✅
+<a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (00:00 à 01:01)</a>
 
-![image](img/TESTES/navbareditperfil.PNG)
-![image](img/TESTES/editperfil1.PNG)
-![image](img/TESTES/editperfilnomealterado.PNG)
-![image](img/TESTES/editperfilnomealterado2.PNG)
-### Excluir Conta
+Teste alterando a senha da conta:
+1• Efetuar o login;
+2• Clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela);
+3• Clicar em "Editar Perfil";
+4• Aguardar ser redimensionado para a tela de Perfil de usuario;
+5• Digitar a senha atual da conta no campo "Senha atual" (No teste de exemplo em questão a senha atual é: giovanny1412);
+6• Digitar a nova senha desejada no campo "Nova senha" (No teste de exemplo em questão a nova senha é: giovanny123)
+7• Digitar a nova senha desejada no campo "Confirme a senha";
+8•  Clicar no botão "Salvar";
+9• Aguardar a mensagem do sistema informando "Alterações salvas com sucesso";
+10• A pagina retornara para a tela e Perfil de usuario, porem com a alteração de senha realizada.
+Senha Alterada ✅
+<a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (01:01 à 01:40)</a>
 
-Para `EXCLUIR` a conta, o usuario deve estar logado, e dentro da página 'Perfil do Usuario' o mesmo deve clicar no botão "excluir" destacado em vermelho. Após isso clicar novamente no botão "excluir" que irá aparecer dentro de uma janela para confirmar a vontade do usuario.
 
-![image](img/TESTES/editperfil2.PNG)
-![image](img/TESTES/modalexcluir.PNG)
-![image](img/TESTES/excluidologin.PNG)
+### TRF-006.3 - Excluir Conta
+
+Teste excluindo a conta do sistema:
+1• Efetuar o login;
+2• Clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela);
+3• Clicar em "Editar Perfil";
+4• Aguardar ser redimensionado para a tela de Perfil de usuario;
+5• Clicar no botão "Excluir" destacado em vermelho;
+6• Aguardar aparecer uma janela de confirmação do sistema;
+7• Clicar novamente em "Excluir" na janela que apareceu;
+8• Aguardar ser redimensionado para a tela de login.
+Conta Excluida ✅
+<a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (01:40 à 02:13)</a>
 
 
 ## RF-007 - A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO
