@@ -68,7 +68,7 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 `REMOVER` um registro: Clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o ganho clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
 
 <video controls>
-  <source src="img/TESTES/registroganho .webm" type="video/webm">
+  <source src="img/TESTES/registroganho.webm" type="video/webm">
 </video>
 
 ## RF-004 - A aplicação permitirá que o usuário realize a gestão de gastos mensais na funcionalidade REGISTRO FINANCEIRO
@@ -85,7 +85,7 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 `REMOVER` um registro: Clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o gasto clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
 
 <video controls>
-  <source src="img/TESTES/registrogasto .webm" type="video/webm">
+  <source src="img/TESTES/registrogasto.webm" type="video/webm">
 </video>
 
 ## RF-005 - A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
@@ -148,7 +148,7 @@ Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente �
 ### TRF-007.5 ao TRF-007.8 Editar gasto ou ganho
 ### TRF-007.9 ao TRF-007.12  Remover gasto ou ganho
 <video controls>
-  <source src="img/TESTES/balanço .webm" type="video/webm">
+  <source src="img/TESTES/balanço.webm" type="video/webm">
 </video>
 
 ## RF-008 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
