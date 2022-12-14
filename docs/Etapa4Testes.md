@@ -67,9 +67,7 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 ### TRF-003.4 Excluir ganho
 `REMOVER` um registro: Clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o ganho clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
 
-<video controls>
-  <source src="img/TESTES/registroganho.webm" type="video/webm">
-</video>
+[![Video Teste: Registro Ganhos](https://drive.google.com/file/d/11GvuqEGdSChMwkSkUU2fw8_BaheFr0VP/view)](https://drive.google.com/file/d/11GvuqEGdSChMwkSkUU2fw8_BaheFr0VP/view)
 
 ## RF-004 - A aplicação permitirá que o usuário realize a gestão de gastos mensais na funcionalidade REGISTRO FINANCEIRO
 
@@ -84,9 +82,7 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 ### TRF-004.4 Excluir gasto
 `REMOVER` um registro: Clicar no icone de exclusão, abaixo do "Deletar", assim, você será redirecionado a um menu com a opção de exclusão, nele, basta remover o gasto clicando no icone de "lixeira" e para salva clicar em "Efetuar registro" para confirmar a exclusão.
 
-<video controls>
-  <source src="https://drive.google.com/file/d/1YIAEzKZ6cipz06D1HF6zbPGK0DIqV3E2/view">
-</video>
+[![Video Teste: Registro de Gastos](https://drive.google.com/file/d/1J5dDCl2P76Sb1cxtZgS5NrG7O7NfU6qM/view)](https://drive.google.com/file/d/1J5dDCl2P76Sb1cxtZgS5NrG7O7NfU6qM/view)
 
 ## RF-005 - A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
 
@@ -148,7 +144,7 @@ Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente �
 ### TRF-007.5 ao TRF-007.8 Editar gasto ou ganho
 ### TRF-007.9 ao TRF-007.12  Remover gasto ou ganho
 
-[![Balanço Financeiro](https://drive.google.com/file/d/1YIAEzKZ6cipz06D1HF6zbPGK0DIqV3E2/view)](https://drive.google.com/file/d/1YIAEzKZ6cipz06D1HF6zbPGK0DIqV3E2/view)
+[![Video Teste: Balanço Financeiro](https://drive.google.com/file/d/1YIAEzKZ6cipz06D1HF6zbPGK0DIqV3E2/view)](https://drive.google.com/file/d/1YIAEzKZ6cipz06D1HF6zbPGK0DIqV3E2/view)
 
 ## RF-008 - A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA.
 
