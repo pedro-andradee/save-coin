@@ -113,7 +113,7 @@ Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em c
 
 ### TRF-006.1 - Criar conta
 
-Teste criando uma conta no sistema:
+#### Teste criando uma conta no sistema:
 
 1• Acessar a tela de Login;
 
@@ -129,11 +129,11 @@ Teste criando uma conta no sistema:
 
 7• Aguardar ser redimensionado para a homepage.
 
-Conta criada✅
+#### Conta criada✅
 
 <a href= "https://drive.google.com/file/d/1vdATpyI6zdUqw7Ctk1oVCx_v9xnsAMra/view?usp=share_link">Video Teste: criando conta (00:00 à 00:56)</a>
 
-Teste Logando no sistema após criar a conta:
+#### Teste Logando no sistema após criar a conta:
 
 1• Na página da homepage clicar no ícone de perfil na barra de navegações (Localizado no canto superior direito da tela);
 
@@ -151,13 +151,13 @@ Teste Logando no sistema após criar a conta:
 
 8• Aguardar ser redimensionado para a homepage.
 
-Login Efetuado ✅
+#### Login Efetuado ✅
 
 <a href= "https://drive.google.com/file/d/1vdATpyI6zdUqw7Ctk1oVCx_v9xnsAMra/view?usp=share_link">Video Teste: fazendo login (00:56 à 01:25)</a>
 
 ### TRF-006.2 - Editar Conta
 
-Teste editando nome da conta no sistema:
+#### Teste editando nome da conta no sistema:
 
 1• Efetuar o login;
 
@@ -177,11 +177,11 @@ Teste editando nome da conta no sistema:
 
 9• A pagina retornara para a tela e Perfil de usuario, porem com a alteração no nome realizada.
 
-Nome Alterado ✅
+#### Nome Alterado ✅
 
 <a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (00:00 à 01:01)</a>
 
-Teste alterando a senha da conta:
+#### Teste alterando a senha da conta:
 
 1• Efetuar o login;
 
@@ -202,14 +202,15 @@ Teste alterando a senha da conta:
 9• Aguardar a mensagem do sistema informando "Alterações salvas com sucesso";
 
 10• A pagina retornara para a tela e Perfil de usuario, porem com a alteração de senha realizada.
-Senha Alterada ✅
+
+#### Senha Alterada ✅
 
 <a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (01:01 à 01:40)</a>
 
 
 ### TRF-006.3 - Excluir Conta
 
-Teste excluindo a conta do sistema:
+#### Teste excluindo a conta do sistema:
 
 1• Efetuar o login;
 
@@ -227,7 +228,7 @@ Teste excluindo a conta do sistema:
 
 8• Aguardar ser redimensionado para a tela de login.
 
-Conta Excluida ✅
+#### Conta Excluida ✅
 
 <a href= "https://drive.google.com/file/d/14BNRer1fUVtdutvTSHsx09BuQirrTYOB/view?usp=sharing">Video Teste: Editando nome da conta (01:40 à 02:13)</a>
 
