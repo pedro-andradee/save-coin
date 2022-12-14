@@ -13,7 +13,9 @@
 |TRF-004.3|Editar um registro do tipo gasto|DIOVANA|
 |TRF-004.4|Excluir um registro do tipo gasto|DIOVANA|
 |TRF-005.1|teste referente ao RF-005|GIANLUCA|
-|TRF-006.1|teste referente ao RF-006|GIOVANNY|
+|TRF-006.1|Criar uma conta e fazer login|GIOVANNY|
+|TRF-006.2|Editar informações da conta|GIOVANNY|
+|TRF-006.3|Excluir a conta do sistema|GIOVANNY|
 |TRF-007.1|Ao adicionar um registro do tipo ganho, o valor do balanço deverá ser alterado positivamente na página de edição|GIOVANNY|
 |TRF-007.2|Ao adicionar um registro do tipo gasto, o valor do balanço deverá ser alterado negativamentena página de edição|GIOVANNY|
 |TRF-007.3|Ao adicionar um registro do tipo ganho, o valor do balanço deverá ser alterado positivamente na página de visualização|GIOVANNY|
