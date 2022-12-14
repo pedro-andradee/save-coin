@@ -331,7 +331,7 @@ Ao fim do quiz, será exibida uma tela com a informação "Fim de Jogo!", a pont
 |TRF-006|login.html, editperfilusuario.html e footer.html |O usuario foi capaz de criar uma conta, alterar as informações da conta e excluir a mesma.|GIOVANNY|
 |TRF-007|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a leitura do balanco financeiro após a criação, atualização ou remoção dos ganhos e gastos na ferramenta Registro Financeiro.|GIOVANNY|
 |TRF-008|metaFinanceira.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção das metas na ferramenta Meta Financeira.|PEDRO|
-|TRF-009|TODAS|A aplicação não permitiu acesso as páginas e recursos: Agenda, Meta financeira, Registro financeiro e Perfil do Usuario quando o usuario não estava logado. |GIOVANNY|
+|TRF-009|TODAS|A aplicação só permitiu acesso as páginas e recursos: Agenda, Meta financeira, Registro financeiro e Perfil do Usuario quando o usuario estava logado. |GIOVANNY|
 |TRF-010|hArticle.html e articleXX.hmtl|O usuário foi capaz de navegar entre os conteúdos disponíveis para leitura na ferramenta MATERIAL DIDÁTICO.|ROMÁRIO|
 |TRF-011|quiz.html|O usuário foi capaz de interagir e testar seus conhecimentos na ferramenta QUIZ.|ROMÁRIO|
 
