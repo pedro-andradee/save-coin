@@ -29,7 +29,7 @@
 |TRF-007.11|Ao remover um registro do tipo ganho, o valor do balanço deverá ser alterado negativamente na página de visualização|GIOVANNY|
 |TRF-007.12|Ao remover um registro do tipo gasto, o valor do balanço deverá ser alterado positivamente na página de visualização|GIOVANNY|
 |TRF-008.1|teste referente ao RF-008|PEDRO|
-|TRF-009.1|teste referente ao RF-009|GIOVANNY|
+|TRF-009.1|Acessar as páginas: Agenda, Meta financeira, Registro financeiro e Perfil do Usuario somente quando estiver logado|GIOVANNY|
 |TRF-010.1|teste referente ao RF-010|ROMÁRIO|
 |TRF-011.1|teste referente ao RF-011|ROMÁRIO|
 
