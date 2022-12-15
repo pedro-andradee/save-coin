@@ -238,7 +238,7 @@ Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `V
 
 |   **Teste: Adicionar uma meta financeira**   |
 |:------------------------------:|
-|<a target="_blank" href= "https://drive.google.com/file/d/1kPVYv_PT9TCqoEN1RV8eS49zkcjxwP3_/view?usp=sharing">Video Teste: Adicionar uma meta financeira</a>|
+|<a href= "https://drive.google.com/file/d/1kPVYv_PT9TCqoEN1RV8eS49zkcjxwP3_/view?usp=sharing" target="_blank">Video Teste: Adicionar uma meta financeira</a>|
 
 ### Teste: Visualizar Meta
 
