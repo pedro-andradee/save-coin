@@ -32,7 +32,7 @@
 |TRF-008.2|Visualizar meta financeira|PEDRO|
 |TRF-008.3|Atualizar o valor depositado para cumprir uma meta financeira|PEDRO|
 |TRF-008.4|Editar uma meta financeira|PEDRO|
-|TRF-008.5|Excluir uma meta financeira|PEDRO|
+|TRF-008.5|Remover uma meta financeira|PEDRO|
 |TRF-009.1|Acessar as páginas: Agenda, Meta financeira, Registro financeiro e Perfil do Usuario somente quando estiver logado|GIOVANNY|
 |TRF-010.1|teste referente ao RF-010|ROMÁRIO|
 |TRF-011.1|teste referente ao RF-011|ROMÁRIO|
@@ -233,38 +233,58 @@ Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `V
 | Passo |Descrição|
 | :------: |:---------------------|
 | 1 |Clicar no botão amarelo "Adicionar nova meta"|
-| 2 |Preencher no modal os campos do formulário. Valores usados: Campo Descrição da meta: Livro de ciências; Campo valor da meta: 150; Campo data para atingir a meta: 30/12/2022|
+| 2 |Preencher os campos do formulário presentes no modal. Valores usados: Campo Descrição da meta: Livro de ciências; Campo valor da meta: 150; Campo data para atingir a meta: 30/12/2022|
 | 3 |Para completar a adição da nova meta com os valores inseridos nos campos, clicar no botão amarelo "Salvar"|
 
-|   **Teste: Adicionar meta financeira**   |
+|   **Teste: Adicionar uma meta financeira**   |
 |:------------------------------:|
-|<a href= "https://drive.google.com/file/d/1kPVYv_PT9TCqoEN1RV8eS49zkcjxwP3_/view?usp=sharing">Video Teste: Adicionar meta financeira</a>|
+|<a href= "https://drive.google.com/file/d/1kPVYv_PT9TCqoEN1RV8eS49zkcjxwP3_/view?usp=sharing">Video Teste: Adicionar uma meta financeira</a>|
 
-### Visualizar Meta
-Ao entrar na página de metas financeiras serão carregadas as metas já cadastradas pelo usuário.
+### Teste: Visualizar Meta
 
-![image](img/TESTES/novaMetaFinanceiraCriada.png)
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Entrar na página de Metas Financeiras|
+| 2 |Visualizar as metas cadastradas pelo usuário|
 
-### Atualizar valor depositado para a cumprir a meta
-Para ATUALIZAR a quantia já depositada na meta, o usuário clicará no botão "Nova Entrada". Em seguida, abrirá um modal em que o usuário irá preencher o campo com o valor a ser depositado, referente ao valor guardado para cumprir a meta. Por fim, clicando no botão "Salvar" o usuário finaliza o processo de atualizar o valor depositado da meta.
+|   **Teste: Visualizar meta financeira**   |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1e07PkMUnNnoG4wSCMjEc7aGdYEeLIvc-/view?usp=sharing">Video Teste: Visualizar meta financeira</a>|
 
-![image](img/TESTES/addNovaEntradaMeta.png)
-Após salvar, o usuário verá a atualização do valor referente à quantia que falta para cumprir a meta e a atualização da barra verde que indica o progresso para atingir a meta.
+### Teste: Atualizar valor depositado para a cumprir uma meta financeira
 
-![image](img/TESTES/atualizacaoNovaEntradaMeta.png)
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Clicar no botão amarelo "Nova Entrada"|
+| 2 |Preencher o campo do formulário presente no modal. Valor usado para a nova entrada: 50|
+| 3 |Para completar a atualização do valor depositado com o valor inserido no campo, clicar no botão amarelo "Salvar"|
+
+|   **Teste: Atualizar valor depositado**   |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1XNAoflIbSWwBkoBeBMxkNmTVR8JVDjHc/view?usp=sharing">Video Teste: Atualizar valor depositado</a>|
 
 ### Editar Meta
-Para EDITAR a descrição, o valor ou a data da meta, o usuário clicará no botão "Editar". Em seguida, abrirá um modal em que o usuário irá preencher os campos com os valores atuais da meta, modificando os valores desejados. Por fim, ao clicar no botão "Salvar", o usuário conseguirá ver a meta com os novos valores.
 
-![image](img/TESTES/editarMetaFinanceira.png)
-![image](img/TESTES/metaFinanceiraEditada.png)
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Clicar no botão amarelo "Editar"|
+| 2 |Preencher os campos do formulário presentes no modal. Valores usados: Campo Descrição da meta: Livro de física; Campo valor da meta: 150; Campo data para atingir a meta: 30/12/2022|
+| 3 |Para completar a edição da meta com os valores inseridos nos campos, clicar no botão amarelo "Salvar"|
+
+|   **Teste: Editar uma meta financeira**   |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1-2-bNrPbavZDI0ybQjeQ4gCJd7odCBIo/view?usp=sharing">Video Teste: Editar uma meta financeira</a>|
 
 ### Remover Meta
-Com uma interface intuitiva, o usuário clicará no botão com um "X" vermelho dentro de um círculo para REMOVER a meta selecionada. Em seguida, abrirá um modal em que irá confirmar o seu desejo de remoção. Por fim, ao clicar no botão "Excluir", a exclusão será realizada.
 
-![image](img/TESTES/modalExcluirMetaFinanceira.png)
-![image](img/TESTES/telaAposExclusaoMeta.png)
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Clicar no botão com um "X" vermelho dentro de um círculo vermelho para REMOVER a meta selecionada|
+| 2 |Para completar a remoção da meta, clicar no botão vermelho "Excluir"|
 
+|   **Teste: Remover uma meta financeira**   |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1tZ6jTANWkIhaxdNwRyVJLiMUJZ158jd2/view?usp=sharing">Video Teste: Remover uma meta financeira</a>|
 
 ## RF-009 - A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas.
 
