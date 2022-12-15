@@ -15,9 +15,6 @@ const fetchPreviousData = () =>{
   const mainObject = getUserData
 
   for (const [key, value] of Object.entries(mainObject)) {
-    console.log("key", key)
-    console.log("value", value)
-
     const accordionDivButton = document.createElement("div");
     accordionDivButton.addEventListener("click",() => { changeAccordion(`${key}`)})
 
@@ -28,7 +25,6 @@ const fetchPreviousData = () =>{
     const monthValue = document.createElement("h3");
     monthValue.classList.add("greenicon");
     monthValue.innerHTML = `${key}`
-
 
     const iconAccordion = document.createElement("i");
     iconAccordion.classList.add("bi","bi-caret-down-fill")
@@ -60,18 +56,12 @@ const fetchPreviousData = () =>{
     spanEditar.innerHTML = "Editar"
     spanDeletar.innerHTML = "Deletar"
 
-
-
-
     const accordionItems = document.createElement("div");
     accordionItems.classList.add("accordionContentItems")
     accordionItems.classList.add("m-2")
 
     let lucroMensal = 0;
-    for(let x=0; x< value.registros.length; x++ ){
-      console.log("AQ", value.registros[x])
-      
-
+    for(let x=0; x< value.registros.length; x++ ){ 
       const maindiv = document.createElement("div");
       maindiv.classList.add("accordionContentItemsHeader")
       maindiv.classList.add("m-0")
@@ -79,7 +69,6 @@ const fetchPreviousData = () =>{
 
       const DescriptionName = document.createElement("h3");
       DescriptionName.innerHTML = value.registros[x].desc
-
 
       const accordionSubContainer = document.createElement("div");
       accordionSubContainer.classList.add("accordionContainer")
@@ -103,14 +92,11 @@ const fetchPreviousData = () =>{
       editButton.href = '../savecoin/AddRegistroFinanceiro.html' 
       editButton.append(editIcon)
 
-
-
       const deleteButton = document.createElement("a");
       const deleteIcon = document.createElement("i");
       deleteIcon.classList.add("fa-solid","fa-trash","fa-xl","redicon")
       deleteButton.href = '../savecoin/AddRegistroFinanceiro.html' 
       deleteButton.append(deleteIcon)
-
 
       accordionSubContainer.append(spanValue, iconType, editButton, deleteButton)
 
@@ -120,7 +106,6 @@ const fetchPreviousData = () =>{
     }
 
     monthValue.innerHTML = `${lucroMensal} R$`
-
 
     accordionDivContainer.append(monthName,monthValue)
 
@@ -146,7 +131,6 @@ const changeAccordion = (mes) => {
 
   if (accordionContainer?.classList[0] === "displayblock") {
     // SE TIVERMOS MOSTRANDO VAMOS REMOVER A DIV DA VISÃO
-
     accordionContainer.classList.add("displaynone");
     accordionContainer.classList.remove("displayblock");
 
@@ -154,7 +138,6 @@ const changeAccordion = (mes) => {
     accordionIcon.classList?.add("bi-caret-down-fill");
   } else {
     // SE TIVERMOS NÃO MOSTRANDO VAMOS MOSTRAR A DIV
-
     accordionContainer?.classList.add("displayblock");
 
     accordionIcon?.classList?.add("bi-caret-up-fill");
