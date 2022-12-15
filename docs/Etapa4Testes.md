@@ -12,7 +12,14 @@
 |TRF-004.2|Visualizar um registro do tipo gasto|DIOVANA|
 |TRF-004.3|Editar um registro do tipo gasto|DIOVANA|
 |TRF-004.4|Excluir um registro do tipo gasto|DIOVANA|
-|TRF-005.1|teste referente ao RF-005|GIANLUCA|
+|TRF-005.1|Ao adicionar um lembrete na Agenda, o lembrete deve ser visualizado na Agenda|GIANLUCA|
+|TRF-005.2|Após a adição de um lembrete, deverá ser possível visualizar o lembrete na Agenda|GIANLUCA|
+|TRF-005.3|Ao editar um lembrete na Agenda, as informações modificadas devem ser atualizadas|GIANLUCA|
+|TRF-005.4|Após a edição de um lembrete, deverá ser possível visualizar o lembrete editado na Agenda|GIANLUCA|
+|TRF-005.5|Ao excluir um lembrete na Agenda, o lembrete não deverá aparecer na Agenda|GIANLUCA|
+|TRF-005.6|Após a remoção de um lembrete, não deverá ser possível visualizar o lembrete Agenda|GIANLUCA|
+|TRF-005.7|Ao exportar um lembrete da Agenda, o lembrete deve ser baixado no dispositivo do usuário|GIANLUCA|
+|TRF-005.8|Após a exportação de um lembrete, deverá ser possível visualizar o lembrete no dispositivo do usuário|GIANLUCA|
 |TRF-006.1|Criar uma conta e fazer login|GIOVANNY|
 |TRF-006.2|Editar informações da conta|GIOVANNY|
 |TRF-006.3|Excluir a conta do sistema|GIOVANNY|
@@ -92,27 +99,77 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 
 ## RF-005 - A aplicação permitirá que o usuário realize a gestão de datas para lembretes financeiros na funcionalidade AGENDA
 
-Foi desenvolvido um calendário com interação do usuário, onde o mesmo pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR` e `REMOVER` lembretes. 
+### TRF-005.1 & 2 - Adicionar lembrete
 
-### Adicionar lembrete
-Com uma interface amigável e intuitiva, o usuário pode `ADICIONAR` um lembrete na agenda clicando no ícone de + na parte superior da navbar do calendário. Em seguida adicionar os dados e salvar. 
+#### Teste adicionando lembrete:
 
-![image](img/TESTES/createLembrete.png)
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Acessar a tela de Login e realizar o Login|
+| 2 |Clicar no ícone da Agenda|
+| 3 |Abrirá a página da Agenda: `agenda.html`|
+| 4 |Clicar no ícone de "+" localizado no canto superior direito da Agenda|
+| 5 |Abrirá um modal onde será possível inserir os dados do lembrete|
+| 6 |Após inserir os dados, clicar o botão "Adicionar"|
+| 7 |O lembrete foi adicionado na agenda|
 
-### Visualizar lembrete
-Após adicionar um evento, o mesmo pode ser visualizado diretamente na agenda ou até mesmo pela navbar, onde pode `VISUALIZAR` o evento adicionado.
+|        **Lembrete Adicionado✅**       |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1RoWpWxvv94v_mm-xu-YaEthZD8JmNr4a/view?usp=sharing">**Video Teste: adicionando lembrete (00:00 à 00:29)**</a>|
 
-![image](img/TESTES/readLembrete.png)
+### TRF-005.3 & 4 - Aditar lembrete
 
-### Editar lembrete
-Para `EDITAR` o lembrete deve clicar duas vezes em cima do lembrete desejado ou clicar com o botão esquerdo do mouse, assim, abrindo um menu com a opção de edição, realizar a edição desejada e salvar.
+#### Teste editando lembrete:
 
-![image](img/TESTES/updateLembrete.png)
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Acessar a tela de Login e realizar o Login|
+| 2 |Clicar no ícone da Agenda|
+| 3 |Abrirá a página da Agenda: `agenda.html`|
+| 4 |Clicar em cima do lembrete desejado para edição com o botão direito, abrirá um menu onde será possível clicar em "Editar o lembrete"|
+| 5 |Abrirá um modal onde será possível inserir os dados do lembrete|
+| 6 |Após atualizar os dados do lembrete, clicar no botão "Atualizar"|
+| 7 |O lembrete foi atualizado na agenda|
 
-### Remover lembrete
-Depois de criar o lembrete, para `REMOVER` o evento basta clicar duas vezes em cima do lembrete desejado e apertar o botão de remover ou clicar com o botão esquerdo do mouse, assim, abrindo um menu com a opção de exclusão. Em ambas as formas aparecerá uma mensagem se o usuário deseja remover o lembrete.
+|        **Lembrete Editado✅**       |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1RoWpWxvv94v_mm-xu-YaEthZD8JmNr4a/view?usp=sharing">**Video Teste: editando lembrete (00:29 à 00:46)**</a>|
 
-![image](img/TESTES/deleteLembrete.png)
+### TRF-005.5 & 6 - Excluir lembrete
+
+#### Teste excluindo lembrete:
+
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Acessar a tela de Login e realizar o Login|
+| 2 |Clicar no ícone da Agenda|
+| 3 |Abrirá a página da Agenda: `agenda.html`|
+| 4 |Clicar em cima do lembrete desejado para exclusão com o botão direito, abrirá um menu onde será possível clicar em "Remover"|
+| 5 |Abrirá um modal de confirmação para a exclusão|
+| 6 |Após clicar no botão "Sim", o lembrete será excluído da Agenda|
+| 7 |O lembrete foi excluído na agenda|
+
+|        **Lembrete Excluído✅**       |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1RoWpWxvv94v_mm-xu-YaEthZD8JmNr4a/view?usp=sharing">**Video Teste: excluindo lembrete (00:46 à 00:56)**</a>|
+
+### TRF-005.7 & 8 - Exportar lembrete
+
+#### Teste exportando lembrete:
+
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Acessar a tela de Login e realizar o Login|
+| 2 |Clicar no ícone da Agenda|
+| 3 |Abrirá a página da Agenda: `agenda.html`|
+| 4 |Clicar no ícone da "seta" localizado no canto superior direito da Agenda|
+| 5 |Abrirá um modal onde será possível escolher as opções de exportação|
+| 6 |Após clicar no botão "Salavar", os lembretes serão baixados no dispositivo do usuário|
+| 7 |Clicar no arquivo baixado e aparecerá seus eventos adicionados na Agenda|
+
+|        **Lembrete Exportado✅**       |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1RoWpWxvv94v_mm-xu-YaEthZD8JmNr4a/view?usp=sharing">**Video Teste: exportando lembrete (00:56 à 01:33)**</a>|
 
 
 ## RF-006 - A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação
