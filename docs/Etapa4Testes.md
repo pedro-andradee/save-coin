@@ -28,7 +28,11 @@
 |TRF-007.10|Ao remover um registro do tipo gasto, o valor do balanço deverá ser alterado positivamente página de edição|GIOVANNY|
 |TRF-007.11|Ao remover um registro do tipo ganho, o valor do balanço deverá ser alterado negativamente na página de visualização|GIOVANNY|
 |TRF-007.12|Ao remover um registro do tipo gasto, o valor do balanço deverá ser alterado positivamente na página de visualização|GIOVANNY|
-|TRF-008.1|teste referente ao RF-008|PEDRO|
+|TRF-008.1|Adicionar uma meta financeira|PEDRO|
+|TRF-008.2|Visualizar meta financeira|PEDRO|
+|TRF-008.3|Atualizar o valor depositado para cumprir uma meta financeira|PEDRO|
+|TRF-008.4|Editar uma meta financeira|PEDRO|
+|TRF-008.5|Excluir uma meta financeira|PEDRO|
 |TRF-009.1|Acessar as páginas: Agenda, Meta financeira, Registro financeiro e Perfil do Usuario somente quando estiver logado|GIOVANNY|
 |TRF-010.1|teste referente ao RF-010|ROMÁRIO|
 |TRF-011.1|teste referente ao RF-011|ROMÁRIO|
@@ -225,13 +229,16 @@ Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente �
 Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR O VALOR DEPOSITADO`, `EDITAR` e `REMOVER` metas financeiras. 
 
 ### Adicionar Meta
-Com uma interface amigável e intuitiva, o usuário pode ADICIONAR uma meta financeira clicando no botão amarelo "Adicionar nova meta". Em seguida, pode preencher os campos referentes à descrição, valor e a data final da meta. Para completar a adição da nova meta com os valores inseridos nos campos, basta clicar no botão "Salvar".
 
-![image](img/TESTES/metaFinanceiraNovaMeta.png)
-![image](img/TESTES/novaMetaFinanceiraModal.png)
-Após clicar em "Salvar", pode-se VISUALIZAR que uma nova meta financeira foi criada.
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Clicar no botão amarelo "Adicionar nova meta"|
+| 2 |Preencher no modal os campos do formulário. Valores usados: Campo Descrição da meta: Livro de ciências; Campo valor da meta: 150; Campo data para atingir a meta: 30/12/2022|
+| 3 |Para completar a adição da nova meta com os valores inseridos nos campos, clicar no botão amarelo "Salvar"|
 
-![image](img/TESTES/novaMetaFinanceiraCriada.png)
+|   **Adicionar meta financeira✅**   |
+|:------------------------------:|
+|<a href= "https://drive.google.com/file/d/1kPVYv_PT9TCqoEN1RV8eS49zkcjxwP3_/view?usp=sharing">Video Teste: Adicionar meta financeira</a>|
 
 ### Visualizar Meta
 Ao entrar na página de metas financeiras serão carregadas as metas já cadastradas pelo usuário.
