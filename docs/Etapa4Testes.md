@@ -228,7 +228,7 @@ Foi desenvolvido no Registro Financeiro, o balanço númerico mensal referente �
 
 Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `VISUALIZAR`, `ATUALIZAR O VALOR DEPOSITADO`, `EDITAR` e `REMOVER` metas financeiras. 
 
-### Adicionar Meta
+### Teste: Adicionar Meta
 
 | Passo |Descrição|
 | :------: |:---------------------|
@@ -236,7 +236,7 @@ Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `V
 | 2 |Preencher no modal os campos do formulário. Valores usados: Campo Descrição da meta: Livro de ciências; Campo valor da meta: 150; Campo data para atingir a meta: 30/12/2022|
 | 3 |Para completar a adição da nova meta com os valores inseridos nos campos, clicar no botão amarelo "Salvar"|
 
-|   **Adicionar meta financeira✅**   |
+|   **Teste: Adicionar meta financeira**   |
 |:------------------------------:|
 |<a href= "https://drive.google.com/file/d/1kPVYv_PT9TCqoEN1RV8eS49zkcjxwP3_/view?usp=sharing">Video Teste: Adicionar meta financeira</a>|
 
