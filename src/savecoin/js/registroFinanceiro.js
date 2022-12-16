@@ -293,7 +293,7 @@ var ChartBarGastos2 = new Chart(
 document.getElementsByClassName('ChartBarGastos2'),
 configGastos2
 );
-
+/*
    // CHART LINE ANUAL GASTOS
 
           var ctx = document.getElementsByClassName("ChartLineAnual")
@@ -327,7 +327,7 @@ configGastos2
               }
             }
           });
-
+*/
 
 /*
 <div class="graficos-giovanny">

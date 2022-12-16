@@ -286,6 +286,8 @@ const efetuarRegistro = () => {
     window.location.href = 'registroFinanceiro.html' 
 }
 
+/*
+
    // CHART LINE 12 MESES
 
    var ctx = document.getElementsByClassName("ChartLine12M")
@@ -325,3 +327,5 @@ const efetuarRegistro = () => {
        }
      }
    });
+
+   */
