@@ -370,6 +370,7 @@ A aplicação permitirá que o usuário acesse páginas e recursos especificos (
 
 Visualização do teste:
 
+![Material Didático](https://user-images.githubusercontent.com/112512788/208178945-c15834c6-db88-4893-bf56-9ac8a064eab8.gif)
 
 ## RF-011 - A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na página QUIZ.
 
@@ -393,6 +394,7 @@ Visualização do teste:
 
 Visualização do teste:
 
+![Quiz](https://user-images.githubusercontent.com/112512788/208179019-1a4abe17-e470-4671-b893-f6d423973e17.gif)
 
 ## Resultados Obtidos
 
