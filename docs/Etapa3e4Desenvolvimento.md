@@ -142,7 +142,7 @@ Com uma interface amigável e intuitiva, o usuário pode ESCOLHER um artigo para
 
 Para atender ao requisito RF-011 foi desenvolvida a página QUIZ, `quiz.html`.
 
-Ao acessar a página QUIZ, o usuário terá disponível um jogo interativo de perguntas e respostas sobre conhecimentos em educação financeira baseado nos artigos disponíveis na aba MATERIAL DIDÁTICO, comporto por seis perguntas, contendo três opções de resposta e apenas uma correta. 
+Ao acessar a página QUIZ, o usuário terá disponível um jogo interativo de perguntas e respostas sobre conhecimentos em educação financeira baseado nos artigos disponíveis na aba MATERIAL DIDÁTICO, composto por seis perguntas, contendo três opções de resposta e apenas uma correta. 
 
 O Quiz conta com um marcador de pontos, uma barra de progresso, destaque visual para opção de resposta a ser selecionada, resposta visual nas cores verde ou vermelho conforme acerto ou erro da questão, notificação sonora conforme acerto ou erro da questão e uma notificação sonora de vitória para pontuações altas.
 
