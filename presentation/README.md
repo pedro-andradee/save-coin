@@ -5,4 +5,4 @@
 
 - [Vídeo de apresentação da plataforma](www.youtube.com)
 
-- [Apresentação em PowerPoint.](https://www.canva.com/design/DAFUafwci_g/tSSkixCUZLVqF2MUYIgo8w/view?website#2:objetivos)
+- [Apresentação em PowerPoint.](https://www.canva.com/design/DAFUafwci_g/IT7PFjnqRLou-ZISaSOW2w/view?utm_content=DAFUafwci_g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
