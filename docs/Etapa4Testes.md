@@ -115,7 +115,7 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 
 |        **Lembrete Adicionado✅**       |
 |:------------------------------:|
-|<a href= "https://drive.google.com/file/d/1RoWpWxvv94v_mm-xu-YaEthZD8JmNr4a/view?usp=sharing">**Video Teste: adicionando lembrete (00:00 à 00:29)**</a>|
+|<a href= "https://www.youtube.com/watch?v=xGCE7exuxmQ">**Video Teste: adicionando lembrete (00:00 à 00:29)**</a>|
 
 ### TRF-005.3 & 4 - Aditar lembrete
 
@@ -133,7 +133,7 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 
 |        **Lembrete Editado✅**       |
 |:------------------------------:|
-|<a href= "https://drive.google.com/file/d/1RoWpWxvv94v_mm-xu-YaEthZD8JmNr4a/view?usp=sharing">**Video Teste: editando lembrete (00:29 à 00:46)**</a>|
+|<a href= "https://www.youtube.com/watch?v=xGCE7exuxmQ">**Video Teste: editando lembrete (00:29 à 00:46)**</a>|
 
 ### TRF-005.5 & 6 - Excluir lembrete
 
@@ -151,7 +151,7 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 
 |        **Lembrete Excluído✅**       |
 |:------------------------------:|
-|<a href= "https://drive.google.com/file/d/1RoWpWxvv94v_mm-xu-YaEthZD8JmNr4a/view?usp=sharing">**Video Teste: excluindo lembrete (00:46 à 00:56)**</a>|
+|<a href= "https://www.youtube.com/watch?v=xGCE7exuxmQ">**Video Teste: excluindo lembrete (00:46 à 00:56)**</a>|
 
 ### TRF-005.7 & 8 - Exportar lembrete
 
@@ -169,7 +169,7 @@ Foi desenvolvido uma seção de registro com interação do usuário, onde o mes
 
 |        **Lembrete Exportado✅**       |
 |:------------------------------:|
-|<a href= "https://drive.google.com/file/d/1RoWpWxvv94v_mm-xu-YaEthZD8JmNr4a/view?usp=sharing">**Video Teste: exportando lembrete (00:56 à 01:33)**</a>|
+|<a href= "https://www.youtube.com/watch?v=xGCE7exuxmQ">**Video Teste: exportando lembrete (00:56 à 01:33)**</a>|
 
 
 ## RF-006 - A aplicação permitirá que o usuário realize a gestão do seu perfil cadastrado na aplicação
