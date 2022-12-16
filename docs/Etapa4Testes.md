@@ -364,7 +364,7 @@ A aplicação permitirá que o usuário acesse páginas e recursos especificos (
 | Passo |Descrição|
 | :------: |:---------------------|
 | 1 |Acessar a página Material Didático sem precisar estar logado|
-| 2 |Visualizar todos os artigos disponíveis para leitura, em layout de "cards", na página Material Didátic|
+| 2 |Visualizar todos os artigos disponíveis para leitura, em layout de "cards", na página Material Didático|
 | 3 |Acessar os artigos disponíveis para leitura através do botão "Aprenda" disponível nos "cards"|
 | 4 |Visualizar o artigo na íntegra para leitura|
 
