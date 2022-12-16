@@ -295,7 +295,7 @@ Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `V
 
 |   **Teste: Adicionar uma meta financeira**   |
 |:------------------------------:|
-[![Video Teste: Adicionar uma meta financeira](https://img.youtube.com/vi/vOk1HoEboQ0/maxresdefault.jpg)(https://youtu.be/vOk1HoEboQ0)]
+|<a href= "https://youtu.be/vOk1HoEboQ0">Video Teste: Adicionar meta financeira</a>|
 
 ### Teste: Visualizar Meta
 
@@ -306,7 +306,7 @@ Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `V
 
 |   **Teste: Visualizar meta financeira**   |
 |:------------------------------:|
-|<a href= "https://drive.google.com/file/d/1e07PkMUnNnoG4wSCMjEc7aGdYEeLIvc-/view?usp=sharing">Video Teste: Visualizar meta financeira</a>|
+|<a href= "https://youtu.be/c4G2G0NFqtc">Video Teste: Visualizar meta financeira</a>|
 
 ### Teste: Atualizar valor depositado para a cumprir uma meta financeira
 
@@ -318,7 +318,7 @@ Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `V
 
 |   **Teste: Atualizar valor depositado**   |
 |:------------------------------:|
-|<a href= "https://drive.google.com/file/d/1XNAoflIbSWwBkoBeBMxkNmTVR8JVDjHc/view?usp=sharing">Video Teste: Atualizar valor depositado</a>|
+|<a href= "https://youtu.be/GTzWemdJaiY">Video Teste: Atualizar valor depositado</a>|
 
 ### Teste: Editar Meta
 
@@ -330,7 +330,7 @@ Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `V
 
 |   **Teste: Editar uma meta financeira**   |
 |:------------------------------:|
-|<a href= "https://drive.google.com/file/d/1-2-bNrPbavZDI0ybQjeQ4gCJd7odCBIo/view?usp=sharing">Video Teste: Editar uma meta financeira</a>|
+|<a href= "https://youtu.be/pNsJxnhTazg">Video Teste: Editar uma meta financeira</a>|
 
 ### Teste: Remover Meta
 
@@ -341,7 +341,7 @@ Foi desenvolvida a página Meta Financeira, onde o usuário pode `ADICIONAR`, `V
 
 |   **Teste: Remover uma meta financeira**   |
 |:------------------------------:|
-|<a href= "https://drive.google.com/file/d/1tZ6jTANWkIhaxdNwRyVJLiMUJZ158jd2/view?usp=sharing">Video Teste: Remover uma meta financeira</a>|
+|<a href= "https://youtu.be/NwE-CD_O4ZI">Video Teste: Remover uma meta financeira</a>|
 
 ## RF-009 - A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas.
 
