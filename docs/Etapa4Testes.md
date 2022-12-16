@@ -41,8 +41,8 @@
 |TRF-008.4|Editar uma meta financeira|PEDRO|
 |TRF-008.5|Remover uma meta financeira|PEDRO|
 |TRF-009.1|Acessar as páginas: Agenda, Meta financeira, Registro financeiro e Perfil do Usuario somente quando estiver logado|GIOVANNY|
-|TRF-010.1|teste referente ao RF-010|ROMÁRIO|
-|TRF-011.1|teste referente ao RF-011|ROMÁRIO|
+|TRF-010.1|Acessar a página Material Didático e navegar por seus artigos sem precisar estar logado|ROMÁRIO|
+|TRF-011.1|Acessar a página Quiz sem precisar estar logado e interagir com o jogo|ROMÁRIO|
 
 
 ## Resultados Esperados
@@ -58,8 +58,8 @@
 |RF-007|A aplicação apresentará o balanço financeiro mensal referente às receitas e despesas na funcionalidade REGISTRO FINANCEIRO|ALTA|GIOVANNY|
 |RF-008|A aplicação permitirá que o usuário realize a gestão de suas metas na funcionalidade META FINANCEIRA|ALTA|PEDRO|
 |RF-009|A aplicação contará com uma LÓGICA DE ACESSO para controle de login de usuários e autorização de acesso às páginas|ALTA|GIOVANNY|
-|RF-010|A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO|ALTO|ROMÁRIO|
-|RF-011|A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ|ALTO|ROMÁRIO|
+|RF-010|A aplicação apresentará uma seção com matérias destinadas à educação financeira na página MATERIAL DE DIDÁTICO|ALTO|ROMÁRIO|
+|RF-011|A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na página QUIZ|ALTO|ROMÁRIO|
 
 
 # Registro de Testes de Software
@@ -357,53 +357,44 @@ A aplicação permitirá que o usuário acesse páginas e recursos especificos (
 |<a href= "https://drive.google.com/file/d/1E7YovSpTfcUq-kHHBuvdU2qfBxt2FImo/view?usp=sharing">Video Teste: Tentando acessar com Login (01:05 à 01:45)</a>|
 
 
-## RF-010 - A aplicação apresentará uma seção com matérias destinadas à educação financeira na funcionalidade MATERIAL DE DIDÁTICO.
-Foram desenvolvidas diversas páginas com artigos sobre educação fincanceira para jovens e estas foram agrupadas em uma página de fácil navegação, onde o usuário poderá escolher entre os artigos disponíveis para leitura.
+## RF-010 - A aplicação apresentará uma seção com matérias destinadas à educação financeira na página MATERIAL DE DIDÁTICO.
 
-### Escolher Artigo
-Página MATERIAL DIDÁTICO:
+### Teste: Acesso e Navegação:
 
-<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/HMD.png" width="1020px">
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Acessar a página Material Didático sem precisar estar logado|
+| 2 |Visualizar todos os artigos disponíveis para leitura, em layout de "cards", na página Material Didátic|
+| 3 |Acessar os artigos disponíveis para leitura através do botão "Aprenda" disponível nos "cards"|
+| 4 |Visualizar o artigo na íntegra para leitura|
 
-Com uma interface amigável e intuitiva, o usuário pode `ESCOLHER` um artigo para leitura apenas clicando no botão `APRENDA` e em seguida será direcionado a uma página contendo o artigo na íntegra. 
-
-Página ARTIGO:
-
-<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/A01.png" width="1020px">
-
-## RF-011 - A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na funcionalidade QUIZ.
-Foi desenvolvida uma página com um jogo interativo de perguntas e respostas sobre conhecimentos em educação fincanceira baseado nos artigos disponívels na aba MATERIAL DIDÁTICO. 
-
-O quiz é composto de seis perguntas, contendo três opções de resposta e apenas uma correta. O quiz conta com um marcador de pontos, uma barra de progesso.
-<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 01.png" width="1020px">
-
-Ao passar o mouse sobre uma alternativa, esta receberá um destaque visual.
-
-<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 02.png" width="1020px">
-
-Ao escolher uma alternativa, será acionado um destaque visual, verde para acerto, e uma notificação sonora:
-
-<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 03.png" width="1020px">
-
-Ao escolher uma alternativa, será acionado um destaque visual, vermelho para erro, e uma notificação sonora:
-
-<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 04.png" width="1020px">
-
-Em seguida será exibida uma nova perguta.
-
-<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 05.png" width="1020px">
-
-Os processos anteriores são repetidos, até o final das perguntas.
-Ao fim do quiz, será exibida uma tela com a informação "Fim de Jogo!", a pontuação final do jogador, e uma notificação sonora de aplausos para pontuações altas.
-<img src="/docs/img/PROGRAMAÇÃO%20DE%20FUNCIONALIDADES/Quiz 06.png" width="1020px">
+Visualização do teste:
 
 
+## RF-011 - A aplicação permitirá que o usuário realize a avaliação de seus conhecimentos sobre educação financeira na página QUIZ.
 
+### Teste: Acesso e Interação:
 
+| Passo |Descrição|
+| :------: |:---------------------|
+| 1 |Acessar a página Quiz sem precisar estar logado|
+| 2 |Visualizar o quiz contendo diversos itens interativos|
+| 3 |Visualizar da mensagem de instrução do quiz|
+| 4 |Visualizar a pergunta e três alternativas de respostas|
+| 5 |Notificação visual, na cor amarela, ao passar o mouse sobre uma resposta|
+| 6 |Visualização da barra de progresso do quiz|
+| 7 |Notificação visual, na cor verde, e notificação sonora ao escolher a alternativa correta|
+| 8 |Notificação visual, na cor vermelha, e notificação sonora ao escolher a alternativa errada|
+| 9 |Visualização da questão seguinte|
+| 10 |Visualização da pontuação|
+| 11 |Repetição dos processos anteriores para cada questão do quiz|
+| 12 |Notificação sonora ao final do quiz para placares maiores que 50 pontos|
+| 13 |Redirecionamento para a questão inicial do quiz|
+
+Visualização do teste:
 
 
 ## Resultados Obtidos
-
 
 |       Teste      | Página | Resultado do Teste | Responsável |
 |---------|------------|--------------------------|----|
@@ -416,8 +407,8 @@ Ao fim do quiz, será exibida uma tela com a informação "Fim de Jogo!", a pont
 |TRF-007|AddRegistroFinanceiro.html e registroFinanceiro.html|O usuário foi capaz de realizar a leitura do balanco financeiro após a criação, atualização ou remoção dos ganhos e gastos na ferramenta Registro Financeiro.|GIOVANNY|
 |TRF-008|metaFinanceira.html|O usuário foi capaz de realizar a criação, leitura, atualização e remoção das metas na ferramenta Meta Financeira.|PEDRO|
 |TRF-009|TODAS|A aplicação só permitiu acesso as páginas e recursos: Agenda, Meta financeira, Registro financeiro e Perfil do Usuario quando o usuario estava logado. |GIOVANNY|
-|TRF-010|hArticle.html e articleXX.hmtl|O usuário foi capaz de navegar entre os conteúdos disponíveis para leitura na ferramenta MATERIAL DIDÁTICO.|ROMÁRIO|
-|TRF-011|quiz.html|O usuário foi capaz de interagir e testar seus conhecimentos na ferramenta QUIZ.|ROMÁRIO|
+|TRF-010|hArticle.html e articleXX.hmtl|O usuário foi capaz de navegar entre os conteúdos disponíveis para leitura na página MATERIAL DIDÁTICO.|ROMÁRIO|
+|TRF-011|quiz.html|O usuário foi capaz de interagir e testar seus conhecimentos na página QUIZ.|ROMÁRIO|
 
 
 ## Avaliação
