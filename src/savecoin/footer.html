@@ -1,0 +1,188 @@
+<head>
+  <link rel="stylesheet" href="../savecoin/css/login.css">
+</head>
+
+<footer class="bg-dark text-center text-white">
+  <div class="container p-4">
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-1 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+
+            <p>
+              <a href="../savecoin/homepage.html" class="text-reset">Página inicial</a>
+            </p>
+            <p>
+              <a href="../savecoin/agenda.html" class="text-reset">Agenda</a>
+            </p>
+            <p>
+              <a href="../savecoin/hArticle.html" class="text-reset">Material didático</a>
+            </p>
+            <p>
+              <a href="../savecoin/metaFinanceira.html" class="text-reset">Meta financeira</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+
+            <p>
+              <a href="registroFinanceiro.html" class="text-reset">Registro financeiro</a>
+            </p>
+            <p>
+              <a href="../savecoin/quiz.html" class="text-reset">Quiz</a>
+            </p>
+            <p>
+              <a href="sobrenos.html" class="text-reset">Sobre nós</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+
+            <!-- Grid column -->
+
+            <p>
+              <img src="../img/Logo Save Coin.png" width="120px" alt="Logo Save Coin" />
+            </p>
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Save Coin
+            </h6>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Acompanhe nossas redes sociais</h6>
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"><i
+                  class="bi bi-instagram"></i></a>
+
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.twitter.com/" role="button"><i
+                  class="bi bi-twitter"></i></a>
+
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"><i
+                  class="bi bi-facebook"></i></a>
+
+              <!-- Youtube -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/" role="button"><i
+                  class="bi bi-youtube"></i></a>
+
+              <!-- Github -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.github.com/" role="button"><i class="bi bi-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+              <form action="">
+                <div class="row d-flex">
+                  <div class="col-12">
+                    <button type="button" class="btn btn-outline-light mb-4 btn-cadastre-se" data-toggle="modal"
+                      data-target="#loginModal">
+                      Cadastre-se
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </section>
+
+            <!-- Modal -->
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content modal-content-login">
+                  <div class="modal-header">
+                    <h3 class="text-center text-info modal-h3">Novo usuário</h3>
+                    <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-body-login">
+                    <div id="login-box" class="col-md-12">
+                      <form id="login-form-modal" class="form" method="post" onsubmit="loginUser (this)">
+
+                        <div class="form-group label-float">
+                          <input type="text" id="inputusuario" class="form-control" onkeyup="nomeusuario()" required>
+                          <label id="labelusuario" for="labelusuario" class="text-info d-flex">Usuário</label>
+
+                        </div>
+                        <div class="form-group label-float">
+                          <input type="text" name="txt_nome" id="txt_nome" class="form-control" required>
+                          <label id="labelnomecompleto" for="nome" class="text-info d-flex">Nome completo</label>
+
+                        </div>
+                        <div class="form-group label-float">
+                          <input type="text" name="txt_email" id="inputuEmailModal" class="form-control"
+                            onkeyup="validEmailModal()" required>
+                          <label id="labelemailmodal" for="email" class="text-info d-flex">E-mail</label>
+
+                        </div>
+                        <div class="form-group label-float">
+                          <input type="password" id="inputsenhamodal" class="form-control password"
+                            onkeyup='validsenha()' required>
+                          <!--'onkeyup para quando for digitando executar a function validsenha, validando se possui o número de carecteres estipulado'-->
+                          <label id="labelsenhamodal" for="senha" class="text-info d-flex">Senha</label>
+                          <i class="bi bi-eye-fill" id="StyleIcon" onclick='versenhamodal()'></i>
+
+                        </div>
+                        <div class="form-group label-float">
+                          <input type="password" id="inputconfirmsenhamodal" class="form-control"
+                            onkeyup="ConfirmSenha()" required>
+                          <!--'onkeyup para quando for digitando executar a function ConfirmSenha, validando se a confirmsenha é igual a senha'-->
+                          <label id="labelconfirmesenhamodal" for="senha2" class="text-info d-flex password">Confirmação de
+                            Senha</label>
+                          <i class="bi bi-eye-fill" id="StyleIcon" onclick='verconfirmsenhamodal()'></i>
+
+                        </div>
+                        <div class="msg-error">
+                        </div>
+                        <div class="msg-sucess">
+                        </div>
+
+                      </form>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-cancelar-modal"
+                      data-dismiss="modal">Cancelar</button>
+                    <button type="submit" id="btn_salvar" class="btn btn-salvar" onclick="salvaLogin()">Salvar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!--lINKS DE REF DO MODAL ROMMEL-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+              integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+              crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+              integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+              crossorigin="anonymous"></script>
+           <script src="../savecoin/js/loginall.js"></script>
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div class="text-center p-3 copyright">
+            Copyright © 2022 Grupo Save Coin - Todos os direitos reservados
+          </div>
+          <!-- Copyright -->
+</footer>

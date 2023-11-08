@@ -2,7 +2,7 @@
     <h1>Save Coin 💰</h1>
     <br>
     <p align="center">
-  <img style="border-radius: 50%;" src="src/img/Logo Save Coin.png" width="400px;" alt=""/> 
+  <img style="border-radius: 50%;" src="src/img/Logo Save Coin.png" width="300px;" alt=""/> 
   <br>
     <p>Pontifícia Universidade Católica de Minas Gerais</p>
     <p>Sistemas de Informação</p>
@@ -29,7 +29,9 @@
 
 <div align="justify">
 
-<p>Colocar aqui o que estamos desenvolvendo no projeto (fazer uma introdução sobre o assunto embasado em noticias/artigos)</p>
+<p>O Grupo Save Coin, buscando o desenvolvimento e educação financeira da população brasileira, através de pesquisas de campo e em leitura, identificou um crescimento considerável no número de inadimplentes da faixa etária mais jovem, entre 18 e 25 anos, tendo uma alta de 10,75% do ano de 2021 para o de 2022. Dessa forma, acreditamos que por meio da educação, através da disponibilização de informações didáticas sobre controle e gestão financeira, bem como de ferramentas que auxiliam neste processo, o Grupo Save Coin busca a redução da inadimplência entre os jovens e, a longo prazo, uma maior prosperidade econômica para o país. 
+
+Nosso projeto proposto é estruturado sobre o objetivo principal de proporcionar acesso à educação financeira, por meio de informações didáticas e acessíveis, em conformidade com a Lei de Direitos Autorais de forma simples e objetiva, hospedado em uma Aplicação Web, baseada em uma interface intuitiva e de fácil acesso, colaborando para a absorção do conhecimento das noções básicas de educação financeira, possibilitando o aprendizado desta importante área de conhecimento e sua aplicação no cotidiano com o auxílio de diversas ferramentas de gestão financeira. </p>
 
 </div>
 
@@ -39,20 +41,20 @@
 <table>
 <tr>
 
-<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/Amanda borda.png" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🌎</a></td>
+<td align="center"><a href="https://github.com/furtadoamanda"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Amanda borda.png" width="100px;" alt=""/><br /><sub><b>Amanda Furtado</b></sub></a><br /><a href="https://github.com/furtadoamanda" title="Amanda Furtado">🌎</a></td>
 
-<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/Dio borda.png" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
+<td align="center"><a href="https://github.com/DiovanaT"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Dio borda.png" width="100px;" alt=""/><br /><sub><b>Diovana Tavares</b></sub></a><br /><a href="https://github.com/Diovana" title="Diovana Tavares">🚀</a></td>
 
-<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/Gian borda.png" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">☀️</a></td>
+<td align="center"><a href="https://github.com/pagliuca1"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Gian borda.png" width="100px;" alt=""/><br /><sub><b>Gianluca Antonio</b></sub></a><br /><a href="https://github.com/pagliuca1" title="Gianluca Antonio">☀️</a></td>
 
 </tr>
 <tr>
 
-<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/Giovanny Borda.png" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito"><img src="docs/img/cube.png" width="20px" ></a></td>
+<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Giovanny Borda.png" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito"><img src="docs/img/EMOJI/cube.png" width="20px" ></a></td>
 
-<td align="center"><a href="https://github.com/pedro-andradee"><img style="border-radius: 50%;" src="docs/img/Pedro borda.png" width="100px;" alt=""/><br /><sub><b>Pedro Andrade</b></sub></a><br /><a href="https://github.com/pedro-andradee" title="Pedro Andrade">🚀</a></td>
+<td align="center"><a href="https://github.com/pedro-andradee"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Pedro borda.png" width="100px;" alt=""/><br /><sub><b>Pedro Andrade</b></sub></a><br /><a href="https://github.com/pedro-andradee" title="Pedro Andrade">🚀</a></td>
 
-<td align="center"><a href="https://github.com/romamedeiros"><img style="border-radius: 50%;" src="docs/img/Roma borda.png" width="100px;" alt=""/><br /><sub><b>Romário Medeiros</b></sub></a><br /><a href="https://github.com/romamedeiros" title="Romário Medeiros">🎸</a></td>
+<td align="center"><a href="https://github.com/romamedeiros"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/Roma borda.png" width="100px;" alt=""/><br /><sub><b>Romário Medeiros</b></sub></a><br /><a href="https://github.com/romamedeiros" title="Romário Medeiros">🎸</a></td>
 
 </tr>
 </table>
@@ -62,7 +64,7 @@
 
 <div align="center">
 
-<td align="center"><a href="https://github.com/KleberSouza"><img style="border-radius: 50%;" src="docs/img/kleber borda.png" width="100px;" alt=""/><br /><sub><b>Kleber Souza</b></sub></a><br /><a href="https://github.com/KleberSouza" title="Kleber Souza">🕶️</a></td>
+<td align="center"><a href="https://github.com/KleberSouza"><img style="border-radius: 50%;" src="docs/img/INTEGRANTES/kleber borda.png" width="100px;" alt=""/><br /><sub><b>Kleber Souza</b></sub></a><br /><a href="https://github.com/KleberSouza" title="Kleber Souza">🕶️</a></td>
 
 </div> 
 
@@ -73,10 +75,9 @@
 2. [Especificação do Projeto](docs/Etapa1Especificacao.md) 
 3. [Projeto de Interface](docs/Etapa2Interface.md)
 4. [Template Padrão](docs/Etapa2Template.md) 
-5. [Programação de Funcionalidades - HTML e CSS](docs/Etapa3e4Desenvolvimento.md) 
-6. [Programação de Funcionalidades - Javascript](docs/Etapa3e4Desenvolvimento.md) 
-7. [Testes de Software ](docs/Etapa4Testes.md) 
-8. [Apresentação](presentation/README.md) 
+5. [Programação de Funcionalidades - HTML/CSS/JS](docs/Etapa3e4Desenvolvimento.md) 
+6. [Testes de Software](docs/Etapa4Testes.md) 
+7. [Apresentação do projeto](presentation/README.md) 
 
 # Código
 

@@ -1,0 +1,58 @@
+body {
+    background-color: #FFFDE6;
+}
+
+.navBarItems {
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    height: 80px !important;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul > li:hover  {
+    background-color: #FFD500;
+}
+
+nav ul > li > a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navText {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#StyleIcon {
+    color: #FFD500;
+    font-size: 2em;
+}
+
+.backgroudLastIcons {
+    background-color: #FFD500;
+}
+
+#lastIconsStyle{
+    color:black;
+}
+
+.links > ul > li > a {
+    text-decoration: none;
+}
+
+main {
+    min-height: 529px;
+}

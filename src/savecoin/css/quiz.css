@@ -1,0 +1,133 @@
+.yellowBar {
+    display: block;
+    background-color: #FFD500;
+}
+
+.yellowBarContent {
+    text-align: center;
+    padding: 2% 32%;
+}
+
+.yellowBarContent h1 {
+    font-size: 42px;
+    text-shadow: 1.2px 1.2px 1.2px rgb(180, 174, 174);
+}
+
+.yellowBarContent h4 {
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 35px;
+}
+
+.centro {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 24px;
+    background: #FFD500;
+    padding: 0.50rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    animation: piscar .75s infinite alternate;
+    font-weight: 600;
+}
+
+.questao {
+    display: flex;
+}
+
+#numQuestao {
+    display: block;
+    background: #FFD500;
+    padding: 4px 10px 4px 10px;
+    margin-right: 30px;
+    border-radius: 15%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.questoes {
+    padding: 1.5rem;
+    border: 2px solid #FFD500;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.questoes ol li {
+    display: block;
+    margin: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.questoes ol li:hover {
+    background: #FFD500;
+    cursor: pointer;
+}
+
+.bloqueado {
+    display: none;
+}
+
+.bloqueado li:hover {
+    display: none;
+}
+
+#aviso {
+    font-size: calc(1.325rem + 0.2vw);
+    font-weight: 500;
+    text-align: center;
+}
+
+@keyframes piscar {
+    0% {
+        filter: drop-shadow(0 0 15px #FFD500);
+    }
+
+    100% {}
+}
+
+.animar {
+    animation: piscar .75s infinite alternate;
+}
+
+.aparecer {
+    animation: aparecer .5s infinite alternate;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.acertou {
+    background: green;
+    animation: aparecer 0.09s infinite alternate;
+}
+
+.errou {
+    background: red;
+    animation: aparecer 0.09s infinite alternate;
+}
+
+.placar {
+    padding: 1rem;
+    border-radius: 8px;
+    background: #03a9f4;
+    font-size: 2rem;
+}
+
+.prog {
+    text-align: center;
+}
+

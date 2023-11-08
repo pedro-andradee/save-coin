@@ -1,0 +1,94 @@
+main {
+    background-color: #FFFDE6 !important;
+}
+
+.yellowBar {
+    display: block;
+    background-color: #FFD500;
+}
+
+.yellowBarContent {
+    text-align: center;
+    padding: 2% 32%;
+}
+
+.yellowBarContent h4 {
+    padding-top: 2%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    gap: 1.2em;
+}
+
+fieldset legend {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 10%;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.formItem label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.formItem .input_descricao {
+    max-width: 35vw;
+}
+
+.formItem input {
+    max-width: 20vw;
+    padding: 0.5em;
+}
+
+.form-check {
+    margin:0 12px 0 0;
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+    margin-left: 10%;
+}
+
+.form-check-label {
+    margin-bottom: 0.3em;
+}
+
+.saveButton {
+    background-color: #FFD500;
+    width: 9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.3em;
+    margin-right: 1em;
+    margin-left: 10%;
+}
+.addButtonAgenda {
+    background-color: #FFFFFF;
+    width: 12rem;
+    height: 3rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cancelButton {
+    background-color: #c2c2c2;
+    width: 9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5em;
+}
+
