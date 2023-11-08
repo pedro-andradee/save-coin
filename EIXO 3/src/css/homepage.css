@@ -1,0 +1,84 @@
+:root {
+    --azul-principal: #243763;
+    --branco: #F0F3F8;
+    --laranja: #FF6E31;
+    --amarelo-claro: #FFEBB7;
+    --preto: #1E1E1E;
+}
+
+body {
+    background-color: var(--azul-principal);
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    margin: 3rem auto;
+}
+
+.container_principal_home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--branco);
+    margin-bottom: 3rem;
+}
+
+.texto_home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_principal {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.paragrafo_descricao {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.botao_cadastro {
+    background-color: var(--laranja);
+    border-radius: 90px;
+    padding: 1rem 1.5rem;
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cards_home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--preto);
+    flex-wrap: wrap;
+}
+
+.cards_item {
+    background-color: var(--amarelo-claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 45px;
+    font-size: 18px;
+    padding: 0; /* ? */
+}
+
+.cards_item img { /* Editar, não estão ficando do*/
+    width: 175px;
+    height: 175px;
+}
+
+.cards_item span {
+    background-color: var(--laranja);
+    margin-right: 1rem;
+    padding: 0.5rem; /* Não está dando certo, não fica redondo */
+    color: var(--branco);
+    border-radius: 500px;
+}
+
