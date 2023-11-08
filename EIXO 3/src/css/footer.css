@@ -27,7 +27,7 @@ footer h5 {
 .lista_footer {
     display: flex;
     flex-direction: column;
-
+    list-style: none;
 }
 
 
