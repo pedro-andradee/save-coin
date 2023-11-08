@@ -66,10 +66,9 @@ main {
     width: 20rem;
     border-radius: 45px;
     font-size: 18px;
-    padding: 0; /* ? */
 }
 
-.cards_item img { /* Editar, não estão ficando do*/
+.cards_item img {
     width: 175px;
     height: 175px;
 }
