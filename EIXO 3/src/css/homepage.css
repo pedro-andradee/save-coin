@@ -76,7 +76,7 @@ main {
 .cards_item span {
     background-color: var(--laranja);
     margin-right: 1rem;
-    padding: 0.5rem; /* Não está dando certo, não fica redondo */
+    padding: 1em; /* Não está dando certo, não fica redondo */
     color: var(--branco);
     border-radius: 500px;
 }
