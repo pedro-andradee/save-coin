@@ -8,8 +8,8 @@
     <link rel="icon" type="image/x-icon" href="./img/favicon.png">
 
     <!-- STYLES CSS -->
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer2.css">
+    <link rel="stylesheet" href="./css/header2.css">
     <link rel="stylesheet" href="./css/homepage.css">
 
     <!-- FONTES -->
@@ -18,9 +18,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
 
     <title>SaveCoin</title>
+
+    <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("./shared/header.html");
+      $("#footer").load("./shared/footer.html");
+    });
+  </script>
+
 </head>
 <body>
-    <header>
+    <!-- <header>
         <div class="header_principal">
             <img class="logo_header" src="./img/LogoSaveCoin.png" alt="Logo SaveCoin"> 
             <h3 class="nome_header">SaveCoin</h3>
@@ -32,10 +42,12 @@
                 <li><a href="quiz.html">Quiz</a></li>
                 <li><a href="metas_financeiras.html">Metas Financeiras</a></li>
             </ul>
-            <button class="header_login">Log In</button>
+            <div class="login-div">
+                <button class="header_login">Log In</button>
+            </div>
         </div>
-    </header>
-
+    </header> -->
+    <div id="header"></div>
     <main>
         <div class="container_principal_home">
             <div class="texto_home">
@@ -63,8 +75,9 @@
             </li>
         </ul>
     </main>
-
-    <footer>
+    
+    <div id="footer"></div>
+    <!-- <footer>
         <div>
             <h5>Grupo SaveCoin &copy;</h5>
         </div>
@@ -73,8 +86,8 @@
             <li><a href="quiz.html">Quiz</a></li>
             <hr>
             <li><a href="metas_financeiras.html">Metas Financeiras</a></li>
-            <li><a href="#">Meu Perfil</a></li> <!-- DISCUTIR SE VAI FICAR MEU PERFIL MESMO OU DIRECIONAR PRO LOGIN-->
+            <li><a href="#">Meu Perfil</a></li> DISCUTIR SE VAI FICAR MEU PERFIL MESMO OU DIRECIONAR PRO LOGIN
         </ul>
-    </footer>
+    </footer> -->
 </body>
 </html>
