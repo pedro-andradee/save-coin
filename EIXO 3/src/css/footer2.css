@@ -27,7 +27,7 @@ time, mark, audio, video {
 footer {
     background-color: var(--marrom);
     color: var(--branco);
-    font-size: 16;
+    font-size: 18px;
     display: flex;
     justify-content: space-around;
     align-items: center;
