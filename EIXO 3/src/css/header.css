@@ -4,6 +4,7 @@
     --laranja: #FF6E31;
     --amarelo-claro: #FFEBB7;
     --preto: #1E1E1E;
+    --amarelo: #FFB125;
 }
 
 header {
@@ -18,18 +19,30 @@ header {
     height: 3rem;
 }
 
+.nome_header {
+    font-size: 28px;
+}
+
+.nome_header a {
+    text-decoration: none;
+    color: var(--azul-principal);
+}
+
+.nome_header a:hover, .header_links a:hover {
+    color: var(--amarelo);
+}
+
 .header_principal {
     font-size: 20px;
     font-weight: 800;
-    color: var(--azul-principal);
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .logo_header {
-    width: 70px;
-    height: 59px;
+    width: 100px;
+    height: 100px;
 }
 
 .header_menu {
@@ -53,15 +66,32 @@ header {
     text-decoration: none;
     color: var(--preto);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.login-div {
+    display: flex;
+    align-items: center;
 }
 
 .header_login {
     background-color: var(--laranja);
-    color: var(--branco);
+    color: var(--branco); 
     border: none;
     border-radius: 90px; 
-    font-size: 18;
+    font-size: 20px;
     font-weight: 700;
     padding: 1rem 2rem;
+    min-width: 8rem;
+    max-height: 3.5rem;
+}
+
+.header_login:hover {
+    background-color: var(--amarelo);
+    color: var(--azul-principal);
+    cursor: pointer;
+}
+
+.header_login a {
+    text-decoration: none;
 }
