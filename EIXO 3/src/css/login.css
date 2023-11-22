@@ -1,0 +1,67 @@
+:root {
+    --azul-principal: #243763;
+    --branco: #F0F3F8;
+    --laranja: #FF6E31;
+    --amarelo-claro: #FFEBB7;
+    --preto: #1E1E1E;
+    --amarelo: #FFB125;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    height: 3rem;
+}
+
+.nome_header {
+    font-size: 28px;
+}
+
+.nome_header a {
+    text-decoration: none;
+    color: white
+}
+
+.nome_header a:hover, .header_links a:hover {
+    color: yellow
+}
+
+.header_principal {
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo_header {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    background-color: var(--azul-principal);
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--azul-principal);
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    margin: 3rem auto;
+}
+
+.container_principal_home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--branco);
+    margin-bottom: 3rem;
+}
