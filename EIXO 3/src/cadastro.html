@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+            $("#footer").load("./shared/footer.html");
+        });
+    </script>
+
+    <title>Login</title>
+</head>
+<header>
+    <div class="header_principal">
+        <img class="logo_header" src="./img/LogoSaveCoin.png" alt="Logo SaveCoin">
+        <h3 class="nome_header"><a href="index.html">SaveCoin</a></h3>
+    </div>
+</header>
+
+<body>
+    <main>
+        <div class="container_principal_home">
+            <img src="./img/cabelinho.png" class="cabelinho img">
+            <div class="form">
+                <h1 class="titulo">
+                    Crie sua conta
+                </h1>
+                <h1 class="subtitulo"> Peça sempre a ajuda de um responsável </h1>
+                <div class="boxinputlogin">
+                    <div class="linhalogin">
+                        <label class="labellogin" aria-placeholder="Nome">Nome:</label>
+                        <input type="text" class="inputlabellogin" required>
+                    </div>
+                    <div class="linhalogin">
+                        <label class="labellogin">E-mail:</label>
+                        <input type="text" class="inputlabellogin" required>
+                    </div>
+                    <div class="linhalogin">
+                        <label class="labellogin">Senha:</label>
+                        <input type="password" class="inputlabellogin" required>
+                    </div>
+                    <div class="linhalogin">
+                        <label class="labellogin">Confirme sua senha:</label>
+                        <input type="password" class="inputlabellogin" required>
+                    </div>
+                    <div class="linhalogin">
+                        <label class="labellogin">Idade:</label>
+                        <input type="text" class="inputlabellogin" required>
+                    </div>
+                    <div class="linhalogin">
+                        <h1 id="campos">* Campos obrigatórios</h1>
+                    </div>
+
+                </div>
+
+                <div class="btn-pronto-linha">
+                    <button type="submit" class="btn-pronto">
+                        <h1>Pronto!</h1>
+                    </button>
+                </div>
+
+                <div class="linhalogin">
+                    <h1 id="campos">Já tem uma conta? </h1> <a class="entre" href="login.html">Entre</a>
+                </div>
+
+
+
+
+            </div>
+            <img src="./img/jacare.png" class="jacare img">
+        </div>
+    </main>
+
+</body>
+
+<div id="footer"></div>
+
+
+</html>
