@@ -157,12 +157,34 @@ border: none;
     
 }
 
-#campos{
-    font-family: 'Montserrat', sans-serif;
-    color:#FFFFFF ;
-    margin-top: 1rem;
+.btn-pronto:hover{
+   
+}
+.btn-pronto h1:hover {
+    color: yellow;
 }
 
-.entre{
-    color: #FF6E31;
+.campos{
+    font-family: 'Montserrat', sans-serif !important;
+    color:#FFFFFF ;
+    margin-top: 1rem;
+    font-size: small;
+ 
+    
 }
+
+.entre1{
+    font-family: 'Montserrat', sans-serif !important;
+    color:#FFFFFF ;
+    margin-top: 1rem;
+    font-weight: bold;
+    
+}
+
+.entre2{
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6E31;
+    font-weight: bold;
+}
+
+
