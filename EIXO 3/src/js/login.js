@@ -308,6 +308,8 @@ function salvaLogin() {
 
         setTimeout(() => { window.location.href = 'index.html' }, 1300);
         addUser(nome, idade, senha, email);
+        
+        loginUser(email,senha)
     }
     else {
         let MsgError = document.querySelector('.msg-error');
@@ -318,6 +320,13 @@ function salvaLogin() {
     }
     // Adiciona o usuário no banco de dados
 
+}
+
+
+function enviaremail(){
+    let emailenviado = document.querySelector('#emailenviado');
+
+    emailenviado.innerHTML = 'E-mail para recuperação de senha enviado com sucesso!';
 }
 
 initLoginApp()
