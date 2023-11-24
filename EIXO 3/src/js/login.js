@@ -33,8 +33,8 @@ function generateUUID() { // Public Domain/MIT
 // Dados de usuários para serem utilizados como carga inicial
 var DadosIniciais = {
     usuarios: [
-        { "id": 1, "idade": 99, "senha": "admin", "nome": "Administrador do Sistema - Giovanny", "email": "giovanny@admin.com"},
-        { "id": generateUUID(), "idade": "99", "senha": "admin", "nome": "Administrador do Sistema - Gian", "email": "gian@admin.com" },
+        { "id": 1, "idade": 99, "senha": "admin", "nome": "Administrador do Sistema", "email": "admin"},
+        
     ]
 };
 
@@ -313,7 +313,6 @@ function salvaLogin() {
     }
     else {
         let MsgError = document.querySelector('.msg-error');
-        alert("Burro")
         MsgError.innerHTML = '*Preencha todos os campos corretamente';
         setTimeout(() => { MsgError.innerHTML = '' }, 3000);
 
