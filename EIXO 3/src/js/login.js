@@ -32,12 +32,8 @@ function generateUUID() { // Public Domain/MIT
 // Dados de usuários para serem utilizados como carga inicial
 var DadosIniciais = {
     usuarios: [
-        { "id": 1, "login": "giovanny", "senha": "admin123", "nome": "Administrador do Sistema - Giovanny", "email": "giovanny@admin.com"},
-        { "id": generateUUID(), "login": "gian", "senha": "admin123", "nome": "Administrador do Sistema - Gian", "email": "gian@admin.com" },
-        { "id": generateUUID(), "login": "dio", "senha": "admin123", "nome": "Administrador do Sistema - Dio", "email": "dio@admin.com" },
-        { "id": generateUUID(), "login": "roma", "senha": "admin123", "nome": "Administrador do Sistema - Roma", "email": "roma@admin.com" },
-        { "id": generateUUID(), "login": "amanda", "senha": "admin123", "nome": "Administrador do Sistema - Amanda", "email": "amanda@admin.com" },
-        { "id": generateUUID(), "login": "pedro", "senha": "admin123", "nome": "Administrador do Sistema - Pedro", "email": "pedro@admin.com" },
+        { "id": 1, "idade": 99, "senha": "admin", "nome": "Administrador do Sistema - Giovanny", "email": "giovanny@admin.com"},
+        { "id": generateUUID(), "idade": "99", "senha": "admin", "nome": "Administrador do Sistema - Gian", "email": "gian@admin.com" },
     ]
 };
 
@@ -76,3 +72,191 @@ function initLoginApp() {
     }
 };
 
+
+// Verifica se o login do usuário está ok e, se positivo, direciona para a página inicial
+function loginUser(email, senha) {
+
+    // Verifica todos os itens do banco de dados de usuarios 
+    // para localizar o usuário informado no formulario de login
+    var UsuariodoBanco = BancoUsuarios.usuarios;
+    var QTEUsuarios = UsuariodoBanco.length;
+
+    for (var i = 0; i < QTEUsuarios; i++) {
+        var usuario = UsuariodoBanco[i];
+
+        // Se encontrou login, carrega usuário corrente e salva no Session Storage
+        if ((email.toLowerCase()) == usuario.email && senha == usuario.senha) {
+            usuarioCorrente.id = usuario.id;
+            usuarioCorrente.idade = usuario.idade;
+            usuarioCorrente.email = usuario.email;
+            usuarioCorrente.nome = usuario.nome;
+            usuarioCorrente.senha = usuario.senha;
+      
+
+            // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
+            sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
+
+            // Retorna true para usuário encontrado
+            return true;
+        }
+    }
+
+    // Se chegou até aqui é por que não encontrou o usuário e retorna falso
+    return false;
+}
+
+
+// Declara uma função para processar o formulário de login
+function processaFormLogin() {
+
+    // Obtem os dados de login e senha a partir do formulário de login
+    var username = document.getElementById('email').value;
+    var password = document.getElementById('inputsenha').value;
+    let MsgErrorEntrar = document.querySelector('.msg-error-entrar');
+    let MsgSucessEntrar = document.querySelector('.msg-sucess-entrar');
+
+    // Valida login e se estiver ok, redireciona para tela inicial da aplicação
+    resultadoLogin = loginUser(username, password);
+    if (resultadoLogin) {
+        MsgSucessEntrar.innerHTML = '*Efetuando Login';
+        setTimeout(() => { window.location.href = 'index.html' }, 1300);
+    }
+    else { // Se login falhou, avisa ao usuário
+        MsgErrorEntrar.innerHTML = '*Usuario não encontrado! Confira seu E-mail e sua senha.';
+        setTimeout(() => { MsgErrorEntrar.innerHTML = '' }, 3500);
+
+    }
+}
+
+// Apaga os dados do usuário corrente no sessionStorage
+function logoutUser() {
+    usuarioCorrente = {};
+    sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
+    setTimeout(() => { window.location.href = 'login.html' }, 1000);
+}
+
+
+
+function addUser(nome, idade, senha, email) {
+
+    // Cria um objeto de usuario para o novo usuario 
+    let newId = generateUUID();
+    let usuario = { "id": newId, "idade": idade, "senha": senha, "nome": nome, "email": email };
+
+    // Inclui o novo usuario no banco de dados baseado em JSON
+    BancoUsuarios.usuarios.push(usuario);
+
+    // Salva o novo banco de dados com o novo usuário no localStorage
+    localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
+}
+
+
+function nomeusuario() {
+    let BoxUsuario = document.querySelector("#inputusuario");
+    let ValorUsuario = BoxUsuario.value;
+    let QteUsuario = ValorUsuario.length;
+    let LabelUsuario = document.querySelector("#labelusuario");
+
+    if (QteUsuario <= 8) {
+        LabelUsuario.setAttribute('style', 'color:#FF6E31 !important');
+        LabelUsuario.innerHTML = 'Nome: *Coloque seu nome completo!';
+        BoxUsuario.setAttribute('style', 'border-color: color:#FF6E31');
+        ValidaUsuario = false;
+
+    }
+    else {
+        LabelUsuario.setAttribute('style', 'color:rgb(33, 211, 33)  !important');
+        LabelUsuario.innerHTML = 'Nome:';
+        BoxUsuario.setAttribute('style', 'border-color: rgb(33, 211, 33)');
+        ValidaUsuario = true;
+    }
+    if (QteUsuario == 0) {
+        LabelUsuario.setAttribute('style', 'color:#FF6E31  !important');
+        LabelUsuario.innerHTML = "Nome:";
+        BoxUsuario.setAttribute('style', 'border-color: #FF6E31');
+        ValidaUsuario = false;
+    }
+}
+
+function validEmailModal() {
+    let BoxEmail = document.querySelector("#inputuEmailModal");
+    let ValorEmail = BoxEmail.value;
+    let QteValorEmail = ValorEmail.length
+    let LabelEmail = document.querySelector("#labelemailmodal");
+
+    if (!ValorEmail.includes("@")) {
+        LabelEmail.setAttribute('style', 'color:#FF6E31 !important');
+        LabelEmail.innerHTML = 'E-mail: *Insira uma Email válido';
+        BoxEmail.setAttribute('style', 'border-color: #FF6E31');
+        ValidaEmail = false;
+
+    }
+    else {
+        LabelEmail.setAttribute('style', 'color:rgb(33, 211, 33)  !important');
+        LabelEmail.innerHTML = 'E-mail:';
+        BoxEmail.setAttribute('style', 'border-color: rgb(33, 211, 33)');
+        ValidaEmail = true;
+    }
+    if (ValorEmail == '') {
+        LabelEmail.setAttribute('style', 'color:#FF6E31  !important');
+        LabelEmail.innerHTML = "E-mail:";
+        BoxEmail.setAttribute('style', 'border-color: #FF6E31');
+        ValidaEmail = false;
+    }
+}
+
+function validsenha() {
+    let BoxSenha = document.querySelector("#inputsenhamodal");
+    let ValorSenha = BoxSenha.value;
+    let QteSenha = ValorSenha.length;
+    let LabelSenha = document.querySelector("#labelsenhamodal");
+
+    if (QteSenha <= 5) {
+        LabelSenha.setAttribute('style', 'color:#FF6E31 !important');
+        LabelSenha.innerHTML = 'Senha: *Insira uma senha com no mínimo 6 dígitos'
+        BoxSenha.setAttribute('style', 'border-color: #FF6E31');
+        ValidaSenha = false;
+    }
+    else {
+        LabelSenha.setAttribute('style', 'color:rgb(33, 211, 33)  !important');
+        LabelSenha.innerHTML = 'Senha:'
+        BoxSenha.setAttribute('style', 'border-color: rgb(33, 211, 33)')
+        ValidaSenha = true;
+    }
+    if (QteSenha == 0) {
+        LabelSenha.setAttribute('style', 'color:#FF6E31  !important');
+        LabelSenha.innerHTML = "Senha:";
+        BoxSenha.setAttribute('style', 'border-color: #FF6E31');
+        ValidaSenha = false;
+    }
+}
+
+function ConfirmSenha() {
+    let BoxConfirmSenha = document.querySelector("#inputconfirmsenhamodal");
+    let ValorConfirmSenha = BoxConfirmSenha.value;
+    let QteConfirmSenha = ValorConfirmSenha.length;
+    let ValueSenha = document.querySelector("#inputsenhamodal").value;
+    let LabelConfirmSenha = document.querySelector("#labelconfirmesenhamodal");
+
+    if (ValorConfirmSenha == ValueSenha) {
+        LabelConfirmSenha.setAttribute('style', 'color:rgb(33, 211, 33) !important');
+        LabelConfirmSenha.innerHTML = '<strong>Confirmação de Senha</strong>';
+        BoxConfirmSenha.setAttribute('style', 'border-color: rgb(33, 211, 33)');
+        ValidaConfirmSenha = true;
+    }
+    else {
+        LabelConfirmSenha.setAttribute('style', 'color:#FF6E31 !important');
+        LabelConfirmSenha.innerHTML = '<strong>Confirmação de senha *As senhas não são iguais</strong>';
+        BoxConfirmSenha.setAttribute('style', 'border-color: #FF6E31');
+        ValidaConfirmSenha = false;
+    }
+    if (QteConfirmSenha == 0) {
+        LabelConfirmSenha.setAttribute('style', 'color:#FF6E31  !important');
+        LabelConfirmSenha.innerHTML = "Confirmação de senha";
+        BoxConfirmSenha.setAttribute('style', 'border-color: #FF6E31');
+        ValidaConfirmSenha = false;
+    }
+}
+
+
+initLoginApp()

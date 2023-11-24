@@ -17,6 +17,8 @@
             $("#footer").load("./shared/footer.html");
         });
     </script>
+    <!--Arquivo JS para gerenciamento do login-->
+    <script src="../src/js/login.js"></script>
 
     <title>Login</title>
 </head>
@@ -38,24 +40,25 @@
                 <h1 class="subtitulo"> Peça sempre a ajuda de um responsável </h1>
                 <div class="boxinputlogin">
                     <div class="linhalogin">
-                        <label class="labellogin"  >Nome:</label>
-                        <input type="text" class="inputlabellogin" placeholder="Ana Maria Souza">
+                        <label class="labellogin" id="labelusuario">Nome:</label>
+                        <input type="text" class="inputlabellogin" id="inputusuario" placeholder="Ana Maria Souza"
+                            onkeyup="nomeusuario()">
                     </div>
                     <div class="linhalogin">
-                        <label class="labellogin">E-mail:</label>
-                        <input type="text" class="inputlabellogin" placeholder="anamariasouza@gmail.com" required>
+                        <label class="labellogin" id="labelemailmodal">E-mail:</label>
+                        <input type="text" class="inputlabellogin" placeholder="anamariasouza@gmail.com" id="inputuEmailModal" onkeyup="validEmailModal()" required>
                     </div>
                     <div class="linhalogin">
-                        <label class="labellogin">Senha:</label>
-                        <input type="password" class="inputlabellogin" placeholder="*************"required>
+                        <label class="labellogin" id="labelsenhamodal">Senha:</label>
+                        <input type="password" class="inputlabellogin" id="inputsenhamodal" placeholder="*************" onkeyup="validsenha()" required>
                     </div>
                     <div class="linhalogin">
-                        <label class="labellogin">Confirme sua senha:</label>
-                        <input type="password" class="inputlabellogin" placeholder="*************" required>
+                        <label class="labellogin" id="labelconfirmesenhamodal" >Confirme sua senha:</label>
+                        <input type="password" class="inputlabellogin" id="inputconfirmsenhamodal" placeholder="*************" required>
                     </div>
                     <div class="linhalogin">
                         <label class="labellogin">Idade:</label>
-                        <input type="number" class="inputlabellogin" placeholder="10"required>
+                        <input type="number" class="inputlabellogin" placeholder="10" required>
                     </div>
                     <div class="linhalogin">
                         <h1 class="campos">* Campos obrigatórios</h1>
@@ -65,12 +68,12 @@
 
                 <div class="btn-pronto-linha">
                     <input type="button" name="submit" class="btn-pronto" value="Pronto!">
-                        
+
                     </input>
                 </div>
 
                 <div id="entre" class="linhalogin">
-                    <h1 class="entre1">Já tem uma conta? <a class="entre2" href="login.html">Entre</a> </h1> 
+                    <h1 class="entre1">Já tem uma conta? <a class="entre2" href="login.html">Entre</a> </h1>
                 </div>
 
 

@@ -21,6 +21,12 @@
  <!--Arquivo JS para gerenciamento do login-->
  <script src="../src/js/login.js"></script>
 
+ <!--<script>
+    if (!usuarioCorrente.login) {
+        alert('Faça login antes de continuar.');
+        window.location.href = "login.html";
+    }
+</script>-->
 
     <title>Login</title>
 </head>
@@ -35,7 +41,7 @@
     <main>
         <div class="container_principal_home">
             <img src="./img/cabelinho.png" class="cabelinho img">
-            <div class="form-login">
+            <div class="form-login" method="post" onsubmit="loginUser (this)">
                 <h1 class="titulo">
                     Login
                 </h1>
@@ -44,11 +50,11 @@
 
                     <div class="linhalogin">
                         <label class="labellogin">E-mail:</label>
-                        <input type="text" class="inputlabellogin" placeholder="anamariasouza@gmail.com" required>
+                        <input type="text" class="inputlabellogin" id="email" placeholder="anamariasouza@gmail.com" required>
                     </div>
                     <div class="linhalogin">
                         <label class="labellogin">Senha:</label>
-                        <input type="password" class="inputlabellogin" placeholder="*************"required>
+                        <input type="password" id="inputsenha" class="inputlabellogin" placeholder="*************"required>
                     </div>
 
                     <div class="linhalogin">
@@ -58,9 +64,14 @@
                 </div>
 
                 <div class="btn-pronto-linha">
-                    <input type="button" name="submit" class="btn-pronto" value="Pronto!">
-                        
+                    <input type="button" name="submit" class="btn-pronto" value="Pronto!" onclick="processaFormLogin()" >
                     </input>
+                </div>
+                <div class="btn-pronto-linha">
+                    <div class="msg-error-entrar">
+                    </div>
+                    <div class="msg-sucess-entrar">
+                    </div>
                 </div>
 
                 <div id="entre" class="linhalogin">
