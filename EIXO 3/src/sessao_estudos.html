@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/homepage.css">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <title>Sessão de Estudos</title>
+
+    <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("./shared/header.html");
+      $("#footer").load("./shared/footer.html");
+    });
+  </script>
+
+</head>
+<body>
+    
+    <div id="header"></div>
+    
+    <main>
+        <div class="container_principal_home">
+            <div class="texto_home">
+                <h1 class="titulo_principal">Sessão de estudos</h1>
+            </div>
+        </div>
+
+        <ul class="cards_home">
+            <a href="sessao_estudos1.html">
+                <li class="cards_item">
+                        <h3 class="titulo_card"><span>1</span>Método 50/30/20</h3> <!-- Avaliar aplicação do span-->
+                        <img src="./img/a04.png" alt="Imagem de cálculadora">
+                </li>
+            </a>
+            <a href="sessao_estudos2.html">
+                <li class="cards_item">
+                    <h3 class="titulo_card"><span>2</span>Dicas de Ouro</h3> 
+                    <img src="./img/a02.png" alt="Imagem de pote de dinheiro">
+                </li>
+            </a>
+            <a href="sessao_estudos3.html">
+                <li class="cards_item">
+                    <h3 class="titulo_card"><span>3</span>Consumo Consciente</h3>
+                    <img src="./img/a01.png" alt="Imagem de cartão de crédito">
+                </li>
+            </a>
+        </ul>
+    </main>
+    
+    <div id="footer"></div>
+
+</body>
+</html>
