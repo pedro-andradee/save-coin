@@ -16,11 +16,10 @@ main {
     margin: 3rem auto;
 }
 
-
 .caixa-creme {
-    background-color: #FFEBB7; /* Cor creme */
-    padding: 100px; /* Espaçamento interno */
-    border-radius: 10px; /* Borda arredondada (opcional) */
+    background-color: #FFEBB7; 
+    padding: 100px; 
+    border-radius: 10px; 
     width: 70%;
     margin: auto;
   }
@@ -47,7 +46,12 @@ main {
 }
 
 .paragrafo_descricao {
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.paragrafo_descricao2 {
+    font-size: 19px;
     font-weight: 500;
 }
 
