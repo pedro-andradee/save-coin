@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+            $("#footer").load("./shared/footer.html");
+        });
+    </script>
+
+    <!--Arquivo JS para gerenciamento do login-->
+    <script src="../src/js/login.js"></script>
+
+
+    <title>Login</title>
+</head>
+<header>
+    <div class="header_principal">
+        <img class="logo_header" src="./img/LogoSaveCoin.png" alt="Logo SaveCoin">
+        <h3 class="nome_header"><a href="index.html">SaveCoin</a></h3>
+    </div>
+</header>
+
+<body>
+    <main>
+        <div class="container_principal_home">
+            <img src="./img/cabelinho.png" class="cabelinho img">
+            <div class="form-login">
+                <h1 class="titulo-esqueceu">
+                    Esqueci minha senha
+                </h1>
+                <div class="linhalogin">
+                    <h1 class="subtitulo-esqueceu"> Insira seu e-mail e em instantes enviaremos informações para a
+                        alteração de senha. </h1>
+                </div>
+                <div class="boxinputlogin">
+
+                    <div class="linhalogin">
+                        <label class="labellogin email-esqueceu">E-mail cadastrado:</label>
+                        <input type="text" class="inputlabellogin" placeholder="anamariasouza@gmail.com" required>
+                    </div>
+                    <div class="linhalogin">
+                        <div id="emailenviado"></div>
+                    </div>
+
+                </div>
+
+                <div class="btn-pronto-linha btn-esqueceu">
+
+                    <button type="button" class="btn-pronto" onclick="enviaremail()">Enviar</button>
+                </div>
+            </div>
+            <img src="./img/jacare.png" class="jacare img">
+        </div>
+    </main>
+
+</body>
+
+<div id="footer"></div>
+
+
+</html>

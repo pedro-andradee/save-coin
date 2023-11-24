@@ -1,3 +1,20 @@
+
+ <!--Arquivo JS para gerenciamento do login-->
+ <script src="../src/js/login.js"></script>
+
+ <script>
+
+    let sair = document.querySelector("#sair");
+    
+    if (!usuarioCorrente.senha) {
+        
+        sair.setAttribute('style', 'display: none');
+    }
+    else{
+        sair.setAttribute('style', 'display: flex');
+    }
+</script>
+
 <header>
     <div class="header_principal">
         <img class="logo_header" src="./img/LogoSaveCoin.png" alt="Logo SaveCoin"> 
@@ -8,12 +25,14 @@
         <ul class="header_links">
             <li><a href="sessao_estudos.html">Sessão de Estudos</a></li>
             <li><a href="quiz.html">Quiz</a></li>
-            <li><a href="metas_financeiras.html">Metas Financeiras</a></li>
+            <li><a href="metaFinanceira.html">Metas Financeiras</a></li>
         </ul>
         <div class="login-div">
             <a href="login.html">
                 <button class="header_login">Log In</button>
             </a>
+            
+            <img src="./img/sair.png" alt="logout" id="sair" onclick="logoutUser()" >
         </div>
     </div>
 </header>

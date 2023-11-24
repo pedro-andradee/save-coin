@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+            $("#footer").load("./shared/footer.html");
+        });
+    </script>
+    <!--Arquivo JS para gerenciamento do login-->
+    <script src="../src/js/login.js"></script>
+
+    
+    <title>Login</title>
+</head>
+<header>
+    <div class="header_principal">
+        <img class="logo_header" src="./img/LogoSaveCoin.png" alt="Logo SaveCoin">
+        <h3 class="nome_header"><a href="index.html">SaveCoin</a></h3>
+    </div>
+</header>
+
+<body>
+    <main>
+        <div class="container_principal_home">
+            <img src="./img/cabelinho.png" class="cabelinho img">
+            <div class="form">
+                <h1 class="titulo">
+                    Crie sua conta
+                </h1>
+                <h1 class="subtitulo"> Peça sempre a ajuda de um responsável </h1>
+                <div class="boxinputlogin">
+                    <div class="linhalogin">
+                        <label class="labellogin" id="labelusuario">Nome:</label>
+                        <input type="text" class="inputlabellogin" id="inputusuario" placeholder="Ana Maria Souza"
+                            onkeyup="nomeusuario()">
+                    </div>
+                    <div class="linhalogin">
+                        <label class="labellogin" id="labelemailmodal">E-mail:</label>
+                        <input type="text" class="inputlabellogin" placeholder="anamariasouza@gmail.com" id="inputuEmailModal" onkeyup="validEmailModal()" required>
+                    </div>
+                    <div class="linhalogin">
+                        <label class="labellogin" id="labelsenhamodal">Senha:</label>
+                        <input type="password" class="inputlabellogin" id="inputsenhamodal" placeholder="*************" onkeyup="validsenha()" required>
+                    </div>
+                    <div class="linhalogin">
+                        <label class="labellogin" id="labelconfirmesenhamodal" >Confirme sua senha:</label>
+                        <input type="password" class="inputlabellogin" id="inputconfirmsenhamodal" placeholder="*************" onkeyup="ConfirmSenha()" required>
+                    </div>
+                    <div class="linhalogin">
+                        <label class="labellogin" id="labelidade">Idade:</label>
+                        <input type="number" class="inputlabellogin" placeholder="6" id="inputidade" onkeyup="validaidade()">
+                    </div>
+                    <div class="linhalogin">
+                        <h1 class="campos msg-error msg-sucess ">*Todos campos são obrigatórios</h1>
+
+                    </div>
+
+                </div>
+
+                <div class="btn-pronto-linha">
+                    <button type="submit" class="btn-pronto"  onclick="salvaLogin()" >
+                        Pronto!
+                </button>
+
+                    
+                </div>
+
+                <div id="entre" class="linhalogin">
+                    <h1 class="entre1">Já tem uma conta? <a class="entre2" href="login.html">Entre</a> </h1>
+                </div>
+
+
+
+
+            </div>
+            <img src="./img/jacare.png" class="jacare img">
+        </div>
+    </main>
+
+</body>
+
+<div id="footer"></div>
+
+
+</html>

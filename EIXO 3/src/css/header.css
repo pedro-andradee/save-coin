@@ -95,3 +95,10 @@ header {
 .header_login a {
     text-decoration: none;
 }
+
+#sair{
+    width: 107%;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+

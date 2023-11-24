@@ -7,6 +7,21 @@
 
     <!-- STYLES CSS -->
     <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+            $("#footer").load("./shared/footer.html");
+        });
+    </script>
+
+ <!--Arquivo JS para gerenciamento do login-->
+ <script src="../src/js/login.js"></script>
+
+
 
     <title>Login</title>
 </head>
@@ -20,11 +35,54 @@
 <body>
     <main>
         <div class="container_principal_home">
-            <img src="./img/cabelinho.png" class="cabelinho">
-            <div class="form" ></div>
-            <img src="./img/jacare.png" class="jacare">
+            <img src="./img/cabelinho.png" class="cabelinho img">
+            <div class="form-login" method="post" onsubmit="loginUser (this)">
+                <h1 class="titulo">
+                    Login
+                </h1>
+                <h1 class="subtitulo"> Peça sempre a ajuda de um responsável </h1>
+                <div class="boxinputlogin">
+
+                    <div class="linhalogin">
+                        <label class="labellogin">E-mail:</label>
+                        <input type="text" class="inputlabellogin" id="email" placeholder="anamariasouza@gmail.com" required>
+                    </div>
+                    <div class="linhalogin">
+                        <label class="labellogin">Senha:</label>
+                        <input type="password" id="inputsenha" class="inputlabellogin" placeholder="*************"required>
+                    </div>
+
+                    <div class="linhalogin">
+                        <a class="campos-login" href="esqueceu.html">Esqueceu a senha?</a>
+                    </div>
+
+                </div>
+
+                <div class="btn-pronto-linha">
+                    <input type="button" name="submit" class="btn-pronto" value="Pronto!" onclick="processaFormLogin()" >
+                    </input>
+                </div>
+                <div class="linhalogin">
+                    <div class="msg-error-entrar msg-sucess-entrar">
+                    </div>
+                </div>
+              
+
+                <div id="entre" class="linhalogin">
+                    <h1 class="entre1-login">Ainda não tem uma conta? <a class="entre2-login" href="cadastro.html">Cadastre-se</a> </h1> 
+                </div>
+
+
+
+
+            </div>
+            <img src="./img/jacare.png" class="jacare img">
         </div>
     </main>
+
 </body>
+
+<div id="footer"></div>
+
 
 </html>
