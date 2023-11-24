@@ -54,22 +54,28 @@
                     </div>
                     <div class="linhalogin">
                         <label class="labellogin" id="labelconfirmesenhamodal" >Confirme sua senha:</label>
-                        <input type="password" class="inputlabellogin" id="inputconfirmsenhamodal" placeholder="*************" required>
+                        <input type="password" class="inputlabellogin" id="inputconfirmsenhamodal" placeholder="*************" onkeyup="ConfirmSenha()" required>
                     </div>
                     <div class="linhalogin">
-                        <label class="labellogin">Idade:</label>
-                        <input type="number" class="inputlabellogin" placeholder="10" required>
+                        <label class="labellogin" id="labelidade">Idade:</label>
+                        <input type="number" class="inputlabellogin" placeholder="6" id="inputidade" onkeyup="validaidade()">
                     </div>
                     <div class="linhalogin">
-                        <h1 class="campos">* Campos obrigatórios</h1>
+                        <h1 class="campos ">*Todos campos são obrigatórios</h1>
+                        <div class="msg-error campos">
+                        </div>
+                        <div class="msg-sucess campos">
+                        </div>
                     </div>
 
                 </div>
 
                 <div class="btn-pronto-linha">
-                    <input type="button" name="submit" class="btn-pronto" value="Pronto!">
+                    <button type="submit" class="btn-pronto"  onclick="salvaLogin()" >
+                        Pronto!
+                </button>
 
-                    </input>
+                    
                 </div>
 
                 <div id="entre" class="linhalogin">

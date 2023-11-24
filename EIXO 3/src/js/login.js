@@ -7,7 +7,8 @@ var usuarioCorrente = {};
 var ValidaUsuario = false;
 var ValidaSenha = false;
 var ValidaConfirmSenha = false;
-var ValidaEmail = false
+var ValidaEmail = false;
+var Validaidade = false;
 
 
 // função para gerar códigos randômicos a serem utilizados como código de usuário
@@ -240,23 +241,83 @@ function ConfirmSenha() {
 
     if (ValorConfirmSenha == ValueSenha) {
         LabelConfirmSenha.setAttribute('style', 'color:rgb(33, 211, 33) !important');
-        LabelConfirmSenha.innerHTML = '<strong>Confirmação de Senha</strong>';
+        LabelConfirmSenha.innerHTML = 'Confirme sua senha:';
         BoxConfirmSenha.setAttribute('style', 'border-color: rgb(33, 211, 33)');
         ValidaConfirmSenha = true;
     }
     else {
         LabelConfirmSenha.setAttribute('style', 'color:#FF6E31 !important');
-        LabelConfirmSenha.innerHTML = '<strong>Confirmação de senha *As senhas não são iguais</strong>';
+        LabelConfirmSenha.innerHTML = 'Confirme sua senha: *As senhas não são iguais.';
         BoxConfirmSenha.setAttribute('style', 'border-color: #FF6E31');
         ValidaConfirmSenha = false;
     }
     if (QteConfirmSenha == 0) {
         LabelConfirmSenha.setAttribute('style', 'color:#FF6E31  !important');
-        LabelConfirmSenha.innerHTML = "Confirmação de senha";
+        LabelConfirmSenha.innerHTML = "Confirme sua senha:";
         BoxConfirmSenha.setAttribute('style', 'border-color: #FF6E31');
         ValidaConfirmSenha = false;
     }
 }
 
+function validaidade() {
+    let Boxidade = document.querySelector("#inputidade");
+    let Valoridade = Boxidade.value;
+    let Qteidade = Valoridade.length;
+    let Labelidade = document.querySelector("#labelidade");
+
+    if (Valoridade <= 4  ||Valoridade >=99  ) {
+        Labelidade.setAttribute('style', 'color:#FF6E31 !important');
+        Labelidade.innerHTML = 'Idade: *Insira uma idade válida'
+        Boxidade.setAttribute('style', 'border-color: #FF6E31');
+        Validaidade = false;
+    }
+    else {
+        Labelidade.setAttribute('style', 'color:rgb(33, 211, 33)  !important');
+        Labelidade.innerHTML = 'Idade:'
+        Boxidade.setAttribute('style', 'border-color: rgb(33, 211, 33)')
+        Validaidade = true;
+    }
+    if (Valoridade == 0) {
+        Labelidade.setAttribute('style', 'color:#FF6E31  !important');
+        Labelidade.innerHTML = "Idade:";
+        Boxidade.setAttribute('style', 'border-color: #FF6E31');
+        Validaidade = false;
+    }
+}
+
+
+function salvaLogin() {
+    nomeusuario();
+    validEmailModal();
+    validsenha();
+    ConfirmSenha();
+    validaidade();
+    // Obtem os dados do formulário
+    let nome = document.getElementById('inputusuario').value;
+    let email = (document.getElementById('inputuEmailModal').value).toLowerCase();
+    let senha = document.getElementById('inputsenhamodal').value;
+    let senha2 = document.getElementById('inputconfirmsenhamodal').value;
+    let idade = document.getElementById('inputidade').value;
+
+
+    if (ValidaUsuario && ValidaSenha && ValidaConfirmSenha && ValidaEmail && Validaidade) {
+
+        let MsgSucess = document.querySelector('.msg-sucess');
+
+        MsgSucess.innerHTML = '*Usuario cadastrado com sucesso';
+
+        setTimeout(() => { window.location.href = 'index.html' }, 1300);
+        addUser(nome, idade, senha, email);
+    }
+    else {
+        let MsgError = document.querySelector('.msg-error');
+        alert("Burro")
+        MsgError.innerHTML = '*Preencha todos os campos corretamente';
+        setTimeout(() => { MsgError.innerHTML = '' }, 3000);
+
+    }
+    // Adiciona o usuário no banco de dados
+
+}
 
 initLoginApp()
