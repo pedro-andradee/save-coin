@@ -5,13 +5,18 @@
  <script>
 
     let sair = document.querySelector("#sair");
+    let btnlogin = document.querySelector(".header_login")
     
     if (!usuarioCorrente.senha) {
         
         sair.setAttribute('style', 'display: none');
+        btnlogin.setAttribute('style', 'display: flex');
+        btnlogin.setAttribute('style', 'text-decoration: none');
+        
     }
     else{
         sair.setAttribute('style', 'display: flex');
+        btnlogin.setAttribute('style', 'display: none');
     }
 </script>
 

@@ -20,7 +20,7 @@
     <!--Arquivo JS para gerenciamento do login-->
     <script src="../src/js/login.js"></script>
 
-    
+
     <title>Login</title>
 </head>
 <header>
@@ -47,19 +47,29 @@
                     </div>
                     <div class="linhalogin">
                         <label class="labellogin" id="labelemailmodal">E-mail:</label>
-                        <input type="text" class="inputlabellogin" placeholder="anamariasouza@gmail.com" id="inputuEmailModal" onkeyup="validEmailModal()" required>
+                        <input type="text" class="inputlabellogin" placeholder="anamariasouza@gmail.com"
+                            id="inputuEmailModal" onkeyup="validEmailModal()" required>
                     </div>
                     <div class="linhalogin">
                         <label class="labellogin" id="labelsenhamodal">Senha:</label>
-                        <input type="password" class="inputlabellogin" id="inputsenhamodal" placeholder="*************" onkeyup="validsenha()" required>
+                        <div class="senhas">
+                            <input type="password" class="senha inputlabellogin" id="inputsenhamodal"
+                                placeholder="*************" onkeyup="validsenha()" required>
+                                <div   class=" div-olho" ><img  class="olho" onmouseover="olho()" onmouseout="olho_reverso()" src="./img/fechado.png"></div>
+                        </div>
                     </div>
                     <div class="linhalogin">
-                        <label class="labellogin" id="labelconfirmesenhamodal" >Confirme sua senha:</label>
-                        <input type="password" class="inputlabellogin" id="inputconfirmsenhamodal" placeholder="*************" onkeyup="ConfirmSenha()" required>
+                        <label class="labellogin" id="labelconfirmesenhamodal">Confirme sua senha:</label>
+                        <div class="senhas">
+                        <input type="password" class="confirmsenha inputlabellogin" id="inputconfirmsenhamodal"
+                            placeholder="*************" onkeyup="ConfirmSenha()" required>
+                            <div   class=" div-olho" ><img  class="confirmolho" onmouseover="confirmolho()" onmouseout="confirmolho_reverso()" src="./img/fechado.png"></div>
+                        </div>
                     </div>
                     <div class="linhalogin">
                         <label class="labellogin" id="labelidade">Idade:</label>
-                        <input type="number" class="inputlabellogin" placeholder="6" id="inputidade" onkeyup="validaidade()">
+                        <input type="number" class="inputlabellogin" placeholder="6" id="inputidade"
+                            onkeyup="validaidade()">
                     </div>
                     <div class="linhalogin">
                         <h1 class="campos msg-error msg-sucess ">*Todos campos são obrigatórios</h1>
@@ -69,11 +79,11 @@
                 </div>
 
                 <div class="btn-pronto-linha">
-                    <button type="submit" class="btn-pronto"  onclick="salvaLogin()" >
+                    <button type="submit" class="btn-pronto" onclick="salvaLogin()">
                         Pronto!
-                </button>
+                    </button>
 
-                    
+
                 </div>
 
                 <div id="entre" class="linhalogin">

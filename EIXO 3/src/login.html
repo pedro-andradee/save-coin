@@ -18,8 +18,8 @@
         });
     </script>
 
- <!--Arquivo JS para gerenciamento do login-->
- <script src="../src/js/login.js"></script>
+    <!--Arquivo JS para gerenciamento do login-->
+    <script src="../src/js/login.js"></script>
 
 
 
@@ -45,11 +45,16 @@
 
                     <div class="linhalogin">
                         <label class="labellogin">E-mail:</label>
-                        <input type="text" class="inputlabellogin" id="email" placeholder="anamariasouza@gmail.com" required>
+                        <input type="text" class="inputlabellogin" id="email" placeholder="anamariasouza@gmail.com"
+                            required>
                     </div>
                     <div class="linhalogin">
                         <label class="labellogin">Senha:</label>
-                        <input type="password" id="inputsenha" class="inputlabellogin" placeholder="*************"required>
+                        <div class="senhas">
+                            <input type="password" id="inputsenha" class="senha inputlabellogin" placeholder="*************"
+                                required>
+                            <div   class=" div-olho" ><img  class="olho" onmouseover="olho()" onmouseout="olho_reverso()" src="./img/fechado.png"></div>
+                        </div>
                     </div>
 
                     <div class="linhalogin">
@@ -59,17 +64,18 @@
                 </div>
 
                 <div class="btn-pronto-linha">
-                    <input type="button" name="submit" class="btn-pronto" value="Pronto!" onclick="processaFormLogin()" >
+                    <input type="button" name="submit" class="btn-pronto" value="Pronto!" onclick="processaFormLogin()">
                     </input>
                 </div>
                 <div class="linhalogin">
                     <div class="msg-error-entrar msg-sucess-entrar">
                     </div>
                 </div>
-              
+
 
                 <div id="entre" class="linhalogin">
-                    <h1 class="entre1-login">Ainda não tem uma conta? <a class="entre2-login" href="cadastro.html">Cadastre-se</a> </h1> 
+                    <h1 class="entre1-login">Ainda não tem uma conta? <a class="entre2-login"
+                            href="cadastro.html">Cadastre-se</a> </h1>
                 </div>
 
 
