@@ -11,6 +11,7 @@ var ValidaEmail = false;
 var Validaidade = false;
 
 
+
 // função para gerar códigos randômicos a serem utilizados como código de usuário
 // Fonte: https://stackoverflow.com/questions/105034/how-to-create-guid-uuid
 function generateUUID() { // Public Domain/MIT
@@ -190,13 +191,15 @@ function validEmailModal() {
         LabelEmail.innerHTML = 'E-mail: *Insira uma Email válido';
         BoxEmail.setAttribute('style', 'border-color: #FF6E31');
         ValidaEmail = false;
-
+        
     }
+
     else {
         LabelEmail.setAttribute('style', 'color:rgb(33, 211, 33)  !important');
         LabelEmail.innerHTML = 'E-mail:';
         BoxEmail.setAttribute('style', 'border-color: rgb(33, 211, 33)');
         ValidaEmail = true;
+
     }
     if (ValorEmail == '') {
         LabelEmail.setAttribute('style', 'color:#FF6E31  !important');
@@ -328,4 +331,46 @@ function enviaremail(){
     emailenviado.innerHTML = 'E-mail para recuperação de senha enviado com sucesso!';
 }
 
+
+function olho(){
+    var senha = document.querySelector(".senha")
+    var olhos = document.querySelector(".olho");
+
+        olhos.setAttribute('src', "./img/aberto.png")
+        senha.setAttribute('type', "text")
+
+}
+
+function olho_reverso(){
+    var senha = document.querySelector(".senha")
+    var olhos = document.querySelector(".olho");
+
+        olhos.setAttribute('src', "./img/fechado.png")
+        senha.setAttribute('type', "password")
+
+}
+
+
+
+function confirmolho(){
+    var senha = document.querySelector(".confirmsenha")
+    var olhos = document.querySelector(".confirmolho");
+
+        olhos.setAttribute('src', "./img/aberto.png")
+        senha.setAttribute('type', "text")
+
+}
+
+function confirmolho_reverso(){
+    var senha = document.querySelector(".confirmsenha")
+    var olhos = document.querySelector(".confirmolho");
+
+        olhos.setAttribute('src', "./img/fechado.png")
+        senha.setAttribute('type', "password")
+
+}
+
+
 initLoginApp()
+
+
