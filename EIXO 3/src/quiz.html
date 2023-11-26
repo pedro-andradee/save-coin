@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/quiz.css">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <title>SaveCoin | Quiz</title>
+
+    <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("./shared/header.html");
+      $("#footer").load("./shared/footer.html");
+    });
+  </script>
+
+</head>
+<body>
+
+  <div id="header"></div>
+
+  <main>
+
+    <section>
+
+      <div class="yellowBar">
+        <div class="yellowBarContent">
+          <h1>Quiz Save Coin</h1>
+          <h4>Quer testar seus conhecimentos sobre finanças?<br>Vamos jogar!</h4>
+        </div>
+      </div>
+
+      <div class="container">
+        <article class='centro' id='instrucoes'>
+          <h1>Leia a questão e clique na resposta correta</h1>
+        </article>
+
+        <article class='questoes'>
+
+          <header class='questao'>
+            <span id='numQuestao'></span>
+            <h2 id='pergunta'></h2>
+          </header>
+
+          <div class='corpo'>
+            <ol type='A' id='alternativas'>
+              <li id='a' value='1A' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+              <li id='b' value='1B' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+              <li id='c' value='1C' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+            </ol>
+          </div>
+        </article>
+        <div class="prog"><input type="range" value='1' min='1' max='6' step='1' name="progresso" id="progresso" disabled /> <br>
+        </div>
+        <div id='aviso'>Questão <span id='numero'></span> de <span id='total'></span></div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <audio preload src="./snd/positive.mp3" id='somAcerto'></audio>
+  <audio preload src="./snd/negative.mp3" id='somErro'></audio>
+  <audio preload src="./snd/aplausos.mp3" id='somAplausos'></audio>
+
+    <script src="js/quiz.js"></script>
+
+  <div id="footer"></div>
+
+</body>
+
+</html>
