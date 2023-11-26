@@ -30,7 +30,7 @@ const q0 = {
 
 const q1 = {
     numQuestao: 1,
-    pergunta: "Ao aplicar o Método 50/30/20:",
+    pergunta: "1. Ao aplicar o Método 50/30/20:",
     alternativaA: "50% da renda mensal é destinada às despesas variáveis.",
     alternativaB: "30% da renda mensal é destinada às despesas fixas e essenciais.",
     alternativaC: "20% da renda mensal é destinada às prioridades financeiras.",
@@ -39,7 +39,7 @@ const q1 = {
 
 const q2 = {
     numQuestao: 2,
-    pergunta: "Qual destas é uma boa prática financeira:",
+    pergunta: "2. Qual destas é uma boa prática financeira:",
     alternativaA: "Trabalhar com métodos.",
     alternativaB: "Consumir por impulso.",
     alternativaC: "Gastar mais do que ganha.",
@@ -48,7 +48,7 @@ const q2 = {
 
 const q3 = {
     numQuestao: 3,
-    pergunta: "O que é considerado no consumo consciente?",
+    pergunta: "3. O que é considerado no consumo consciente?",
     alternativaA: "O valor financeiro do bem a ser adquirido",
     alternativaB: "O impacto do bem no meio ambiente e na sociedade.",
     alternativaC: "O valor de revenda do bem após o breve tempo de uso",
@@ -57,7 +57,7 @@ const q3 = {
 
 const q4 = {
     numQuestao: 4,
-    pergunta: "O que é uma reserva de emergência?",
+    pergunta: "4. O que é uma reserva de emergência?",
     alternativaA: "Um valor guardado que você economizou em tempos difíceis.",
     alternativaB: "Um valor guardado que será destinado a aproveitar boas oportunidades de negócios.",
     alternativaC: "Um valor guardado que está disponível para custear gastos necessários que estavam fora do orçamento.",
@@ -66,7 +66,7 @@ const q4 = {
 
 const q5 = {
     numQuestao: 5,
-    pergunta: "O cartão de crédito é:",
+    pergunta: "5. O cartão de crédito é:",
     alternativaA: "Uma forma de pagamento onde o valor da compra é cobrado ao usuário em uma fatura com data posterior à compra.",
     alternativaB: "Uma forma de pagamento em que você deve recarregar o cartão com dinheiro antes de realizar a compra.",
     alternativaC: "Uma forma de pagamento onde o valor da compra é descontado imediatamente na conta bancária do usuário após a compra.",
@@ -75,7 +75,7 @@ const q5 = {
 
 const q6 = {
     numQuestao: 6,
-    pergunta: "É considerado um objetivo médio prazo:",
+    pergunta: "6. É considerado um objetivo médio prazo:",
     alternativaA: "Fazer uma viagem nas férias.",
     alternativaB: "Comprar um ou vários imóveis.",
     alternativaC: "Realizar uma reforma na casa.",

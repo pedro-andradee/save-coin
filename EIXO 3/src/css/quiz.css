@@ -51,6 +51,7 @@ body {
 
 .questao {
     display: flex;
+        font-weight: 600;
 }
 
 #numQuestao {
