@@ -27,6 +27,7 @@ body {
 .yellowBarContent h4 {
     padding-top: 1%;
     font-size: 20px;
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -40,18 +41,20 @@ body {
     text-align: center;
     font-size: 24px;
     background: #FFEBB7;
-    padding: 0.50rem;
+    padding: 0.5rem;
     border-radius: 8px;
     display: block;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-weight: 500;
 
 }
 
 .questao {
     display: flex;
-        font-weight: 600;
+    font-weight: 600;
+    margin: auto;
+    padding: 0;
 }
 
 #numQuestao {
@@ -80,6 +83,7 @@ body {
 .questoes ol li:hover {
     background: #243763;
     cursor: pointer;
+    color: whitesmoke;
 }
 
 .bloqueado {
@@ -94,6 +98,7 @@ body {
     font-size: calc(1.325rem + 0.2vw);
     font-weight: 500;
     text-align: center;
+    color: whitesmoke;
 }
 
 @keyframes piscar {
@@ -150,3 +155,7 @@ body {
     font-size: 20px;
 }
 
+.container-livro {
+    display: flex;
+    justify-content: center;
+}
