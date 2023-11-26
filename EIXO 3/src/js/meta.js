@@ -1,15 +1,6 @@
 function initDadosMeta() {
-    let usuario = {
-        id: "79f380f3-9d78-4625-a2ac-8e16f956a244",
-        login: "pedro",
-        email: "pedro@admin.com",
-        nome: "Administrador do Sistema - Pedro",
-        senha: "admin123"
-    }
-    sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuario))
     let BancoUsuarios = JSON.parse(localStorage.getItem('BancoUsuarios'));
     var UsuariodoBanco = BancoUsuarios.usuarios;
-    //var UsuariodoBanco = BancoUsuarios.usuarios;
     var QTEUsuarios = UsuariodoBanco.length;
     for (var i = 0; i < QTEUsuarios; i++) {
         const usuario = UsuariodoBanco[i];
@@ -40,7 +31,9 @@ function generateUUID() { // Public Domain/MIT
 }
 
 function carregarRegistrosMetaUsuarioCorrente() {
-    /* var usuarioDoBanco = BancoUsuarios.usuarios;
+    let BancoUsuarios = JSON.parse(localStorage.getItem('BancoUsuarios'));
+    let usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+    var usuarioDoBanco = BancoUsuarios.usuarios;
     var qtdeUsuarios = usuarioDoBanco.length;
     let registroMetasUsuario;
     for (let i = 0; i < qtdeUsuarios; i++) {
@@ -49,22 +42,8 @@ function carregarRegistrosMetaUsuarioCorrente() {
         if (usuarioCorrente.id == usuario.id) {
             registroMetasUsuario = usuario.registroMetas;
         }
-    } */
-
-    let usuarioMetas = {
-        metas: [
-            {
-                id: "e03c0936-e4cc-4fe9-ac9e-31380c92c6f5",
-                descricaoMeta: "teste",
-                valorMeta: 100,
-                valorDepositado: 0,
-                dataMeta: "24/11/2023"
-            }
-        ]
-        
     }
-    //return registroMetasUsuario;
-    return usuarioMetas;
+    return registroMetasUsuario;
 }
 
 function carregarMetas() {
@@ -112,8 +91,8 @@ function carregarMetas() {
                 id="${getMetasUsuario.metas[i].id}"
                 onclick="setIdMetaEntrada(event)"
                 >
-                Nova entrada
-                <i class="bi bi-cash-stack"></i>
+                <span id="${getMetasUsuario.metas[i].id}">Adicionar</span>
+                <i class="bi bi-cash-stack" id="${getMetasUsuario.metas[i].id}"></i>
                 </button>
                 <button
                 type="button"
@@ -123,8 +102,8 @@ function carregarMetas() {
                 id="${getMetasUsuario.metas[i].id}"
                 onclick="setIdMetaEditar(event)"
                 >
-                Editar
-                <i class="bi bi-pencil"></i>
+                <span id="${getMetasUsuario.metas[i].id}">Editar</span>
+                <i class="bi bi-pencil" id="${getMetasUsuario.metas[i].id}"></i>
                 </button>`            
         }
         divBlocoMetas.append(divBlocoMeta)
@@ -145,7 +124,24 @@ function carregarBarraProgresso() {
 function setIdMetaEditar(event) {
     let modalFooter = document.querySelector("#modal-criar-editar-meta .modal-footer");
     let idMetaEditar = event.target.id;
+    setarValoresMetaEditar(idMetaEditar);
     modalFooter.setAttribute("id", `${idMetaEditar}`);
+}
+
+function setarValoresMetaEditar(idMetaEdicao) {
+    let metasUsuarioCorrente = carregarRegistrosMetaUsuarioCorrente();
+    let descricao, valor, data;
+    metasUsuarioCorrente.metas.forEach(meta => {
+        if(meta.id === idMetaEdicao) {
+            descricao = meta.descricaoMeta;
+            valor = meta.valorMeta;
+            data = meta.dataMeta;
+        }
+    })
+    let dataFormatada = data.split('/').reverse().join('-');
+    document.querySelector("#descricaoMeta").value = descricao;
+    document.querySelector("#valorMeta").value = valor;
+    document.querySelector("#dataMeta").value = dataFormatada;
 }
 
 function salvarMeta(event) {
@@ -154,10 +150,6 @@ function salvarMeta(event) {
     let valorMeta = Number.parseFloat(document.querySelector("#valorMeta").value);
     let dataMeta = document.querySelector("#dataMeta").value;
     var dataFormatada = dataMeta.split('-').reverse().join('/');
-    console.log(idMeta)
-    console.log(descricaoMeta)
-    console.log(valorMeta)
-    console.log(dataMeta)
     let registrosMetaUsuario = carregarRegistrosMetaUsuarioCorrente();
     if(!!idMeta) {
         for(let i = 0; i < registrosMetaUsuario.metas.length;i++) {
@@ -174,7 +166,8 @@ function salvarMeta(event) {
         "valorDepositado": 0, "dataMeta": dataFormatada}
         registrosMetaUsuario.metas.push(meta)
     }
-
+    
+    let BancoUsuarios = atualizarMetasUsuarioCorrente(registrosMetaUsuario);
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
     window.location.href = 'metaFinanceira.html'
 }
@@ -186,15 +179,18 @@ function setIdMetaEntrada(event) {
 }
 
 function inserirNovaEntrada(event) {
-    let valorEntrada = Number.parseFloat(document.querySelector("#valor-entrada").value);
+    let valorEntrada = Number.parseFloat(document.getElementById("valor-entrada").value);
     let idMetaAtualizarValor = event.target.parentNode.id;
+    
     let getMetasUsuarioCorrente = carregarRegistrosMetaUsuarioCorrente();
     for(let i = 0; i < getMetasUsuarioCorrente.metas.length;i++) {
         if(getMetasUsuarioCorrente.metas[i].id == idMetaAtualizarValor) {
             getMetasUsuarioCorrente.metas[i].valorDepositado += valorEntrada;
+            console.log(idMetaAtualizarValor)
             break;
         }
     }
+    let BancoUsuarios = atualizarMetasUsuarioCorrente(getMetasUsuarioCorrente);
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
     window.location.href = 'metaFinanceira.html'
 }
@@ -214,10 +210,21 @@ function deletarMeta(event) {
             break;
         }
     }
+    let BancoUsuarios = atualizarMetasUsuarioCorrente(getMetasUsuarioCorrente);
     localStorage.setItem('BancoUsuarios', JSON.stringify(BancoUsuarios));
     window.location.href = 'metaFinanceira.html'
 }
 
+function atualizarMetasUsuarioCorrente(metas) {
+    let BancoUsuarios = JSON.parse(localStorage.getItem('BancoUsuarios'));
+    let usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+    BancoUsuarios.usuarios.forEach(usuario => {
+        if (usuario.id === usuarioCorrente.id) {
+            usuario.registroMetas = metas;
+        }
+    });
+    return BancoUsuarios;
+}
 initDadosMeta();
 carregarMetas();
 carregarBarraProgresso();

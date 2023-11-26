@@ -1,17 +1,45 @@
 body {
     background-color: #243763;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
     padding: 40px;
 }
 
-#titulo-metas h2 {
+#titulo-metas {
     display: flex;
-    justify-content: center;
-    font-size: 2.5em;
-    font-weight: 650;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo-metas h2 {
+    font-size: 48px;
+    font-weight: 800;
     color: #fff;
+}
+
+.paragrafo_descricao {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.adicionar-meta {
+    justify-content: center;
+    margin-top: 5em;
+    margin-left: 10em;
+}
+
+.texto-add-nova-meta {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.bi-plus-circle {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 1.1em;
 }
 
 #blocoMetas {
@@ -72,7 +100,9 @@ header {
     flex-direction: column;
 }
 
-.dataMeta, .valorRestante, .valorMeta {
+.dataMeta,
+.valorRestante,
+.valorMeta {
     font-size: 1.1em;
     font-weight: 500;
 }
@@ -91,7 +121,8 @@ header {
     margin: 0.5em;
 }
 
-.botaoAtualizarValor, .botaoEditar {
+.botaoAtualizarValor,
+.botaoEditar {
     background-color: #FF6E31;
     width: 9rem;
     height: 2rem;
@@ -102,29 +133,42 @@ header {
 
 .addNovaMetaBotao {
     background-color: #7BEA71;
-    width: 15.5rem;
-    height: 1.7em;
+    width: 19rem;
+    height: 2.5em;
     font-size: 1.2em;
     font-weight: 500;
     border: none;
     border-radius: 10px;
-    margin-left: 1.5em;
+    margin-left: 2em;
+    margin-top: 2em;
 }
 
 /* MODAL INSERIR ENTRADA META */
-.botao-modal-fechar {
-    background-color: #fff;
-    border: none;
+.bi-cash-stack {
+    margin-left: 4px;
 }
 
-.botao-modal-fechar span {
-    font-size: 1.7em;
+.bi-pencil {
+    margin-left: 6px;
 }
 
 .body-modal-nova-entrada label {
     font-weight: bold;
     margin-bottom: 0.3em;
     margin-right: 1em;
+}
+
+#nova-entrada-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nova-entrada-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .body-modal-nova-entrada input {
@@ -136,12 +180,14 @@ header {
     justify-content: space-evenly;
 }
 
-.botao-modal-salvar, .botao-modal-cancelar, #btn-excluir {
-    padding: 0.1em 0;
+.botao-modal-salvar,
+.botao-modal-cancelar,
+#btn-excluir {
+    padding: 0.4em 0;
     width: 9rem;
     font-weight: 500;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .botao-modal-cancelar {
@@ -150,15 +196,45 @@ header {
 }
 
 .botao-modal-salvar {
-    background-color: #FFD500;
+    background-color: #7BEA71;
     opacity: 0.85;
 }
 
-.botao-modal-cancelar:hover, .botao-modal-salvar:hover {
+#btn-excluir {
+    opacity: 0.85;
+    color: #000;
+    border-radius: 20px;
+    max-height: 2em;
+}
+
+.botao-modal-cancelar:hover,
+.botao-modal-salvar:hover, #btn-excluir:hover {
     opacity: 1;
+    font-weight: 800;
 }
 
 /* MODAL CRIAR/EDITAR META */
+.modal-content {
+    background-color: #FFF9E8;
+}
+
+.modal-header {
+    justify-content: center;
+}
+
+#TituloModal {
+    color: #243763;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1.6em;
+}
+
+#nova-editar-meta-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .title-nova-meta {
     font-size: 1.6em;
 }
@@ -169,13 +245,44 @@ header {
     margin-bottom: 0.6em;
 }
 
-.formItem label {
-    font-weight: bold;
+.formItem label, .valor-entrada {
     margin-bottom: 0.3em;
     margin-right: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
-.formItem > input {
-    max-width: 18em;
+.formItem>input, #valor-entrada {
+    width: 20em !important;
     padding: 0.5em;
+    border-radius: 8px;
+    border: gray 1px solid;
+    height: 45px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 75vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    /* altura do rodapé */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    /* altura do rodapé */
+}
+
+.container-porquinho {
+    display: flex;
+    justify-content: end;
+}
+
+.img-porquinho {
+    margin-top: 20rem;
 }

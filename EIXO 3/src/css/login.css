@@ -309,3 +309,21 @@ padding-bottom: 1rem;
 .confirmsenhas{
     display: flex;
 }
+
+#page-container {
+    position: relative;
+    min-height: 75vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    /* altura do rodapé */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    /* altura do rodapé */
+}

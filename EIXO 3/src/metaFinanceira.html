@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Metas Financeiras</title>
 
     <!-- Bootstrap CSS -->
@@ -25,239 +25,239 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
-    
+
     <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
 
     <!-- STYLES CSS -->
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/metaFinanceira.css">
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/metaFinanceira.css" />
 
     <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- JQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("./shared/header.html");
+        $("#footer").load("./shared/footer.html");
+      });
+    </script>
+
+    <!--CODIGO PARA IMPEDIR O USUARIO DE USAR A FUNÇÃO SEM LOGAR-->
+
+      
+  <script src="../src/js/login.js"></script>
   <script>
-    $(function () {
-      $("#header").load("./shared/header.html");
-      $("#footer").load("./shared/footer.html");
-    });
+      if (!usuarioCorrente.senha) {
+          alert('Faça login antes de continuar.');
+          window.location.href = "login.html";
+      }
   </script>
 
-<!--CODIGO PARA IMPEDIR O USUARIO DE USAR A FUNÇÃO SEM LOGAR-->
-
-<!--
- <script src="../src/js/login.js"></script>
-<script>
-    if (!usuarioCorrente.senha) {
-        alert('Faça login antes de continuar.');
-        window.location.href = "login.html";
-    }
-</script>
--->
-
-
-</head>
-<body>
-    <div id="header"></div>
-    <main>
-      <div id="titulo-metas">
-        <h2>Minhas metas financeiras</h2>
-        <button
-          type="button"
-          data-bs-toggle="modal"
-          data-bs-target="#modal-criar-editar-meta"
-          class="addNovaMetaBotao"
+  </head>
+  <body>
+    <div id="page-container">
+      <div id="content-wrap">
+        <div id="header"></div>
+        <main>
+          <div id="titulo-metas">
+            <h2>Minhas metas financeiras</h2>
+            <p class="paragrafo_descricao">Crie suas metas e atualize de acordo com o seu progresso.</p>
+          </div>
+          <div class="adicionar-meta">
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-criar-editar-meta"
+              class="addNovaMetaBotao"
+            >
+              <span class="texto-add-nova-meta">Adicionar nova meta</span>
+              <i class="bi bi-plus-circle"></i>
+            </button>
+          </div>
+          <!-- MODAL CRIAR/EDITAR META -->
+          <div
+            class="modal fade"
+            id="modal-criar-editar-meta"
+            tabindex="-1"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            role="dialog"
+            aria-labelledby="modal-criar-editar-meta"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title title-nova-meta" id="TituloModal">
+                    Meta financeira
+                  </h5>
+                </div>
+                <div class="modal-body body-modal-criar-editar-meta">
+                  <form id="nova-editar-meta-form">
+                    <div class="formItem">
+                      <label for="descricaoMeta">Descrição da meta:</label>
+                      <input
+                        type="text"
+                        name="descricaoMeta"
+                        id="descricaoMeta"
+                        placeholder="Fone de ouvido"
+                        autocomplete="on"
+                        maxlength="25"
+                        required
+                      />
+                    </div>
+                    <div class="formItem">
+                      <label for="valorMeta">Valor da meta:</label>
+                      <input
+                        type="number"
+                        step=".01"
+                        name="valorMeta"
+                        id="valorMeta"
+                        placeholder="R$ 100.00"
+                        autocomplete="on"
+                        required
+                      />
+                    </div>
+                    <div class="formItem">
+                      <label for="dataMeta">Data para atingir a meta:</label>
+                      <input
+                        type="date"
+                        name="dataMeta"
+                        id="dataMeta"
+                        autocomplete="on"
+                        required
+                      />
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="botao-modal-cancelar"
+                    data-bs-dismiss="modal"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="submit"
+                    form="nova-editar-meta-form"
+                    class="botao-modal-salvar"
+                    onclick="salvarMeta(event)"
+                  >
+                    Salvar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <!-- MODAL INSERIR ENTRADA VALOR -->
+        <div
+          class="modal fade"
+          id="modal-atualizar-valor"
+          tabindex="-1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          role="dialog"
+          aria-labelledby="sucesso-modal-atualizar-valor"
+          aria-hidden="true"
         >
-          Adicionar nova meta
-        </button>
-      </div>
-      <!-- MODAL CRIAR/EDITAR META -->
-      <div
-        class="modal fade"
-        id="modal-criar-editar-meta"
-        tabindex="-1"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        role="dialog"
-        aria-labelledby="modal-criar-editar-meta"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title title-nova-meta" id="TituloModal">
-                Meta financeira
-              </h5>
-              <button
-                type="button"
-                class="botao-modal-fechar"
-                data-bs-dismiss="modal"
-                aria-label="Fechar"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body body-modal-criar-editar-meta">
-              <form
-                id="nova-editar-meta-form"
-              >
-                <div class="formItem">
-                  <label for="descricaoMeta">Descrição da meta:</label>
-                  <input
-                    type="text"
-                    name="descricaoMeta"
-                    id="descricaoMeta"
-                    placeholder="Intercâmbio para estudar inglês"
-                    autocomplete="on"
-                    maxlength="25"
-                    required
-                  />
-                </div>
-                <div class="formItem">
-                  <label for="valorMeta">Valor da meta:</label>
-                  <input
-                    type="number"
-                    step=".01"
-                    name="valorMeta"
-                    id="valorMeta"
-                    placeholder="R$ 1000.00"
-                    autocomplete="on"
-                    required
-                  />
-                </div>
-                <div class="formItem">
-                  <label for="dataMeta">Data para atingir a meta:</label>
-                  <input
-                    type="date"
-                    name="dataMeta"
-                    id="dataMeta"
-                    autocomplete="on"
-                    required
-                  />
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="botao-modal-cancelar"
-                data-bs-dismiss="modal"
-              >
-                Cancelar
-              </button>
-              <button
-                type="submit"
-                form="nova-editar-meta-form"
-                class="botao-modal-salvar"
-                onclick="salvarMeta(event)"
-              >
-                Salvar
-              </button>
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="TituloModal">
+                  Adicionar dinheiro:
+                </h5>
+              </div>
+              <div class="modal-body body-modal-nova-entrada">
+                <form method="get" id="nova-entrada-form" class="formItem">
+                  <div class="nova-entrada-container">
+                    <label for="valor-entrada">Valor:</label>
+                    <input
+                      type="number"
+                      placeholder="R$ 200,00"
+                      name="valor-entrada"
+                      id="valor-entrada"
+                      autocomplete="on"
+                      required
+                    />
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="botao-modal-cancelar"
+                  data-bs-dismiss="modal"
+                >
+                  Cancelar
+                </button>
+                <button
+                  type="submit"
+                  form="nova-entrada-form"
+                  class="botao-modal-salvar"
+                  onclick="inserirNovaEntrada(event)"
+                >
+                  Salvar
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
-    <!-- MODAL INSERIR ENTRADA VALOR -->
-    <div
-      class="modal fade"
-      id="modal-atualizar-valor"
-      tabindex="-1"
-      data-bs-backdrop="static"
-      data-bs-keyboard="false"
-      role="dialog"
-      aria-labelledby="sucesso-modal-atualizar-valor"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="TituloModal">Adicionar nova entrada</h5>
-            <button
-              type="button"
-              class="botao-modal-fechar"
-              data-bs-dismiss="modal"
-              aria-label="Fechar"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body body-modal-nova-entrada">
-            <form
-              method="get"
-              id="nova-entrada-form"
-            >
-              <label for="valor-entrada">Valor da nova entrada:</label>
-              <input
-                type="number"
-                placeholder="R$ 200,00"
-                name="valor-entrada"
-                id="valor-entrada"
-                autocomplete="on"
-                required
-              />
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="botao-modal-cancelar"
-              data-bs-dismiss="modal"
-            >
-              Cancelar
-            </button>
-            <button
-              type="submit"
-              form="nova-entrada-form"
-              class="botao-modal-salvar"
-              onclick="inserirNovaEntrada(event)"
-            >
-              Salvar
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!--MODAL DELETE META-->
-    <div
-      class="modal fade"
-      id="modal-delete-meta"
-      tabindex="-1"
-      data-bs-backdrop="static"
-      data-bs-keyboard="false"
-      role="dialog"
-      aria-labelledby="deletemodalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="text-center titulo-modal-delete">
-              Tem certeza que deseja excluir essa meta financeira?
-            </h4>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="botao-modal-cancelar"
-              data-bs-dismiss="modal"
-            >
-              Cancelar
-            </button>
-            <button type="button" id="btn-excluir" class="btn btn-danger" onclick="deletarMeta(event)">
-              Excluir
-            </button>
+        <!--MODAL DELETE META-->
+        <div
+          class="modal fade"
+          id="modal-delete-meta"
+          tabindex="-1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          role="dialog"
+          aria-labelledby="deletemodalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="text-center titulo-modal-delete">
+                  Tem certeza que deseja excluir essa meta financeira?
+                </h4>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="botao-modal-cancelar"
+                  data-bs-dismiss="modal"
+                >
+                  Cancelar
+                </button>
+                <button
+                  type="button"
+                  id="btn-excluir"
+                  class="btn btn-danger"
+                  onclick="deletarMeta(event)"
+                >
+                  Excluir
+                </button>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="container-porquinho">
+          <img src="./img/metas-porco.svg" class="img-porquinho" />
+        </div>
+        <div id="footer"></div>
       </div>
     </div>
-    <div id="footer"></div>
     <script src="./js/meta.js"></script>
-</body>
+  </body>
 </html>
