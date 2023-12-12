@@ -12,13 +12,13 @@ Nesse contexto, o Grupo Save Coin, comprometido com o desenvolvimento da educaç
 </p>
 
 
-## 2. Problema
+## 1.1. Problema
 
 <p align="justify">
 A situação de endividamento no Brasil está em ascensão, sendo que diversos fatores contribuem para esse cenário. Entre esses fatores, podemos destacar a inexperiência no manejo do dinheiro, os impulsos consumistas e a facilidade de acesso ao crédito, que muitas vezes culminam no aumento do número de brasileiros endividados.
 
 Atualmente, as pessoas são expostas a uma variedade de oportunidades de compra, tanto em lojas físicas quanto em plataformas de comércio eletrônico. Além disso, estratégias diversas incentivam o consumo excessivo, seja por meio de múltiplas opções de pagamento, seja pelo marketing que associa novos produtos ao status social, ou ainda pela comodidade dos sistemas de entrega (MINELLA et al., 2017).
- 
+
 De acordo com o IBGE (2023), a inflação acumulada entre julho de 2022 e julho de 2023 atingiu 3,99%. Esse contexto tem impactado o poder de compra das famílias, levando a um endividamento crescente na tentativa de manter padrões de vida e necessidades básicas. A pesquisa apresentada pela Agência Brasil e conduzida pela Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC) revela que 78,5%  das famílias brasileiras relataram ter dívidas a vencer, o maior índice desde janeiro de 2010, quando iniciou-se esta série (SAMPAIO, 2023).
 
 No âmbito da educação financeira para crianças, é crucial que os pais exerçam um papel exemplar, visto que a carência desse aprendizado na infância pode acarretar uma série de obstáculos e dilemas ao longo da trajetória de vida. Sem o domínio de noções elementares de gerenciamento financeiro, os jovens podem amadurecer desprovidos das competências essenciais para efetuar escolhas conscientes acerca do dinheiro. Tal lacuna pode resultar em despesas impulsivas, acumulação excessiva de dívidas e ausência de planejamento financeiro, intensificando os níveis de estresse e ansiedade associados às questões monetárias.
@@ -27,95 +27,96 @@ Além disso, a ausência de educação financeira pode contribuir para a perpetu
 
 Diante dessa realidade, nosso projeto busca oferecer uma solução prática e acessível: uma plataforma que disponibiliza conteúdo educativo e didático, direcionado a crianças, para promover a conscientização sobre a importância da educação financeira desde cedo. Nosso objetivo é preparar as crianças de forma eficaz, permitindo que elas construam um futuro financeiro mais estável para si mesmas.
 
-=======
+
 </p>
  
-<p align="justify">
-Nos dias de hoje, o jovem se depara com diversas possibilidades de compra, podendo ser presencial ou através de e-commerce. Além disso, há várias estratégias que fazem com que ele consuma cada vez mais, seja a disponibilização de várias formas de pagamento, seja por meio de marketing, atrelando novos produtos a status social, seja através das facilidades dos sistemas de entrega, entre outras. (MINELLA et. al, 2017).  
-</p>
- 
-<p align="justify">
-Apesar do gosto dos jovens para o consumo, é válido salientar que o crescimento da quantidade de endividados tem ocorrido, também, por causa da crise econômica que o país tem enfrentado. Segundo o IBGE (2022), a inflação acumulada entre julho de 2021 e julho de 2022 é de 10,07%, o que é considerado um valor preocupante. Diante disso, muitas pessoas estão perdendo seu poder de compra e, consequentemente, se endividando cada vez mais para poder manter sua subsistência e seu padrão de vida. Nesse sentido, a pesquisa realizada pela Confederação Nacional de Dirigentes Lojistas (CNDL) e pelo Serviço de Proteção ao Crédito (SPC Brasil) aponta que 22,5% dos devedores possuem entre 18 e 29 anos (SPC Brasil, 2022).  
-</p>
- 
-<p align="justify"> 
+## 1.2. Objetivos do trabalho
 
-Nesse sentido, o nosso projeto tem como objetivo fornecer um caminho mais curto e acessível, uma plataforma com conteúdo informativo e didático, para que os jovens sejam conscientizados da importância de se ter educação financeira desde cedo e estejam devidamente preparados, de modo que consigam construir um futuro mais estável para si mesmos. 
-</p>
- 
-## 3. Objetivos
+## 1.2.1 Objetivo geral
 
-## 3.1 Objetivo geral
+O projeto em questão está fundamentado no objetivo amplo de promover a educação financeira, com foco no público infantil, disponibilizando informações de maneira didática e acessível. Neste sentido, o objetivo geral deste trabalho é  desenvolver um sistema web que apresentará uma interface intuitiva e de fácil utilização, contribuindo para que as crianças assimilem noções básicas de educação financeira de maneira simples e direta. Isso permitirá que elas adquiram conhecimentos essenciais nessa área e sejam capazes de aplicá-los no seu dia a dia.
 
-O projeto proposto é estruturado sobre o objetivo geral de proporcionar acesso à educação financeira, por meio de informações didáticas e acessíveis, em conformidade com a Lei de Direitos Autorais (Lei 9.610/98), de forma simples e objetiva, hospedado em uma Aplicação Web, baseada em uma interface intuitiva e de fácil acesso, colaborando para a absorção do conhecimento das noções básicas de educação financeira, possibilitando o aprendizado desta importante área de conhecimento e sua aplicação no cotidiano. 
+A abordagem temática, estruturada de maneira didática, tem como propósito guiar as crianças através dos principais fundamentos da educação financeira. Essa estrutura visa auxiliar no desenvolvimento de conceitos e técnicas essenciais para a gestão eficaz dos recursos financeiros, conhecimentos estes que serão aplicados por toda a vida da criança usuária da aplicação. 
 
-A estrutura temática, apresentada de forma didática, visa instruir os jovens quanto aos principais pilares da educação financeira, auxiliando-os no desenvolvimento dos conceitos e técnicas fundamentais para gestão eficiente de sua renda. Por meio das informações fornecidas na plataforma, o usuário terá acesso aos fundamentos da educação financeira, entendendo o conceito e diferenciação entre despesas fixas e variáveis, além de ser capaz de traçar suas metas financeiras a longo e curto prazo. Além disso, entre os objetivos principais do projeto destaca-se a proteção aos dados do usuário, em respeito à Lei Geral de Proteção de Dados Pessoais (Lei 13.709/18), por meio da aplicação de mecanismos de sigilo que resguardam seu acesso, não permitindo o acesso a perfis e dados que não os seus próprios. 
+## 1.2.2 Objetivos específicos
 
-## 3.2 Objetivos específicos
+O projeto apresentado possui os objetivos específicos de desenvolver e disponibilizar um conjunto de recursos didáticos voltados para o ensino de gestão financeira direcionado a crianças. Além disso, pretende-se aprimorar o aprendizado por meio de um questionário dinâmico, visando a consolidação dos conhecimentos adquiridos. Adicionalmente, busca-se implementar uma ferramenta destinada ao estabelecimento de metas, com o propósito de cultivar a prática de poupança e incentivar as crianças a alcançar objetivos financeiros de forma eficaz.
 
-O projeto apresentado possui como objetivo específico a disponibilização de ferramentas de gestão financeira a fim de auxiliar o usuário a aplicar seus conhecimentos adquiridos com o material didático disponível em nossa plataforma, resultando em um controle financeiro mais eficiente e dinâmico para o usuário. 
-
-Para tanto, disponibilizamos as seguintes ferramentas de gestão financeira: 
-> - **Calculadora de gastos** – recurso disponível para a inserção de ganhos e despesas diárias; 
-> - **Gráfico de gastos** – ferramenta visual indicativa da relação ganho x gastos, com base nos dados indicados na calculadora, representando valores destacados em categorias; 
-> - **Agenda** – recurso disponível para o acompanhamento dos marcos e compromissos financeiros; 
-> - **Indicativo de metas** – sistema de controle de metas de poupança, apresentando a porcentagem atingida em relação ao objetivo final;
-> - **Recurso de acessibilidade** – possibilidade de o usuário fazer uso de texto em voz, interpretação em libras, visualização em alto contraste da plataforma;
-> - **Avaliação de conhecimento** – questionários apresentados após cada seção de conteúdo, com o objetivo de reforçar os conhecimentos adquiridos;
-> - **Questionário social** – formulário informativo sobre o perfil do usuário, para subsidiar melhorias nos conteúdos e ferramentas fornecidas.
-
-### 3.1 Objetivo geral
+## 1.3. Justificativa
 
 <p align="justify"> 
-O projeto proposto é estruturado sobre o objetivo geral de proporcionar acesso à educação financeira, por meio de informações didáticas e acessíveis, em conformidade com a Lei de Direitos Autorais (Lei 9.610/98), de forma simples e objetiva, hospedado em uma Aplicação Web, baseada em uma interface intuitiva e de fácil acesso, colaborando para a absorção do conhecimento das noções básicas de educação financeira, possibilitando o aprendizado desta importante área de conhecimento e sua aplicação no cotidiano. 
+A educação financeira na infância desempenha um papel crucial no desenvolvimento de habilidades essenciais para a vida adulta. Ao introduzir conceitos financeiros desde cedo, as crianças aprendem a tomar decisões informadas sobre dinheiro, economizar, planejar e gastar de maneira responsável. Essa base sólida promove a compreensão das implicações das escolhas financeiras, ajudando a evitar armadilhas financeiras no futuro. Além disso, ao internalizar princípios como a importância de poupar e a diferença entre necessidades e desejos, as crianças estão mais bem preparadas para lidar com situações financeiras complexas ao longo da vida, contribuindo para uma maior segurança financeira e bem-estar geral.
+
+Além de capacitar as crianças a tomarem decisões financeiras inteligentes, a educação financeira na infância também promove a responsabilidade e a autonomia. Ao aprenderem a administrar mesadas, definir objetivos de economia e entender a relação entre esforço e recompensa, as crianças desenvolvem habilidades valiosas de autodisciplina e planejamento. Essas competências não apenas impactam suas finanças pessoais, mas também se estendem para outras áreas da vida, fortalecendo a capacidade de definir metas, perseverar diante de desafios e tomar decisões ponderadas. Dessa forma, a educação financeira na infância oferece um investimento a longo prazo no crescimento pessoal e no sucesso financeiro das futuras gerações.
+
+Diante do crescente endividamento da população no Brasil, torna-se evidente a importância de estabelecer uma relação saudável com as finanças desde a infância. Em uma sociedade onde o dinheiro desempenha um papel fundamental na busca pela realização pessoal, é crucial incutir noções financeiras desde cedo, fomentando a reflexão e transmitindo conhecimentos que capacitem as crianças a assumirem o controle de sua vida financeira de forma simples e eficaz, permitindo a priorização de seus sonhos e aspirações.
+
+A adoção de práticas de gestão financeira desde os primeiros anos de vida pode integrar-se naturalmente à rotina das crianças, tornando-se um hábito enraizado que potencialmente melhorará a qualidade de vida no futuro. Em uma sociedade em constante evolução, caracterizada pelo fluxo intenso de informações, mudanças nas relações interpessoais e transformações nos padrões de consumo, a educação financeira é vital para equipar as crianças com conhecimentos relacionados à administração financeira, armadilhas do consumismo, tomada de decisões e muito mais (OLIVEIRA, 2017).
+
+A motivação subjacente a este projeto é desenvolver uma solução web que proporcione educação financeira, com enfoque nas crianças como público-alvo. A plataforma será projetada com uma linguagem atraente e adaptada às crianças, buscando evitar que problemas financeiros se tornem recorrentes na população brasileira ao longo da vida adulta.
+  
 </p>
- 
-<p align="justify"> 
-A estrutura temática, apresentada de forma didática, visa instruir os jovens quanto aos principais pilares da educação financeira, auxiliando-os no desenvolvimento dos conceitos e técnicas fundamentais para gestão eficiente de sua renda. Por meio das informações fornecidas na plataforma, o usuário terá acesso aos fundamentos da educação financeira, entendendo o conceito e diferenciação entre despesas fixas e variáveis, além de ser capaz de traçar suas metas financeiras a longo e curto prazo. Além disso, entre os objetivos principais do projeto destaca-se a proteção aos dados do usuário, em respeito à Lei Geral de Proteção de Dados Pessoais (Lei 13.709/18), por meio da aplicação de mecanismos de sigilo que resguardam seu acesso, não permitindo o acesso a perfis e dados que não os seus próprios. 
-</p>
 
-### 3.2 Objetivos específicos
-
-<p align="justify"> 
-O projeto apresentado possui como objetivo específico a disponibilização de ferramentas de gestão financeira a fim de auxiliar o usuário a aplicar seus conhecimentos adquiridos com o material didático disponível em nossa plataforma, resultando em um controle financeiro mais eficiente e dinâmico para o usuário. 
-</p>
-
-Para tanto, disponibilizamos as seguintes ferramentas de gestão financeira: 
-
-> - **Agenda:** Recurso disponível para o acompanhamento dos marcos e compromissos financeiros; 
-> - **Avaliação de conhecimento:** Questionários apresentados após cada seção de conteúdo, com o objetivo de reforçar os conhecimentos adquiridos;
-> - **Registro financeiro:** Recurso disponível para a inserção de ganhos e despesas diárias; 
-> - **Gráfico de gastos:** Ferramenta visual indicativa da relação ganho x gastos, com base nos dados indicados na calculadora, representando valores destacados em categorias; 
-> - **Indicativo de metas:** Sistema de controle de metas de poupança, apresentando a porcentagem atingida em relação ao objetivo final;
-> - **Questionário social:** Questionário sobre o perfil do usuário, para subsidiar melhorias nos conteúdos e ferramentas fornecidas;
-
-## 4. Justificativa
+## 1.4. Público-Alvo
 
 <p align="justify"> 
-Em face do grande endividamento de jovens no Brasil, percebe-se que é importante estabelecer uma relação saudável com as finanças desde cedo, porque, afinal, vivemos em uma sociedade na qual o dinheiro se mostra como um meio para a realização pessoal. Assim, estabelecendo relações, incitando reflexões e transmitindo conhecimentos, é importante que o jovem assuma as rédeas da própria vida financeira, por meio de um modo simples e eficaz de lidar com o dinheiro, proporcionando a priorização de seus sonhos.  
+Considerando que atualmente temos a taxa de aproximadamente 78% das famílias brasileiras endividadas (NITAHARA, 2022), nós do Grupo Save Coin, acreditamos que ensinando educação financeira a crianças podemos impactar no futuro por meio da diminuição da taxa de inadimplentes e até mesmo prover maior prosperidade do país. Sendo assim, definimos nosso público alvo sendo crianças, do sexo feminino e masculino, com idade entre 06 a 12 anos, independente de classe social.
 </p>
- 
-<p align="justify"> 
-Se a gestão da vida financeira começar o mais cedo possível, esse comportamento acaba se tornando parte da rotina do indivíduo, de modo que ao criar uma mentalidade voltada às finanças quando criança ou adolescente faz com esse tipo de educação seja enraizado desde cedo, tornando-se um hábito e possivelmente melhorando a qualidade de vida posteriormente.  
-</p>
- 
-<p align="justify">  
-Segundo dados levantados pela Confederação Nacional de Dirigentes Lojistas (CNDL) e pelo Serviço de Proteção ao Crédito (SPC Brasil) em 2022 o número de dívidas em atraso no Brasil teve crescimento de 12,74% em relação ao mesmo período de 2021. Uma maneira de evitar a permanência de tal cenário de crescimento é fornecer acesso à educação financeira para a população desde o primeiro contato com o dinheiro, iniciando, então, em suas primeiras etapas de sua vida. 
-</p>
- 
-<p align="justify"> 
-Diante de uma sociedade que se torna cada vez mais complexa com o passar do tempo, seja pelo grande fluxo de informações, pela mudança nas relações interpessoais e nas formas de consumo, faz-se necessária a educação financeira de modo que os indivíduos adquiram conhecimentos relativos à administração do dinheiro, armadilhas do consumismo, tomadas de decisão, entre outros. (OLIVEIRA, 2017). 
-</p>
+
+## 2. Estado da arte
 
 <p align="justify"> 
-A motivação para a criação desse projeto é desenvolver uma solução Web visando disseminar a educação financeira principalmente ao público jovem, com uma linguagem mais atrativa e voltada ao tipo de usuário, para que na vida adulta, problemas financeiros não sejam tão recorrentes na população Brasileira. 
+Tendo em vista que o escopo do projeto é o desenvolvimento de uma aplicação web voltada para a educação financeira de crianças, é importante fazer uma breve abordagem sobre os conceitos de Experiência do Usuário, Design Centrado no Usuário, bem como do Mapa da Empatia, e sua relevância para o projeto em discussão.
+
+Nesse contexto, a experiência do usuário (UX) desempenha um papel fundamental em sites educativos voltados para o público infantil, pois é um fator determinante para o envolvimento, aprendizado e desenvolvimento das crianças (SANTOS, 2021). Um design de UX bem pensado e adaptado às necessidades e capacidades das crianças pode criar um ambiente digital atraente, intuitivo e seguro, facilitando a navegação, interação e absorção de conteúdo educacional. Elementos visuais cativantes, navegação simplificada, feedbacks positivos e uma estrutura lógica podem aumentar o interesse das crianças, mantendo-as motivadas e proporcionando uma experiência significativa de aprendizado que pode influenciar positivamente seu desenvolvimento cognitivo e habilidades digitais desde cedo (FONTOURA, 2002).
+
+Associa-se a isso o design centrado no usuário, que é essencial em aplicações web para crianças, pois suas necessidades únicas demandam uma abordagem adaptada. Isso cria uma experiência digital envolvente e educativa, com elementos visuais atrativos, interações lúdicas e segurança online. Ao focar nas perspectivas das crianças, essas aplicações facilitam o aprendizado e o desenvolvimento de forma protegida. Similar ao mapa da empatia, que mapeia as necessidades e emoções dos usuários (MOULIN, 2017), o design centrado no usuário considera as perspectivas e características únicas das crianças ao desenvolver a interface.
+
+Assim, com base no mapa da empatia, o design é ajustado com elementos atrativos, interações intuitivas e conteúdo adaptado, resultando em uma aplicação financeira cativante. A combinação do design centrado no usuário, mapa da empatia e experiência do usuário cria um ambiente educativo informativo e envolvente para crianças.
+
+Passando-se a uma abordagem específica da importância do ensino de educação financeira durante a infância, tem-se que esta desempenha um papel de extrema importância no desenvolvimento saudável das crianças, capacitando-as a tomar decisões financeiras informadas e responsáveis ao longo de suas vidas. Segundo Cássia D’Aquino, a faixa etária dos 5 aos 8 anos se destaca como o período ideal para incitar uma mentalidade de consumo consciente, uma vez que é nesse intervalo que as relações cognitivas essenciais para a vida adulta começam a ser moldadas (D’AQUINO, 2008, p. 9, apud PINTO et. al, 2020). Nesse sentido, reforça-se a educação financeira na infância para que os indivíduos quando adultos consumam de forma consciente sem se deixar levar pelos impulsos; ensina Ribeiro et. al (2009) que os indivíduos possuem mais dificuldades de gerir suas finanças quando deixam seus desejos tomarem o controle de si mesmos.
+
+Embora os pais tenham um papel fundamental na educação financeira, a escola também desempenha um papel crucial, fornecendo noções básicas e abrangentes, sendo importante que a criança desenvolva um senso crítico diante de diversas abordagens, preparando-se para abordar temas financeiros posteriormente. Para tal, a colaboração entre instituições educacionais e pais é indispensável, porém, essa colaboração deve ser estruturada e adotar um modelo nacional padronizado. De acordo com a OCDE (2005), esse modelo deve estabelecer metas, conteúdos, estratégias e recursos, assegurando uma cobertura abrangente para todas as crianças a nível nacional. Isso garante que cada criança tenha acesso a materiais e ferramentas educacionais de alta qualidade, fomentando sua motivação e engajamento na educação financeira. Os resultados desse esforço conjunto seguem ao longo da vida adulta, com progressos e habilidades financeiras que perduram.
+
+No processo de ensino há diversas abordagens metodológicas, entre elas se popularizou bastante atualmente a gamificação, uma metodologia ativa que visa estimular a dinamicidade do ensino e da aprendizagem, na qual define-se uma atividade a ser realizada para que se atinja um objetivo específico associando o processo didático com elementos existentes em jogos (MARIANO et. al, 2020). Deste modo, pode-se pensar no desenvolvimento de jogos ou na utilização de jogos já existentes concatenados ao processo de ensino de educação financeira, para que, de forma lúdica, os estudantes possam reforçar o que foi aprendido e até aplicar conceitos na prática.
+
+Aplicativos de simulação financeira introduzem as crianças a conceitos como poupança, orçamento e tomada de decisões financeiras. Jogos de tabuleiro físicos e digitais são desenvolvidos para tornar o aprendizado sobre dinheiro uma experiência envolvente e socialmente interativa, como base podemos citar o jogo Banco Imobiliário Jr. da Fabricante Brinquedos Estrela, baseado em um jogo chamado Monopoly, fabricado pela primeira vez em 1935 nos Estados Unidos, pela empresa de brinquedos americana Hasbro. Apesar de ter a mesma estrutura e objetivos da versão tradicional, este modelo Jr. é diferente em dois aspectos: o número de casas é menor (apenas 50, enquanto na versão original são 80 casas) e os valores são mais básicos, para facilitar as contas a fim de que as crianças consigam ter uma interatividade melhor ainda mais novas, enquanto o tradicional é indicado para crianças acima de 8 anos, algumas versões do Banco Imobiliário Júnior são indicados para crianças a partir de 5 e 6 anos (ROSSONE, 2020). 
+
+Os responsáveis e educadores deveriam ser estimulados a integrar aplicativos interativos de simulação financeira e jogos de tabuleiro nas jornadas de aprendizado das crianças. Ao fazer isso, eles podem ajudar as crianças a construir uma base sólida de alfabetização financeira e melhorar suas habilidades de tomada de decisões financeiras.
+
+A educação financeira por meio de jogos e aplicativos interativos tem o potencial de impactar positivamente a vida das crianças. Ao incutir a conscientização financeira desde cedo, as crianças podem desenvolver hábitos financeiros saudáveis e tomar decisões informadas que as beneficiarão por toda a vida.
+
 </p>
 
-## 5. Público-Alvo
+## 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
+## 3.1. Objetivos deste documento
 
-O público alvo do presente projeto são crianças e adolescentes, do sexo feminino e masculino, com idade entre 12 a 18 anos, independente de classe social e que possuam ou não renda. 
+<p align="justify"> 
+O projeto proposto é estruturado sobre o objetivo geral de proporcionar acesso à educação financeira, por meio de informações didáticas e acessíveis, de forma simples e objetiva, hospedado em uma Aplicação Web, baseada em uma interface intuitiva e de fácil acesso, colaborando para a absorção do conhecimento das noções básicas de educação financeira, possibilitando o aprendizado desta importante área de conhecimento e sua aplicação no cotidiano.
 
-Considerando que atualmente temos a taxa de aproximadamente 78% das famílias brasileiras endividadas (NITAHARA, 2022), nós do Grupo Save Coin, acreditamos que ensinando educação financeira a crianças e adolescentes, de 12 a 18 anos, pode impactar no futuro por meio da diminuição da taxa de inadimplentes e até mesmo prover maior prosperidade do país.   
+Ademais, este documento visa trazer as motivações, objetivos, problemas e especificações gerais e técnicas do projeto descrito acima. 
+</p>
+
+## 3.2. Escopo do produto
+
+## 3.2.1. Save coin - Gestão financeira
+<p align="justify"> 
+O produto será denominado Save Coin - Gestão financeira infantil e será destinado a  proporcionar uma compreensão sólida da gestão financeira desde a infância. Ele terá um componente com aulas/artigos sobre a gestão financeira, um quiz interativo sobre os assuntos abordados e um painel interativo sobre metas financeiras e a sua gestão, todas as funcionalidades são projetadas de forma a serem acessíveis e compreensíveis para o público-alvo infantil.
+</p>
+
+## 3.2.2. Missão do produto
+<p align="justify"> 
+Ampliar o entendimento sobre a gestão financeira na infância de forma simplificada, educativa e didática.
+</p>
+
+## 3.2.3. Limites do produto
+<p align="justify"> 
+Ampliar o entendimento sobre a gestão financeira na infância de forma simplificada, educativa e didática.
+</p>
+
+## 3.2.4. Benefícios do produto
+
+![Tabela benefícios do produto](image.png)
 
 ## Referências Bibliográficas
 
