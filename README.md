@@ -51,7 +51,7 @@ Nesse contexto, o Grupo Save Coin, comprometido com o desenvolvimento da educaç
 </tr>
 <tr>
 
-<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="./EIXO 3/docs/img/INTEGRANTES/Giovanny borda.png" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito"><img src="./EIXO 3/docs/img/EMOJI/cube.png" width="20px" ></a></td>
+<td align="center"><a href="https://github.com/GiovannyBrito"><img style="border-radius: 50%;" src="./EIXO 3/docs/img/INTEGRANTES/Giovanny Borda.png" width="100px;" alt=""/><br /><sub><b>Giovanny Brito</b></sub></a><br /><a href="https://github.com/GiovannyBrito" title="Giovanny Brito"><img src="./EIXO 3/docs/img/EMOJI/cube.png" width="20px" ></a></td>
 
 <td align="center"><a href="https://github.com/pedro-andradee"><img style="border-radius: 50%;" src="./EIXO 3/docs/img/INTEGRANTES/Pedro borda.png" width="100px;" alt=""/><br /><sub><b>Pedro Andrade</b></sub></a><br /><a href="https://github.com/pedro-andradee" title="Pedro Andrade">🚀</a></td>
 
