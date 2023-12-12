@@ -14,10 +14,10 @@
 <p align="center">
    Aplicação buscando melhorar a educação financeira dos jovens.
     <br>
-    <a href="docs/Etapa1DocContexto.md" rel="docs"><strong>Clique para saber mais sobre o nosso projeto</strong></a>
+    <a href="./EIXO 3/docs/Etapa1DocContexto.md" rel="docs"><strong>Clique para saber mais sobre o nosso projeto</strong></a>
     <br>
     <br>
-    <a href="docs/Etapa1Especificacao.md">Especificação</a>
+    <a href="./EIXO 3/docs/Etapa1Especificacao.md">Documentação</a>
     <br>
     <a href="docs/Etapa2Interface.md">Interface</a>
     <br>

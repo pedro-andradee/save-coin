@@ -12,7 +12,7 @@ Nesse contexto, o Grupo Save Coin, comprometido com o desenvolvimento da educaç
 </p>
 
 
-## 1.1. Problema
+## 1.1 Problema
 
 <p align="justify">
 A situação de endividamento no Brasil está em ascensão, sendo que diversos fatores contribuem para esse cenário. Entre esses fatores, podemos destacar a inexperiência no manejo do dinheiro, os impulsos consumistas e a facilidade de acesso ao crédito, que muitas vezes culminam no aumento do número de brasileiros endividados.
@@ -30,7 +30,7 @@ Diante dessa realidade, nosso projeto busca oferecer uma solução prática e ac
 
 </p>
  
-## 1.2. Objetivos do trabalho
+## 1.2 Objetivos do trabalho
 
 ## 1.2.1 Objetivo geral
 
@@ -42,7 +42,7 @@ A abordagem temática, estruturada de maneira didática, tem como propósito gui
 
 O projeto apresentado possui os objetivos específicos de desenvolver e disponibilizar um conjunto de recursos didáticos voltados para o ensino de gestão financeira direcionado a crianças. Além disso, pretende-se aprimorar o aprendizado por meio de um questionário dinâmico, visando a consolidação dos conhecimentos adquiridos. Adicionalmente, busca-se implementar uma ferramenta destinada ao estabelecimento de metas, com o propósito de cultivar a prática de poupança e incentivar as crianças a alcançar objetivos financeiros de forma eficaz.
 
-## 1.3. Justificativa
+## 1.3 Justificativa
 
 <p align="justify"> 
 A educação financeira na infância desempenha um papel crucial no desenvolvimento de habilidades essenciais para a vida adulta. Ao introduzir conceitos financeiros desde cedo, as crianças aprendem a tomar decisões informadas sobre dinheiro, economizar, planejar e gastar de maneira responsável. Essa base sólida promove a compreensão das implicações das escolhas financeiras, ajudando a evitar armadilhas financeiras no futuro. Além disso, ao internalizar princípios como a importância de poupar e a diferença entre necessidades e desejos, as crianças estão mais bem preparadas para lidar com situações financeiras complexas ao longo da vida, contribuindo para uma maior segurança financeira e bem-estar geral.
@@ -57,7 +57,7 @@ A motivação subjacente a este projeto é desenvolver uma solução web que pro
   
 </p>
 
-## 1.4. Público-Alvo
+## 1.4 Público-Alvo
 
 <p align="justify"> 
 Considerando que atualmente temos a taxa de aproximadamente 78% das famílias brasileiras endividadas (NITAHARA, 2022), nós do Grupo Save Coin, acreditamos que ensinando educação financeira a crianças podemos impactar no futuro por meio da diminuição da taxa de inadimplentes e até mesmo prover maior prosperidade do país. Sendo assim, definimos nosso público alvo sendo crianças, do sexo feminino e masculino, com idade entre 06 a 12 anos, independente de classe social.
@@ -89,7 +89,7 @@ A educação financeira por meio de jogos e aplicativos interativos tem o potenc
 </p>
 
 ## 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
-## 3.1. Objetivos deste documento
+## 3.1 Objetivos deste documento
 
 <p align="justify"> 
 O projeto proposto é estruturado sobre o objetivo geral de proporcionar acesso à educação financeira, por meio de informações didáticas e acessíveis, de forma simples e objetiva, hospedado em uma Aplicação Web, baseada em uma interface intuitiva e de fácil acesso, colaborando para a absorção do conhecimento das noções básicas de educação financeira, possibilitando o aprendizado desta importante área de conhecimento e sua aplicação no cotidiano.
@@ -97,26 +97,67 @@ O projeto proposto é estruturado sobre o objetivo geral de proporcionar acesso 
 Ademais, este documento visa trazer as motivações, objetivos, problemas e especificações gerais e técnicas do projeto descrito acima. 
 </p>
 
-## 3.2. Escopo do produto
+## 3.2 Escopo do produto
 
-## 3.2.1. Save coin - Gestão financeira
+## 3.2.1 Save coin - Gestão financeira
 <p align="justify"> 
 O produto será denominado Save Coin - Gestão financeira infantil e será destinado a  proporcionar uma compreensão sólida da gestão financeira desde a infância. Ele terá um componente com aulas/artigos sobre a gestão financeira, um quiz interativo sobre os assuntos abordados e um painel interativo sobre metas financeiras e a sua gestão, todas as funcionalidades são projetadas de forma a serem acessíveis e compreensíveis para o público-alvo infantil.
 </p>
 
-## 3.2.2. Missão do produto
+## 3.2.2 Missão do produto
 <p align="justify"> 
 Ampliar o entendimento sobre a gestão financeira na infância de forma simplificada, educativa e didática.
 </p>
 
-## 3.2.3. Limites do produto
+## 3.2.3 Limites do produto
 <p align="justify"> 
 Ampliar o entendimento sobre a gestão financeira na infância de forma simplificada, educativa e didática.
 </p>
 
-## 3.2.4. Benefícios do produto
+## 3.2.4 Benefícios do produto
 
-![Tabela benefícios do produto](./img/image.png)
+![Tabela benefícios do produto](./img/benefProd.png)
+
+## 3.3 Descrição geral do produto
+
+## 3.3.1 Requisitos Funcionais
+
+![Tabela requisitos funcionais](./img/reqFunc.png)
+
+## 3.3.1 Requisitos Não Funcionais
+
+![Tabela requisitos não funcionais](./img/reqNaoFunc.png)
+
+## 3.3.2 Usuários
+
+![Tabela usuarios](./img/usuarios.png)
+
+## 3.4 Modelagem do Sistema
+
+<p align="justify"> 
+A modelagem do sistema desempenha um papel central no processo de desenvolvimento de software, proporcionando uma representação estruturada e abstrata de um sistema antes de sua implementação. Essa prática permite aos desenvolvedores e stakeholders visualizar, compreender e comunicar os componentes, interações e funcionalidades do sistema de forma clara e consistente.
+Utilizando técnicas como diagramas de casos de uso e diagramas de classes, a modelagem ajuda a identificar requisitos, analisar processos, e facilitar a tomada de decisões informadas durante todo o ciclo de vida do projeto, contribuindo para a criação de sistemas eficientes, escaláveis e de alta qualidade.
+</p>
+
+## 3.4.1 Diagrama de Casos de Uso
+<p align="justify"> 
+O diagrama de casos de uso é uma ferramenta essencial na modelagem de sistemas, pois descreve as interações entre um sistema e seus atores (usuários ou outros sistemas), destacando como o sistema será utilizado na prática. Utilizando elementos como atores, casos de uso e associações, esse diagrama permite capturar os principais cenários de interação, identificar os requisitos funcionais do sistema e definir os limites entre o sistema e seu ambiente.
+</p>
+
+![Diagrama de casos de uso](./img/diagCasosUso.png)
+
+## 3.4.2 Descrições de Casos de Uso
+<p align="justify"> 
+As descrições de casos de uso são documentos detalhados que complementam os diagramas de casos de uso, fornecendo informações abrangentes sobre como um caso de uso específico deve se comportar e interagir com atores e outros elementos do sistema. 
+As descrições de casos de uso são valiosas, não apenas para a implementação do sistema, mas também para a validação, teste e manutenção, pois servem como uma referência detalhada que orienta o desenvolvimento e ajuda a garantir que o sistema atenda às expectativas dos usuários.
+</p>
+
+![Caso de uso 1](image.png)
+![pos condicoes 1](image-1.png)
+
+![Alt text](image-2.png)
+![Alt text](image-3.png)
+![Alt text](image-4.png)
 
 ## Referências Bibliográficas
 
