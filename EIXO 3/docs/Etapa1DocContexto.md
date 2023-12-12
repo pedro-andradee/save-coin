@@ -116,7 +116,7 @@ Ampliar o entendimento sobre a gestão financeira na infância de forma simplifi
 
 ## 3.2.4. Benefícios do produto
 
-![Tabela benefícios do produto](image.png)
+![Tabela benefícios do produto](./img/image.png)
 
 ## Referências Bibliográficas
 
