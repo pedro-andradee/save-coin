@@ -54,22 +54,3 @@ Nesse contexto, o Grupo Save Coin, comprometido com o desenvolvimento da educaç
 </tr>
 </table>
 </div>
-
-# Planejamento
-
-
-1. [Documentação de Contexto](./EIXO%203/docs/Etapa1DocContexto.md) 
-2. [Especificação do Projeto](docs/Etapa1Especificacao.md) 
-3. [Projeto de Interface](docs/Etapa2Interface.md)
-4. [Template Padrão](docs/Etapa2Template.md) 
-5. [Programação de Funcionalidades - HTML/CSS/JS](docs/Etapa3e4Desenvolvimento.md) 
-6. [Testes de Software](docs/Etapa4Testes.md) 
-7. [Apresentação do projeto](presentation/README.md) 
-
-# Código
-
-<li><a href="src/README.md"> Código Fonte</a></li>
-
-# Apresentação
-
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
