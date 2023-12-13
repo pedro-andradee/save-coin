@@ -158,140 +158,137 @@ As descrições de casos de uso são valiosas, não apenas para a implementaçã
 ![Alt text](image-2.png)
 ![Alt text](image-3.png)
 ![Alt text](image-4.png)
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+![Alt text](image-7.png)
+![Alt text](image-8.png)
+![Alt text](image-9.png)
+![Alt text](image-10.png)
+![Alt text](image-11.png)
+
+## 3.4.3 Diagrama de Classes 
+A figura 2 mostra o diagrama de classes do Sistema de Gestão financeira infantil denominado por save-coin. Nesta modelagem, seguiu-se as seguintes regras de negócio:
+    1. Cada Usuario deve ter um único login para acessar e identificá-lo no sistema, ele deve ter como atributos: Id, login , nome, E-mail, senha e data de nascimento. Essa classe tem o papel de registrar os dados de identificação e acesso dos usuários.
+    2. A classe Criança além de herdar os atributos do usuário deve possuir em seu cadastro um responsável associado.
+    3. A classe Responsável além de herdar os atributos do usuário deve possuir em seu cadastro uma criança associada.
+    4. A classe Monitor além de herdar os atributos do usuário deve possuir o Número de funcionário.
+    5. A classe Admin além de herdar os atributos do usuário deve possuir o Número de registro de Admin.
+    6. Material de estudo deve possuir como atributo titulo e texto.
+    7. A classe Duvida deve possuir como atributo date e a duvida, uma agregação por composição, sendo zero ou varias duvidas para apenas um responsavel ou criança.
+    8. A classe Quiz deve possuir como atributo a pergunta e a LetraResposta para poder calcular o desempenho e gerenciar o historico, também uma uma agregação por composição, sendo zero ou varios quiz para apenas uma criança.
+    9. A classe Meta deve possuir como atributo id, DescricaoMeta, ValorMeta, DataMeta,ValorDepositado, uma agregação por composição. sendo zero ou várias metas para apenas uma criança.
+
+![Alt text](image-12.png)
+
+## 3.4.3 Descrição das Classes
+![Alt text](image-13.png)
+
+## 4. PROJETO DO DESIGN DE INTERAÇÃO
+
+## 4.1 Personas
+Nesta etapa é fundamental entender para quem estamos criando nossa aplicação web de educação financeira. Conhecer nossos usuários é a chave para o desenvolvimento de uma solução eficaz e significativa. Por meio da criação de personas, pudemos mergulhar nas vidas, personalidades, interesses, desafios e objetivos de nossos potenciais usuários.
+Apresentamos, a seguir, seis personas que representam diferentes segmentos de nosso público-alvo. Cada persona é única, com suas próprias motivações e necessidades. Ao criar nossas personas, levamos em consideração não apenas as características demográficas, mas também as dimensões psicológicas e emocionais que influenciam o comportamento do usuário.
+Nossas personas não são apenas personagens fictícias, mas reflexos de pessoas reais com quem nossa aplicação web irá interagir. Através dessas personas, ganhamos insights valiosos sobre como podemos atender às expectativas de nossos usuários, oferecendo uma experiência de aprendizado envolvente e significativa.
+Ao longo deste trabalho, apresentaremos e analisaremos essas personas em detalhes, destacando suas necessidades, dores, desejos e objetivos. Isso nos permitirá moldar nossa aplicação de educação financeira de forma a proporcionar valor real para essas crianças, ajudando-as a compreender o mundo das finanças de maneira acessível e divertida.
+
+![Alt text](image-14.png)
+![Alt text](image-15.png)
+![Alt text](image-16.png)
+![Alt text](image-17.png)
+![Alt text](image-18.png)
+![Alt text](image-19.png)
+
+## 4.2 Mapa de Empatia
+Para criar uma aplicação web centrada no usuário, é essencial mergulhar fundo na psicologia e nas emoções de quem a utilizará. Entender as perspectivas, desejos, dores e a realidade vivida pelos nossos usuários é o cerne do desenvolvimento de uma experiência significativa. Para isso, utilizamos uma poderosa ferramenta conhecida como "Mapa de Empatia".
+O Mapa de Empatia é uma representação visual das experiências e sentimentos do usuário, permitindo-nos ver o mundo através de seus olhos. Ele nos ajuda a entender quem são nossos usuários, o que pensam, o que veem, o que ouvem, o que dizem e fazem, quais são suas necessidades e quais são suas dores.
+Em nosso projeto, o Mapa de Empatia se tornou a bússola que nos direciona na busca por uma compreensão mais profunda de como nossos usuários interagem com a educação financeira. Ao criar mapas de empatia para as personas, mergulhamos em suas mentes e corações, ganhando insights cruciais sobre suas jornadas, desafios e objetivos.
+Ao longo deste trabalho, exploraremos os Mapas de Empatia de nossas personas, destacando as informações valiosas que coletamos. Estas representações gráficas não são apenas diagramas, mas janelas para as experiências dos nossos usuários. Através do Mapa de Empatia, conseguimos capturar a essência das personas e usá-la para orientar nossas decisões de design, garantindo que nossa aplicação atenda às suas necessidades e anseios.
+
+![Alt text](image-20.png)
+![Alt text](image-21.png)
+![Alt text](image-22.png)
+![Alt text](image-23.png)
+![Alt text](image-24.png)
+![Alt text](image-25.png)
+
+
+## 4.3 Protótipos das Interfaces
+A fase de prototipagem é o ponto crucial em nosso processo de design, onde as ideias ganham vida e as experiências do usuário começam a tomar forma. Ao desenvolver as interfaces para nossa aplicação, nossa abordagem foi moldada por uma série de princípios e diretrizes que têm sido a pedra angular do design eficaz. Entre esses princípios, destacamos o uso de princípios gestálticos, recomendações ergonômicas e as regras de design, incluindo as renomadas "8 Regras de Ouro".
+**Princípios Gestálticos:** As leis da Gestalt, como a proximidade, semelhança e continuidade, foram incorporadas na criação de nossos protótipos. Compreendemos que a mente humana tem uma tendência inata de organizar informações visuais em padrões significativos. Portanto, nossas interfaces aderem a esses princípios para garantir que os elementos visuais sejam organizados de maneira que os usuários possam facilmente identificar e interpretar informações. A simplicidade, a clareza e a harmonia visual são prioridades em nosso design.
+**Recomendações Ergonômicas:** O conforto e a usabilidade são essenciais para a eficácia de nossa aplicação. Seguimos as melhores práticas ergonômicas ao posicionar elementos interativos, como botões e menus, de forma a garantir que sejam facilmente acessíveis aos usuários. Consideramos a ergonomia na escolha das cores, tamanhos de fonte e layouts para reduzir a fadiga visual e melhorar a experiência do usuário.
+**Regras de Design, incluindo as 8 Regras de Ouro:** As regras de design são o nosso guia para criar interfaces visualmente atraentes e funcionais. As "8 Regras de Ouro", que incluem diretrizes como consistência, feedback imediato e simplicidade, são princípios que incorporamos em nossos protótipos para criar uma experiência coesa e eficiente. Sabemos que a consistência na disposição de elementos, a retroalimentação clara das ações do usuário e a simplicidade na interação são cruciais para a satisfação do usuário.
+Nossos protótipos de interfaces foram projetados com uma atenção meticulosa a cada detalhe, buscando não apenas atender às necessidades funcionais, mas também proporcionar uma experiência estética agradável. Acreditamos que, ao aplicar princípios gestálticos, recomendações ergonômicas e regras de design, estamos no caminho certo para criar uma aplicação que não apenas educa, mas também cativa os usuários.
+Em nossa jornada de design, estamos comprometidos em integrar a arte e a ciência do design, combinando a estética visual com a usabilidade eficiente. Nossos protótipos de interfaces são a manifestação de nossos esforços para criar uma aplicação que seja ao mesmo tempo estéticamente agradável e funcional, alinhada com os mais altos padrões de design e usabilidade.
+## 4.3.1 Home Page:
+A tela inicial da aplicação, ou home page, é visualizada pelo usuário quando da iniciação da página web. Nela são aplicados os princípios da proximidade, simetria, similaridade e região comum, uma vez que os elementos relacionados encontram-se agrupados, sendo semelhantes em tamanho, forma e cor de maneira a serem percebidos como um grupo.
+
+![Alt text](image-26.png)
+![Alt text](image-27.png)
+
+## 4.3.2 Login e Criar Conta:
+Na tela de login, o usuário poderá inserir seus dados cadastrados para ter acesso à sua conta na plataforma, bem como há a possibilidade de redefinir a senha caso necessário. No caso de não ser um usuário previamente cadastrado, há o direcionamento para a página de cadastro.
+São aplicados os princípios da do destino comum, simetria e similaridade, bem como da região comum e da proximidade, sendo solicitadas somente informações essenciais ao uso da plataforma, com a aplicação de cores uniformes que auxiliam na navegabilidade, além de instruções básicas que guiam o usuário de maneira intuitiva.
+
+![Alt text](image-28.png)
+![Alt text](image-29.png)
+![Alt text](image-30.png)
+
+## 4.3.3 Metas Financeiras:
+Nesta página, o usuário pode criar novas metas financeiras, definindo seu nome, valor a ser atingido e data final, além de editar as existentes. São utilizados botões de cores diferentes para indicar que realizam funções diferentes, auxiliando o usuário na compreensão do sistema.
+Nas metas financeiras pode ser percebida a aplicação dos princípios da proximidade, alinhamento e região comum, além de simetria e similaridade, visto que as funcionalidades e informações relacionadas a uma mesma meta financeira são alinhados de maneira a constituir um grupo.
+
+![Alt text](image-31.png)
+![Alt text](image-32.png)
+![Alt text](image-33.png)
+
+## 4.3.4. Sessão de Estudos e Material Didático:
+Na sessão de estudos o usuário pode acessar os materiais didáticos fornecidos pela plataforma, selecionando qual artigo pretende ler. A página fornece artigos curtos e de didática simples, voltado ao público infanto juvenil.
+São aplicados os princípios da região comum, alinhamento e similaridade.
+
+![Alt text](image-34.png)
+![Alt text](image-35.png)
+
+
+## 4.3.5 Quiz interativo:
+Nesta página o usuário responde algumas perguntas curtas relacionadas ao conhecimento adquirido por meio do material didático disponibilizado na sessão de estudos, sendo informada ao final sua pontuação, bem como o gabarito.
+Há a aplicação dos princípios do alinhamento, região comum, destino comum e simetria. Ademais, por tratar-se de uma aplicação web para o público infantil, pode-se também considerar a aplicação do princípio da pregnância, por serem utilizadas formas mais simples com o objetivo de criar uma interface mais simples e de fácil compreensão.
+
+![Alt text](image-36.png)
+![Alt text](image-37.png)
+![Alt text](image-38.png)
+
+
 
 ## Referências Bibliográficas
 
-BRASIL. **Lei nº 9.610, de 19 de fevereiro de 1998**. Altera, atualiza e consolida a legislação sobre direitos autorais e dá outras providências. Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/leis/l9610.htm. Acesso em: 07 set. 2021.
+CAVALCANTE, Carlos H. L. et al. **Grana - Educação financeira para crianças de escolas rurais através de um jogo para dispositivos móveis.** In: SIMPÓSIO BRASILEIRO DE INFORMÁTICA NA EDUCAÇÃO (SBIE), 32. , 2021, Online. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2021 . p. 360-370. Disponível em: https://doi.org/10.5753/sbie.2021.218285. Acesso em: 24 ago. 2023.
 
-BRASIL. **Lei nº 13.709, de 14 de agosto de 2018**. Lei Geral de Proteção de Dados Pessoais (LGPD). Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14020.htm. Acesso em: 07 set. 2021.
+FRAIDENRAICH, Verônica. **Trabalhar a educação financeira tem impacto no presente, mas muito maior no futuro das crianças.** Canguru News, [S. l.], p. 1, 5 jun. 2023. Disponível em: https://cangurunews.com.br/trabalhar-a-educacao-financeira-tem-impacto-no-presente-mas-muito-maior-no-futuro-das-criancas/. Acesso em: 25 ago. 2023.
 
-CORSINI, Iuri; ARAÚJO, Thayana. **Número de inadimplentes no Brasil atinge recorde da série histórica, aponta Serasa**: São 66,6 milhões de nomes negativados em todo o país, um aumento de 4 milhões de inadimplentes em relação ao mesmo período do ano passado. In: CNN Brasil. 11 jul. 2022. Disponível em: https://cnnbrasil.com.br/business/numero-de-inadimplentes-no-brasil-atinge-recorde-da-serie-historica-aponta-serasa/. Acesso em: 31 ago. 2022. 
+FONTOURA, Antonio M. **EdaDe: Educação de crianças e jovens através do design.** Florianópolis, 2002. 337p. Tese (Doutorado em Engenharia da Produção) – Programa de Pós Graduação em Engenharia da Produção, Santa Catarina: UFSC, 2002. 
 
-ENEF. **Conceito de Educação Financeira no Brasil**. In: Estratégia Nacional de Educação Financeira. Disponível em: https://www.vidaedinheiro.gov.br/educacao-financeira-no-brasil/. Acesso em: 1 set. 2022. 
+IBGE – INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. **IPCA 2022 – 2023.** Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/37626-inflacao-fica-em-0-12-em-julho-apos-deflacao-no-mes-anterior. Rio de Janeiro: IBGE, 2023. Acesso em: 26 ago. 2023.
 
-IBGE – INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. **IPCA 2021 – 2022**. Disponível: https://www.ibge.gov.br/explica/inflacao.php. Rio de Janeiro: IBGE, 2022. Acesso em: 31 ago. 2022.
+MARIANO, Kathleen Diniz et al. **Educação financeira infantil: forma criativa de educar.** ETIC-ENCONTRO DE INICIAÇÃO CIENTÍFICA-ISSN 21-76-8498, v. 16, n. 16, 2020.
 
-MINELLA, João Marcos et al. **A influência do materialismo, educação financeira e valor atribuído ao dinheiro na propensão ao endividamento de jovens**. Gestão & Planejamento-G&P, v. 18, 2017. 
+MINELLA, João Marcos et al. **A influência do materialismo, educação financeira e valor atribuído ao dinheiro na propensão ao endividamento de jovens.** Gestão & Planejamento-G&P, v. 18, 2017.
 
-NITAHARA, Akemi. **Percentual de famílias com dívidas a vencer atinge recorde de 78%**: Alta nas duas faixas de renda ocorre depois de dois meses de queda. In: Agência Brasil. 8 ago. 2022. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2022-08/percentual-de-familias-com-dividas-vencer-atinge-recorde-de-78. Acesso em: 31 ago. 2022. 
+MOULIN, Robson. **O que é user experience (UX) e como isso afeta a vida das pessoas.** [S. l.], 15 dez. 2017. Disponível em: http://www.robsonmoulin.com.br/artigos/user-experience/oque-e-user-experience-ux-e-como-isso-afeta-vida-das-pessoas/. Acesso em: 16 ago. 2023.
 
-OLIVEIRA, Anaelize dos Anjos. **O Educação financeira nos anos iniciais do ensino fundamental**: como tem ocorrido na sala de aula?. 2017. Dissertação (Mestrado Educação Matemática e Tecnológica) - Universidade Federal de Pernambuco, Recife, 2017.
+NITAHARA, Akemi. **Percentual de famílias com dívidas a vencer atinge recorde de 78%: Alta nas duas faixas de renda ocorre depois de dois meses de queda.** In: Agência Brasil. 8 ago. 2022. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2022-08/percentual-de-familias-com-dividas-vencer-atinge-recorde-de-78. Acesso em: 31 ago. 2022.
 
-PODER 360. **62 milhões de brasileiros estão inadimplentes, diz pesquisa**: Número de consumidores com contas atrasadas cresceu 6,5% em relação a junho de 2021, segundo o SPC. In: Poder 360. 22 jul. 2022. Disponível em: https://www.poder360.com.br/brasil/62-milhoes-de-brasileiros-estao-inadimplentes-diz-pesquisa/. Acesso em: 31 ago. 2022.
+OCDE - ORGANIZAÇÃO PARA COOPERAÇÃO E DESENVOLVIMENTO  ECONÔMICO. **Melhorando a alfabetização financeira: análise de questões e  políticas.** Paris, 181 p., 2005.
 
-REIS, Tiago. **Educação financeira: 5 dicas fáceis para melhorar suas finanças**. SUNO. Disponível em: https://www.suno.com.br/guias/educacao-financeira/. Acesso em: 1 set. 2022. 
+OLIVEIRA, Anaelize dos Anjos. **A Educação financeira nos anos iniciais do ensino fundamental: como tem ocorrido na sala de aula?.** 2017. Dissertação (Mestrado Educação Matemática e Tecnológica) - Universidade Federal de Pernambuco, Recife, 2017.
 
-SPC Brasil. **Inadimplência Nacional de Pessoas Físicas**. Disponível em: https://static.poder360.com.br/2022/07/Ana%CC%81lise-Inadimple%CC%82ncia-BRASIL-PF_jun2022.pdf. Acesso em: 1 set. 2022. 
+PINTO, Ernane Pereira da Costa et al. **A Importância da Educação Financeira na Infância.** 2020. Trabalho de Conclusão de Curso (Bacharelado em Administração) - Centro Universitário de Anápolis, [S. l.], 2020. Disponível em: http://repositorio.aee.edu.br/jspui/handle/aee/9380. Acesso em: 23 ago. 2023.
 
-### Anexo | Estado da Arte
+RIBEIRO, C. A. et al. **Finanças pessoais: análise dos gastos e da propensão ao endividamento em estudantes de administração.** In: SALÃO DE INICIAÇÃO CIENTÍFICA, 21, 2009, Porto Alegre. Livro de resumos. Porto Alegre, UFRGS, 2009.
+ROSSONE, Jéssica. Sobre Banco Imobiliário e afins: um manifesto infantil, assim como deve ser. Instituto de Pesquisa e Planejamento Urbano e Regional, [S. l.], v. 36, p. 1, 30 set. 2020. Disponível em: https://ippur.com.br/sobre-banco-imobiliario-e-afins-um-manifesto-infantil-assim-como-deve-ser/#:~:text=Este%20jogo%20%C3%A9%20recomendado%20para,de%205%20e%206%20anos. Acesso em: 24 ago. 2023.
 
-**Tema:** Educação e gestão financeira. 
+SAMPAIO, Fabiana. **Estudo mostra que 78,5% das famílias brasileiras estão endividadas: Segundo a pesquisa, 18,5% das famílias se consideram muito endividadas.** Agência Brasil, [S. l.], p. 1, 11 jul. 2023. Disponível em: https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2023-07/estudo-mostra-que-785-das-familias-brasileiras-estao-endividadas. Acesso em: 22 ago. 2023.
 
-<p align="justify"> 
-O público alvo do presente projeto são crianças e adolescentes, do sexo feminino e masculino, com idade entre 12 a 18 anos, independente de classe social e que possuam ou não renda. 
-</p>
+SANTOS, Anna Beatriz M. C. **User Experience: diretrizes para avaliação da Usabilidade em sites de jogos educativos voltados para o público infantil.** Ensaio Geral, n. 2, p. 49-68, 29 out. 2021. Disponível em: https://periodicos.uff.br/ensaiogeral/article/view/50703. Acesso em: 17 ago. 2023.
 
-<p align="justify"> 
-Considerando que atualmente temos a taxa de aproximadamente 78% das famílias brasileiras endividadas (NITAHARA, 2022), nós do Grupo Save Coin, acreditamos que ensinando educação financeira a crianças e adolescentes, de 12 a 18 anos, pode impactar no futuro por meio da diminuição da taxa de inadimplentes e até mesmo prover maior prosperidade do país.   
-</p>
+SOUZA, Débora Patrícia de. **A Importância da Educação Financeira Infantil. 2012. Trabalho de Conclusão de Curso (Bacharelado em Ciências Contábeis) - Centro Universitário Newton Paiva, [S. l.], 2012.** Disponível em: http://educacaofinanceira.com.br/wp-content/uploads/2021/11/tcc-a-importancia-da-educacao-financeira-infantil.pdf. Acesso em: 24 ago. 2023.
 
-## Referências Bibliográficas
-
-<p align="justify"> 
-BRASIL. **Lei nº 9.610, de 19 de fevereiro de 1998**. Altera, atualiza e consolida a legislação sobre direitos autorais e dá outras providências. Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/leis/l9610.htm. Acesso em: 07 set. 2021.
-</p>
- 
-<p align="justify"> 
-BRASIL. **Lei nº 13.709, de 14 de agosto de 2018**. Lei Geral de Proteção de Dados Pessoais (LGPD). Brasília, DF: Presidência da República, [2022]. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14020.htm. Acesso em: 07 set. 2021.
-</p>
- 
-<p align="justify"> 
-CORSINI, Iuri; ARAÚJO, Thayana. **Número de inadimplentes no Brasil atinge recorde da série histórica, aponta Serasa**: São 66,6 milhões de nomes negativados em todo o país, um aumento de 4 milhões de inadimplentes em relação ao mesmo período do ano passado. In: CNN Brasil. 11 jul. 2022. Disponível em: https://cnnbrasil.com.br/business/numero-de-inadimplentes-no-brasil-atinge-recorde-da-serie-historica-aponta-serasa/. Acesso em: 31 ago. 2022. 
-</p>
- 
-<p align="justify"> 
-ENEF. **Conceito de Educação Financeira no Brasil**. In: Estratégia Nacional de Educação Financeira. Disponível em: https://www.vidaedinheiro.gov.br/educacao-financeira-no-brasil/. Acesso em: 1 set. 2022. 
-</p>
- 
-<p align="justify"> 
-IBGE – INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. **IPCA 2021 – 2022**. Disponível: https://www.ibge.gov.br/explica/inflacao.php. Rio de Janeiro: IBGE, 2022. Acesso em: 31 ago. 2022.
-</p>
- 
-<p align="justify"> 
-MINELLA, João Marcos et al. **A influência do materialismo, educação financeira e valor atribuído ao dinheiro na propensão ao endividamento de jovens**. Gestão & Planejamento-G&P, v. 18, 2017. 
-</p>
- 
-<p align="justify"> 
-NITAHARA, Akemi. **Percentual de famílias com dívidas a vencer atinge recorde de 78%**: Alta nas duas faixas de renda ocorre depois de dois meses de queda. In: Agência Brasil. 8 ago. 2022. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2022-08/percentual-de-familias-com-dividas-vencer-atinge-recorde-de-78. Acesso em: 31 ago. 2022. 
-</p>
- 
-<p align="justify"> 
-OLIVEIRA, Anaelize dos Anjos. **O Educação financeira nos anos iniciais do ensino fundamental**: como tem ocorrido na sala de aula?. 2017. Dissertação (Mestrado Educação Matemática e Tecnológica) - Universidade Federal de Pernambuco, Recife, 2017.
-</p>
- 
-<p align="justify"> 
-PODER 360. **62 milhões de brasileiros estão inadimplentes, diz pesquisa**: Número de consumidores com contas atrasadas cresceu 6,5% em relação a junho de 2021, segundo o SPC. In: Poder 360. 22 jul. 2022. Disponível em: https://www.poder360.com.br/brasil/62-milhoes-de-brasileiros-estao-inadimplentes-diz-pesquisa/. Acesso em: 31 ago. 2022.
-</p>
- 
-<p align="justify"> 
-REIS, Tiago. **Educação financeira: 5 dicas fáceis para melhorar suas finanças**. SUNO. Disponível em: https://www.suno.com.br/guias/educacao-financeira/. Acesso em: 1 set. 2022. 
-</p>
- 
-<p align="justify"> 
-SPC Brasil. **Inadimplência Nacional de Pessoas Físicas**. Disponível em: https://static.poder360.com.br/2022/07/Ana%CC%81lise-Inadimple%CC%82ncia-BRASIL-PF_jun2022.pdf. Acesso em: 1 set. 2022. 
-</p>
- 
-
-## Anexo I | Estado da Arte
-
-https://www.fecap.br/
-
-https://www.ev.org.br/
-
-https://www.sebrae.com.br/
-
-https://edu.b3.com.br/
-
-http://portal.mec.gov.br/
-
-https://www.mobills.com.br/
-
-https://www.contasonline.com.br/
-
-https://organizze.com.br/
-
-https://www.yupee.com.br/
-
-## Anexo II | Metodologia de Pesquisa
-
-**Tema:** Educação e gestão financeira. 
-
-1. Pergunta: As pessoas sabem gerir suas finanças? 
-2. Resposta: O Brasil apresenta altos índices de inadimplentes. 
-
-**Problema de Pesquisa:** Desconhecimento das boas práticas de gestão financeira. 
-1. Pergunta: Como construir uma cultura de gastos consciente?  
-2. Resposta: Por meio do ensino da educação financeira para os jovens. 
-
-2. Resposta: Por meio do ensino da educação financeira para os jovens.
- 
-**Objetivo:** Ensinar educação financeira para jovens. 
-
-**Metodologia de pesquisa:** Coleta e análise de dados. 
-1. Abordagem: Quali-quantitativas; 
-2. Natureza: Aplicada; 
-3. Objetivo: Exploratório. 
-
-**Método:** Dedutivo. 
-
-**Procedimentos técnicos da pesquisa:** Repositórios de trabalhos acadêmicos e portais institucionais de informações financeiras. 
-
-**Critérios de inclusão:** 
-1. Estudos relacionados à gestão financeira dos jovens e situação econômica desta classe; 
-2. Realizado nos últimos 5 anos; 
-3. Disponíveis na íntegra e gratuitos; 
-4. Portais institucionais ou de notória credibilidade. 
-
-**Critérios de exclusão:**
-1. Publicações que não se alinham ao contexto do estudo; 
-2. Matérias que apresentem cunho pessoal.
